@@ -1,0 +1,439 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #00489F;
+   text-decoration: underline;
+}
+a:active
+{
+   color: #0064DD;
+}
+a:hover
+{
+   color: #0064DD;
+   text-decoration: underline;
+}
+#SKYLIB3_HEADER
+{
+   background-image: linear-gradient(to bottom, #FFFFFF 0%, #F8F8F8 34%, #E1E1E1 34%, #F6F6F6 70%, #E5F7FD 70%, #E5F7FD 100%);
+   border-radius: 0px;
+   box-sizing: border-box;
+}
+#SKYLIB3_HEADER
+{
+   transition: top 150ms linear 0ms;
+}
+#SKYLIB3_HEADER.scroll-up
+{
+   top: -115px !important;
+}
+#wb_SEP2
+{
+   vertical-align: top;
+}
+#SEP2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP
+{
+   vertical-align: top;
+}
+#SEP
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP3
+{
+   vertical-align: top;
+}
+#SEP3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP4
+{
+   vertical-align: top;
+}
+#SEP4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP6
+{
+   vertical-align: top;
+}
+#SEP6
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP5
+{
+   vertical-align: top;
+}
+#SEP5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP8
+{
+   vertical-align: top;
+}
+#SEP8
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP9
+{
+   vertical-align: top;
+}
+#SEP9
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP7
+{
+   vertical-align: top;
+}
+#SEP7
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP10
+{
+   vertical-align: top;
+}
+#SEP10
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP11
+{
+   vertical-align: top;
+}
+#SEP11
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP13
+{
+   vertical-align: top;
+}
+#SEP13
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP12
+{
+   vertical-align: top;
+}
+#SEP12
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP14
+{
+   vertical-align: top;
+}
+#SEP14
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SKYLIB_HEADER_IF
+{
+   box-sizing: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   margin: 0;
+}
+#SKYLIB_FOOTER_IF
+{
+   box-sizing: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   margin: 0;
+}
+#FAQ
+{
+   background-color: #00aeef;
+   background-image: url('images/skypephone-clouds_2.png');
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   border-radius: 0px;
+}
+#wb_FAQ_TEXT 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 25px;
+   margin: 0;
+   text-align: left;
+}
+#wb_FAQ_TEXT div
+{
+   text-align: left;
+}
+#wb_FAQ1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 15px 15px 15px;
+   margin: 0;
+   text-align: left;
+}
+#wb_FAQ1
+{
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+#wb_FAQ1 p, #wb_FAQ1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_FAQ2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 15px 15px 15px;
+   margin: 0;
+   text-align: left;
+}
+#wb_FAQ2
+{
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+#wb_FAQ2 p, #wb_FAQ2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_FAQ3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 15px 15px 15px;
+   margin: 0;
+   text-align: left;
+}
+#wb_FAQ3
+{
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+#wb_FAQ3 p, #wb_FAQ3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_FAQ4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 15px 15px 15px;
+   margin: 0;
+   text-align: left;
+}
+#wb_FAQ4
+{
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+#wb_FAQ4 p, #wb_FAQ4 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_FAQ5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 15px 15px 15px;
+   margin: 0;
+   text-align: left;
+}
+#wb_FAQ5
+{
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+#wb_FAQ5 p, #wb_FAQ5 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_FAQ6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 15px 15px 15px;
+   margin: 0;
+   text-align: left;
+}
+#wb_FAQ6
+{
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+#wb_FAQ6 p, #wb_FAQ6 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#SKYLIB_FOOTER
+{
+   background-color: #00AFF0;
+   background-image: url('images/getskype.jpg');
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   border-radius: 0px;
+   box-sizing: border-box;
+}

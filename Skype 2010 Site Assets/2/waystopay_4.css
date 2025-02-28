@@ -1,0 +1,89 @@
+div.paymentmethod {
+	margin-bottom: 10px;
+}
+
+h1.paymentmethod {
+	float: left;
+	width: 300px;
+}
+span.backlink {
+	float: right;
+	width: 200px;
+}
+
+div.paymentmethod h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 0!important;
+}
+
+div.paymentmethod div.left {
+	float: left;
+	width: 75px;
+}
+
+div.paymentmethod a {
+	font-weight: bold;
+}
+
+div.paymentmethod div.right {
+	float: left;
+	width: 455px;
+}
+
+div.pricelist-box {
+	text-align: center;
+	padding: 10px;
+	background: #ffffcc;
+	border: 1px solid #cccc99;
+	margin-bottom: 15px;
+}
+div.pricelist-box select {
+	width: 130px;
+}
+
+
+
+div.col-2 div {
+	width: 260px;
+	margin-right: 20px;
+	float: left;
+	margin-top: 15px;
+}
+div.col-2 div.right {
+	margin-right: 0;
+}
+div.col-2 div.clearer {
+	float: none;
+}
+div.col-2 div p {
+	width: 245px;
+}
+div.col-2 h4 {
+	margin: 0 0 5px 0 !important;
+	padding: 0 10px;
+	background: #A9A9A9 url(/i_preairlift/bg/header_260.png) 0 0 no-repeat;
+	height: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+	line-height: 25px;
+	text-shadow: #168fb3 2px 2px 1px;
+}
+
+h3.graphical-steps {
+	padding-top: 5px;
+	height: 20px !important;
+	margin-bottom: -15px !important;
+}
+.downloading {
+	margin-left: 56px !important;
+}
+* html h3.graphical-steps {
+    height: 33px !important;
+}
+
+.leftimage {
+	float: left;
+	margin: 5px 10px 2em 0;
+}

@@ -1,0 +1,343 @@
+#headerBlock {
+	width: 650px;
+	padding: 20px;
+	background: #E5F7FD;
+	margin-bottom: 38px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+	#headerBlock div.innerBlock {
+		background: #00aff0 url(/i/images/icons/downloading_check.png) 18px 20px no-repeat;
+		padding: 20px 20px 20px 65px;
+		margin-bottom: 10px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+	#headerBlock div.innerBlock h1 {
+		color: #FFFFFF;
+		margin-bottom: 0;
+	}
+	#headerBlock div.innerBlock h2 {
+		color: #7FD7F7;
+		padding-top: 0;
+	}
+	#headerBlock div.innerBlock p {
+		color: #FFFFFF;
+	}
+		#headerBlock div.innerBlock p a {
+			color: #FFFFFF;
+			font-weight: bold;
+		}
+		#headerBlock div.innerBlock p.reset a {
+			padding-left: 18px;
+			padding-bottom: 5px;
+			background: #00aff0 url(/i/images/icons/downloading_restart.png) top left no-repeat;
+		}
+	#headerBlock div.innerBlock p.helpGuides {
+		margin-bottom: 5px;
+	}
+		#headerBlock div.innerBlock p.helpGuides a {
+			padding-left: 18px;
+			padding-bottom: 5px;
+			background: #00aff0 url(/i/images/icons/downloading_help.png) top left no-repeat;
+		}
+
+.threeColumns {
+	width: 650px;
+	height: 100%;
+	overflow: hidden;
+}
+	.threeColumns .column {
+		width: 200px;
+		float: left;
+		margin-right: 20px;
+		padding-top: 100px;
+		color: #2C2C2C;
+	}
+		.threeColumns .column.last {
+			margin-right: 10px;
+		}
+		.threeColumns .column.freeCalls {
+			background: #E5F7FD url(/i/images/misc/downloading_free_calls.png) top left no-repeat;
+		}
+		.threeColumns .column.callPhones {
+			background: #E5F7FD url(/i/images/misc/downloading_call_phones.png) top left no-repeat;
+		}
+		.threeColumns .column.getHeadset {
+			background: #E5F7FD url(/i/images/misc/downloading_get_headset.png) top left no-repeat;
+		}
+.threeLargeColumns {
+	width: 670px;
+	height: 100%;
+	margin: 20px 0 20px 20px;
+	overflow: hidden;
+}
+	.threeLargeColumns .columnLarge {
+		width: 200px;
+		float: left;
+		margin-right: 20px;
+		padding-top: 110px;
+		color: #2C2C2C;
+	}
+		.threeLargeColumns .columnLarge.last {
+			margin-right: 10px;
+		}
+		.threeLargeColumns .columnLarge.skypeCredit {
+			background: #FFFFFF url(/i/images/misc/downloading_skype_credit.png) top left no-repeat;
+		}
+		.threeLargeColumns .columnLarge.subscriptions {
+			background: #FFFFFF url(/i/images/misc/downloading_subscriptions.png) top left no-repeat;
+		}
+		.threeLargeColumns .columnLarge.onlineNumber {
+			background: #FFFFFF url(/i/images/misc/downloading_online_number.png) top left no-repeat;
+		}
+#content #paddedContent h2.howToInstall {
+	padding-top: 20px;
+}
+img.screenshot {
+	margin: 0 0 20px 8px;
+}
+#content #paddedContent p {
+	padding-left: 10px;
+}
+#content #paddedContent p.step1,
+#content #paddedContent p.step2,
+#content #paddedContent p.step3,
+#content #paddedContent p.step4 {
+	margin-bottom: 0;
+}
+div.launchSkype {
+	padding-left: 60px;
+	width: 570px;
+	color: #2c2c2c;
+	background: #FFFFFF url(/i/images/screenshots/downloading_win_launch_skype.png) left top no-repeat;
+}
+
+#wideContainer {
+	margin: 20px 0 30px 0;
+	height: 100%;
+	overflow: hidden;
+}
+.illustrationOne {
+	background: #00aff0 url(/i/images/illustrations/downloading_header_illustration_01.png) center bottom no-repeat;
+}
+.illustrationTwo {
+	background: #00aff0 url(/i/images/illustrations/downloading_header_illustration_02.png) center bottom no-repeat;
+}
+	#wideContainer .wideContent {
+		width: 770px;
+		margin: 0 auto;
+		padding: 30px 20px 30px 170px;
+		height: 100%;
+		overflow: hidden;
+		background: url(/i/images/backgrounds/downloading_skype.png) left 30px no-repeat;
+	}
+		#wideContainer .wideContent h1 {
+			color: #FFFFFF;
+			margin-bottom: 5px;
+		}
+		#wideContainer .wideContent h2 {
+			color: #7FD7F7;
+			padding: 0 260px 20px 0;
+		}
+		#wideContainer .wideContent p {
+			color: #FFFFFF;
+		}
+			#wideContainer .wideContent p a {
+				color: #FFFFFF;
+				font-weight: bold;
+			}
+		#wideContainer .wideContent p.reset {
+			margin-bottom: 1.157em;
+		}
+			#wideContainer .wideContent p.reset a {
+				padding-left: 18px;
+				padding-bottom: 5px;
+				margin-bottom: 0;
+				background: #00aff0 url(/i/images/icons/downloading_restart.png) top left no-repeat;
+			}
+		#wideContainer .wideContent p.helpGuides {
+			margin-bottom: 5px;
+		}
+			#wideContainer .wideContent p.helpGuides a {
+				padding-left: 18px;
+				padding-bottom: 5px;
+				background: #00aff0 url(/i/images/icons/downloading_help.png) top left no-repeat;
+			}
+
+#container.noTopMargin {
+	margin-top: 0;
+}
+
+.lightBlock {
+	width: 165px;
+	padding: 20px;
+	margin: 0 0 0 30px;
+	height: 100%;
+	overflow: hidden;
+	background: #E5F7FD;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float: right;
+}
+	#content #paddedContent .lightBlock h2 {
+		padding: 0 0 15px 0;
+	}
+	.lightBlock .cell {
+		padding-top: 90px;
+		margin-bottom: 20px;
+		color: #2c2c2c;
+	}
+		.lightBlock .cell.last {
+			margin-bottom: 0;
+		}
+		.lightBlock .cell.freeCalls {
+			background: #E5F7FD url(/i/images/misc/downloading_free_calls_lightblue.png) top left no-repeat;
+		}
+		.lightBlock .cell.callPhones {
+			background: #E5F7FD url(/i/images/misc/downloading_call_phones_lightblue.png) top left no-repeat;
+		}
+		.lightBlock .cell.getHeadset {
+			background: #E5F7FD url(/i/images/misc/downloading_get_headset_lightblue.png) top left no-repeat;
+		}
+		
+#wideBlock {
+	margin: 0;
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	background: #00aff0 url(/i/images/backgrounds/downloading_middle_header_gradient.png) bottom left repeat-x;
+}
+	#wideBlock .wideBlockContent {
+		width: 985px;
+		margin: 0 auto;
+		padding: 60px 0 0 0;
+		height: 155px;
+		background: #00aff0 url(/i/images/backgrounds/downloading_middle_header_illustration.png) -5px bottom no-repeat;
+	}
+		#wideBlock .wideBlockContent h1 {
+			color: #FFFFFF;
+			margin: 0;
+			padding: 0 0 15px 30px;
+		}
+		#wideBlock .wideBlockContent h2 {
+			color: #1C6079;
+			margin: 0;
+			padding: 0 0 0 30px;
+			font-size: 26px;
+		}
+div#mainContent {
+	width: 920px;
+	margin: -40px auto 0 auto;
+}
+	div.freeBlock {
+		width: 650px;
+	}
+		div.freeBlock div.column {
+			width: 205px;
+			float: left;
+			margin-right: 10px;
+		}
+			div.freeBlock div.column h3 {
+				color: #666666;
+				font-size: 14px;
+				font-weight: bold;
+			}
+			div.freeBlock div.column p {
+				color: #666666;
+				font-size: 12px;
+			}
+	div.paidBlock {
+		width: 200px;
+		padding: 35px 35px 0 35px;
+		margin: -100px 0 0 0;
+		position: relative;
+		z-index: 99;
+		height: 100%;
+		overflow: hidden;
+		float: right;
+		background: transparent url(/i/images/backgrounds/downloading_middle_paid_block_bg.png) top center no-repeat;
+	}
+	* html div.paidBlock {
+		background: #E5F7FD;
+		padding: 25px 25px 0 25px;
+		margin: -266px 10px 0 10px;
+	}
+	*:first-child+html div.paidBlock {
+		margin: -275px 0 0 0;
+	}
+		div.paidBlock h3 {
+			font-size: 18px;
+			line-height: 24px;
+			padding: 0 0 5px 0;
+			color: #666666;
+		}
+			div.paidBlock h3.topText {
+				padding: 0 0 20px 0;
+			}
+		div.paidBlock p {
+			color: #666666;
+			font-size: 12px;
+		}
+		div.paidBlock ul.saveMoney li {
+			font-size: 12px;
+			line-height: 14px;
+			font-weight: bold;
+			color: #666666;
+			padding: 5px 5px 0 0;
+			margin: 0 0 20px 0;
+		}
+		div.paidBlock ul.saveMoney img {
+			float: left;
+			margin-right: 10px;
+			margin-top: -5px;
+		}
+		div.paidBlock ul.saveMoney span {
+			float: left;
+			margin-right: 10px;
+			margin-top: -5px;
+		}
+	div.continueDownload {
+		margin-top: 60px;
+		float: left;
+	}
+
+/* Button */
+
+span.indexButton a { 
+    height: 47px;
+    font: bold 18px/32px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+    span.indexButton a span {
+        display: block;
+        white-space: nowrap;
+        padding: 5px 12px 15px 0;
+        line-height: 24px;
+        cursor: pointer;
+    }
+
+span.indexButton a.downloadGreen {
+    color: #FFFFFF;
+    padding: 0 0 0 50px;
+    background: url(/i/images/misc/download_skype_left.png) left top no-repeat;
+}
+span.indexButton a.downloadGreen:hover {
+    padding: 0 0 0 50px;
+    background: url(/i/images/misc/download_skype_left.png) 0 -47px no-repeat;
+}
+	span.indexButton a.downloadGreen span {
+		margin: 7px 0;
+	    background: url(/i/images/misc/download_skype_right.png) right top no-repeat;
+	}
+	span.indexButton a.downloadGreen:hover span {
+		margin: 7px 0;
+	    background: url(/i/images/misc/download_skype_right.png) right -48px no-repeat;
+	}

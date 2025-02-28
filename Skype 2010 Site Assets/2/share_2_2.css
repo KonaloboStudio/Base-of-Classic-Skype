@@ -1,0 +1,661 @@
+#container {
+	margin: 0 auto;
+	background: url(/i/images/illustrations/share_clouds.png) no-repeat 160px 0;
+}
+
+#content {
+	padding: 0 !important;
+}
+
+
+h1.top {
+	margin: 30px 0 0 20px !important;
+	padding: 0 !important;
+}
+
+h2.top {
+	width: 270px;
+	padding: 0 !important;
+	margin: 0 0 5px 20px !important;
+}
+
+.top sup {
+	vertical-align: top;
+	font-size: 0.60em;
+}
+.top sup a {
+	vertical-align: top;
+	text-decoration: none;
+	color: inherit;
+	padding-left: 1px;
+	padding-left: 1px;
+}
+.top sup a:hover {
+	background-color: #e4e4e4;
+}
+
+h1.padded {
+    padding: 20px 0 0 0;
+    margin-left: 10px;
+}
+
+div#share-email {
+	width: 350px;
+	margin: 0 20px 0 0;
+}
+
+div#share-email .formWrapper {
+	height: 100%;
+	margin-top: 10px;
+}
+
+div#share-email .formWrapper span.buttonSmall {
+	display: block;
+}
+
+div#share-email .formWrapper label {
+	float: left;
+	display: block;
+	text-align: right;
+	margin: 0 10px 8px 0;
+	width: 160px;
+}
+
+div#share-email .formWrapper input {
+	float: left;
+	display: block;
+	margin: 0 0 10px 0;
+	width: 170px;
+}
+
+div#share-email .formWrapper br {
+	clear: both;
+}
+
+div#share-email .formWrapper input.gap,
+div#share-email .formWrapper label.gap {
+	margin-top: 10px;
+}
+div#share-email .formWrapper div.gap {
+	padding-top: 10px;
+}
+
+div#share-email .formWrapper button {
+	float: left;
+/*	margin: 0 0 10px 160px;*/
+	margin: 0 0 0 10px;
+}
+
+div#share-email .formWrapper p {
+	float: left;
+	margin: 0 0 10px 170px;
+	padding: 0 !important;
+}
+
+* html div#share-email .formWrapper p {
+	margin: 0 0 10px 80px;
+}
+
+div#share-email .formWrapper .tip {
+	float: left;
+	width: 160px;
+	text-align: right;
+	margin-left: -170px;
+	line-height: 23px;
+}
+
+div#share-email .formWrapper span.buttonSmall,
+div#share-email .formWrapper span.button,
+div#share-email .formWrapper span.text {
+	display: none;
+}
+
+div#share-email .formWrapper div.buttonSmallAndText {
+	padding-left: 170px;
+}
+
+/* SHARE TABS */
+
+div.tabs {
+	background: url(/i/images/tabs/bg-tabs.png) 22px 0 repeat-x;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 0 21px 0;
+	width: 100%;
+}
+div.tabs span {
+	float: right;
+	font-size: 0.9em;
+}
+div.tabs ul {
+	padding: 0 !important;
+	margin: 0 0 0 10px !important;
+}
+div.tabs ul li {
+	float: left;
+	list-style: none;
+	line-height: 32px;
+	padding: 0 10px 0 0;
+	margin: 0 0 0 0 !important;
+	background: transparent url(/i/images/tabs/tabs.png) top right no-repeat;
+}
+div.tabs ul li a {
+	display: block;
+	color: #0181e3;
+	text-decoration: none;
+	background: transparent url(/i/images/tabs/tabs.png) top left no-repeat;
+	padding: 0 0 0 10px;
+	font: bold 1.2em/32px Arial, Helvetica, sans-serif;
+}
+
+div.tabs ul li.selected {
+	background: url(/i/images/tabs/tabs_active.png) top right no-repeat;
+	color: #545454;
+}
+div.tabs ul li.selected a {
+	background: transparent url(/i/images/tabs/tabs_active.png) top left no-repeat;
+	color: #545454;
+}
+
+
+#news-blogs {
+	width: 560px;
+}
+#news-blogs p.links,
+#buttonslist p.links,
+#skypefindlist p.links {
+	margin-top: -8px;
+}
+#rss-news,
+#rss-skypeme,
+#rss-skypegear,
+#rss-skypebusiness {
+	padding: 0 10px 0 10px;
+}
+#rss-skypeme li {
+	list-style-type: square;
+	margin-left: 15px;
+}
+#rss-skypeme ul {
+	margin-top: 10px;
+	padding: 0;
+}
+div.lead {
+	padding: 0;
+	margin: 0;
+}
+div.lead h3 {
+	font-size: 1.4em;
+	padding: 0 !important;
+}
+
+div.lead p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.stories .videolink {
+	padding-left: 0;
+	background: url(/i/legacy/images/share/icon_videolink.png) no-repeat center left;
+}
+
+.stories h2 {
+	padding-left: 0 !important;
+}
+
+.stories .story {
+	width: 235px;
+	margin-right: 10px;
+	display: inline;
+	margin-top: 5px;
+}
+.stories .image {
+	margin-left: 0px;
+	margin-top: 5px;
+}
+.stories p.links {
+	margin-top: 10px;
+	margin-left: 0;
+	padding-left: 0 !important;
+}
+
+
+div.margined {
+	margin-bottom: 20px;
+}
+#share-newbrand {
+	background: url(/i/legacy/images/share/back_newbrand.png) no-repeat top center;
+	height: 84px;
+	position: absolute;
+	top: 86px;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.buttons {
+	padding-top: 12px;
+}
+
+div.skypecast {
+	width: 355px;
+	float: left;
+	margin: 0 10px 0 10px;
+	display: inline;
+	padding-bottom: 20px;
+}
+* html div#skypecastslist {
+	height: 310px;
+	margin-top: 10px;
+}
+div#skypecastslist {
+	min-height: 310px;
+	padding-top: 10px !important;
+}
+
+div#skypecastslist img.floatl{
+    margin: 0 20px 0 0 !important;
+}
+
+div.share2ColumnList h2 {
+    margin: 0 0 10px 0!important;
+    padding: 0 !important;
+}
+
+div#skypecastslist.spinner {
+	background: url(/i/legacy/images/share/spinner.gif) no-repeat center center;
+}
+div#publicchatslist,
+div#forumlist,
+div#buttonslist {
+	padding: 20px 0 10px 0;
+}
+.cast-image {
+	border: 1px solid #000;
+	padding: 1px;
+}
+.cast-content {
+	width: 270px;
+}
+.chat-content {
+	width: 167px;
+	margin-right: 10px;
+	float: left;
+	display: inline;
+}
+.chat-hosted,
+.cast-hosted {
+	font: bold 0.75em "Lucida Grande", Verdana, Arial, sans-serif !important;
+	color: #666;
+}
+.chat-content h3,
+.cast-content h3 {
+	margin: 0 !important;
+	font: bold 1.4em Arial, Helvetica, sans-serif;
+}
+.cast-time {
+	color: #414141;
+}
+.chat-content a,
+.cast-content a {
+	text-decoration: none;
+}
+a.call-button {
+	display: block;
+	background: url(/i/legacy/images/share/btn_talk_listen_start.png) no-repeat center left;
+}
+a.call-button span {
+	display: block;
+	background: url(/i/legacy/images/share/btn_end.png) no-repeat center right;
+	padding: 6px 8px 6px 27px;
+}
+a.chat-button {
+	display: block;
+	background: url(/i/legacy/images/share/btn_chat_start.png) no-repeat center left;
+}
+a.chat-button span {
+	display: block;
+	background: url(/i/legacy/images/share/btn_end.png) no-repeat center right;
+	padding: 6px 8px 6px 27px;
+}
+div div.column {
+	width: 355px;
+	margin: 0 10px;
+	display: inline;
+}
+div div.three {
+	width: 230px !important;
+}
+h1.public-chats {
+	font: bold 1.5em Arial, Helvetica, sans-serif !important;
+	color: #000 !important;
+	background: url(/i/legacy/images/share/public_chats_badge.png) no-repeat center left;
+	padding: 10px 0 10px 72px;
+}
+p.cta {
+	text-align: center;
+	font: bold 1.4em Arial, Helvetica, sans-serif;
+}
+h1.forum {
+	font: bold 1.5em Arial, Helvetica, sans-serif !important;
+	color: #000 !important;
+}
+table.listing {
+	background-image: none !important;
+}
+div#forumlist table.listing {
+	margin-bottom: 20px;
+}
+div#forumlist table.listing a {
+	font-size: 1.1em;
+}
+div#forumlist table.listing td {
+	padding: 4px 5px !important;
+}
+div#forumlist table.listing span.time {
+	color: #5a5a5a;
+	font-size: 0.9em;
+	white-space: nowrap;
+}
+p.hilite {
+	font: bold 1.3em Arial, Helvetica, sans-serif;
+}
+h1.skypefind-cloud {
+	color: #fff;
+	font: bold 1.5em Arial, Helvetica, sans-serif;
+	padding: 20px 50px 35px 40px;
+	background: url(/i/legacy/images/share/skypefind_cloud.png) no-repeat bottom right;
+	margin: 0 0 20px 0;
+}
+h1.skypefind-cloud span {
+	display: block;
+	padding-left: 74px;
+	background: url(/i/legacy/images/share/skypefind_flower.png) no-repeat top left;
+	min-height: 72px;
+}
+* html h1.skypefind-cloud span {
+	height: 72px;
+}
+div#skypefindlist .right-col {
+	padding-top: 20px;
+}
+div#skypefindlist {
+	padding-bottom: 5px;
+}
+
+
+div.additionalInformation {
+	margin-bottom: 18px;
+}
+
+div.additionalInformation.share2ColumnList {
+	padding: 23px 10px 0 10px;
+}
+
+div.share2ColumnList h2 {
+	padding: 0 0 0 20px;
+}
+
+div.share2ColumnList h3 {
+	padding: 0 0 0 20px;
+}
+
+div.share2ColumnList p {
+	padding: 0 0 0 20px;
+}
+
+div.share2ColumnList div.columnL {
+	width: 440px;
+	padding-left: 10px;
+	float: left;
+}
+
+div.share2ColumnList div.columnR {
+	width: 440px;
+	float: right;
+}
+
+div.goodies.personalise p {
+	background: url(/i/images/misc/share_goodies_personalise.png) no-repeat 8px 5px;
+	padding-left: 65px !important;
+	margin-top: 5px;
+}
+
+div.goodies.screensaver p {
+	background: url(/i/images/misc/share_goodies_screensaver.png) no-repeat 8px 0;
+	padding-left: 65px !important;
+	margin-top: 5px;
+}
+
+div.goodies.invitation p {
+	background: url(/i/images/misc/share_goodies_invite.png) no-repeat 8px 0;
+	padding-left: 65px !important;
+	min-height: 50px;
+	margin-top: 5px;
+}
+
+* html div.goodies.invitation p {
+	height: 50px;
+}
+
+#content #paddedContent p,
+#content #paddedContent h1,
+#content #paddedContent h2,
+#content #paddedContent h3,
+#content #paddedContent h4,
+#content #paddedContent h5,
+#content #paddedContent h6,
+#content #paddedContent .padded {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+#content #paddedContent.normal p,
+#content #paddedContent.normal h1,
+#content #paddedContent.normal h2,
+#content #paddedContent.normal h3,
+#content #paddedContent.normal h4,
+#content #paddedContent.normal h5,
+#content #paddedContent.normal h6 {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+#content #paddedContent.normal .rightPad {
+	padding-right: 20px;
+}
+
+div.tabs span.icon {
+	padding-left: 27px;
+	display: block;
+	font: bold 1em/32px Arial, Helvetica, sans-serif;
+	float: left;
+}
+div.tabs span.skypecasts {
+	background: url(/i/images/share/icon_skypecasts.png) no-repeat center left;
+}
+div.tabs span.publicchats {
+	background: url(/i/images/share/icon_publicchats.png) no-repeat center left;
+}
+div.tabs span.forum {
+	background: url(/i/images/share/icon_forum.png) no-repeat center left;
+}
+div.tabs span.buttonswidgets {
+	background: url(/i/images/share/icon_buttons.png) no-repeat center left;
+}
+p.loader {
+    margin-top: 10px;
+}
+
+
+#content ul.footnote {
+	list-style-type: none;
+	padding-left: 20px;
+}
+#content ul.footnote li {
+	color: #7B7F81;
+	font-size: 0.85em;
+}
+#content ul.footnote li sup {
+	float: left;
+	margin-left: -15px;
+	margin-right: 3px;
+	line-height: 12px;
+	width: 12px;
+	display: block;
+	vertical-align: top;
+	text-align: right;
+}
+* html #content ul.footnote li sup {
+	margin-left: -8px;
+}
+
+.jsEnabled {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
+
+/* Tell-a-friend form */
+#shareMyDetails,
+#shareFriendList {
+	background: #e4e4e4 url(/i/images/backgrounds/gray_gradient_200.png) repeat-x top left;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+#shareFriendList {
+	background: #c3eaf9 url(/i/images/backgrounds/lightblue_gradient.png) repeat-x top left;
+}
+	#shareMyDetails input,
+	#shareFriendList input {
+		float: left;
+		width: 307px;
+		margin-left: 20px;
+		padding: 2px 3px;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		color: #333;
+		line-height: 19px;
+		border: 1px solid #999;
+	}
+	* html #shareMyDetails input,
+	* html #shareFriendList input {
+		padding-top: 0px;
+		height: 19px;
+	}
+	#shareMyDetails label,
+	#shareFriendList label {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 22px;
+		color: #5A5A5A;
+		float: left;
+		width: 315px;
+		margin-left: 20px;
+		margin-top: 10px;
+		margin-bottom: 3px;
+	}
+	#shareMyDetails textarea,
+	#shareFriendList textarea {
+		width: 642px;
+		margin-left: 20px;
+		padding: 3px;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		color: #333;
+		line-height: 19px;
+		border: 1px solid #999;
+		margin-bottom: 0px;
+	}
+	#shareMyDetails br,
+	#shareFriendList br {
+		clear: both;
+	}
+
+#addFriendButton {
+	cursor: pointer;
+	margin-left: 20px;
+	margin-top: -3px;
+}
+	* html #addFriendButton {
+		margin-left: 10px;
+	}
+	#addFriendButton img {
+		vertical-align: bottom;
+		margin-right: 4px;
+	}
+	#addFriendButton a {
+		text-decoration: underline;
+	}
+
+
+/* E-mail preview styles */
+.previewHeader,
+.previewFooter {
+	background: #c3eaf9 url(/i/images/backgrounds/lightblue_gradient.png) repeat-x top left;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 18px;
+}
+	.previewHeader button {
+		margin-right: 10px;
+	}
+
+.buttonForms form,
+.buttonForms div {
+	display: inline;
+}
+	* html .buttonForms  {
+		padding-top: 20px;
+	}
+
+#ecard-preview {
+	border: 1px solid #E4E4E4;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 30px 20px 40px 75px;
+	margin-bottom: 18px;
+}
+
+#ecard-previewWide {
+	border: 1px solid #E4E4E4;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 30px 20px 40px 40px;
+	margin-bottom: 18px;
+}
+
+
+#content #paddedContent #ecard-preview p,
+#content #paddedContent #ecard-preview h1 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#content #paddedContent #ecard-preview .emailFooter div {
+	margin-bottom: 10px;
+}
+
+span.skypeUsername {
+	color: #00aff0 !important;
+}
+p.stepsParagraph {
+	margin-left:10px;
+}
+p.upgradeNow {
+	border-top: 1px solid #ffcd00;
+	border-bottom: 1px solid #ffcd00;
+	color: #2c2c2c;
+	background: #fff5cc url(/i/images/share/contactrequest/message.png) no-repeat 10px center;
+	padding: 14px 20px 16px 47px !important;
+	margin: 1.31em 0 1.45em 0 !important;
+}

@@ -1,0 +1,94 @@
+/* Grid containers */
+.gridContainer {
+	width: 100%;
+	min-width:980px;
+}
+/* Grid rows */
+.gridRow {
+	overflow: hidden; /* float fix */
+	width: 960px;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+}
+
+/* Grid columns */
+.gridCol1,.gridCol2,.gridCol3,
+.gridCol4,.gridCol5,.gridCol6,
+.gridCol7,.gridCol8,.gridCol9,
+.gridCol10,.gridCol11,.gridCol12 {
+	float: left;
+	display: inline;
+	margin: 0 10px;
+	min-height: 1px;
+}
+html.rtl .gridCol1,html.rtl .gridCol2,html.rtl .gridCol3,
+html.rtl .gridCol4,html.rtl .gridCol5,html.rtl .gridCol6,
+html.rtl .gridCol7,html.rtl .gridCol8,html.rtl .gridCol9,
+html.rtl .gridCol10,html.rtl .gridCol11,html.rtl .gridCol12 {
+	float: right;
+}
+.gridCol1 {
+	width: 60px;
+}
+.gridCol2 {
+	width: 140px;
+}
+.gridCol3 {
+	width: 220px;
+}
+.gridCol4 {
+	width: 300px;
+}
+.gridCol5 {
+	width: 380px;
+}
+.gridCol6 {
+	width: 460px;
+}
+.gridCol7 {
+	width: 540px;
+}
+.gridCol8 {
+	width: 620px;
+}
+.gridCol9 {
+	width: 700px;
+}
+.gridCol10 {
+	width: 780px;
+}
+.gridCol11 {
+	width: 860px;
+}
+.gridCol12 {
+	width: 940px;
+}
+
+/* Development grid */
+#grid {
+	background: url("/i/images/backgrounds/_grid_turbo.png") repeat-y ;
+	width: 980px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -490px;
+}
+
+#grid div.horiz {
+	height: 20px;
+	border-bottom: 1px dotted #aaa;
+	margin: 0;
+	padding: 0;
+}
+
+.buttonSample {
+	padding: 0 20px 20px 20px;
+}
+
+.inverted {
+	background: #303030;
+}
+
+.buttonSample.inverted.blue {
+	background: #00aff0;
+}

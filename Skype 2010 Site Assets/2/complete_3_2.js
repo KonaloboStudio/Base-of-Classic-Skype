@@ -1,0 +1,9 @@
+<!--#include virtual="/i/js/yahoo-dom-event.js" -->
+<!--#include virtual="/i/js/skype-core.js" -->
+<!--#include virtual="/i/js/skype-helpers.js" -->
+<!--#include virtual="/i/js/download.js" -->
+<!--#include virtual="/i/js/swfobject.js" -->
+<!--#include virtual="/i/js/swfobject2.js" -->
+<!--#include virtual="/i/common/js/clientdetection.js" -->
+<!--#include virtual="/i/js/conditional.js" -->
+<!--#include virtual="/i/js/videoplayer.js" -->

@@ -1,0 +1,210 @@
+.openBlockBottom {
+	background: white url(/i/legacy/images/guides/block-bottom.png) no-repeat bottom left;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	display: block;
+}
+.openBlockTop {
+	background: url(/i/legacy/images/guides/block-top.png) no-repeat top left;
+	padding: 10px 12px 15px 12px;
+}
+.openBlockTop h2 {
+	margin: 0 0 10px 0 !important;
+	font-weight: bold;
+	font-size: 1.2em;
+	background: url(/i/legacy/images/guides/block-close.png) no-repeat;
+	padding: 0 23px 0 0;
+	cursor: pointer;
+	float: left;
+}
+.openBlockTop ul {
+	width: 235px;
+	margin-right: 15px;
+	float: left;
+	margin-bottom: 0;
+	background: white;
+}
+.openBlockTop ul li a.en {
+	background-position: 0px 3px !important;
+	padding-left: 20px !important;
+}
+.closedBlock {
+	background: white url(/i/legacy/images/guides/block-back.png) no-repeat top left;
+	padding: 10px 12px 7px 12px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	display: none;
+}
+.closedBlock span {
+	color: #3f3f3f;
+}
+.closedBlock h2 {
+	margin: 0 !important;
+	font-weight: bold;
+	font-size: 1.2em;
+	background: url(/i/legacy/images/guides/block-open.png) no-repeat;
+	padding: 0 23px 0 0;
+	color: #0083b3;
+	text-decoration: underline;
+	cursor: pointer;
+	float: left;
+}
+.openBlockTop div div ul {
+	float: none;
+	width: auto;
+	margin: 10px 0;
+}
+#topSplash {
+	position: relative;
+	height: 170px;
+	margin: 0 auto 80px auto;
+	width: 960px;
+}
+
+#splashContent {
+	padding: 55px 20px 20px 175px;
+}
+
+
+.clouds {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 600px;
+}
+
+.securityIcon {
+	position: absolute;
+	top: 20px;
+	margin-left: 5px;
+}
+
+div.roundedBlue {
+padding-bottom: 0;
+}
+
+div.indexBlue {
+	margin: 0;
+	background-color: #00aff0;
+}
+
+div.indexBlue h1 {
+	color: #ffffff;
+	margin-bottom: 0;
+}
+h1.smallerHeadingRussian {
+	font-size: 1.6em;
+}
+div.indexBlue h2 {
+}
+
+#sidebarContent img.icon16 {
+	vertical-align: middle;
+	margin: 0px 3px 4px 0px;
+}
+
+ul.featureList {
+	margin-bottom: 10px;
+	padding-bottom: 0;
+	}
+
+ul.securityFeaturesList li {
+	padding: 5px 20px 10px 65px !important;
+	margin-bottom:-2px;
+	list-style-type: none;
+	height: 100%;
+}
+	ul.securityFeaturesList li.onlineSafety {
+		background: url(/i/images/icons/security/lock_big.png) top left no-repeat;
+	}
+	ul.securityFeaturesList li.businessSecurity {
+		background: url(/i/images/icons/security/business_security.png) top left no-repeat;
+	}
+	ul.securityFeaturesList li.privacyPolicies {
+		background: url(/i/images/icons/security/privacy_key.png) top left no-repeat;
+	}
+	ul.securityFeaturesList li.securityPrivacy {
+		background: url(/i/images/icons/security/security_privacy.png) top left no-repeat;
+	}
+	ul.securityFeaturesList li.noAdware {
+		background: url(/i/images/icons/security/no_spyware_adware.png) top left no-repeat;
+	}
+	ul.securityFeaturesList li.detailedSecurity {
+		background: url(/i/images/icons/security/detailed_security.png) top left no-repeat;
+	}
+	
+	ul.securityFeaturesList h2 {
+		margin-bottom: -8px;
+	}
+
+ul.featureList li {
+	padding: 3px 10px 5px 30px;
+	list-style-type: none;
+	height: 100%;
+}
+    ul.featureList li.skypeIm {
+    	background: url(/i/images/icons/chat_24x24_white.png) top left no-repeat;
+    }
+    ul.featureList li.network {
+    	background: url(/i/images/icons/security/network_24x24_white.png) top left no-repeat;
+    }
+    ul.featureList li.padlock {
+    	background: url(/i/images/icons/security/padlock_24x24_trans.png) top left no-repeat;
+    }
+    ul.featureList li.skypeCall {
+    	background: url(/i/images/icons/call_24x24_white.png) top left no-repeat;
+    }
+    ul.featureList li.padlockPswd {
+		background: url(/i/images/icons/security/padlock_pswd_28x28_blue.png) top left no-repeat;
+	}
+	ul.featureList li.protectComputer {
+		background: url(/i/images/icons/security/screenwithpadlock_24x24_blue.png) top left no-repeat;
+	}
+	ul.featureList li.upToDate {
+		background: url(/i/images/icons/security/skypelogo_24x24_blue.png) top left no-repeat;
+	}
+	ul.featureList li.privacySettings {
+		background: url(/i/images/icons/security/privacysettings_24x24_blue.png) top left no-repeat;
+	}
+	ul.featureList li.profiles {
+		background: url(/i/images/icons/security/profiles_24x24_blue.png) top left no-repeat;
+	}
+	ul.featureList li.avoidSpam {
+		background: url(/i/images/icons/security/avoidspam_24x24_blue.png) top left no-repeat;
+	}
+	ul.featureList li.phishing {
+		background: url(/i/images/icons/security/phishing_28x28_blue.png) top left no-repeat;
+	}
+	ul.featureList li.encryption {
+		background: url(/i/images/icons/security/encryption_28x28_blue.png) top left no-repeat;
+	}
+	ul.featureList li.securityreview {
+		background: url(/i/images/icons/security/securityreview_24x24_trans.png) top left no-repeat;
+	}
+
+img.floatl {
+	margin-right: 10px !important;
+}
+.grayText {
+	color: gray;
+}
+.grayTextAdded {
+	color: gray;
+	font-size: 11px;
+}
+.attachments {
+	font-size: 12px;
+}
+a.backToTop {
+	font-size: 12px;
+}
+p.iconIndent {
+	margin-left: 10px;
+}
+div.roundedBlue .securityCheck {
+float: left;
+margin: -9px 20px 15px 15px;
+}
+ul.securityAttachments li {
+margin-bottom: 20px;
+}

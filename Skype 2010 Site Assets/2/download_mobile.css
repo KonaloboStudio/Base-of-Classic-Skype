@@ -1,0 +1,596 @@
+div#n800-features ul {
+    width: 270px;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+div#n800-features ul li {
+    margin: 0;
+    padding: 7px 0 5px 30px;
+    list-style: none;
+    height: 23px;
+}
+
+div#n800-features ul li.call {
+    background: transparent url(/i/images/icons/call_24x24_white.png) 0 3px no-repeat;
+    font-weight: bold;
+}
+div#n800-features ul li.callintl {
+    background: transparent url(/i/images/icons/skypeout_24x24_white.png) 0 3px no-repeat;
+    font-weight: bold;
+}
+div#n800-features ul li.presence {
+    background: transparent url(/i/images/icons/presence_24x24_white.png) 0 3px no-repeat;
+    font-weight: bold;
+}
+div#n800-features ul li.chat {
+    background: transparent url(/i/images/icons/chat_24x24_white.png) 0 3px no-repeat;
+    font-weight: bold;
+}
+
+.downloadingbox-n800 {
+	padding: 13px 15px 1px 15px !important;
+	background-color: #F1F8FA !important;
+	margin-bottom: 15px !important;
+	border-top: 1px solid #E0E6E8 !important;
+	border-bottom: 1px solid #E0E6E8 !important;
+	background-image: none !important;
+	height: auto !important;
+}
+.downloadingbox-n800 h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+form#downloadingbox-n800 {
+	margin-bottom: 10px;
+}
+
+/* Mobile devices list */
+div.devices {
+	padding: 13px 0px 13px 0;
+	zoom: 1;
+	overflow: hidden;
+}
+a.device {
+	float: left;
+	margin-left: 1.8%;
+	width: 18%;
+	height: 157px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+	/*position: relative;*/
+	zoom: 1;
+}
+
+* html a.device {
+	font-weight: normal !important;
+	width: 102px !important;
+	padding: 0 10px;
+}
+
+a.device.selected {
+	background-color: #dddddd !important;
+}
+a.device img {
+	display: block;
+	margin: 10px auto;
+	text-decoration: none;
+}
+a.device.comingSoon {
+	-moz-opacity: 0.2;
+	opacity: 0.2; 
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+}
+img.comingSoonRibbon {
+    margin-top: -110px !important;
+} 
+
+a.device:hover {
+	background-color: #eff0f0;
+	color: #0181E3;
+}
+
+a.device.comingSoon:hover {
+	background-color: #ffffff !important;
+	cursor: default;
+}
+
+div.flowThin {
+    display: none;
+}
+
+div.flowContentThin.withTabs {
+	position: relative !important;
+}
+
+#bottomShade {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+
+.flowSubmitThin {
+	zoom: 1;
+}
+.flowSubmitThin a,
+.flowSubmitThin input {
+    zoom: 1;
+}
+#noteBox {
+	padding-top: 9px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: #2c2c2c;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	z-index: 30;
+	margin-top: -30px;
+}
+
+#noteBox.hidden {
+	display: none;
+}
+
+.submitButton {
+	position: relative;
+	z-index: 50;
+}
+
+input.sendtoNumber {
+    width: 185px;
+    height: 21px;
+    margin-right: 3px;
+    font: bold 17px Arial, Helvetica, sans-serif;
+	color: #757575;
+	padding: 3px 0 2px 3px;
+	margin-bottom: 5px;
+}
+
+* html input.sendtoNumber {
+	margin-bottom: 10px;
+}
+*:first-child+html input.sendtoNumber {
+	margin-bottom: 10px;
+}
+
+html.rtl input.sendtoNumber {
+	margin-left: 3px;
+	margin-right: 0;
+}
+
+#illustrationSideContent .downloadOptions  .button {
+*margin-top: -10px;
+}
+
+.flowContentThin {
+	height: 356px;
+}
+
+#mobileOption1 {
+	background: url(/i/images/misc/mobile_download_option1.png) 10px top no-repeat;
+	padding-left: 114px;
+	width: 450px;
+	float: left;	
+}
+
+#mobileOption2 {
+	background: url(/i/images/misc/mobile_download_option2.png) 10px top no-repeat;
+	padding-left: 114px;
+	width: 450px;
+	float: left;
+	margin-bottom: 19px;
+}
+#mobileOption2 p {
+    zoom: 1;
+}
+#chosenDevice {
+	width: 120px;
+	float: right;
+	text-align: center;
+}
+
+span.gray {
+	color: #afb4b4;
+}
+
+div.bannerTitle h1 {
+	margin: 0 10px 0 0;
+	padding: 0;
+	font-size: 1.71em;
+	font-weight: normal;
+	color: #fff;
+}
+body.lang-de div.bannerTitle h1,
+body.lang-fr div.bannerTitle h1 {
+	font-size:1.5em;
+}
+div.bannerTitle h2 {
+	color: #283c55;
+	font-size: 1.00em;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+div.additionalInformation {
+	position: relative;
+	z-index: 80;
+}
+
+#mobileShot {
+	position: relative;
+	z-index: 100;
+}
+
+div.mobileThumbs {
+	width: 110px;
+	float: left;
+}
+html.rtl div.mobileThumbs {
+	float: right;
+	direction: ltr;
+}
+
+.mobileModel {
+	margin-left: 8px;
+	margin-top: -20px;
+	color: #747474;
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+
+div.additionalInformation.chooseManu p,
+div.additionalInformation.chooseManu form {
+	margin: 3px 0 3px 232px;
+	padding: 0 !important;
+}
+
+div.additionalInformation.chooseManu .submitButton {
+	margin-left: 10px;
+}
+
+div.threeColumns .threeLeftColumn {
+	float: left;
+	width: 230px;
+}
+
+div.threeColumns .threeMiddleColumn {
+	float: left;
+	width: 230px;
+}
+
+div.threeColumns .threeRightColumn {
+	float: left;
+	width: 230px;
+}
+
+div.fourColumnSplit {
+    overflow: hidden;
+    width: 100%;
+}
+
+    div.fourColumnSplit div.column {
+        float: left;
+        width: 172px;
+    }
+    div.fourColumnSplit div.last {
+        
+    }
+
+span.text.gray {
+	font-size: 12px;
+}
+.mobileHiLiteList {
+    margin-top: 25px;
+	font-size:  12px;
+}
+.tabContents {
+	height: 355px !important;
+	overflow: auto !important;
+	display: none;
+}
+#devicesContent {
+    zoom: 1;
+}
+p.columnIcon {
+    text-align: center;
+    margin-bottom: 5px !important;
+}
+.numberHiLite {
+    background-color: #e7f4ce;
+}
+h1 sup {
+    font-size: 0.6em;
+}
+h2 sup {
+    font-size: 0.7em;
+}
+h2.products {
+    line-height: 24px;
+}
+ul.hiLite {
+    font-weight: bold;
+}
+
+#downloadMobileButton {
+    padding: 10px  0 10px 230px;
+}
+body.lang-es #downloadMobileButton,
+body.lang-fr #downloadMobileButton,
+body.lang-pl #downloadMobileButton,
+body.lang-tr #downloadMobileButton {
+	padding: 10px 0 10px 45px;
+}
+
+#downloadMobileSmall {
+    padding: 0  0 10px 230px;
+}
+body.lang-es #downloadMobileSmall,
+body.lang-fr #downloadMobileSmall,
+body.lang-pl #downloadMobileSmall,
+body.lang-tr #downloadMobileSmall {
+	padding: 0 0 10px 45px;
+}
+
+#urlIllustration {
+    width: 230px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font: bold 16px/16px Arial, Helvetica, sans-serif;
+    margin: -10px 0 10px 20px;
+}
+
+#mobileShot {
+	margin: -340px 0 29px -5px;
+}
+body.lang-es #mobileShot,
+body.lang-fr #mobileShot,
+body.lang-pl #mobileShot,
+body.lang-tr #mobileShot {
+	margin: -410px 0 99px -5px;
+}
+
+#mobileIllustration {
+    left: 425px;
+    position: relative;
+    z-index: 900;
+    margin: 0 5px -205px 0;
+}
+
+#mobileIllustrationSms {
+    left: 460px;
+    position: relative;
+    z-index: 900;
+    margin: 0 5px -205px 0;
+}
+
+
+#mobileIllustrationNokiaS60,
+#mobileIllustrationNokiaPhones {
+    left: 370px;
+    position: relative;
+    z-index: 900;
+    margin: 0 5px -365px 0;
+}
+html.rtl #mobileIllustrationNokiaPhones {
+	left: 20px;
+	float: left;
+}
+
+#mobileIllustrationBlackberryHero {
+    left: 335px;
+    position: relative;
+    z-index: 900;
+    margin: 0 5px -365px 0;
+}
+
+#mobileIllustrationPc {
+    left: 390px;
+    position: relative;
+    z-index: 900;
+    margin: 0 5px -205px 0;
+}
+
+#illustrationSideContent {
+    width: 480px;
+    position: relative;
+    z-index: 1000;
+}
+
+div.downloadSMS #illustrationSideContent {
+    width: 480px;
+    position: relative;
+    z-index: 600;
+}
+
+div.additionalInformation.minHeight {
+    min-height: 175px !important;
+}
+
+* html div.additionalInformation.minHeight {
+    height: 175px;
+}
+
+div.formSelect {
+    padding: 0 0 10px 20px;
+}
+
+
+.smsSuccess {
+	margin-top: -15px;
+    text-transform: none;
+    background-position: 0 5px;
+    width: 350px;
+	padding-left: 10px;
+	margin-left: 15px;
+	background-repeat: no-repeat;	
+	background-image: url(/i/images/icons/check_22x22.png);
+}
+
+.smsFail {
+    margin-top: -15px;
+    text-transform: none;
+    background-position: 0 5px;
+    width: 350px;
+	padding-left: 10px;
+	margin-left: 15px;
+	background-repeat: no-repeat;
+	background-image: url(/i/images/icons/error_22x22.png);
+}
+
+p.status {
+    padding-top: 9px;
+    min-height: 35px;
+    padding-left: 60px !important;
+}
+
+* html p.status {
+    height: 35px;
+}
+
+    p.status.success {
+        background: url("/i/images/icons/okay_32x32_e1f7fe.png") 20px top no-repeat;
+    }
+    
+    p.status.failed {
+        background: url("/i/images/icons/error_32x32_e1f7fe.png") 20px top no-repeat;
+    }
+
+#checkCompatible.okay form {
+    background: url(/i/images/icons/okay_48x48_new_white.png) 280px top no-repeat;
+    height: 100%;
+}
+
+    #checkCompatible form div.formSelect select {
+        width: 245px;
+    }
+
+#illustrationSideContent #checkCompatible.okay form {
+    background: none !important;
+}
+    #illustrationSideContent #checkCompatible form div.formSelect select {
+        width: auto !important;
+    }
+
+#multipleIphones {
+    margin-left: 20px;
+}
+
+#iconAdjust {
+	background-color: white;
+	padding-left: 10px;
+	margin-right: -200px;
+}
+
+
+#greyRoundedCorner {
+    background-color: #E8E8E8;
+    width: 690px;
+    padding: 15px 0 1px 0;
+    margin-bottom: 20px;
+    position: relative;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+
+
+/* "How much does it cost" 2 column table */
+
+div.rowRule {
+	border-color: #cdcdcd;
+	border-style: solid;
+	border-bottom-width: 1px;
+	clear: both;
+	padding: 5px 0 5px 0;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+div.rowContainer {
+
+	padding: 15px 30px 5px 25px;
+	width: 610px;
+
+}
+
+div.leftColumnRow {
+	float: left;
+	width: 200px;
+	padding-right: 30px;
+}
+
+div.leftColumnRow small {
+	color: #2c2c2c;
+}
+
+div.rightColumnRow {
+	float: left;
+	width: 380px;
+
+}
+
+p.infoCircle {
+	margin-right: 15px;
+	margin-left: 15px;
+	height: 100%;
+	background: url(/i/images/icons/info_16x16_trans.png) no-repeat;
+	
+}
+html.rtl p.infoCircle {
+	padding-right: 20px !important;
+	background-position: 100% 0;
+}
+
+.leftColumnRow p.callCircle {
+	padding-top: 4px;
+	padding-left: 30px !important;
+	padding-bottom: 4px;
+	margin: 0;
+	height: 100%;
+	background: url(/i/images/icons/call_24x24_white.png) no-repeat 0 2px;
+}
+
+.leftColumnRow p.chatCircle {
+	padding-top: 4px;
+	padding-left: 30px !important;
+	padding-bottom: 4px;
+	margin: 0;
+	height: 100%;
+	background: url(/i/images/icons/chat_24x24_white.png) no-repeat 0 2px;
+}
+
+.leftColumnRow p.callPhonesCircle {
+	padding-top: 4px;
+	padding-left: 30px !important;
+	padding-bottom: 4px;
+	margin: 0;
+	height: 100%;
+	background: url(/i/images/icons/callphones_24x24.png) no-repeat 0 2px;
+}
+
+.leftColumnRow p.receiveOnlineCircle {
+	padding-top: 4px;
+	padding-left: 30px !important;
+	padding-bottom: 4px;
+	margin: 0;
+	height: 100%;
+	background: url(/i/images/icons/receive_online_24x24_alpha.png) no-repeat 0 2px;
+}
+
+.rowContainer img.icon16 {
+	vertical-align: middle;
+	margin: 0px 2px 4px 0px;
+}
+
+
+
+
+

@@ -1,0 +1,244 @@
+
+div.bannerTitle {
+	background: #00aff0 no-repeat left bottom;
+	width: 320px;
+	padding: 14px 370px 30px 0px;
+	margin-bottom: 20px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+	div.bannerTitle.onlineNumber {
+		background-image: url(/i/images/illustrations/online_number_blue.png);
+		padding-bottom: 90px;
+	}
+	
+	div.bannerTitle.intlCalling {
+		background-image: url(/i/images/illustrations/internationalcallig_header.png);
+		padding-bottom: 80px;
+		padding-right: 340px;
+		width: 350px;
+	}
+	
+    	div.bannerTitle.intlCalling h1 {
+    	    margin: 10px 20px 10px 5px;
+	        line-height: 34px;
+    	}
+    	
+		div.bannerTitle.intlCalling p {
+		    margin: 0 20px 20px 5px;
+		}
+	body.skypeToGo div.bannerTitle {
+		background: #00aff0 url(/i/images/illustrations/skypetogo_header_blue.png) top left no-repeat;
+		padding-bottom:0;
+	}
+	
+	*html body.skypeToGo div.bannerTitle {
+		padding-right:0 !important;
+	}
+		body.skypeToGo div.bannerTitle h1 {
+			line-height: 34px;
+			font-size:30px;
+			margin: 20px 20px 0px 5px;
+		}
+			body.skypeToGo.lang-de div.bannerTitle h1,
+			body.skypeToGo.lang-es div.bannerTitle h1,
+			body.skypeToGo.lang-fr div.bannerTitle h1,
+			body.skypeToGo.lang-pl div.bannerTitle h1,
+			body.skypeToGo.lang-pt-b div.bannerTitle h1,
+			body.skypeToGo.lang-tr div.bannerTitle h1 {
+				font-size: 26px;
+				line-height: 30px;
+			}
+		body.skypeToGo div.bannerTitle h2 {
+			margin: 0px 20px 30px 5px;
+		}
+			body.skypeToGo.lang-ja div.bannerTitle h2,
+			body.skypeToGo.lang-zh-Hant div.bannerTitle h2 {
+				margin-bottom: 55px;
+			}
+			body.skypeToGo.lang-tr div.bannerTitle h2 {
+				margin-bottom: 75px;
+			}
+		body.skypeToGo div.bannerTitle .cloudImage {
+			vertical-align:bottom;
+		}
+	div.bannerTitle h1 {
+		color: #fff;
+	}
+	div.bannerTitle p {
+		color: #2c2c2c;
+	}
+
+div.bannerTitle2 {
+	background: #00aff0 no-repeat left bottom;
+	width: 370px;
+	padding: 14px 320px 30px 0px;
+	margin-bottom: 20px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+	body.skypeToGo div.bannerTitle2 {
+		background: #00aff0 url(/i/images/illustrations/skypetogo_header_blue2.png) top left no-repeat;
+		padding-bottom:0;
+	}
+	
+	*html body.skypeToGo div.bannerTitle2 {
+		padding-right:0 !important;
+	}
+		body.skypeToGo div.bannerTitle2 h1 {
+			line-height: 34px;
+			font-size:30px;
+			margin: 20px 10px 20px 5px;
+		}
+			body.skypeToGo.lang-de div.bannerTitle2 h1,
+			body.skypeToGo.lang-es div.bannerTitle22 h1,
+			body.skypeToGo.lang-fr div.bannerTitle h1,
+			body.skypeToGo.lang-pl div.bannerTitle2 h1,
+			body.skypeToGo.lang-pt-b div.bannerTitle2 h1,
+			body.skypeToGo.lang-tr div.bannerTitle2 h1 {
+				font-size: 26px;
+				line-height: 30px;
+			}
+		body.skypeToGo div.bannerTitle2 h2 {
+			margin: 0px 20px 30px 5px;
+		}
+			body.skypeToGo.lang-ja div.bannerTitle2 h2,
+			body.skypeToGo.lang-zh-Hant div.bannerTitle2 h2 {
+				margin-bottom: 55px;
+			}
+			body.skypeToGo.lang-tr div.bannerTitle2 h2 {
+				margin-bottom: 75px;
+			}
+		body.skypeToGo div.bannerTitle2 .cloudImage {
+			vertical-align:bottom;
+		}
+	div.bannerTitle2 h1 {
+		color: #fff;
+	}
+	div.bannerTitle2 p {
+		color: #2c2c2c;
+	}
+	
+.columnIcon.center {
+	text-align: center;
+}
+	.columnIcon.center img {
+		margin-left: -4px;
+	}
+body.skypeToGo div.fourColumnSplit p {
+	margin-bottom:5px;
+}
+	
+div.contentSplit.leftAlignedIcons div.leftColumn, div.contentSplit.leftAlignedIcons div.rightColumn {
+    padding-left: 120px !important;
+    width: 220px !important;
+}
+
+div.contentSplit.leftAlignedIcons div.leftColumn img.columnIcon, div.contentSplit.leftAlignedIcons div.rightColumn img.columnIcon {
+    float: left;
+    margin-top: -10px;
+    margin-left: -110px;
+}
+
+#content #paddedContent ul.countryList {
+    list-style: none !important;
+    font-size: 0.79em;
+    color: #525252;
+    padding: 0 0 0 6px !important;
+    clear: both;
+}
+    #content #paddedContent  ul.countryList li {
+        float: left;
+        width: 214px;
+        margin: 0 0 0 14px;
+        padding: 0 !important;
+        display: inline;
+    }
+    #content #paddedContent  ul.countryList .flag {
+        margin-right: 7px;
+        margin-bottom: 7px;
+    }
+    #content #paddedContent .countryListContainer ul.countryList li {
+        width: 135px;
+    }
+    #content #paddedContent  ul.countryList li.clear {
+        clear: both !important;
+    }
+    
+div.roundedBlue {
+    background-color: #E5F7FD;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 20px 0;
+    margin: 40px 0;
+}
+
+p + br.clear + div.roundedBlue {
+	margin-top: 20px;
+}
+
+div.roundedBlue2 {
+    background-color: #E5F7FD;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 14px 0;
+    margin: 20px 0;
+}
+
+    #content #paddedContent div.roundedBlue h2:first-child {
+        padding-top: 0px;
+    }
+    
+    #content #paddedContent div.roundedBlue p {
+        padding-right: 20px;
+    }
+    div.roundedBlue p:last-child {
+        margin-bottom: 0px;
+    }
+	div.roundedBlue div.nextSection {
+		border-top: 1px solid #A8E4F9;
+		padding-top:17px;
+	}
+	body.skypeToGo div.roundedBlue {
+		margin: 35px 0;
+	}
+div.skypeToGoWorks span {
+	color:#7B7F81;
+	font-size:0.85em;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+	div.skypeToGoWorks span.first {
+		
+	}
+	div.skypeToGoWorks span.second {
+		padding-left:210px;
+	}
+div#paddedContent p.bottomMargin {
+	margin-bottom:5px;
+}
+body.skypeToGo div#paddedContent .thirdsColumnsLeft {
+	width:255px;
+}
+body.skypeToGo div#paddedContent .thirdsColumnsRight.wide {
+	width:430px !important;
+}
+*html body.skypeToGo div.threeColumnSplit div.column {
+	width:220px;
+	overflow:hidden;
+}
+body.skypeToGo.lang-de .buttonAndText .text,
+body.skypeToGo.lang-pt-b .buttonAndText .text {
+	font-size: 0.9em;
+}

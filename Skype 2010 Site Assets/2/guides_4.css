@@ -1,0 +1,12 @@
+body.simple div#header {
+	height: 25px;
+	top: 1px;
+	background: transparent url(/i_preairlift/bg/header_simple.png) left top no-repeat;
+}
+body.simple {
+	padding-top: 21px;
+	background: white url(/i_preairlift/bg/body_simple.png) 0px 1px repeat-x;
+}
+ul.gnav {
+	text-align: left;
+}

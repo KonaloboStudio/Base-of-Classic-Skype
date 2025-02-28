@@ -1,0 +1,38 @@
+#content input,
+#content textarea {
+	border: 1px solid #c1c1c1;
+	background-color: #fff;
+}
+
+#content .validation-failed { /* for textboxes, textareas, passwords */
+	border: 1px solid #F33;
+	background-color:#FCC;
+}
+
+#content .validation-failed-cr { /* for checkboxes and radios */
+	background-color: #fcc;
+}
+#content label.validation-failed {
+	background-color:transparent;
+	border:none;
+	color:#F33;
+}
+
+#content .validation-failed-sel { /* for selects */
+	border: 1px solid #F33;
+	background-color:#FCC;
+}
+
+#content .validation-passed { /* for textboxes, textareas, passwords */
+	border: 1px solid #a5d8eb;
+	background-color: #e0f3fa;
+}
+
+#content .validation-passed-cr { /* for checkboxes and radios */
+
+}
+
+#content .validation-passed-sel { /* for selects */
+	background-color: #e0f3fa;
+	border: 1px solid #a5d8eb;
+}

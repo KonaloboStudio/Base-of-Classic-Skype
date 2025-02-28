@@ -1,0 +1,9 @@
+<!--#include virtual="/i/js/jquery/jquery-1.4.2.min.js" -->
+<!--#include virtual="/i/js/skype-core-standalone.js" -->
+<!--#include virtual="/i/js/jquery/helpers.js" -->
+<!--#include virtual="/i/js/swfobject2.js" -->
+<!--#include virtual="/i/js/inclient/trackable.js" -->
+<!--#include virtual="/i/js/jquery/inclient/acquisition.js" -->
+<!--#include virtual="/i/js/detection.js" -->
+<!--#include virtual="/i/js/jquery/conditional.js" -->
+<!--#include virtual="/i/js/videoplayer.js" -->

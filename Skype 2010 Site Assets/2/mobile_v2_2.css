@@ -1,0 +1,439 @@
+div.indexBlue {
+    background: #33b9f2 url(/i/images/backgrounds/topsplash_darkblueblue_bg.png) top left repeat-x !important;
+}
+
+div.threeSimPromo {
+    background: #00aff0 url(/i/images/illustrations/product-clouds-3sim.png) no-repeat bottom center;
+}
+
+#topSplash {
+	position: relative;
+	height: 338px;
+	margin: 0 auto 56px auto;
+	width: 960px;
+/* 	background: url(/i/images/misc/mobile_header_3phones.png) 430px 60px no-repeat; */
+}
+
+#topSplash2 {
+	position: relative;
+	height: 338px;
+	margin: 0 auto 56px auto;
+	width: 960px;
+}
+
+#threeSimTopSplash {
+	position: relative;
+	height: 305px;
+	margin: 0 auto 56px auto;
+	width: 960px;
+	
+}
+
+
+#splashContent {
+	padding: 45px 20px 20px;
+}
+
+#splashContent2 {
+	padding: 75px 20px 20px 540px;
+}
+
+#threeSimSplashContent {
+    padding: 35px 625px 0 20px;
+}
+
+    #splashContent h1 {
+        font-size: 28px;
+        width: 380px;
+    }
+    
+    #splashContent2 h1 {
+        font-size: 28px;
+        width: 340px;
+    }
+    
+    #threeSimSplashContent h1 {
+        font-size: 32px;
+        color: #fff;
+    }
+    
+    #splashContent .light, #splashContent2 .light {
+        color: #c1ecfb;
+    }
+    
+    #splashContent p.light {
+        margin-bottom: 10px;
+    }
+    
+    #splashContent div#sendSmsBlock {
+        margin-bottom: 10px;
+     }
+    
+    #splashContent input.sendtoNumber {
+        height: 20px;
+        _height: 21px;
+        margin-right: 3px;
+        padding-top: 4px;
+        padding-left: 5px;
+        _padding-top: 5px;
+        padding-bottom: 3px;
+        width: 185px;
+        font: bold 17px Arial, Helvetica, sans-serif;
+    	color: #757575;
+    }
+    
+    div.bannerTitle.mobilePhones input.sendtoNumber {
+        height: 18px;
+        _height: 19px;
+        margin-right: 3px;
+        padding-top: 3px;
+        padding-left: 3px;
+        _padding-top: 5px;
+        padding-bottom: 4px;
+        width: 185px;
+        font: bold 16px Arial, Helvetica, sans-serif;
+    	color: #757575;
+    }
+    
+	div.bannerTitle.mobilePhones .button {
+	 	margin-top: -5px;
+     	*margin-top: -15px; /* IE6 fix to align button vertically with input field */
+     }
+     
+     #splashContent div#sendSmsBlock #sendSmsButton {
+	 	margin-top: -5px;
+     	*margin-top: -14px; /* IE6 and 7 fix to align button vertically with input field */
+     }
+    
+    
+    #splashContent div.messageWrapper {
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #83D8F8;
+        width: 380px;
+        float: left;
+    }
+    
+        #splashContent div.messageWrapper p.smallInfo2 {
+            margin-bottom: 0px;
+        }
+    
+    #splashContent .smsSuccess {
+        text-transform: none;
+        background-position: 0 5px;
+    	padding-left: 30px;
+    	background-repeat: no-repeat;	
+    	background-image: url(/i/images/icons/check_22x22.png);
+    	height: 100%;
+    }
+
+    #splashContent .smsFail {
+        text-transform: none;
+        background-position: 0 5px;
+    	padding-left: 30px;
+    	background-repeat: no-repeat;
+    	background-image: url(/i/images/icons/error_22x22.png);
+    	height: 100%;
+    }
+    
+       #splashContent .smsFail h2 {
+        font-size: 1em;
+       }
+    
+    
+
+    #splashContent p.status {
+        padding-top: 9px;
+        min-height: 35px;
+        padding-left: 60px !important;
+    }
+
+    * html p.status {
+        height: 35px;
+    }
+
+        p.status.success {
+            background: url("/i/images/icons/okay_32x32_e1f7fe.png") 20px top no-repeat;
+        }
+
+        p.status.failed {
+            background: url("/i/images/icons/error_32x32_e1f7fe.png") 20px top no-repeat;
+        }
+
+.clouds {
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+
+.threePhones {
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 430px;
+	
+}
+.twoPhones {
+	display: block;
+	position: absolute;
+	top: 34px;
+	left: 435px;
+}
+
+
+div.indexBlue {
+	background-color: #00aff0;
+}
+
+div.indexBlue h1 {
+	color: #ffffff;
+	width: 280px;
+}
+
+div.threeColumns {
+    padding-top: 10px;
+}
+
+    div.threeColumns .threeLeftColumn {
+    	float: left;
+    	width: 230px;
+    }
+
+    div.threeColumns .threeMiddleColumn {
+    	float: left;
+    	width: 230px;
+    }
+
+    div.threeColumns .threeRightColumn {
+    	float: left;
+    	width: 230px;
+    }
+    
+    
+div.mobileColumns {
+    padding-top: 19px;
+    margin-bottom: 38px;
+}
+
+    div.mobileColumns div.mobileColumn {
+        float: left;
+        width: 190px;
+        padding: 0 20px;
+    }
+    
+      div.mobileColumns div.mobileColumnWide {
+        float: left;
+        width: 240px;
+        padding: 0 20px;
+    }
+    
+        div.mobileColumns div.mobileColumn img.illustrativeMobile, div.mobileColumns div.mobileColumnWide img.illustrativeMobile {
+            display: block;
+            margin-bottom: 15px;
+        }
+        
+        div.mobileColumns div.mobileColumn a.callToAction {
+            display: block;
+        }
+    
+        #content #paddedContent div.mobileColumns div.mobileColumn h2, #content #paddedContent div.mobileColumns div.mobileColumnWide h2 {
+            padding: 0;
+            margin: 0;
+        }
+        
+	    div.mobileColumns div.mobileColumn ul, div.mobileColumns div.mobileColumnWide ul {
+	    	padding-left: 12px !important; 
+	    	padding-top: 5px;
+	    }
+        
+        
+div.devicesOverlay {
+    position: absolute;
+    top: 600px;
+    left: -30000px;
+    width: 225px;
+    padding: 10px;
+    z-index: 300;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+}
+
+    div.devicesOverlay span.pointerArrow {
+        display: block;
+        position: absolute;
+        width: 11px;
+        height: 20px;
+        z-index: 500;
+    }
+
+
+    div.devicesOverlay.openLeft span.pointerArrow {
+        right: 0;
+        top: 30px;
+        background: url(/i/images/misc/mobileoverlay_arrow_topright.png) top left no-repeat;
+    }
+    
+    div.devicesOverlay.openRight span.pointerArrow {
+        left: 0;
+        top: 30px;
+        background: url(/i/images/misc/mobileoverlay_arrow_topleft.png) top left no-repeat;
+    }
+    
+    
+    div.devicesOverlay span.closeButton {
+        position: absolute;
+        left: 3px;
+        top: 3px;
+        width: 22px;
+        height: 23px;
+        background: url(/i/images/misc/mobileoverlay_closebutton.png) top left no-repeat;
+        z-index: 500;
+        cursor: pointer;
+    }
+    
+    div.devicesOverlay.openRight span.closeButton {
+        position: absolute;
+        left: auto;
+        right: 3px;
+        top: 3px;
+        background: url(/i/images/misc/mobileoverlay_closebutton_right.png) top left no-repeat;
+    }
+
+    div.devicesOverlay div.devicesOverlayContent {
+        height: 100%;
+        overflow: hidden;
+        padding: 10px;
+        border: 1px solid #85d9f7;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        background-color: #e5f6fd;
+    }
+    
+    #content #paddedContent div.devicesOverlay div.devicesOverlayContent h3 {
+        border-bottom: 1px solid #cdeaf6;
+        margin: 0 0 10px 0;
+        padding: 0 0 5px 0;
+    }
+    
+    #content #paddedContent div.devicesOverlay div.devicesOverlayContent ul {
+        font-size: 12px;
+        overflow: hidden;
+        height: 100%;
+        list-style-type: none;
+        padding: 0 !important;
+        margin: 0;
+        width: 95px;
+    }
+
+	#content #paddedContent div.devicesOverlay div.devicesOverlayContent ul.wideList {
+		width: 190px;
+	}
+    
+    #content #paddedContent div.devicesOverlay div.devicesOverlayContent ul.leftList {
+        float: left;
+        border-right: 1px solid #cdeaf6;
+        margin: 0 10px 10px 0;
+    }
+    
+    #content #paddedContent div.devicesOverlay div.devicesOverlayContent ul.rightList {
+        float: right;
+    }
+    
+        #content #paddedContent div.devicesOverlay div.devicesOverlayContent ul li {
+            
+        }
+        
+div.mobileDivider {
+    min-height: 90px;
+    width: 410px;
+    background: url(/i/images/misc/mobile_divider.png) top left no-repeat;
+    padding: 19px 280px 0 0;
+    margin-bottom: 19px;
+}
+
+* html div.mobileDivider {
+    height: 90px;
+}
+
+div.mobileDividerThin {
+    height: 15px;
+    width: 690px;
+    background: url(/i/images/misc/mobile_divider_thin.png) top left no-repeat;
+    margin-bottom: 19px;
+}
+
+* html div.mobileDividerThin {
+	display: none;
+}
+
+.smallerFont {
+	font-size: 0.9em;
+}
+
+
+img.addBottomPadding {
+margin-bottom: 10px;
+
+}
+img.specialMargin {
+	margin-left: -20px;
+}
+
+.smsFail .smallInfo2 {
+color:black;
+font-size:13px;
+}
+
+.smsFail .smallInfo2 a {
+font-size:13px;
+}
+
+.smallInfo3 {
+color:black;
+font-size:11px;
+}
+
+.smallInfo3 a  {
+color:white;
+text-decoration:underline;
+}
+
+.checkList li {
+    font-weight: bold;
+    list-style: none;
+    background: url(/i/images/bullets/check-8x10-white.png) no-repeat 0px 5px;
+    padding: 0 0 13px 20px;
+}
+
+div.instructions {
+    overflow: hidden;
+    padding: 0 0 19px 0;
+}
+
+    div.instructions div {
+        text-align: center;
+    }
+
+#threeSimInstructions {
+    margin: 0 0 0 30px;
+}
+
+#threeSimChecklist {
+    width: 325px;
+    float: right;
+    display: inline;
+}
+
+#threeSimDescription {
+    width: 345px;
+    float: left;
+    display: inline;
+    padding: 55px 0 0 0;
+}
+
+    #threeSimChecklist .checkList {
+        margin-left: 50px;
+    }

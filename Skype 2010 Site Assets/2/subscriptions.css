@@ -1,0 +1,4241 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	background: none repeat scroll 0 0 transparent;
+	border: 0 none;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+:focus {
+	outline: 0 none
+}
+
+body {
+	background: url("/content/dam/skype/images/backgrounds/top_gradient.png") repeat-x scroll left top white;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.357em;
+	position: relative;
+}
+
+ol,
+ul {
+	list-style: none outside none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: ""
+}
+
+p {
+	color: #2C2C2C;
+	font-size: 1em;
+	line-height: 1.357em;
+	margin: 0 0 1.357em;
+}
+
+ul,
+ol {
+	color: #2C2C2C;
+	margin: 0 0 1.357em;
+}
+
+.contentTable {
+	margin: 0 0 1.357em
+}
+
+ .contentTable td {
+	 padding: 0 20px
+ }
+
+p.small {
+	color: #999999;
+	font-size: 0.786em;
+	line-height: 1.727em;
+	margin-bottom: 1.727em;
+}
+
+strong {
+	font-weight: bold
+}
+
+em {
+	font-style: italic
+}
+
+a {
+	color: #0181E3
+}
+
+a:hover {
+	color: #3A9EEB
+}
+
+a:visited {
+	color: #62A8F0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	color: #525252;
+	font-size: 2.462em;
+	letter-spacing: -0.03em;
+	line-height: 1.19em;
+	margin-bottom: 15px;
+}
+
+h1.products {
+	color: #AFB4B4;
+	line-height: 100%;
+	margin: 22px 0 0;
+}
+
+h2 {
+	color: #2C2C2C;
+	font-size: 1.286em;
+	line-height: 1.056em;
+	padding: 9px 0 10px;
+}
+
+h2.products {
+	line-height: 100%;
+	padding: 0 0 10px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	color: black;
+	font-size: 1em;
+	line-height: 1.357em;
+	margin: 0;
+}
+
+sup {
+	font-size: 0.65em;
+	line-height: 0.65em;
+	vertical-align: super;
+}
+
+sub {
+	font-size: 0.85em;
+	vertical-align: sub;
+}
+
+.floatl {
+	float: left
+}
+
+.floatr {
+	float: right
+}
+
+.clearer {
+	clear: both;
+	font: 1px/ 1px monospace;
+	height: 1px;
+	overflow: hidden;
+	width: 1px;
+}
+
+.clear {
+	clear: both
+}
+
+div.clear {
+	clear: both;
+	overflow: hidden;
+}
+
+div.clearLine {
+	clear: both;
+	height: 19px;
+}
+
+div.clearLineLeft {
+	clear: left;
+	height: 19px;
+}
+
+div.clearLineRight {
+	clear: right;
+	height: 19px;
+}
+
+#container {
+	margin: -37px auto 0;
+	overflow: hidden;
+	width: 960px;
+}
+
+#container.sidebar {
+	background: url("/content/dam/skype/images/backgrounds/sidebar_end.png") no-repeat scroll 689px bottom transparent;
+	margin-bottom: 30px;
+}
+
+#container #content {
+	padding: 0
+}
+
+#container #content.wide {
+	padding: 45px 0
+}
+
+#container.noCloud {
+	margin-top: 0 !important
+}
+
+#container.sidebar.noSubmenu {
+	margin-top: 30px !important
+}
+
+div.default {
+	margin: 30px auto 0 !important
+}
+
+#container.sidebar #content {
+	background: url("/content/dam/skype/images/backgrounds/sidebar_begin.png") no-repeat scroll 689px top transparent;
+	float: left;
+	padding: 0;
+	width: 715px;
+}
+
+#container.sidebar #sidebar {
+	float: right;
+	width: 240px;
+	overflow: hidden;
+}
+
+#content #paddedContent {
+	padding: 0 30px 0 0
+}
+
+#paddedContent .contentSplit {
+	clear: both;
+	overflow: visible;
+}
+
+ #paddedContent .contentSplit .leftColumn,
+ #paddedContent .contentSplit .rightColumn {
+	 overflow: visible;
+	 width: 335px;
+ }
+
+ #paddedContent .contentSplit .leftColumn {
+	 float: left;
+	 margin-left: -5px;
+	 padding-left: 5px;
+ }
+
+ #paddedContent .contentSplit .rightColumn {
+	 float: right;
+	 margin-left: -5px;
+	 padding-left: 5px;
+ }
+
+ #paddedContent .contentSplit .leftQuarter,
+ #paddedContent .contentSplit .rightQuarter {
+	 width: 160px
+ }
+
+ #paddedContent .contentSplit .leftQuarter {
+	 float: left
+ }
+
+ #paddedContent .contentSplit .rightQuarter {
+	 float: right
+ }
+
+#paddedContent .thirdsColumnsLeft {
+	display: inline;
+	float: left;
+	margin-left: -5px;
+	padding-left: 5px;
+	width: 215px;
+}
+
+#paddedContent .thirdsColumnsRight {
+	display: inline;
+	float: right;
+	width: 220px;
+}
+
+#paddedContent .wide {
+	margin-left: -5px;
+	padding-left: 5px;
+	width: 455px !important;
+}
+
+#sidebarIllustration {
+	height: 70px;
+	left: 50%;
+	margin-bottom: -31px;
+	margin-left: 207px;
+	margin-top: -31px;
+	position: relative;
+	text-align: right;
+	width: 270px;
+	z-index: 9;
+}
+
+body.noSubmenu #sidebarIllustration {
+	height: 70px;
+	left: 50%;
+	margin-bottom: -31px;
+	margin-left: 207px;
+	margin-top: 0;
+	position: relative;
+	text-align: right;
+	width: 270px;
+	z-index: 9;
+}
+
+div.fourColumnSplit {
+	overflow: hidden;
+	width: 100%;
+}
+
+ div.fourColumnSplit div.column {
+	 float: left;
+	 width: 172px;
+ }
+
+div.threeColumnSplit {
+	overflow: hidden;
+	width: 100%;
+}
+
+ div.threeColumnSplit div.column {
+	 float: left;
+	 width: 230px;
+ }
+
+ div.threeColumnSplit div.column p.columnIcon {
+	 height: 100px;
+	 margin: 0;
+	 padding: 0;
+	 text-align: center;
+ }
+
+ div.threeColumnSplit div.column p.columnIcon.high {
+	 height: 120px
+ }
+
+ div.threeColumnSplit div.column p.columnIcon img {
+	 margin-left: -5px
+ }
+
+ div.threeColumnSplit div.column p.columnIcon img.noMargin {
+	 margin-left: 0
+ }
+
+div#grid {
+	background: url("_grid.png") repeat scroll 0 0 transparent;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.flag {
+	background-image: url("/content/dam/skype/images/flags/flags_matrix.png");
+	display: block;
+	float: left;
+	font: 1px monospace;
+	height: 11px;
+	margin: 2px 4px 2px 0;
+	width: 16px;
+}
+
+img.flag {
+	background-image: url("flags_matrix.png");
+	display: inline;
+	float: none;
+	font: 1px monospace;
+	height: 11px;
+	margin: 0;
+	width: 16px;
+}
+
+.flag.AD {
+	background-position: -16px -44px
+}
+
+.flag.AE {
+	background-position: -16px -55px
+}
+
+.flag.AF {
+	background-position: -16px -66px
+}
+
+.flag.AG {
+	background-position: -16px -77px
+}
+
+.flag.AI {
+	background-position: -16px -99px
+}
+
+.flag.AL {
+	background-position: -16px -132px
+}
+
+.flag.AM {
+	background-position: -16px -143px
+}
+
+.flag.AN {
+	background-position: -16px -154px
+}
+
+.flag.AO {
+	background-position: -16px -165px
+}
+
+.flag.AQ {
+	background-position: -16px -187px
+}
+
+.flag.AR {
+	background-position: -16px -198px
+}
+
+.flag.AS {
+	background-position: -16px -209px
+}
+
+.flag.AT {
+	background-position: -16px -220px
+}
+
+.flag.AU {
+	background-position: -16px -231px
+}
+
+.flag.AW {
+	background-position: -16px -253px
+}
+
+.flag.AX {
+	background-position: -16px -264px
+}
+
+.flag.AZ {
+	background-position: -16px -286px
+}
+
+.flag.BA {
+	background-position: -32px -11px
+}
+
+.flag.BB {
+	background-position: -32px -22px
+}
+
+.flag.BD {
+	background-position: -32px -44px
+}
+
+.flag.BE {
+	background-position: -32px -55px
+}
+
+.flag.BF {
+	background-position: -32px -66px
+}
+
+.flag.BG {
+	background-position: -32px -77px
+}
+
+.flag.BH {
+	background-position: -32px -88px
+}
+
+.flag.BI {
+	background-position: -32px -99px
+}
+
+.flag.BJ {
+	background-position: -32px -110px
+}
+
+.flag.BM {
+	background-position: -32px -143px
+}
+
+.flag.BN {
+	background-position: -32px -154px
+}
+
+.flag.BO {
+	background-position: -32px -165px
+}
+
+.flag.BR {
+	background-position: -32px -198px
+}
+
+.flag.BS {
+	background-position: -32px -209px
+}
+
+.flag.BT {
+	background-position: -32px -220px
+}
+
+.flag.BV {
+	background-position: -32px -242px
+}
+
+.flag.BW {
+	background-position: -32px -253px
+}
+
+.flag.BY {
+	background-position: -32px -275px
+}
+
+.flag.BZ {
+	background-position: -32px -286px
+}
+
+.flag.CA {
+	background-position: -48px -11px
+}
+
+.flag.CC {
+	background-position: -48px -33px
+}
+
+.flag.CD {
+	background-position: -48px -44px
+}
+
+.flag.CF {
+	background-position: -48px -66px
+}
+
+.flag.CG {
+	background-position: -48px -77px
+}
+
+.flag.CH {
+	background-position: -48px -88px
+}
+
+.flag.CI {
+	background-position: -48px -99px
+}
+
+.flag.CK {
+	background-position: -48px -121px
+}
+
+.flag.CL {
+	background-position: -48px -132px
+}
+
+.flag.CM {
+	background-position: -48px -143px
+}
+
+.flag.CN {
+	background-position: -48px -154px
+}
+
+.flag.CO {
+	background-position: -48px -165px
+}
+
+.flag.CR {
+	background-position: -48px -198px
+}
+
+.flag.CS {
+	background-position: -48px -209px
+}
+
+.flag.CU {
+	background-position: -48px -231px
+}
+
+.flag.CV {
+	background-position: -48px -242px
+}
+
+.flag.CX {
+	background-position: -48px -264px
+}
+
+.flag.CY {
+	background-position: -48px -275px
+}
+
+.flag.CZ {
+	background-position: -48px -286px
+}
+
+.flag.DE {
+	background-position: -64px -55px
+}
+
+.flag.DJ {
+	background-position: -64px -110px
+}
+
+.flag.DK {
+	background-position: -64px -121px
+}
+
+.flag.DM {
+	background-position: -64px -143px
+}
+
+.flag.DO {
+	background-position: -64px -165px
+}
+
+.flag.DZ {
+	background-position: -64px -286px
+}
+
+.flag.EC {
+	background-position: -80px -33px
+}
+
+.flag.EE {
+	background-position: -80px -55px
+}
+
+.flag.EG {
+	background-position: -80px -77px
+}
+
+.flag.EH {
+	background-position: -80px -88px
+}
+
+.flag.ER {
+	background-position: -80px -198px
+}
+
+.flag.ES {
+	background-position: -80px -209px
+}
+
+.flag.ET {
+	background-position: -80px -220px
+}
+
+.flag.FI {
+	background-position: -96px -99px
+}
+
+.flag.FJ {
+	background-position: -96px -110px
+}
+
+.flag.FK {
+	background-position: -96px -121px
+}
+
+.flag.FM {
+	background-position: -96px -143px
+}
+
+.flag.FO {
+	background-position: -96px -165px
+}
+
+.flag.FR {
+	background-position: -96px -198px
+}
+
+.flag.GA {
+	background-position: -112px -11px
+}
+
+.flag.GB {
+	background-position: -112px -22px
+}
+
+.flag.GD {
+	background-position: -112px -44px
+}
+
+.flag.GE {
+	background-position: -112px -55px
+}
+
+.flag.GF {
+	background-position: -112px -66px
+}
+
+.flag.GH {
+	background-position: -112px -88px
+}
+
+.flag.GI {
+	background-position: -112px -99px
+}
+
+.flag.GL {
+	background-position: -112px -132px
+}
+
+.flag.GM {
+	background-position: -112px -143px
+}
+
+.flag.GN {
+	background-position: -112px -154px
+}
+
+.flag.GP {
+	background-position: -112px -176px
+}
+
+.flag.GQ {
+	background-position: -112px -187px
+}
+
+.flag.GR {
+	background-position: -112px -198px
+}
+
+.flag.GS {
+	background-position: -112px -209px
+}
+
+.flag.GT {
+	background-position: -112px -220px
+}
+
+.flag.GU {
+	background-position: -112px -231px
+}
+
+.flag.GW {
+	background-position: -112px -253px
+}
+
+.flag.GY {
+	background-position: -112px -275px
+}
+
+.flag.HK {
+	background-position: -128px -121px
+}
+
+.flag.HM {
+	background-position: -128px -143px
+}
+
+.flag.HN {
+	background-position: -128px -154px
+}
+
+.flag.HR {
+	background-position: -128px -198px
+}
+
+.flag.HT {
+	background-position: -128px -220px
+}
+
+.flag.HU {
+	background-position: -128px -231px
+}
+
+.flag.ID {
+	background-position: -144px -44px
+}
+
+.flag.IE {
+	background-position: -144px -55px
+}
+
+.flag.IL {
+	background-position: -144px -132px
+}
+
+.flag.IN {
+	background-position: -144px -154px
+}
+
+.flag.IO {
+	background-position: -144px -165px
+}
+
+.flag.IQ {
+	background-position: -144px -187px
+}
+
+.flag.IR {
+	background-position: -144px -198px
+}
+
+.flag.IS {
+	background-position: -144px -209px
+}
+
+.flag.IT {
+	background-position: -144px -220px
+}
+
+.flag.JM {
+	background-position: -160px -143px
+}
+
+.flag.JO {
+	background-position: -160px -165px
+}
+
+.flag.JP {
+	background-position: -160px -176px
+}
+
+.flag.KE {
+	background-position: -176px -55px
+}
+
+.flag.KG {
+	background-position: -176px -77px
+}
+
+.flag.KH {
+	background-position: -176px -88px
+}
+
+.flag.KI {
+	background-position: -176px -99px
+}
+
+.flag.KM {
+	background-position: -176px -143px
+}
+
+.flag.KN {
+	background-position: -176px -154px
+}
+
+.flag.KP {
+	background-position: -176px -176px
+}
+
+.flag.KR {
+	background-position: -176px -198px
+}
+
+.flag.KW {
+	background-position: -176px -253px
+}
+
+.flag.KY {
+	background-position: -176px -275px
+}
+
+.flag.KZ {
+	background-position: -176px -286px
+}
+
+.flag.LA {
+	background-position: -192px -11px
+}
+
+.flag.LB {
+	background-position: -192px -22px
+}
+
+.flag.LC {
+	background-position: -192px -33px
+}
+
+.flag.LI {
+	background-position: -192px -99px
+}
+
+.flag.LK {
+	background-position: -192px -121px
+}
+
+.flag.LR {
+	background-position: -192px -198px
+}
+
+.flag.LS {
+	background-position: -192px -209px
+}
+
+.flag.LT {
+	background-position: -192px -220px
+}
+
+.flag.LU {
+	background-position: -192px -231px
+}
+
+.flag.LV {
+	background-position: -192px -242px
+}
+
+.flag.LY {
+	background-position: -192px -275px
+}
+
+.flag.MA {
+	background-position: -208px -11px
+}
+
+.flag.MC {
+	background-position: -208px -33px
+}
+
+.flag.MD {
+	background-position: -208px -44px
+}
+
+.flag.ME {
+	background-position: -208px -55px
+}
+
+.flag.MG {
+	background-position: -208px -77px
+}
+
+.flag.MH {
+	background-position: -208px -88px
+}
+
+.flag.MK {
+	background-position: -208px -121px
+}
+
+.flag.ML {
+	background-position: -208px -132px
+}
+
+.flag.MM {
+	background-position: -208px -143px
+}
+
+.flag.MN {
+	background-position: -208px -154px
+}
+
+.flag.MO {
+	background-position: -208px -165px
+}
+
+.flag.MP {
+	background-position: -208px -176px
+}
+
+.flag.MQ {
+	background-position: -208px -187px
+}
+
+.flag.MR {
+	background-position: -208px -198px
+}
+
+.flag.MS {
+	background-position: -208px -209px
+}
+
+.flag.MT {
+	background-position: -208px -220px
+}
+
+.flag.MU {
+	background-position: -208px -231px
+}
+
+.flag.MV {
+	background-position: -208px -242px
+}
+
+.flag.MW {
+	background-position: -208px -253px
+}
+
+.flag.MX {
+	background-position: -208px -264px
+}
+
+.flag.MY {
+	background-position: -208px -275px
+}
+
+.flag.MZ {
+	background-position: -208px -286px
+}
+
+.flag.NA {
+	background-position: -224px -11px
+}
+
+.flag.NC {
+	background-position: -224px -33px
+}
+
+.flag.NE {
+	background-position: -224px -55px
+}
+
+.flag.NF {
+	background-position: -224px -66px
+}
+
+.flag.NG {
+	background-position: -224px -77px
+}
+
+.flag.NI {
+	background-position: -224px -99px
+}
+
+.flag.NL {
+	background-position: -224px -132px
+}
+
+.flag.NO {
+	background-position: -224px -165px
+}
+
+.flag.NP {
+	background-position: -224px -176px
+}
+
+.flag.NR {
+	background-position: -224px -198px
+}
+
+.flag.NU {
+	background-position: -224px -231px
+}
+
+.flag.NZ {
+	background-position: -224px -286px
+}
+
+.flag.OM {
+	background-position: -240px -143px
+}
+
+.flag.PA {
+	background-position: -256px -11px
+}
+
+.flag.PE {
+	background-position: -256px -55px
+}
+
+.flag.PF {
+	background-position: -256px -66px
+}
+
+.flag.PG {
+	background-position: -256px -77px
+}
+
+.flag.PH {
+	background-position: -256px -88px
+}
+
+.flag.PK {
+	background-position: -256px -121px
+}
+
+.flag.PL {
+	background-position: -256px -132px
+}
+
+.flag.PM {
+	background-position: -256px -143px
+}
+
+.flag.PN {
+	background-position: -256px -154px
+}
+
+.flag.PR {
+	background-position: -256px -198px
+}
+
+.flag.PS {
+	background-position: -256px -209px
+}
+
+.flag.PT {
+	background-position: -256px -220px
+}
+
+.flag.PW {
+	background-position: -256px -253px
+}
+
+.flag.PY {
+	background-position: -256px -275px
+}
+
+.flag.QA {
+	background-position: -272px -11px
+}
+
+.flag.RE {
+	background-position: -288px -55px
+}
+
+.flag.RO {
+	background-position: -288px -165px
+}
+
+.flag.RS {
+	background-position: -288px -209px
+}
+
+.flag.RU {
+	background-position: -288px -231px
+}
+
+.flag.RW {
+	background-position: -288px -253px
+}
+
+.flag.SA {
+	background-position: -304px -11px
+}
+
+.flag.SB {
+	background-position: -304px -22px
+}
+
+.flag.SC {
+	background-position: -304px -33px
+}
+
+.flag.SD {
+	background-position: -304px -44px
+}
+
+.flag.SE {
+	background-position: -304px -55px
+}
+
+.flag.SG {
+	background-position: -304px -77px
+}
+
+.flag.SH {
+	background-position: -304px -88px
+}
+
+.flag.SI {
+	background-position: -304px -99px
+}
+
+.flag.SJ {
+	background-position: -304px -110px
+}
+
+.flag.SK {
+	background-position: -304px -121px
+}
+
+.flag.SL {
+	background-position: -304px -132px
+}
+
+.flag.SM {
+	background-position: -304px -143px
+}
+
+.flag.SN {
+	background-position: -304px -154px
+}
+
+.flag.SO {
+	background-position: -304px -165px
+}
+
+.flag.SR {
+	background-position: -304px -198px
+}
+
+.flag.SS {
+	background-position: -304px -209px
+}
+
+.flag.ST {
+	background-position: -304px -220px
+}
+
+.flag.SV {
+	background-position: -304px -242px
+}
+
+.flag.SY {
+	background-position: -304px -275px
+}
+
+.flag.SZ {
+	background-position: -304px -286px
+}
+
+.flag.TC {
+	background-position: -320px -33px
+}
+
+.flag.TD {
+	background-position: -320px -44px
+}
+
+.flag.TF {
+	background-position: -320px -66px
+}
+
+.flag.TG {
+	background-position: -320px -77px
+}
+
+.flag.TH {
+	background-position: -320px -88px
+}
+
+.flag.TJ {
+	background-position: -320px -110px
+}
+
+.flag.TK {
+	background-position: -320px -121px
+}
+
+.flag.TL {
+	background-position: -320px -132px
+}
+
+.flag.TM {
+	background-position: -320px -143px
+}
+
+.flag.TN {
+	background-position: -320px -154px
+}
+
+.flag.TO {
+	background-position: -320px -165px
+}
+
+.flag.TR {
+	background-position: -320px -198px
+}
+
+.flag.TT {
+	background-position: -320px -220px
+}
+
+.flag.TV {
+	background-position: -320px -242px
+}
+
+.flag.TW {
+	background-position: -320px -253px
+}
+
+.flag.TZ {
+	background-position: -320px -286px
+}
+
+.flag.UA {
+	background-position: -336px -11px
+}
+
+.flag.UG {
+	background-position: -336px -77px
+}
+
+.flag.UM {
+	background-position: -336px -143px
+}
+
+.flag.US {
+	background-position: -336px -209px
+}
+
+.flag.UY {
+	background-position: -336px -275px
+}
+
+.flag.UZ {
+	background-position: -336px -286px
+}
+
+.flag.VA {
+	background-position: -352px -11px
+}
+
+.flag.VC {
+	background-position: -352px -33px
+}
+
+.flag.VE {
+	background-position: -352px -55px
+}
+
+.flag.VG {
+	background-position: -352px -77px
+}
+
+.flag.VI {
+	background-position: -352px -99px
+}
+
+.flag.VN {
+	background-position: -352px -154px
+}
+
+.flag.VU {
+	background-position: -352px -231px
+}
+
+.flag.WF {
+	background-position: -368px -66px
+}
+
+.flag.WS {
+	background-position: -368px -209px
+}
+
+.flag.YE {
+	background-position: -400px -55px
+}
+
+.flag.YT {
+	background-position: -400px -220px
+}
+
+.flag.ZA {
+	background-position: -416px -11px
+}
+
+.flag.ZM {
+	background-position: -416px -143px
+}
+
+.flag.ZW {
+	background-position: -416px -253px
+}
+
+div.downloadButtons {
+	margin-top: 15px;
+	width: 100%;
+}
+
+span.button a {
+	display: block;
+	float: left;
+	font: bold 18px/ 32px Helvetica, Arial, sans-serif;
+	height: 32px;
+	overflow: hidden;
+	padding: 0;
+	text-decoration: none;
+}
+
+ span.button a span {
+	 cursor: pointer;
+	 display: block;
+	 line-height: 23px;
+	 padding: 5px 12px 5px 0;
+	 white-space: nowrap;
+ }
+
+span.buttonSmall a {
+	display: block;
+	float: left;
+	font: bold 14px/ 22px Helvetica, Arial, sans-serif;
+	height: 22px;
+	overflow: hidden;
+	padding: 0;
+	text-decoration: none;
+}
+
+ span.buttonSmall a span {
+	 cursor: pointer;
+	 display: block;
+	 line-height: 24px;
+	 padding: 0 11px 0 0;
+	 white-space: nowrap;
+ }
+
+* html span.buttonSmall a span {
+	line-height: 22px
+}
+
+span.button a.blue {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_left.png") no-repeat scroll left top #42B2F5;
+	color: #FFFFFF;
+	padding: 0 0 0 12px;
+}
+
+span.button a.blue:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_left.png") no-repeat scroll 0 -32px #42B2F5;
+	padding: 0 0 0 12px;
+}
+
+span.button a.blue span {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_right.png") no-repeat scroll right top #42B2F5
+}
+
+span.button a.blue:hover span {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_right.png") no-repeat scroll right -32px #42B2F5
+}
+
+span.button a.blue.skypeCredit {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_credit_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.skypeCredit:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_credit_left.png") no-repeat scroll 0 -32px #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.shop {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_shop_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.shop:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_shop_left.png") no-repeat scroll 0 -32px #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.logitechWebcam {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_logitechwebcam_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.logitechWebcam:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_logitechwebcam_left.png") no-repeat scroll 0 -32px #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.freeCall {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_call_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.freeCall:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_call_left.png") no-repeat scroll 0 -32px #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.skypeToGo {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_togo_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.blue.skypeToGo:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_togo_left.png") no-repeat scroll 0 -32px #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.buttonSmall a.blue {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_left.png") no-repeat scroll left top #42B2F5;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.blue:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_left.png") no-repeat scroll left -22px #42B2F5;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.blue span {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_right.png") no-repeat scroll right top #42B2F5
+}
+
+span.buttonSmall a.blue:hover span {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_right.png") no-repeat scroll right -22px #42B2F5
+}
+
+span.buttonSmall a.blue.skypeCredit {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_credit_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.blue.skypeCredit:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_credit_left.png") no-repeat scroll left -22px #42B2F5;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.blue.skypeOnlineNr {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_onlinenr_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.blue.skypeOnlineNr:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_onlinenr_left.png") no-repeat scroll left -22px #42B2F5;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.blue.skypeVoicemail {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_voicemail_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.blue.skypeVoicemail:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_voicemail_left.png") no-repeat scroll left -22px #42B2F5;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.blue.shop {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_cart_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.blue.shop:hover {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_cart_left.png") no-repeat scroll left -22px #42B2F5;
+	padding: 0 0 0 32px;
+}
+
+span.button a.yellow {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_left.png") no-repeat scroll left top #FFCD00;
+	color: #545454;
+	padding: 0 0 0 12px;
+}
+
+span.button a.yellow:hover {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_left.png") no-repeat scroll left -32px #FFCD00;
+	padding: 0 0 0 12px;
+}
+
+span.button a.yellow span {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_right.png") no-repeat scroll right top #FFCD00
+}
+
+span.button a.yellow:hover span {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_right.png") no-repeat scroll right -32px #FFCD00
+}
+
+span.button a.yellow.skypePro {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_pro_left.png") no-repeat scroll left top #FFCD00;
+	padding: 0 0 0 40px;
+}
+
+span.button a.yellow.skypePro:hover {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_pro_left.png") no-repeat scroll left -32px #FFCD00;
+	padding: 0 0 0 40px;
+}
+
+span.button a.yellow.freeCall {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_call_left.png") no-repeat scroll left top #FFCD00;
+	padding: 0 0 0 40px;
+}
+
+span.button a.yellow.freeCall:hover {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_call_left.png") no-repeat scroll left -32px #FFCD00;
+	padding: 0 0 0 40px;
+}
+
+span.buttonSmall a.yellow {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_left.png") no-repeat scroll left top #FFCD00;
+	color: #545454;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.yellow:hover {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_left.png") no-repeat scroll left -22px #FFCD00;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.yellow span {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_right.png") no-repeat scroll right top #FFCD00
+}
+
+span.buttonSmall a.yellow:hover span {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_right.png") no-repeat scroll right -22px #FFCD00
+}
+
+span.buttonSmall a.yellow.skypePro {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_pro_left.png") no-repeat scroll left top #FFCD00;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.yellow.skypePro:hover {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_pro_left.png") no-repeat scroll left -22px #FFCD00;
+	padding: 0 0 0 32px;
+}
+
+span.button a.gray {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_left.png") no-repeat scroll left top #F0F0F0;
+	color: #0181E3;
+	padding: 0 0 0 12px;
+}
+
+span.button a.gray:hover {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_left.png") no-repeat scroll left -32px #F0F0F0;
+	color: #006ABC;
+	padding: 0 0 0 12px;
+}
+
+span.button a.gray.subscriptions {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_subs_left.png") no-repeat scroll left top #F0F0F0;
+	padding: 0 0 0 39px;
+}
+
+span.button a.gray.subscriptions:hover {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_subs_left.png") no-repeat scroll left -32px #F0F0F0;
+	padding: 0 0 0 39px;
+}
+
+span.button a.gray span {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+span.button a.gray:hover span {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_right.png") no-repeat scroll right -32px #F0F0F0
+}
+
+span.buttonSmall a.gray {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_left.png") no-repeat scroll left top #F0F0F0;
+	color: #0181E3;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.gray:hover {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_left.png") no-repeat scroll left -22px #F0F0F0;
+	color: #006ABC;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.gray span {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+span.buttonSmall a.gray:hover span {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_right.png") no-repeat scroll right -22px #F0F0F0
+}
+
+span.buttonSmall a.gray.mail {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_mail_left.png") no-repeat scroll left top #F0F0F0;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.gray.mail:hover {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_mail_left.png") no-repeat scroll left -22px #F0F0F0;
+	padding: 0 0 0 32px;
+}
+
+span.button a.green {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_left.png") no-repeat scroll left top #87C80A;
+	color: #FFFFFF;
+	padding: 0 0 0 12px;
+}
+
+span.button a.green:hover {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_left.png") no-repeat scroll 0 -32px #87C80A;
+	padding: 0 0 0 12px;
+}
+
+span.button a.green span {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_right.png") no-repeat scroll right top #87C80A
+}
+
+span.button a.green:hover span {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_right.png") no-repeat scroll right -32px #87C80A
+}
+
+span.button a.green.skype {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_skype_left.png") no-repeat scroll left top #87C80A;
+	padding: 0 0 0 40px;
+}
+
+span.button a.green.skype:hover {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_skype_left.png") no-repeat scroll 0 -32px #87C80A;
+	padding: 0 0 0 40px;
+}
+
+span.button a.green.extras {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_extras_left.png") no-repeat scroll left top #87C80A;
+	padding: 0 0 0 40px;
+}
+
+span.button a.green.extras:hover {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_extras_left.png") no-repeat scroll 0 -32px #87C80A;
+	padding: 0 0 0 40px;
+}
+
+span.button a.green.skypeToGo {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_togo_left.png") no-repeat scroll left top #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.button a.green.skypeToGo:hover {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_togo_left.png") no-repeat scroll 0 -32px #42B2F5;
+	padding: 0 0 0 40px;
+}
+
+span.buttonSmall a.green {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_left.png") no-repeat scroll left top #8AC519;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green:hover {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_left.png") no-repeat scroll left -22px #8AC519;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green:active {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_left.png") no-repeat scroll left -44px #8AC519;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green span {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_right.png") no-repeat scroll right top #8AC519
+}
+
+span.buttonSmall a.green:hover span {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_right.png") no-repeat scroll right -22px #8AC519
+}
+
+span.buttonSmall a.green:active span {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_right.png") no-repeat scroll right -44px #8AC519
+}
+
+span.buttonSmall a.green.download {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_download_left.png") no-repeat scroll left top #8AC519;
+	padding: 0 0 0 32px;
+}
+
+span.buttonSmall a.green.download:hover {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_download_left.png") no-repeat scroll left -22px #8AC519;
+	padding: 0 0 0 32px;
+}
+
+span.button a.orange {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_left.png") no-repeat scroll left top #FE9000;
+	color: #FFFFFF;
+	padding: 0 0 0 12px;
+}
+
+span.button a.orange:hover {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_left.png") no-repeat scroll 0 -32px #FE9000;
+	padding: 0 0 0 12px;
+}
+
+span.button a.orange:active {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_left.png") no-repeat scroll 0 -64px #FE9000;
+	padding: 0 0 0 12px;
+}
+
+span.button a.orange span {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_right.png") no-repeat scroll right top #FE9000
+}
+
+span.button a.orange:hover span {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_right.png") no-repeat scroll right -32px #FE9000
+}
+
+span.button a.orange:active span {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_right.png") no-repeat scroll right -64px #FE9000
+}
+
+span.buttonSmall a.orange {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_left.png") no-repeat scroll left top #FE9000;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange:hover {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_left.png") no-repeat scroll left -22px #FE9000;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange:active {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_left.png") no-repeat scroll left -44px #FE9000;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange span {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_right.png") no-repeat scroll right top #FE9000
+}
+
+span.buttonSmall a.orange:hover span {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_right.png") no-repeat scroll right -22px #FE9000
+}
+
+span.buttonSmall a.orange:active span {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_right.png") no-repeat scroll right -44px #FE9000
+}
+
+span.button a.purple {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_left.png") no-repeat scroll left top #7C1B7C;
+	color: #FFFFFF;
+	padding: 0 0 0 12px;
+}
+
+span.button a.purple:hover {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_left.png") no-repeat scroll 0 -32px #7C1B7C;
+	padding: 0 0 0 12px;
+}
+
+span.button a.purple:active {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_left.png") no-repeat scroll 0 -64px #7C1B7C;
+	padding: 0 0 0 12px;
+}
+
+span.button a.purple span {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_right.png") no-repeat scroll right top #7C1B7C
+}
+
+span.button a.purple:hover span {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_right.png") no-repeat scroll right -32px #7C1B7C
+}
+
+span.button a.purple:active span {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_right.png") no-repeat scroll right -64px #7C1B7C
+}
+
+span.buttonSmall a.purple {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_left.png") no-repeat scroll left top #7C1B7C;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple:hover {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_left.png") no-repeat scroll left -22px #7C1B7C;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple:active {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_left.png") no-repeat scroll left -44px #7C1B7C;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple span {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_right.png") no-repeat scroll right top #7C1B7C
+}
+
+span.buttonSmall a.purple:hover span {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_right.png") no-repeat scroll right -22px #7C1B7C
+}
+
+span.buttonSmall a.purple:active span {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_right.png") no-repeat scroll right -44px #7C1B7C
+}
+
+span.button a.disabled {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_left.png") no-repeat scroll left top #F0F0F0 !important;
+	color: #AFB4B4 !important;
+	cursor: default !important;
+}
+
+span.buttonSmall a.disabled {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_left.png") no-repeat scroll left top #F0F0F0 !important;
+	color: #AFB4B4 !important;
+	cursor: default !important;
+}
+
+span.button a.disabled:hover {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_left.png") no-repeat scroll left top #F0F0F0 !important;
+	color: #AFB4B4 !important;
+	cursor: default !important;
+}
+
+span.button a.disabled span {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_right.png") no-repeat scroll right top #F0F0F0 !important;
+	cursor: default !important;
+}
+
+span.button a.disabled:hover span {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_right.png") no-repeat scroll right top #F0F0F0 !important;
+	cursor: default !important;
+}
+
+span.buttonSmall a.disabled:hover {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_left.png") no-repeat scroll left top #F0F0F0 !important;
+	color: #AFB4B4 !important;
+	cursor: default !important;
+}
+
+span.buttonSmall a.disabled span {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_right.png") no-repeat scroll right top #F0F0F0 !important;
+	cursor: default !important;
+}
+
+span.buttonSmall a.disabled:hover span {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_right.png") no-repeat scroll right top #F0F0F0 !important;
+	cursor: default !important;
+}
+
+.buttonAndText span.button,
+.buttonAndText span.buttonSmall,
+.buttonSmallAndText span.button,
+.buttonSmallAndText span.buttonSmall {
+	margin-right: 0.25em
+}
+
+.buttonAndText .text {
+	line-height: 32px;
+	padding-left: 0.5em;
+}
+
+.buttonSmallAndText .text {
+	line-height: 23px;
+	padding-left: 0.5em;
+}
+
+#content #infoBox p span.buttonSmall {
+	float: left;
+	padding-bottom: 8px;
+}
+
+.hiddenSubmit {
+	left: -10000px;
+	position: absolute;
+	top: -10000px;
+}
+
+.fieldHelper {
+	height: 16px;
+	vertical-align: middle;
+	width: 16px;
+}
+
+ .fieldHelper img {
+	 line-height: 16px;
+	 margin-top: 3px;
+	 vertical-align: top;
+ }
+
+button {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	margin: 0;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+ button span {
+	 display: block;
+	 margin: 0;
+	 overflow: visible;
+	 padding: 0;
+	 white-space: nowrap;
+ }
+
+ button span strong {
+	 display: block;
+	 margin: 0;
+	 overflow: visible;
+	 white-space: nowrap;
+ }
+
+button:focus,
+button:active {
+
+}
+
+button.button {
+	font: bold 18px Helvetica, Arial, sans-serif;
+	height: 34px;
+	margin-top: -4px;
+}
+
+ button.button span {
+	 height: 32px
+ }
+
+ button.button span strong {
+	 height: 32px;
+	 line-height: 35px;
+	 padding: 0 12px 0 0;
+ }
+
+ button.button span.gray {
+	 background: url("/content/dam/skype/images/buttons/gray/gray_comp_left.png") no-repeat scroll left top #F0F0F0;
+	 color: #0181E3;
+	 padding-left: 12px;
+ }
+
+ button.button span.green {
+	 background: url("/content/dam/skype/images/buttons/green/green_comp_left.png") no-repeat scroll left top #F0F0F0;
+	 color: #FFFFFF;
+	 padding-left: 12px;
+ }
+
+ button.button span.blue {
+	 background: url("/content/dam/skype/images/buttons/blue/blue_comp_left.png") no-repeat scroll left top #F0F0F0;
+	 color: #FFFFFF;
+	 padding-left: 12px;
+ }
+
+ button.button span.yellow {
+	 background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_left.png") no-repeat scroll left top #F0F0F0;
+	 color: #545454;
+	 padding-left: 12px;
+ }
+
+ button.button span.purple {
+	 background: url("/content/dam/skype/images/buttons/purple/purple_comp_left.png") no-repeat scroll left top #F0F0F0;
+	 color: #FFFFFF;
+	 padding-left: 12px;
+ }
+
+ button.button span.orange {
+	 background: url("/content/dam/skype/images/buttons/orange/orange_comp_left.png") no-repeat scroll left top #F0F0F0;
+	 color: #FFFFFF;
+	 padding-left: 12px;
+ }
+
+button.button:hover span.gray {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_left.png") no-repeat scroll left -32px #F0F0F0;
+	color: #006ABC;
+}
+
+button.button:hover span.blue {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_left.png") no-repeat scroll left -32px #F0F0F0;
+	color: #FFFFFF;
+}
+
+button.button:hover span.green {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_left.png") no-repeat scroll left -32px #F0F0F0;
+	color: #FFFFFF;
+}
+
+button.button:hover span.yellow {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_left.png") no-repeat scroll left -32px #F0F0F0;
+	color: #545454;
+}
+
+button.button:hover span.purple {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_left.png") no-repeat scroll left -32px #F0F0F0;
+	color: #FFFFFF;
+}
+
+button.button:hover span.orange {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_left.png") no-repeat scroll left -32px #F0F0F0;
+	color: #FFFFFF;
+}
+
+button.button span.gray strong {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.button span.green strong {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.button span.blue strong {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.button span.yellow strong {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.button span.purple strong {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.button span.orange strong {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.button:hover span.gray strong {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_right.png") no-repeat scroll right -32px #F0F0F0
+}
+
+button.button:hover span.green strong {
+	background: url("/content/dam/skype/images/buttons/green/green_comp_right.png") no-repeat scroll right -32px #F0F0F0
+}
+
+button.button:hover span.blue strong {
+	background: url("/content/dam/skype/images/buttons/blue/blue_comp_right.png") no-repeat scroll right -32px #F0F0F0
+}
+
+button.button:hover span.yellow strong {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_comp_right.png") no-repeat scroll right -32px #F0F0F0
+}
+
+button.button:hover span.purple strong {
+	background: url("/content/dam/skype/images/buttons/purple/purple_comp_right.png") no-repeat scroll right -32px #F0F0F0
+}
+
+button.button:hover span.orange strong {
+	background: url("/content/dam/skype/images/buttons/orange/orange_comp_right.png") no-repeat scroll right -32px #F0F0F0
+}
+
+button.button span.disabled {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_left.png") no-repeat scroll left top #F0F0F0 !important;
+	color: #AFB4B4 !important;
+	cursor: default !important;
+}
+
+button.button:hover span.disabled {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_left.png") no-repeat scroll left top #F0F0F0 !important;
+	color: #AFB4B4 !important;
+	cursor: default !important;
+}
+
+button.button span.disabled strong {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_right.png") no-repeat scroll right top #F0F0F0 !important
+}
+
+button.button:hover span.disabled strong {
+	background: url("/content/dam/skype/images/buttons/gray/gray_comp_right.png") no-repeat scroll right top #F0F0F0 !important
+}
+
+button.buttonSmall {
+	font: bold 14px Helvetica, Arial, sans-serif;
+	height: 24px;
+	margin-top: -1px;
+}
+
+.buttonSmallAndText button.buttonSmall {
+	margin-top: -4px
+}
+
+button.buttonSmall span {
+	height: 22px
+}
+
+ button.buttonSmall span strong {
+	 height: 22px;
+	 line-height: 25px;
+	 padding: 0 11px 0 0;
+ }
+
+button.buttonSmall span.gray {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_left.png") no-repeat scroll left top transparent;
+	color: #0181E3;
+	padding-left: 11px;
+}
+
+button.buttonSmall span.green {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_left.png") no-repeat scroll left top #F0F0F0;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+button.buttonSmall span.blue {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_left.png") no-repeat scroll left top #F0F0F0;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+button.buttonSmall span.yellow {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_left.png") no-repeat scroll left top #F0F0F0;
+	color: #545454;
+	padding-left: 11px;
+}
+
+button.buttonSmall span.purple {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_left.png") no-repeat scroll left top #F0F0F0;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+button.buttonSmall span.orange {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_left.png") no-repeat scroll left top #F0F0F0;
+	color: #FFFFFF;
+	padding-left: 11px;
+}
+
+button.buttonSmall:hover span.gray {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_left.png") no-repeat scroll left -22px transparent;
+	color: #006ABC;
+}
+
+button.buttonSmall:hover span.blue {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_left.png") no-repeat scroll left -22px #F0F0F0;
+	color: #FFFFFF;
+}
+
+button.buttonSmall:hover span.green {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_left.png") no-repeat scroll left -22px #F0F0F0;
+	color: #FFFFFF;
+}
+
+button.buttonSmall:hover span.yellow {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_left.png") no-repeat scroll left -22px #F0F0F0;
+	color: #545454;
+}
+
+button.buttonSmall:hover span.purple {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_left.png") no-repeat scroll left -22px #F0F0F0;
+	color: #FFFFFF;
+}
+
+button.buttonSmall:hover span.orange {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_left.png") no-repeat scroll left -22px #F0F0F0;
+	color: #FFFFFF;
+}
+
+button.buttonSmall span.gray strong {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_right.png") no-repeat scroll right top transparent
+}
+
+button.buttonSmall span.green strong {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.buttonSmall span.blue strong {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.buttonSmall span.yellow strong {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.buttonSmall span.purple strong {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.buttonSmall span.orange strong {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_right.png") no-repeat scroll right top #F0F0F0
+}
+
+button.buttonSmall:hover span.gray strong {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_right.png") no-repeat scroll right -22px transparent
+}
+
+button.buttonSmall:hover span.green strong {
+	background: url("/content/dam/skype/images/buttons/green/green_small_comp_right.png") no-repeat scroll right -22px #F0F0F0
+}
+
+button.buttonSmall:hover span.blue strong {
+	background: url("/content/dam/skype/images/buttons/blue/blue_small_comp_right.png") no-repeat scroll right -22px #F0F0F0
+}
+
+button.buttonSmall:hover span.yellow strong {
+	background: url("/content/dam/skype/images/buttons/yellow/yellow_small_comp_right.png") no-repeat scroll right -22px #F0F0F0
+}
+
+button.buttonSmall:hover span.purple strong {
+	background: url("/content/dam/skype/images/buttons/purple/purple_small_comp_right.png") no-repeat scroll right -22px #F0F0F0
+}
+
+button.buttonSmall:hover span.orange strong {
+	background: url("/content/dam/skype/images/buttons/orange/orange_small_comp_right.png") no-repeat scroll right -22px #F0F0F0
+}
+
+button.buttonSmall span.disabled {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_left.png") no-repeat scroll left top #F0F0F0 !important;
+	color: #AFB4B4 !important;
+	cursor: default !important;
+}
+
+button.buttonSmall:hover span.disabled {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_left.png") no-repeat scroll left top #F0F0F0 !important;
+	color: #AFB4B4 !important;
+	cursor: default !important;
+}
+
+button.buttonSmall span.disabled strong {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_right.png") no-repeat scroll right top #F0F0F0 !important
+}
+
+button.buttonSmall:hover span.disabled strong {
+	background: url("/content/dam/skype/images/buttons/gray/gray_small_comp_right.png") no-repeat scroll right top #F0F0F0 !important
+}
+
+.buttons button {
+	margin-left: 6px !important
+}
+
+button.simple,
+a.buttonSimple {
+	-moz-border-radius: 2px 2px 2px 2px;
+	height: 22px;
+}
+
+a.buttonSimple {
+	text-decoration: none
+}
+
+ button.simple span,
+ a.buttonSimple span {
+	 -moz-border-radius: 2px 2px 2px 2px;
+	 display: block;
+	 font-family: Arial, sans-serif;
+	 font-size: 12px;
+	 font-weight: bold;
+	 height: 14px;
+	 line-height: 14px;
+	 margin-left: 0;
+	 margin-right: 0;
+	 margin-top: 0;
+	 padding: 3px 10px;
+ }
+
+ button.simple span.white,
+ a.buttonSimple span.white {
+	 background: url("white.png") repeat-x scroll left top #FFFFFF;
+	 border: 1px solid white;
+	 color: #4B465A;
+	 text-shadow: 0 1px 1px #FFFFFF;
+ }
+
+button.simple:hover span.white,
+a.buttonSimple:hover span.white {
+	background: url("white.png") repeat-x scroll left -20px #FFFFFF
+}
+
+button.simple span.purple,
+a.buttonSimple span.purple {
+	background: url("purple.png") repeat-x scroll left top #332F3E;
+	border: medium none;
+	color: #FFFFFF;
+	padding: 4px 11px;
+	text-shadow: 0 -1px 1px #332F3E;
+}
+
+button.simple:hover span.purple,
+a.buttonSimple:hover span.purple {
+	background: url("purple.png") repeat-x scroll left -22px #34303F
+}
+
+button.simple:hover span.blue,
+a.buttonSimple span.blue {
+	background: url("blue.png") repeat-x scroll left top #00AEEA;
+	border: medium none;
+	color: #FFFFFF;
+	padding: 4px 11px;
+	text-shadow: 0 -1px 1px #39BBF6;
+}
+
+button.simple:hover span.blue,
+a.buttonSimple:hover span.blue {
+	background: url("blue.png") repeat-x scroll left -22px #20B5F1
+}
+
+a.buttonSimple span {
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 0;
+	text-decoration: none;
+}
+
+div.darkBusinessButton {
+	margin-left: 20px;
+	width: 140px;
+}
+
+div.darkBusinessButton.large {
+	width: 200px
+}
+
+div.darkBusinessButton a {
+	-moz-border-radius: 2px 2px 2px 2px;
+	background-color: #4B465A;
+	color: #FFFFFF;
+	display: block;
+	font-family: Arial, sans-serif;
+	font-size: 1.286em;
+	line-height: 16px;
+	padding: 10px 10px 10px 5px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #2F2C38;
+}
+
+* html div.darkBusinessButton a {
+	width: 140px
+}
+
+* html div.darkBusinessButton.large a {
+	width: 200px
+}
+
+div.darkBusinessButton a:hover {
+	background-color: #5B566F
+}
+
+button.simple span {
+	margin-left: -3px;
+	margin-right: -3px;
+}
+
+#content #paddedContent table.list {
+	border-top: 1px solid #D9D9D9;
+	margin-bottom: 28px;
+	width: 100%;
+}
+
+ #content #paddedContent table.list td,
+ #content #paddedContent table.list th {
+	 border-bottom: 1px solid #D9D9D9;
+	 padding: 3px 20px;
+ }
+
+ #content #paddedContent table.list thead td,
+ #content #paddedContent table.list thead th {
+	 background: none repeat scroll 0 0 #E5F6FD
+ }
+
+ #content #paddedContent table.list th {
+	 font-weight: bold
+ }
+
+#content #paddedContent table.prices {
+	border-top: 1px solid #CBCDCD;
+	margin-bottom: 28px;
+	width: 100%;
+}
+
+ #content #paddedContent table.prices td,
+ #content #paddedContent table.prices th {
+	 padding: 12px 10px
+ }
+
+ #content #paddedContent table.prices tr.grey td,
+ #content #paddedContent table.prices tr.grey th {
+	 background-color: #F2F2F2
+ }
+
+ #content #paddedContent table.prices tr.grey td {
+	 border-left: 1px solid #FFFFFF
+ }
+
+ #content #paddedContent table.prices td span {
+	 color: #AFB4B4
+ }
+
+ #content #paddedContent table.prices th {
+	 line-height: 16px
+ }
+
+ #content #paddedContent table.prices th img {
+	 float: left;
+	 margin: 0 8px 0 0;
+ }
+
+#content #paddedContent p,
+#content #paddedContent h1,
+#content #paddedContent h2,
+#content #paddedContent h3,
+#content #paddedContent h4,
+#content #paddedContent h5,
+#content #paddedContent h6,
+#content #paddedContent .padded {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+#content #paddedContent h1.icon img {
+	background: none repeat scroll 0 0 white;
+	margin-top: -8px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+.padded {
+	color: #2C2C2C
+}
+
+#content #paddedContent ul p,
+#content #paddedContent ul h1,
+#content #paddedContent ul h2,
+#content #paddedContent ul h3,
+#content #paddedContent ul h4,
+#content #paddedContent ul h5,
+#content #paddedContent ul h6,
+#content #paddedContent ul .padded {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+#content div.fullWidth h1,
+#content div.fullWidth h2,
+#content div.fullWidth h3,
+#content div.fullWidth h4,
+#content div.fullWidth h5,
+#content div.fullWidth p,
+#content div.fullWidth .padded {
+
+}
+
+#content #paddedContent li {
+	padding-right: 10px
+}
+
+#content ul.pbxMenu li {
+	padding-right: 0 !important
+}
+
+#content #paddedContent .contentSplit .leftQuarter p,
+#content #paddedContent .contentSplit .leftQuarter h1,
+#content #paddedContent .contentSplit .leftQuarter h2,
+#content #paddedContent .contentSplit .leftQuarter h3 {
+	padding-right: 0
+}
+
+#content #paddedContent .contentSplit .rightQuarter p,
+#content #paddedContent .contentSplit .rightQuarter h1,
+#content #paddedContent .contentSplit .rightQuarter h2,
+#content #paddedContent .contentSplit .rightQuarter h3 {
+	padding-left: 0
+}
+
+#content #paddedContent img.floatl {
+	margin: 0 20px 0 -10px
+}
+
+#content #paddedContent img.floatr {
+	margin: 0 -10px 0 20px
+}
+
+#content ul {
+	list-style: circle outside none;
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+#content ol {
+	list-style: decimal inside none;
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+ #content ul li,
+ #content ol li {
+	 overflow: visible
+ }
+
+small {
+	color: #7B7F81;
+	font-size: 0.85em;
+}
+
+xsmall {
+	color: #7B7F81;
+	font-size: 0.7em;
+}
+
+ul.small {
+	color: #7B7F81;
+	font-size: 0.85em;
+	margin-top: 0;
+}
+
+#content ul li.title {
+	list-style: none outside none
+}
+
+#content ul li.action {
+	list-style: none outside none
+}
+
+p.center {
+	text-align: center
+}
+
+.graphicalSteps {
+	background: url("graphical_steps.png") no-repeat scroll 23px bottom transparent;
+	padding-left: 35px;
+}
+
+.removeStepsBorder {
+	background: none repeat scroll 0 0 #FFFFFF;
+	margin-bottom: -15px;
+	margin-left: -35px;
+	padding-left: 35px;
+}
+
+#content #paddedContent div.fakeParagraph {
+	color: #2C2C2C;
+	height: 100%;
+	margin-bottom: 1.357em;
+}
+
+#content #paddedContent h2.step1,
+#content #paddedContent h2.step2,
+#content #paddedContent h2.step3,
+#content #paddedContent h2.step4,
+#content #paddedContent h2.step5,
+#content #paddedContent h2.step6,
+#content #paddedContent h2.step7,
+#content #paddedContent h2.step8,
+#content #paddedContent h2.step9,
+#content #paddedContent h2.step10,
+#content #paddedContent.fullWidth h2.step1,
+#content #paddedContent.fullWidth h2.step2,
+#content #paddedContent.fullWidth h2.step3,
+#content #paddedContent.fullWidth h2.step4,
+#content #paddedContent.fullWidth h2.step5,
+#content #paddedContent.fullWidth h2.step6,
+#content #paddedContent.fullWidth h2.step7,
+#content #paddedContent.fullWidth h2.step8,
+#content #paddedContent.fullWidth h2.step9,
+#content #paddedContent.fullWidth h2.step10,
+#content #paddedContent h2.step1Disabled,
+#content #paddedContent h2.step2Disabled,
+#content #paddedContent h2.step3Disabled,
+#content #paddedContent h2.step4Disabled,
+#content #paddedContent h2.step5Disabled,
+#content #paddedContent h2.step6Disabled,
+#content #paddedContent h2.step7Disabled,
+#content #paddedContent h2.step8Disabled,
+#content #paddedContent h2.step9Disabled,
+#content #paddedContent h2.step10Disabled {
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-left: -25px;
+	padding-left: 35px !important;
+}
+
+#content #paddedContent p.step1,
+#content #paddedContent p.step2,
+#content #paddedContent p.step3,
+#content #paddedContent p.step4,
+#content #paddedContent p.step5,
+#content #paddedContent p.step6,
+#content #paddedContent p.step7,
+#content #paddedContent p.step8,
+#content #paddedContent p.step9,
+#content #paddedContent p.step10 {
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-left: -25px;
+	padding: 9px 0 8px 35px !important;
+}
+
+h2.step1,
+p.step1 {
+	background-image: url("blue_1.png")
+}
+
+h2.step2,
+p.step2 {
+	background-image: url("blue_2.png")
+}
+
+h2.step3,
+p.step3 {
+	background-image: url("blue_3.png")
+}
+
+h2.step4,
+p.step4 {
+	background-image: url("blue_4.png")
+}
+
+h2.step5,
+p.step5 {
+	background-image: url("blue_5.png")
+}
+
+h2.step6,
+pstep6 {
+	background-image: url("blue_6.png")
+}
+
+h2.step7,
+p.step7 {
+	background-image: url("blue_7.png")
+}
+
+h2.step8,
+p.step8 {
+	background-image: url("blue_8.png")
+}
+
+h2.step9,
+p.step9 {
+	background-image: url("blue_9.png")
+}
+
+h2.step10,
+p.step10 {
+	background-image: url("blue_10.png")
+}
+
+div.graphicalSteps.skypeToGo p.bottomMargin {
+	margin-bottom: 5px
+}
+
+h2.step1Disabled {
+	background-image: url("grey_1.png");
+	color: #959595;
+}
+
+h2.step2Disabled {
+	background-image: url("grey_2.png");
+	color: #959595;
+}
+
+h2.step3Disabled {
+	background-image: url("grey_3.png");
+	color: #959595;
+}
+
+h2.step4Disabled {
+	background-image: url("grey_4.png");
+	color: #959595;
+}
+
+h2.step5Disabled {
+	background-image: url("grey_5.png");
+	color: #959595;
+}
+
+h2.step6Disabled {
+	background-image: url("grey_6.png");
+	color: #959595;
+}
+
+h2.step7Disabled {
+	background-image: url("grey_7.png");
+	color: #959595;
+}
+
+h2.step8Disabled {
+	background-image: url("grey_8.png");
+	color: #959595;
+}
+
+h2.step9Disabled {
+	background-image: url("grey_9.png");
+	color: #959595;
+}
+
+h2.step10Disabled {
+	background-image: url("grey_10.png");
+	color: #959595;
+}
+
+#content div.contentbox div.boxheading {
+	color: #2C2C2C;
+	font: bold 1.385em Helvetica, Arial, sans-serif;
+	margin: 0 !important;
+	padding: 10px 10px 8px;
+}
+
+body.voicemail.lang-pl #content div.contentbox div.boxheading {
+	font-size: 13px
+}
+
+body.voicemail.lang-de #content div.contentbox div.boxheading,
+body.voicemail.lang-fr #content div.contentbox div.boxheading,
+body.voicemail.lang-pt #content div.contentbox div.boxheading {
+	font-size: 14px
+}
+
+body.voicemail.lang-es #content div.contentbox div.boxheading,
+body.voicemail.lang-sv #content div.contentbox div.boxheading {
+	font-size: 17px
+}
+
+#content div.contentbox p {
+	margin: 0;
+	padding: 10px;
+}
+
+#content div.contentbox img.floatr {
+	padding: 0 10px 10px
+}
+
+#content div.contentbox.yellow {
+	background-color: #FFF8E1
+}
+
+ #content div.contentbox.yellow div.boxheading {
+	 background-color: #FFE9A4
+ }
+
+#content div.contentbox.blue {
+	background-color: #E2F2FE
+}
+
+ #content div.contentbox.blue div.boxheading {
+	 background-color: #9DD6FF
+ }
+
+#content div.contentbox.orange {
+	background-color: #FFF0E5
+}
+
+ #content div.contentbox.orange div.boxheading {
+	 background-color: #FFB97F;
+	 color: #FFFFFF;
+ }
+
+#content #infoBox {
+	background: url("yellow_blue_bottombox_bg.png") repeat-y scroll -462px 0 transparent;
+	margin: 10px 0 0 10px;
+}
+
+#infoBox.prices {
+	background: url("orange_yellow_blue_bottombox_bg.png") repeat-y scroll -470px 0 transparent !important;
+	margin: 0 0 30px;
+}
+
+#infoBox {
+	background: url("yellow_blue_bottombox_bg.png") repeat-y scroll -357px 0 transparent !important
+}
+
+#content #infoBox p {
+	padding: 10px
+}
+
+#content #infoBox .leftBlock {
+	float: left;
+	width: 335px;
+}
+
+#content #infoBox .rightBlock {
+	float: right;
+	width: 335px;
+}
+
+#upgradeProBox {
+	width: 437px !important
+}
+
+#buyCreditBox {
+	width: 230px !important
+}
+
+#content #infoBox .leftBlockTriple {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 210px;
+}
+
+#content #infoBox .centerBlockTriple {
+	float: left;
+	width: 220px;
+}
+
+#content #infoBox .rightBlockTriple {
+	float: right;
+	width: 230px;
+}
+
+.hiddenElement {
+	visibility: hidden !important
+}
+
+.shownElement {
+	visibility: visible !important
+}
+
+.hiddenBlock {
+	display: none !important
+}
+
+.shownBlock {
+	display: block !important
+}
+
+#content .upSellBox {
+	background: url("upsell_box.png") no-repeat scroll left bottom transparent;
+	overflow: hidden;
+}
+
+#content .upSellBoxYellow {
+	background: url("upsell_box_yellow.png") no-repeat scroll left bottom transparent;
+	overflow: hidden;
+}
+
+ #content .upSellBox h2,
+ #content .upSellBoxYellow h2 {
+	 margin-bottom: 0.75em;
+	 padding-top: 10px;
+ }
+
+#content .upSellBox .leftColumn {
+	display: inline;
+	float: left;
+	overflow: hidden;
+	width: 345px;
+}
+
+ #content .upSellBox .leftColumn h2 {
+	 background: none repeat scroll 0 0 #9DD6FF;
+	 margin-left: 10px;
+	 padding-left: 10px !important;
+ }
+
+#content .upSellBox .rightColumn {
+	display: inline;
+	float: right;
+	overflow: hidden;
+	width: 345px;
+}
+
+ #content .upSellBox .rightColumn h2,
+ #content .upSellBoxYellow .singleColumn h2 {
+	 background: none repeat scroll 0 0 #FFE9A4;
+	 margin-left: 10px;
+	 padding-left: 10px !important;
+ }
+
+#content .upSellBoxYellow .singleColumn {
+	overflow: hidden
+}
+
+#content .upSellBox h2 img,
+#content .upSellBoxYellow h2 img {
+	margin: -5px 0 0 !important
+}
+
+#content .upSellBox p.buttonSmallAndText,
+#content .upSellBoxYellow p.buttonSmallAndText {
+	margin-bottom: 1em
+}
+
+#content .upSellCta {
+	height: 23px
+}
+
+#content h2 img.icon16 {
+	margin: 0 5px 4px 0;
+	vertical-align: middle;
+}
+
+#content p.message {
+	margin: 1.31em 0 1.45em !important;
+	padding: 14px 20px 16px 67px !important;
+}
+
+#content p.notification {
+	font-weight: normal;
+	margin-top: 30px !important;
+}
+
+p.error {
+	background: url("message_error.png") no-repeat scroll 20px center #FFE3DF;
+	border-bottom: 1px solid #F08A73;
+	border-top: 1px solid #F08A73;
+	color: #525252;
+}
+
+p.info {
+	background: url("message_info.png") no-repeat scroll 20px center #E9FAD0;
+	border-bottom: 1px solid #AEE756;
+	border-top: 1px solid #AEE756;
+	color: #525252;
+	font-weight: bold;
+}
+
+p.warning {
+	background: url("warning_icon.png") no-repeat scroll 20px center #FFEFB5;
+	border-bottom: 1px solid #FFCA0B;
+	border-top: 1px solid #FFCA0B;
+	color: #525252;
+	font-weight: bold;
+}
+
+p.warningNoBgImg {
+	background: url("warning_icon.png") no-repeat scroll 10px center #FFEFB5;
+	border-bottom: 1px solid #FFCA0B;
+	border-top: 1px solid #FFCA0B;
+	color: #525252;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 50px;
+}
+
+p.smiley {
+	background: url("smiley_icon.png") no-repeat scroll 20px center #FFF5CC;
+	border-bottom: 1px solid #FFCD00;
+	border-top: 1px solid #FFCD00;
+	color: #2C2C2C;
+	font-weight: bold;
+	padding-left: 52px;
+}
+
+p.message span.deEmphasize {
+	font-weight: normal
+}
+
+#content p.forceLayout {
+
+}
+
+div.additionalInformation {
+	background: none repeat scroll 0 0 #E5F6FD;
+	border-bottom: 1px solid #7FD7F7;
+	border-top: 1px solid #7FD7F7;
+	overflow: hidden;
+	padding: 15px 0;
+	width: 100%;
+}
+
+div.additionalInformation.purple {
+	background: none repeat scroll 0 0 #EBEBEB;
+	border-bottom: 1px solid #4B465A;
+	border-top: 1px solid #4B465A;
+	margin-bottom: 19px;
+}
+
+div.additionalInformation.white {
+	background: none repeat scroll 0 0 transparent;
+	border-bottom: 0 none;
+	border-top: 0 none;
+	margin-bottom: 19px;
+	padding-top: 0;
+}
+
+div.thinBlueBox {
+	background: none repeat scroll 0 0 #E5F6FD;
+	border-bottom: 1px solid #7FD7F7;
+	border-top: 1px solid #7FD7F7;
+	overflow: hidden;
+	padding-right: 10px;
+}
+
+ div.thinBlueBox p {
+	 line-height: 32px;
+	 margin-bottom: 0;
+ }
+
+ div.thinBlueBox p span.splitterPipe {
+	 color: #999999;
+	 margin: 0 5px;
+ }
+
+div.success {
+	background: url("okay_48x48_lightblue.png") no-repeat scroll 20px center #E5F6FD;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-left: 86px;
+	padding-right: 20px;
+	width: auto;
+}
+
+p.available {
+	clear: both;
+	color: #666666;
+}
+
+ p.available img {
+	 margin-right: 3px;
+	 vertical-align: top;
+ }
+
+ p.available a {
+	 color: #666666;
+	 text-decoration: none;
+ }
+
+ p.available a:hover {
+	 color: #0181E3;
+	 text-decoration: underline;
+ }
+
+div.customLinks a {
+	color: #2C2C2C;
+	text-decoration: none;
+}
+
+div.customLinks a:hover {
+	color: #0181E3 !important;
+	text-decoration: underline !important;
+}
+
+div.customLinks a:visited {
+	color: #2C2C2C;
+	text-decoration: none;
+}
+
+p.noEmergency {
+	margin-top: 30px
+}
+
+p.noEmergency.icon {
+	background: url("/content/dam/skype/images/icons/noemergency.png") no-repeat scroll left center white;
+	margin-left: 20px;
+	padding-left: 50px !important;
+}
+
+p.noEmergency small {
+	color: #2C2C2C
+}
+
+p.noEmergency strong {
+	color: #FF0000;
+	font-weight: normal;
+}
+
+#sidebarContent p.noEmergency {
+	background: url("/content/dam/skype/images/icons/noemergency.png") no-repeat scroll 0 130px white !important;
+	margin: 0 !important;
+	padding: 170px 0 0 !important;
+}
+
+ #sidebarContent p.noEmergency small {
+	 color: #2C2C2C
+ }
+
+ #sidebarContent p.noEmergency strong {
+	 color: #FF0000;
+	 font-weight: normal;
+ }
+
+.flowContainerTop {
+	background: url("flow_container_top.png") no-repeat scroll left top transparent;
+	margin-bottom: 0.93em;
+	width: 960px;
+}
+
+.flowContainerBottom {
+	background: url("flow_container_bottom.png") no-repeat scroll left bottom transparent;
+	padding: 21px 21px 22px;
+}
+
+.flowContent {
+	padding: 10px 20px 0
+}
+
+.flowSubmit {
+	background: url("flow_container_submit.png") repeat scroll 0 0 transparent;
+	overflow: hidden;
+	padding: 17px 20px 18px;
+}
+
+* html .flowContent,
+* html .flowSubmit {
+	display: inline-block
+}
+
+#content #paddedContent .flowContent p,
+#content #paddedContent .flowContent h1,
+#content #paddedContent .flowContent h2,
+#content #paddedContent .flowContent h3,
+#content #paddedContent .flowContent h4,
+#content #paddedContent .flowContent h5,
+#content #paddedContent .flowContent h6 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#container.sidebar div.flowContainerTop {
+	background: url("flow_container_thin_top.png") no-repeat scroll left top transparent;
+	margin-bottom: 0.93em;
+	width: 690px;
+}
+
+#container.sidebar div.flowContainerBottom {
+	background: url("flow_container_thin_bottom.png") no-repeat scroll left bottom transparent;
+	padding: 5px 21px 22px;
+}
+
+#container.sidebar div.flowContent {
+	padding: 5px
+}
+
+ #container.sidebar div.flowContent table th {
+	 background-color: #F6F6F6;
+	 font-weight: bold;
+	 padding: 10px;
+ }
+
+ #container.sidebar div.flowContent table td {
+	 padding: 10px
+ }
+
+ #container.sidebar div.flowContent table tr.firstRow td {
+	 border-top: 1px solid #C4C7C7
+ }
+
+ #container.sidebar div.flowContent table tr.odd td {
+	 background-color: #FFFFFF
+ }
+
+ #container.sidebar div.flowContent table tr.even td {
+	 background-color: #F6F6F6
+ }
+
+#content #paddedContent.fullWidth {
+	padding-right: 0
+}
+
+p.simpleInfo {
+	background: url("info_16x16.png") no-repeat scroll 10px 0 transparent;
+	padding-left: 34px !important;
+}
+
+.flowThin {
+	background: url("flowthin_submit_shadow.png") repeat-x scroll center bottom transparent;
+	padding-bottom: 11px;
+}
+
+.flowContentThin {
+	border: 1px solid #CCCCCC
+}
+
+.flowContentThin.withTabs {
+	border-top: 0 none;
+	margin-top: -19px;
+}
+
+.tabContents {
+	height: 0;
+	overflow: visible;
+}
+
+#content #paddedContent .flowContentThin p,
+#content #paddedContent .flowContentThin h1,
+#content #paddedContent .flowContentThin h2,
+#content #paddedContent .flowContentThin h3,
+#content #paddedContent .flowContentThin h4,
+#content #paddedContent .flowContentThin h5,
+#content #paddedContent .flowContentThin h6 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.flowSubmitThin {
+	background: url("flow_container_submit.png") repeat scroll 0 0 transparent;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	padding: 17px 20px 18px;
+}
+
+* html .flowContentThin,
+* html .flowSubmitThin {
+	display: inline-block
+}
+
+.default p.simpleInfo,
+.fullWidth p.simpleInfo {
+	background: url("info_16x16.png") no-repeat scroll 20px 0 transparent;
+	padding-left: 44px !important;
+}
+
+#content #paddedContent .flowContent p.simpleInfo {
+	background: url("info_16x16.png") no-repeat scroll 10px 0 transparent;
+	padding-left: 34px !important;
+}
+
+table.listTable {
+	width: 100%
+}
+
+.flowContent table.listTable {
+	margin-top: 0.79em
+}
+
+table.listTable th {
+	border-bottom: 1px solid #7FD7F7;
+	font-weight: bold;
+	padding: 8px 5px 9px;
+}
+
+table.listTable td {
+	padding: 8px 5px;
+	vertical-align: middle;
+}
+
+table.listTable .right {
+	padding-right: 20px
+}
+
+table.listTable .left {
+	padding-left: 20px
+}
+
+.flowContent table.listTable .right {
+	padding-right: 10px
+}
+
+.flowContent table.listTable .left {
+	padding-left: 10px
+}
+
+table.listTable span.flag {
+	margin-top: -2px
+}
+
+tr.even td {
+	background: none repeat scroll 0 0 #FFFFFF
+}
+
+tr.odd td {
+	background: none repeat scroll 0 0 #E5F7FD
+}
+
+tr.edit td.edit {
+	background: url("flow_edit.png") repeat-x scroll left top #FFFB93;
+	border-top: 1px solid #BFC4C4;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+table.listTable td.edit th {
+	border: medium none;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+table.listTable td.edit table.editTable td {
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+table.editTable span.buttonSmall {
+	margin-left: 8px
+}
+
+table.editTable td small {
+	margin-top: 5px
+}
+
+table.wideTable {
+	width: 100%
+}
+
+.hiLite {
+	color: #00AFF0
+}
+
+#content .flowContent p.message {
+	margin-top: 0 !important
+}
+
+td.toBottom {
+	padding-bottom: 10px !important;
+	vertical-align: bottom !important;
+}
+
+.atlasImage {
+	position: absolute
+}
+
+table.formTable td,
+table.formTable th {
+	padding: 0 0 12px
+}
+
+table.formTable td {
+	padding: 0 20px 12px 0
+}
+
+table.formTable th {
+	text-align: right
+}
+
+ table.formTable th label {
+	 padding-right: 18px
+ }
+
+table.formTable td.error input,
+table.formTable td.error select,
+table.formTable td.error textarea {
+	background: none repeat scroll 0 0 #FFE3DF;
+	border: 1px solid #FF4C3C;
+}
+
+#localSiteBar {
+	background: none repeat scroll 0 0 #FFF5CC;
+	border-bottom: 1px solid #E9E9E9;
+	height: 0;
+	overflow: hidden;
+}
+
+#localSiteBarContent {
+	background: url("info_16x16_yellow.png") no-repeat scroll left 4px transparent;
+	color: #525252;
+	font-size: 0.79em;
+	line-height: 16px;
+	margin: 0 auto;
+	width: 920px;
+}
+
+#localSiteBar span {
+	display: block;
+	padding: 5px 0 5px 21px;
+}
+
+#localSiteBar .flag {
+	margin-top: -3px;
+	vertical-align: middle;
+}
+
+#localSiteBar #closeButton {
+	background: url("delete_small.png") no-repeat scroll center center transparent;
+	float: right;
+	height: 16px;
+	margin-top: 3px;
+	width: 16px;
+}
+
+#content ul.steps li {
+	height: 100%;
+	list-style-position: outside;
+	list-style-type: none;
+	padding-left: 25px;
+}
+
+#content ul.steps li.step1 {
+	background: url("blue_1_small.png") no-repeat scroll 0 0 transparent
+}
+
+#content ul.steps li.step2 {
+	background: url("blue_2_small.png") no-repeat scroll 0 0 transparent
+}
+
+#content ul.steps li.step3 {
+	background: url("blue_3_small.png") no-repeat scroll 0 0 transparent
+}
+
+#content ul.steps li.step4 {
+	background: url("blue_4_small.png") no-repeat scroll 0 0 transparent
+}
+
+#content ul.steps li.step5 {
+	background: url("blue_5_small.png") no-repeat scroll 0 0 transparent
+}
+
+#content ul.steps li.step6 {
+	background: url("blue_6_small.png") no-repeat scroll 0 0 transparent
+}
+
+#content ul.steps li.step7 {
+	background: url("blue_7_small.png") no-repeat scroll 0 0 transparent
+}
+
+#content ul.steps li.step8 {
+	background: url("blue_8_small.png") no-repeat scroll 0 0 transparent
+}
+
+#content ul.steps li.step9 {
+	background: url("blue_9_small.png") no-repeat scroll 0 0 transparent
+}
+
+#fancyTip {
+	left: -100px;
+	position: absolute;
+	top: -100px;
+	z-index: 1000;
+}
+
+ #fancyTip .pointer {
+	 background: url("tooltip-arrow.png") no-repeat scroll 16px 0 transparent;
+	 height: 16px;
+	 position: relative;
+	 width: 50px;
+	 z-index: 2;
+ }
+
+ #fancyTip .tip {
+	 -moz-border-radius: 5px 5px 5px 5px;
+	 background: none repeat scroll 0 0 #FFF5CC;
+	 border: 5px solid #919191;
+	 font-size: 12px;
+	 line-height: 16px;
+	 margin-top: -5px;
+	 min-width: 50px;
+	 padding: 7px;
+	 z-index: 1;
+ }
+
+.forScreenReader {
+	left: 0;
+	position: absolute;
+	top: -10000px;
+}
+
+#content p.successBottomMargin {
+	margin-bottom: 120px
+}
+
+#content #paddedContent ul.countryList {
+	clear: both;
+	color: #525252;
+	font-size: 0.79em;
+	list-style: none outside none !important;
+	padding: 0 0 0 6px !important;
+}
+
+ #content #paddedContent ul.countryList li {
+	 display: inline;
+	 float: left;
+	 margin: 0 0 0 14px;
+	 padding: 0 !important;
+	 width: 214px;
+ }
+
+#upgradeLayer {
+	color: #FFFFFF;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 99999;
+}
+
+ #upgradeLayer * {
+	 background-color: transparent
+ }
+
+ #upgradeLayer #bodyDimmer {
+	 background: url("body-dimmer.png") repeat scroll 0 0 transparent;
+	 height: 100%;
+	 left: 0;
+	 position: absolute;
+	 top: 0;
+	 width: 100%;
+ }
+
+ #upgradeLayer #contentDimmer {
+	 background: none repeat scroll 0 0 #000000;
+	 height: 550px;
+	 left: 0;
+	 opacity: 0.85;
+	 position: absolute;
+	 top: 104px;
+	 width: 100%;
+ }
+
+ #upgradeLayer #pleaseUpgrade {
+	 margin: 0 auto;
+	 padding: 180px 0 75px;
+	 position: relative;
+	 width: 860px;
+	 z-index: 9999999;
+ }
+
+ #upgradeLayer #pleaseUpgrade h1,
+ #upgradeLayer #pleaseUpgrade p,
+ #upgradeLayer #pleaseUpgrade a {
+	 color: #FFFFFF
+ }
+
+ #upgradeLayer #pleaseUpgrade p {
+	 font-size: 20px;
+	 font-weight: normal;
+ }
+
+ #upgradeLayer #pleaseUpgrade h1 {
+	 font-size: 24px
+ }
+
+ #upgradeLayer #pleaseUpgrade a {
+	 font-size: 18px;
+	 text-decoration: none;
+ }
+
+ #upgradeLayer .downloadBrowsers a {
+	 display: inline;
+	 float: left;
+	 margin: 0 30px 0 0;
+	 padding: 10px 0 10px 40px;
+ }
+
+ #upgradeLayer .downloadBrowsers #downloadChrome {
+	 background: url("chrome-32x32-index.png") no-repeat scroll left center transparent
+ }
+
+ #upgradeLayer .downloadBrowsers #downloadFirefox {
+	 background: url("firefox-32x32-index.png") no-repeat scroll left center transparent
+ }
+
+ #upgradeLayer .downloadBrowsers #downloadIE {
+	 background: url("msie-32x32-index.png") no-repeat scroll left center transparent
+ }
+
+ #upgradeLayer .downloadBrowsers #downloadOpera {
+	 background: url("opera-32x32-index.png") no-repeat scroll left center transparent
+ }
+
+ #upgradeLayer a#dontUpgrade {
+	 background: url("closedimmer-16x16-index.png") no-repeat scroll right center transparent;
+	 float: right;
+	 font-size: 11px;
+	 font-weight: normal;
+	 margin: 11px 0 0;
+	 padding-right: 25px;
+ }
+
+.hidden {
+	visibility: hidden
+}
+
+#paddedContent .contentSplit.fullSize {
+	height: 100%;
+	overflow: hidden;
+}
+
+.contentSection {
+	padding-bottom: 30px
+}
+
+#externalLinkTip {
+	left: -1000px;
+	position: absolute;
+	top: -1000px;
+	width: 263px;
+	z-index: 2000;
+}
+
+ #externalLinkTip div.top {
+	 background: url("tooltip_top.png") no-repeat scroll left top transparent;
+	 padding-top: 45px;
+	 position: relative;
+	 width: 263px;
+ }
+
+* html #externalLinkTip div.top {
+	background: url("tooltip_top.gif") no-repeat scroll 10px 0 transparent;
+	width: 263px;
+}
+
+#externalLinkTip div.content {
+	background: url("tooltip_bg.png") no-repeat scroll left bottom transparent;
+	color: #3A3A3A;
+	font-size: 12px;
+	position: relative;
+	width: 263px;
+}
+
+* html #externalLinkTip div.content {
+	background: url("tooltip_bg.gif") no-repeat scroll 10px 100% transparent
+}
+
+#externalLinkTip div.content div.message {
+	margin-bottom: -15px;
+	padding: 0 20px;
+	position: relative;
+	top: -27px;
+}
+
+.toggleBlock {
+	height: 100%;
+	overflow: hidden;
+}
+
+ .toggleBlock .toggleTitle {
+	 display: none;
+	 height: 100%;
+	 overflow: hidden;
+ }
+
+ .toggleBlock .toggleBody {
+	 height: 100%;
+	 overflow: hidden;
+ }
+
+.toggleBlock.closed .toggleBody {
+	display: none
+}
+
+.toggleBlock.open .toggleBody {
+	display: block
+}
+
+#sidebar #sidebarContent {
+	padding: 60px 20px 0 17px
+}
+
+#sidebar #sidebarContent.lowTop {
+	padding-top: 0
+}
+
+#sidebarContent strong.sidebarHeading {
+	color: #444444;
+	display: block;
+}
+
+ #sidebarContent strong.sidebarHeading img {
+	 vertical-align: middle
+ }
+
+#sidebarContent img.floatl {
+	margin: 0 10px 0 -10px
+}
+
+#sidebarContent img.floatr {
+	margin: 0 -10px 0 10px
+}
+
+#sidebarContent div.sidebarButton {
+	background: url("grad_vline.png") no-repeat scroll right center transparent;
+	color: #0181E3;
+	display: block;
+	float: left;
+	margin: -55px 0 -24px -17px;
+	padding: 45px 0 50px;
+	width: 221px;
+}
+
+* html #sidebarContent div.sidebarButton {
+	margin: -55px -30px -26px -9px
+}
+
+#sidebarContent div.sidebarButton a {
+	color: #0181E3;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-weight: bold;
+	min-height: 41px;
+	padding-left: 18px;
+	text-decoration: none;
+	width: 203px;
+}
+
+* html #sidebarContent div.sidebarButton a {
+	min-height: 41px
+}
+
+#sidebarContent div.sidebarButton a img {
+	display: block;
+	float: left;
+	height: 24px;
+	margin: 6px 0 0;
+	width: 24px;
+}
+
+#sidebarContent div.sidebarButton a span {
+	background: none repeat scroll 0 0 transparent !important;
+	color: #0181E3 !important;
+	display: block !important;
+	font-weight: bold !important;
+	margin: 10px 15px 10px 30px !important;
+	text-decoration: underline !important;
+}
+
+#sidebarContent div.sidebarButton a:hover {
+	color: #0181E3 !important
+}
+
+#sidebarContent div.sidebarButton a:active {
+	color: #2C2C2C !important
+}
+
+#sidebarContent div.sidebarButton a:visited {
+	color: #0181E3 !important
+}
+
+#sidebarContent div.sidebarButton a.green {
+	background: url("/content/dam/skype/images/buttons/sidebar/green_sidebar.png") no-repeat scroll 0 bottom transparent !important
+}
+
+#sidebarContent div.sidebarButton a.green:hover {
+	background: url("/content/dam/skype/images/buttons/sidebar/green_sidebar.png") no-repeat scroll -221px bottom transparent !important
+}
+
+#sidebarContent div.sidebarButton a.green:active {
+	background: url("/content/dam/skype/images/buttons/sidebar/green_sidebar.png") no-repeat scroll -442px bottom transparent !important
+}
+
+#sidebarContent div.sidebarButton a.yellow {
+	background: url("/content/dam/skype/images/buttons/sidebar/yellow_sidebar.png") no-repeat scroll 0 bottom transparent !important
+}
+
+#sidebarContent div.sidebarButton a.yellow:hover {
+	background: url("/content/dam/skype/images/buttons/sidebar/yellow_sidebar.png") no-repeat scroll -221px bottom transparent !important
+}
+
+#sidebarContent div.sidebarButton a.yellow:active {
+	background: url("/content/dam/skype/images/buttons/sidebar/yellow_sidebar.png") no-repeat scroll -442px bottom transparent !important
+}
+
+#sidebarContent div.sidebarButton a.blue {
+	background: url("blue_sidebar.png") no-repeat scroll 0 bottom transparent !important
+}
+
+#sidebarContent div.sidebarButton a.blue:hover {
+	background: url("blue_sidebar.png") no-repeat scroll -221px bottom transparent !important
+}
+
+#sidebarContent div.sidebarButton a.blue:active {
+	background: url("blue_sidebar.png") no-repeat scroll -442px bottom transparent !important
+}
+
+#sidebar #sidebarContent ul {
+	list-style: circle inside none
+}
+
+ #sidebar #sidebarContent ul li.title {
+	 list-style: none outside none;
+	 margin: 0;
+	 padding: 0;
+ }
+
+#sidebarContent ul li strong.sidebarHeading {
+	display: inline
+}
+
+#header {
+	font-size: 0.786em;
+	font-weight: bold;
+	line-height: 47px;
+	margin: 0 auto 5px;
+	overflow: hidden;
+	padding: 20px 0 0;
+	width: 960px;
+}
+
+ #header form {
+	 display: inline
+ }
+
+ #footer fieldset,
+ #header fieldset {
+	 display: inline;
+	 line-height: 1em;
+	 vertical-align: middle;
+ }
+
+ #header #searchSet {
+	 display: inline
+ }
+
+#skypeLogo {
+	float: left;
+	overflow: auto;
+	text-decoration: none;
+	width: 15%;
+}
+
+ #skypeLogo img {
+	 display: inline;
+	 float: left;
+	 margin: 0 15px 0 20px;
+ }
+
+ #skypeLogo span {
+	 color: #7FD7F7;
+	 display: block;
+	 float: left;
+ }
+
+#headerNavigation {
+	color: #AFB4B4;
+	float: right;
+	text-align: right;
+	width: 85%;
+}
+
+ #headerNavigation a {
+	 color: #00AFF0;
+	 margin: 0 4px;
+	 text-decoration: none;
+ }
+
+ #headerNavigation a:hover {
+	 text-decoration: underline
+ }
+
+ #headerNavigation input {
+	 margin: 0 20px 0 6px
+ }
+
+ #headerNavigation span {
+	 color: #636363;
+	 margin: 0;
+ }
+
+#footer {
+	background: url("/content/dam/skype/images/backgrounds/bottom_gradient.png") repeat-x scroll left top white;
+	clear: both;
+	color: #AFB4B4;
+	font-size: 0.786em;
+	height: 75px;
+	margin: 60px 0 0;
+	padding: 14px;
+}
+
+ #footer a {
+	 color: #636363;
+	 margin: 0 4px;
+	 text-decoration: none;
+ }
+
+ #footer a:hover {
+	 color: #444444;
+	 text-decoration: underline;
+ }
+
+ #footer strong {
+	 color: #7FD7F7;
+	 margin: 0 4px;
+ }
+
+#userPreferencesForm {
+	margin: 0 auto;
+	overflow: auto;
+	width: 960px;
+}
+
+#footerNavigation {
+	float: left;
+	line-height: 26px !important;
+	padding: 0 0 0 20px;
+}
+
+ #footerNavigation select {
+	 margin: 0 10px 0 5px
+ }
+
+ #footerNavigation .flag {
+	 margin-top: 5px
+ }
+
+#userLanguage {
+	width: 185px
+}
+
+#legalLinks {
+	float: right;
+	line-height: 26px !important;
+	padding: 0 20px 0 0;
+	text-align: right;
+}
+
+ #legalLinks span {
+	 margin: 0 0 0 4px
+ }
+
+#mainNavigation {
+	background: url("/content/dam/skype/images/backgrounds/navigation_blue.png") repeat-x scroll left bottom white;
+	border-bottom: 1px solid #7FD7F7;
+	min-height: 31px;
+}
+
+* html #mainNavigation {
+	height: 31px
+}
+
+#mainNavigation ul,
+#subNavigation ul {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 0 0 100px;
+	width: 860px;
+}
+
+#mainNavigation li {
+	display: inline;
+	float: left;
+	font-size: 1.143em;
+	font-weight: bold;
+	margin: 0 -20px 0 30px;
+	min-height: 24px;
+	padding-left: 2px;
+}
+
+* html #mainNavigation li {
+	height: 25px
+}
+
+#mainNavigation li a,
+#mainNavigation li strong {
+	color: #636363;
+	display: block;
+	min-height: 20px;
+	padding: 8px 10px 4px 8px;
+	text-decoration: none;
+}
+
+#mainNavigation li.active a {
+	cursor: pointer;
+	padding: 0;
+}
+
+#mainNavigation li.active,
+#mainNavigation li.active a,
+#mainNavigation li.active strong {
+	background: none repeat scroll 0 0 #7FD7F7;
+	color: white;
+}
+
+#mainNavigation li.active,
+#mainNavigation li.hover {
+	background: url("/content/dam/skype/images/backgrounds/navi_top_left.png") no-repeat scroll left top #7FD7F7
+}
+
+ #mainNavigation li.active strong,
+ #mainNavigation li.hover a {
+	 background: url("/content/dam/skype/images/backgrounds/navi_top_right.png") no-repeat scroll right top #7FD7F7
+ }
+
+ #mainNavigation li.hover a {
+	 color: white
+ }
+
+#mainNavigation ul.shopWithRibbon li#main-menu-shop {
+	background: url("navigation_blue_ribbon.png") no-repeat scroll right bottom transparent;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+ #mainNavigation ul.shopWithRibbon li#main-menu-shop a,
+ #mainNavigation ul.shopWithRibbon li#main-menu-shop strong {
+	 padding: 8px 14px 4px 7px
+ }
+
+#mainNavigation ul.shopWithRibbon li#main-menu-shop.active,
+#mainNavigation ul.shopWithRibbon li#main-menu-shop.hover {
+	background: url("/content/dam/skype/images/backgrounds/navi_top_left.png") no-repeat scroll left top #7FD7F7;
+	border: medium none;
+}
+
+ #mainNavigation ul.shopWithRibbon li#main-menu-shop.active strong,
+ #mainNavigation ul.shopWithRibbon li#main-menu-shop.hover a {
+	 background: url("/content/dam/skype/images/backgrounds/navi_top_right_ribbon.png") no-repeat scroll right top #7FD7F7;
+	 padding: 8px 15px 4px 8px;
+ }
+
+ #mainNavigation ul.shopWithRibbon li#main-menu-shop.active a {
+	 padding: 0
+ }
+
+#mainNavigation ul.shopWithGift li#main-menu-shop {
+	background: url("navigation_blue_gift.png") no-repeat scroll left bottom transparent;
+	padding-left: 25px;
+}
+
+ #mainNavigation ul.shopWithGift li#main-menu-shop a,
+ #mainNavigation ul.shopWithGift li#main-menu-shop strong {
+	 padding: 8px 10px 4px 6px
+ }
+
+#mainNavigation ul.shopWithGift li#main-menu-shop.active,
+#mainNavigation ul.shopWithGift li#main-menu-shop.hover {
+	background: url("/content/dam/skype/images/backgrounds/navi_top_left_gift.png") no-repeat scroll left top #7FD7F7
+}
+
+ #mainNavigation ul.shopWithGift li#main-menu-shop.active a {
+	 padding: 0
+ }
+
+#subNavigation {
+	position: relative;
+	z-index: 9999;
+}
+
+ #subNavigation ul {
+	 font-size: 0.929em
+ }
+
+ #subNavigation li {
+	 background: url("subnavi_back.png") repeat scroll 0 0 transparent;
+	 display: inline;
+	 float: left;
+	 font-size: 1em;
+	 margin: 0 -25px 0 25px;
+	 padding: 7px 15px 5px;
+	 white-space: nowrap;
+ }
+
+ #subNavigation li a {
+	 color: #636363;
+	 font-weight: normal;
+	 text-decoration: none;
+ }
+
+ #subNavigation li a:hover {
+	 color: #444444;
+	 text-decoration: underline;
+ }
+
+ #subNavigation li.active a:hover {
+	 text-decoration: none
+ }
+
+ #subNavigation li strong {
+	 color: #7FD7F7
+ }
+
+.cond-default {
+	display: block
+}
+
+.cond-existing,
+.cond-30days {
+	display: none
+}
+
+#content .chevron {
+	background: url("chevron.png") repeat-x scroll right center transparent;
+	display: inline;
+	height: 16px;
+	margin: 2px 16px 0 0 !important;
+	padding: 0 !important;
+}
+
+.chevron li {
+	background: none repeat scroll 0 0 #FFFFFF;
+	color: #939393;
+	display: inline;
+	float: left;
+	font-weight: bold;
+	list-style: none outside none;
+	margin: 0 0 0 22px;
+	padding: 0 4px 0 26px !important;
+}
+
+.chevron li.current {
+	color: #000000
+}
+
+.chevron li.first {
+	margin-left: 0
+}
+
+.chevron li.step1,
+.chevron li.step2,
+.chevron li.step3,
+.chevron li.step4,
+.chevron li.step5,
+.chevron li.step6,
+.chevron li.step7,
+.chevron li.step8,
+.chevron li.step9 {
+	-moz-background-clip: border;
+	-moz-background-origin: padding;
+	-moz-background-size: auto auto;
+	background-attachment: scroll;
+	background-color: #FFFFFF;
+	background-image: none;
+	background-position: 4px 0 !important;
+	background-repeat: no-repeat;
+	padding-left: 26px;
+}
+
+.chevron li.step1 {
+	background-image: url("grey_1_small.png")
+}
+
+.chevron li.step1.current {
+	background-image: url("blue_1_small.png")
+}
+
+.chevron li.step2 {
+	background-image: url("grey_2_small.png")
+}
+
+.chevron li.step2.current {
+	background-image: url("blue_2_small.png")
+}
+
+.chevron li.step3 {
+	background-image: url("grey_3_small.png")
+}
+
+.chevron li.step3.current {
+	background-image: url("blue_3_small.png")
+}
+
+.naviSteps {
+	font-weight: bold
+}
+
+ .naviSteps span {
+	 color: #98D112;
+	 padding: 0 0.25em;
+ }

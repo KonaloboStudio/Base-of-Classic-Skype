@@ -1,0 +1,1524 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #00489F;
+   text-decoration: underline;
+}
+a:active
+{
+   color: #0064DD;
+}
+a:hover
+{
+   color: #0064DD;
+   text-decoration: underline;
+}
+#SKYLIB3_HEADER
+{
+   background-image: linear-gradient(to bottom, #FFFFFF 0%, #F8F8F8 34%, #E1E1E1 34%, #F6F6F6 70%, #E5F7FD 70%, #E5F7FD 100%);
+   border-radius: 0px;
+   box-sizing: border-box;
+}
+#SKYLIB3_HEADER
+{
+   transition: top 150ms linear 0ms;
+}
+#SKYLIB3_HEADER.scroll-up
+{
+   top: -115px !important;
+}
+#wb_SEP5
+{
+   vertical-align: top;
+}
+#SEP5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP4
+{
+   vertical-align: top;
+}
+#SEP4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP10
+{
+   vertical-align: top;
+}
+#SEP10
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP11
+{
+   vertical-align: top;
+}
+#SEP11
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP9
+{
+   vertical-align: top;
+}
+#SEP9
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP8
+{
+   vertical-align: top;
+}
+#SEP8
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SKYLIB_HEADER_IF
+{
+   box-sizing: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   margin: 0;
+}
+#GROUPS
+{
+   background-color: #00B0F1;
+   background-image: url('images/header-bg-playblog.png');
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   border-radius: 0px;
+}
+#wb_GROUPS_TEXT 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 25px;
+   margin: 0;
+   text-align: left;
+}
+#wb_GROUPS_TEXT div
+{
+   text-align: left;
+}
+#GROUP_MAININFO
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#GROUP_ADDGROUP
+{
+   top: 0px;
+   width: 217px;
+   height: 109px;
+   background-image: linear-gradient(to top, #DD5800 0%, #FFA71C 100%);
+   border: 2px #FF8927 solid;
+   border-radius: 1px;
+}
+#GROUP_ADDGROUP:hover
+{
+   background-image: linear-gradient(to top, #E05300 0%, #FC6800 100%);
+   border: 2px #FFA71C solid;
+}
+#GROUP_ADDGROUP_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 0.46%;
+   top: 0.92%;
+   width: 98.62%;
+   height: 97.25%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#group1
+{
+   background-color: transparent;
+   background-image: url('images/SKYLIB_GROUP_BOX.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   border-radius: 7px;
+   box-shadow: 0px 0px 5px #4F4F4F;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 0 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 7px 5px 8px 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text2 div
+{
+   text-align: right;
+}
+#wb_Image4
+{
+   vertical-align: top;
+}
+#Image4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Shape6
+{
+   top: 0px;
+   width: 216px;
+   height: 46px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape6:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape6_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 3.24%;
+   top: 15.22%;
+   width: 93.06%;
+   height: 67.39%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_GROUP_MAINTEXTTEXT 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0 15px 25px;
+   margin: 0;
+   text-align: left;
+}
+#wb_GROUP_MAINTEXTTEXT div
+{
+   text-align: left;
+}
+#SKYLIB_FOOTER_IF
+{
+   box-sizing: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   margin: 0;
+}
+#wb_Image9
+{
+   vertical-align: top;
+}
+#Image9
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 2px 0 2px 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image31
+{
+   vertical-align: top;
+}
+#Image31
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 2px 0 2px 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#group1_connect
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#group1_connect .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DDDDDD;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#group1_connect.modal
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#group1_connect .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#group1_connect .modal-open
+{
+   overflow: hidden;
+}
+#group1_connect .modal-dialog
+{
+   position: relative;
+   width: 510px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#group1_connect .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#group1_connect .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #008BBF;
+   border-bottom: 1px solid #59CAF4;
+}
+#group1_connect .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #59CAF4;
+}
+#group1_connect .modal-body
+{
+   position: relative;
+   width: 510px;
+   height: 300px;
+}
+#group1_connect .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #FFFFFF;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#group1_connect .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: 1.75rem auto;
+   min-height: calc(100% - 3.5rem);
+   pointer-events: none;
+}
+#group1_connect .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#group1_connect .modal-title
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   text-align: left;
+   margin: 0;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text19
+{
+   color: #3C3C3C;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+}
+#wb_Text19 p, #wb_Text19 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Shape8
+{
+   top: 0px;
+   width: 479px;
+   height: 48px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape8:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape8_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 1.46%;
+   top: 14.58%;
+   width: 96.87%;
+   height: 68.75%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#group2
+{
+   background-color: transparent;
+   background-image: url('images/SKYLIB_GROUP_BOX.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   border-radius: 7px;
+   box-shadow: 0px 0px 5px #4F4F4F;
+}
+#wb_Image5
+{
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#Shape1
+{
+   top: 0px;
+   width: 216px;
+   height: 46px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape1:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape1_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 3.24%;
+   top: 15.22%;
+   width: 93.06%;
+   height: 67.39%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Image6
+{
+   vertical-align: top;
+}
+#Image6
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 0 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text10 div
+{
+   text-align: left;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 7px 5px 8px 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text11 div
+{
+   text-align: right;
+}
+#WARN_GR_SUP_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+    left: 2.28%;
+   top: 2.5%;
+   width: 97.5%;
+   height: 92.5%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: left;
+   word-wrap: break-word;
+}
+#group3
+{
+   background-color: transparent;
+   background-image: url('images/SKYLIB_GROUP_BOX.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   border-radius: 7px;
+   box-shadow: 0px 0px 5px #4F4F4F;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 0 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#Shape2
+{
+   top: 0px;
+   width: 216px;
+   height: 46px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape2:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape2_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 3.24%;
+   top: 15.22%;
+   width: 93.06%;
+   height: 67.39%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 7px 5px 8px 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text12 div
+{
+   text-align: right;
+}
+#wb_Image8
+{
+   vertical-align: top;
+}
+#Image8
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 2px 0 2px 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#group3_connect
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#group3_connect .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DDDDDD;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#group3_connect.modal
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#group3_connect .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#group3_connect .modal-open
+{
+   overflow: hidden;
+}
+#group3_connect .modal-dialog
+{
+   position: relative;
+   width: 510px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#group3_connect .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#group3_connect .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #008BBF;
+   border-bottom: 1px solid #59CAF4;
+}
+#group3_connect .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #59CAF4;
+}
+#group3_connect .modal-body
+{
+   position: relative;
+   width: 510px;
+   height: 175px;
+}
+#group3_connect .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #FFFFFF;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#group3_connect .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: 1.75rem auto;
+   min-height: calc(100% - 3.5rem);
+   pointer-events: none;
+}
+#group3_connect .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#group3_connect .modal-title
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   text-align: left;
+   margin: 0;
+}
+#Shape3
+{
+   top: 0px;
+   width: 479px;
+   height: 48px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape3:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape3_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 1.46%;
+   top: 14.58%;
+   width: 96.87%;
+   height: 68.75%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text13
+{
+   color: #3C3C3C;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+#wb_Text13 p, #wb_Text13 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#group4
+{
+   background-color: transparent;
+   background-image: url('images/SKYLIB_GROUP_BOX.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   border-radius: 7px;
+   box-shadow: 0px 0px 5px #4F4F4F;
+}
+#wb_Image7
+{
+   vertical-align: top;
+}
+#Image7
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#wb_Text14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 0 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text14 div
+{
+   text-align: left;
+}
+#wb_Image10
+{
+   vertical-align: top;
+}
+#Image10
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#Shape4
+{
+   top: 0px;
+   width: 216px;
+   height: 46px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape4:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape4_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 3.24%;
+   top: 15.22%;
+   width: 93.06%;
+   height: 67.39%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text15 div
+{
+   text-align: left;
+}
+#wb_Text16 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text16 div
+{
+   text-align: left;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 7px 5px 8px 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text17 div
+{
+   text-align: right;
+}
+#wb_Image11
+{
+   vertical-align: top;
+}
+#Image11
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 2px 0 2px 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#group4_connect
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#group4_connect .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DDDDDD;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#group4_connect.modal
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#group4_connect .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#group4_connect .modal-open
+{
+   overflow: hidden;
+}
+#group4_connect .modal-dialog
+{
+   position: relative;
+   width: 510px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#group4_connect .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#group4_connect .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #008BBF;
+   border-bottom: 1px solid #59CAF4;
+}
+#group4_connect .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #59CAF4;
+}
+#group4_connect .modal-body
+{
+   position: relative;
+   width: 510px;
+   height: 175px;
+}
+#group4_connect .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #FFFFFF;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#group4_connect .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: 1.75rem auto;
+   min-height: calc(100% - 3.5rem);
+   pointer-events: none;
+}
+#group4_connect .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#group4_connect .modal-title
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   text-align: left;
+   margin: 0;
+}
+#Shape5
+{
+   top: 0px;
+   width: 479px;
+   height: 48px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape5:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape5_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 1.46%;
+   top: 14.58%;
+   width: 96.87%;
+   height: 68.75%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text18
+{
+   color: #3C3C3C;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+#wb_Text18 p, #wb_Text18 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#group5
+{
+   background-color: transparent;
+   background-image: url('images/SKYLIB_GROUP_BOX.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   border-radius: 7px;
+   box-shadow: 0px 0px 5px #4F4F4F;
+}
+#wb_Image12
+{
+   vertical-align: top;
+}
+#Image12
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#wb_Text20 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 0 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text20 div
+{
+   text-align: left;
+}
+#wb_Image13
+{
+   vertical-align: top;
+}
+#Image13
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#wb_Text21 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text21 div
+{
+   text-align: left;
+}
+#wb_Text22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text22 div
+{
+   text-align: left;
+}
+#wb_Text23 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 7px 5px 8px 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text23 div
+{
+   text-align: right;
+}
+#wb_Image14
+{
+   vertical-align: top;
+}
+#Image14
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 2px 0 2px 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape7
+{
+   top: 0px;
+   width: 216px;
+   height: 46px;
+   background-image: linear-gradient(to top, #01A0D9 0%, #57CCF7 100%);
+   border: 1px #59CAF4 solid;
+   border-radius: 13px;
+   box-shadow: 1px 1px 8px rgba(25,140,182,0.78);
+}
+#Shape7:hover
+{
+   background-image: linear-gradient(to top, #0094CB 0%, #3CBEEE 100%);
+   border: 1px #00BFFF solid;
+}
+#Shape7_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 3.24%;
+   top: 15.22%;
+   width: 93.06%;
+   height: 67.39%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#SKYLIB_FOOTER
+{
+   background-color: #00AFF0;
+   background-image: url('images/getskype.jpg');
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   border-radius: 0px;
+   box-sizing: border-box;
+}

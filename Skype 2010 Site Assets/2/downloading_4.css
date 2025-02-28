@@ -1,0 +1,1058 @@
+/* Skype 3.5 Gold */
+
+* html .blue-out {
+	height: 210px;
+}
+.s35gold .blue-in-gold {
+	padding: 0 25px 100px 251px;
+	min-height: 110px;
+	background: transparent url(/i_preairlift/images/download/win35gold/s35_dl_bottom.png) right bottom no-repeat;
+}
+
+* html .blue-in-gold {
+	height: 113px;
+}
+
+.s35gold .blue-in-gold h1 {
+	color: white;
+	font: bold 31px Arial, Helvetica, sans-serif;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.s35gold a.download-button {
+	display: block;
+	position: absolute;
+	font-size: 18px;
+	line-height: 31px;
+	background: transparent url(/i_preairlift/images/download/win32beta/download_button_left.png) left top no-repeat;
+	text-decoration: none;
+	padding: 0 1px 0 4px;
+	margin-top: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+}
+.s35gold a.download-button strong {
+	padding: 0 10px 0 5px;
+	background: transparent url(/i_preairlift/images/download/win32beta/download_button_right.png) right top no-repeat;
+	display: block;
+}
+
+.col-3L, .col-3C, .col-3R {
+	text-align: center;
+	float: left;
+	padding: 100px 15px 0;
+	width: 150px;
+}
+
+.skypemoods {
+	background: white url(/i_preairlift/images/download/win35gold/skypemoods_icon.png) top center no-repeat;
+}
+.snapshot {
+	background: white url(/i_preairlift/images/download/win35gold/videosnapshot_icon.png) top center no-repeat;
+}
+.calltransfer {
+	background: white url(/i_preairlift/images/download/win35gold/calltransfer_icon.png) top center no-repeat;
+}
+.highqualityvideo {
+	float: left;
+	padding: 32px 0 10px 120px;
+	background: white url(/i_preairlift/images/download/win36gold/highqualityvideo_icon.png) top left no-repeat;
+}
+
+p.downloading, ul.downloading {
+	margin-left: 70px;
+}
+h3.downloading {
+	padding-left: 70px;
+	line-height: 67px;
+	margin-bottom: -10px;
+	font-size: 1.1em;
+}
+h3.step1 {
+	background: white url(/i_preairlift/images/downloading/step_1.png) top left no-repeat;
+}
+h3.step2 {
+	background: white url(/i_preairlift/images/downloading/step_2.png) top left no-repeat;
+}
+h3.step3 {
+	background: white url(/i_preairlift/images/downloading/step_3.png) top left no-repeat;
+}
+div.newskype {
+	margin: 30px 0 15px 0;
+	width: 540px;
+	height: 95px;
+	line-height: 85px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	background: white url(/i_preairlift/images/downloading/got_the_new_skype.png) top left no-repeat;
+	text-align: center;
+}
+h4 {
+	margin: 0 0 10px 0 !important;
+	padding: 0 10px;
+	background: #F5F5F5 url(/i_preairlift/bg/headers.png) 0 -50px no-repeat;
+	height: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #909090;
+	line-height: 25px;
+	white-space: nowrap;
+	overflow: visible;
+}
+h4.blue {
+	background: #F5F5F5 url(/i_preairlift/bg/headers.png) 0 0 no-repeat;
+	color: white;
+}
+
+/* 1.4 download page */
+
+.setup-beta {
+	margin: 10px 0 0 10px;
+	padding-left: 50px;
+}
+.download-14, .download-skype {
+	padding: 13px 15px 1px 15px !important;
+	background-color: #F1F8FA !important;
+	margin-bottom: 15px !important;
+	border: 1px solid #E0E6E8 !important;
+	background-image: none !important;
+	height: auto !important;
+}
+.download-14 h1 {
+	margin-top: 0;
+}
+.download-14 h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+form#download-14, form#download-14-1, form#download-14-2, form#download-14-3, form#download-14-4 {
+	margin-bottom: 10px;
+}
+div.download-listing {
+	width: 543px;
+	margin: 15px 0 15px 0;
+}
+div.download-listing span {
+	float: left;
+	width: 181px;
+	text-align: center;
+	font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 1.7em;
+	line-height: 35px;
+	padding: 5px 0;
+}
+.download-14 a, .download-14 a:hover, .download-14 a:visited {
+	color: #999;
+}
+h3.setup-beta {
+	background: transparent url(/i_preairlift/images/toolbars/beta.png) left top no-repeat !important;
+	height: 32px  !important;
+	line-height: 32px  !important;
+	padding-left: 45px  !important;
+	margin-left: -1px;
+}
+
+/* beta download */
+
+.download-beta {
+	padding: 5px 10px 1px 10px;
+	background-color: #F1F8FA;
+	margin-bottom: 10px;
+	border: 1px solid #E0E6E8;
+}
+.download-beta img {
+	float: left;
+	margin-right: 10px;
+}
+.download-beta h6 {
+	font-size: 1.1em;
+	margin: 3px 0 5px 0;
+}
+
+pre {
+	border: 1px solid silver;
+	padding: 12px;
+	font-size: 1.1em;
+}
+
+.windowspc, .device {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.windowspc form, .windowspc p, .device form, .device p {
+	padding-left: 28px;
+}
+
+
+.windowspc-icon, .device-icon {
+	background: transparent url(/i_preairlift/images/downloading/windowspc_icon.png) left top no-repeat;
+	padding-left: 28px;
+	line-height: 26px;
+	font-size: 1.1em;
+}
+.device-icon {
+	background-image: url(/i_preairlift/images/downloading/cell_icon.png);
+}
+.windowspc-icon p, .device-icon p {
+	font-size: 0.9em;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	line-height: 160%;
+}
+
+.col-2L, .col-2R {
+	margin-bottom: 10px;
+}
+
+.col-2L h6.gray {
+	background: url(/i_preairlift/bg/headers.png) 0 -50px no-repeat;
+	color: #909090;
+}
+.col-2R h6.gray {
+	background: url(/i_preairlift/bg/headers.png) right -50px no-repeat;
+	color: #909090;
+}
+
+/* emailtoolbars */
+
+div.col3-download div.download-14 {
+	width: 130px;
+	float: left;
+	text-align: center;
+	margin-right: 15px;
+}
+
+div.col3-download div.download-14 img {
+	margin-bottom: 10px;
+}
+
+div.col3-download div.download-14 h3 {
+	font-size: 1.1em;
+	min-height: 35px;
+}
+
+* html div.col3-download div.download-14 h3 {
+	height: 35px;
+}
+
+div.col3-download div.download-14 form {
+	margin-bottom: 10px;
+}
+
+
+/* 2.5 Gold */
+
+.download-left {
+	width: 205px;
+}
+.download-right {
+	width: 335px;
+}
+
+.download-left-26 {
+	width: 220px;
+}
+.download-right-26 {
+	width: 315px;
+}
+
+.download-left h2, .download-left-26 h2 , .download-right h2, .download-right-26 h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 1ex 0 0.2ex;
+}
+
+h3.newdownload {
+	margin: 0 0 10px;
+	padding: 0 10px;
+	height: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 25px;
+	background: url(/i_preairlift/bg/headers.png) 0 -50px no-repeat;
+	color: #909090;
+}
+
+.download-right h2.gray, .download-right-26 h2.gray {
+	margin: 0 0 10px;
+	padding: 0 10px;
+	height: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 25px;
+	background: url(/i_preairlift/bg/hdr_white_335.png) 0 0 no-repeat;
+	color: #909090;
+}
+
+.download {
+	border: 1px solid #e0e6e8;
+	background-color: #f1f8fa;
+	padding: 15px 15px 13px;
+	margin: 4px 0 15px;
+}
+form.download {
+	text-align: center;
+	font: 1.2em Arial, sans-serif;
+}
+form.download strong {
+	margin-left: 10px;
+}
+
+.download-image-left {
+	margin-right: 10px;
+	margin-top: 2px;
+	float: left;
+}
+.download-image-right {
+	margin-left: 20px;
+	margin-top: 2px;
+	float: right;
+}
+
+.setup-widget {
+	border: none;
+	background-color: white;
+}
+
+h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 1.4ex 0 1.2ex 0;
+	clear: both;
+}
+
+div.col-2 div.column {
+	width: 270px;
+	margin-top: 10px;
+	float: left;
+}
+
+div.col-2 div.column a {
+	float: left;
+	width: 55px;
+}
+
+div.col-2 div.column span a {
+	float: none;
+	width: auto;
+}
+
+div.col-2 div.column span {
+	float: right;
+	width: 195px;
+	margin-right: 10px;
+}
+
+/* Linux download */
+
+div.setup-linux {
+	background-color: transparent;
+	border: none;
+}
+
+/* win beta 2.6 download */
+
+.col3 {
+	width: 450px;
+	margin: 0 auto;
+}
+
+.col3-1, .col3-2, .col3-3 {
+	float: left;
+	width: 150px;
+	text-align: center;
+	margin-top: 10px;
+}
+.col3-1 strong, .col3-2 strong, .col3-3 strong {
+	display: block;
+	margin-top: 6px;
+	line-height: 1.45;
+	padding: 0 10px;
+}
+.col3-1 strong span, .col3-2 strong span, .col3-3 strong span {
+	font-weight: normal;
+}
+
+.col4 {
+	width: 540px;
+	margin: 0 auto;
+}
+.col4-1, .col4-2, .col4-3, .col4-4 {
+	float: left;
+	width: 135px;
+	text-align: center;
+	margin-top: 10px;
+}
+.col4-1 strong, .col4-2 strong, .col4-3 strong, .col4-4 strong {
+	display: block;
+	margin-top: 6px;
+	line-height: 1.45;
+	padding: 0 10px;
+}
+.col3-1 strong span, .col3-2 strong span, .col3-3 strong span, .col4-4 strong span {
+	font-weight: normal;
+}
+
+/* Mac 1.5 beta download */
+
+.download-15 {
+	padding: 15px 15px 0px 15px;
+	background-color: #F1F8FA;
+	margin-bottom: 20px;
+	border: 1px solid #E0E6E8;
+	margin-top: 10px;
+}
+.download-15 h1 {
+	margin-top: 0;
+}
+.download-15 h3 {
+	margin-top: 0;
+}
+.download-15 a, .download-15 a:hover, .download-15 a:visited {
+	color: #999;
+}
+form#download-15,
+form#download-20,
+form#download-widget,
+form#download-mac26b {
+	margin-bottom: 10px;
+}
+form#download-widget,
+form#download-mac26b {
+	margin-top: 5px
+}
+form#download-mac26b {
+	padding-left: 58px;
+}
+.download-15 ul {
+	padding-left: 50px !important;
+}
+div.col-2 div {
+	width: 260px;
+	margin-right: 20px;
+	float: left;
+	margin-top: 15px;
+}
+div.col-2 div.right {
+	margin-right: 0;
+}
+div.col-2 div.clearer {
+	float: none;
+}
+div.col-2 div span {
+	float: left;
+	width: 54px;
+}
+div.col-2 div p {
+	float: right;
+	width: 205px;
+}
+
+div.col-2 div.px53 {
+	margin-top: 0;
+}
+
+div.col-2 div.px53 span {
+	float: left;
+	width: 53px;
+}
+div.col-2 div.px53 p {
+	float: right;
+	width: 195px;
+}
+div.col-2 {
+	margin-top: 10px;
+}
+.warning {
+	padding-left: 25px;
+	background: url(/i_preairlift/images/mac_vp_warning.png) no-repeat top left;
+}
+.threeColumnsUpdate {
+	margin-top: 20px;
+}
+.threeColumnsUpdate div {
+	float: left;
+	width: 250px;
+}
+.threeColumnsUpdate span img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 60px;
+}
+.threeColumnsUpdate p {
+	padding-right: 10px;
+}
+
+.twoColumnsUpdate {
+	margin-top: 20px;
+}
+.twoColumnsUpdate div {
+	float: left;
+	width: 375px;
+}
+.twoColumnsUpdate span img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 60px;
+}
+.twoColumnsUpdate p {
+	padding-right: 10px;
+}
+#whats-new {
+	border: 1px solid #e0e6e8;
+	background: #f1f8fa;
+	padding: 14px;
+	margin-bottom: 20px;
+}
+#whats-new div.left,
+#whats-new div.right {
+	width: 246px;
+}
+#whats-new div p {
+	padding-left: 56px;
+	margin-bottom: 0;
+}
+#whats-new h3 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #00aff0;
+	font: bold 1.5em Arial, Helvetica, sans-serif;
+}
+.download-25 {
+	background: url(/i_preairlift/images/mac_25_shot.png) no-repeat top left;
+	padding: 0 20px;
+	height: 215px;
+	margin-bottom: 20px;
+}
+.download-25 .spy {
+	margin: 20px 0 35px 0;
+}
+div#download-25 {
+	display: block;
+	padding-left: 265px;
+}
+a.dl-button-blue-dgrey {
+	background: url(/i_preairlift/images/dl-button/blue-dgrey-end.png) no-repeat top right;
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 25px 10px 25px;
+	display: block;
+	font: bold 1.5em Arial, Helvetica, sans-serif;
+	line-height: 13px;
+}
+a.dl-button-blue-dgrey:hover,
+a.dl-button-blue-dgrey:visited {
+	color: #FFF;
+}
+span.dl-button-blue-dgrey {
+	background: url(/i_preairlift/images/dl-button/blue-dgrey-start.png) no-repeat top left;
+	color: #FFF;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+div#download-25 p small {
+	color: #FFF;
+	font-size: 0.8em;
+}
+
+/* Skype 3.0 */
+
+.blue-out {
+	background: #00AFF0 url(/i_preairlift/images/download/win3gold/s3g_dl_bottom.png) right bottom no-repeat;
+	min-height: 232px;
+	margin-bottom: 5px;
+}
+* html .blue-out {
+	height: 232px;
+}
+.blue-in {
+	padding: 15px 30px 145px 216px;
+	background: transparent url(/i_preairlift/images/download/win3gold/s3g_dl_top.png) right top no-repeat;
+}
+.blue-in h1 {
+	color: white;
+	font-size: 1.85em;
+	margin: 0;
+	padding: 0;
+}
+
+a.download-button {
+	display: block;
+	position: absolute;
+	font-size: 15px;
+	line-height: 31px;
+	background: transparent url(/i_preairlift/images/download/win3gold/download_button_left.png) left top no-repeat;
+	text-decoration: none;
+	padding: 0 1px 0 4px;
+	margin-top: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+a.download-button strong {
+	padding: 0 10px 0 5px;
+	background: transparent url(/i_preairlift/images/download/win3gold/download_button_right.png) right top no-repeat;
+	display: block;
+}
+
+/* Skype 3.1 business */
+
+.yellow-out {
+	background: #ffdd01 url(/i_preairlift/images/download/win31business/s31business_dl_bottom.png) right bottom no-repeat;
+	min-height: 232px;
+	margin-bottom: 5px;
+}
+* html .yellow-out {
+	height: 232px;
+}
+.yellow-in {
+	padding: 50px 30px 145px 275px;
+	background: transparent url(/i_preairlift/images/download/win31business/s31business_dl_top.png) right top no-repeat;
+}
+.yellow-in h1 {
+	color: white;
+	font-size: 1.85em;
+	margin: 0;
+	padding: 0;
+}
+
+a.download-button-y {
+	display: block;
+	position: absolute;
+	font-size: 17px;
+	line-height: 33px;
+	background: transparent url(/i_preairlift/images/download/win31business/download_button_left.png) left top no-repeat;
+	text-decoration: none;
+	padding: 0 1px 0 4px;
+	margin-top: 10px;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+}
+a.download-button-y:hover {
+	color: #fff;
+	text-decoration: none;
+
+}
+a.download-button-y strong {
+	padding: 2px 20px 0 20px;
+	background: transparent url(/i_preairlift/images/download/win31business/download_button_right.png) right top no-repeat;
+	display: block;
+}
+
+#skypefind {
+	float: left;
+	width: 200px;
+	min-height: 70px;
+	padding: 7px 0 0 70px;
+	background: url(/i_preairlift/images/download/win31business/skypefind_ico.png) left top no-repeat;
+}
+
+* html #skypefind {
+	height: 70px;
+}
+
+#premium {
+	float: right;
+	width: 200px;
+	min-height: 70px;
+	padding: 7px 0 0 65px;
+	background: url(/i_preairlift/images/download/win31business/premium_ico.png) left top no-repeat;
+}
+
+* html #premium {
+	height: 70px;
+}
+
+.interface, .publicchats, .moodmessages, .clicktocall, .extras {
+	padding-left: 60px;
+	min-height: 46px;
+	font-weight: bold;
+}
+* html .interface, * html .publicchats, * html .moodmessages, * html .clicktocall, * html .extras {
+	height: 46px;
+}
+.interface {
+	background: transparent url(/i_preairlift/images/download/win3gold/s3g_dl_personal.png) left top no-repeat;
+}
+ .publicchats {
+	background: transparent url(/i_preairlift/images/download/win3gold/s3g_dl_publicchats.png) left top no-repeat;
+}
+.moodmessages {
+	background: transparent url(/i_preairlift/images/download/win3gold/s3g_dl_moodlinks.png) left top no-repeat;
+}
+.extras {
+	background: transparent url(/i_preairlift/images/download/win3gold/s3g_dl_extras.png) left top no-repeat;
+}
+.clicktocall {
+	background: transparent url(/i_preairlift/images/download/win3gold/s3g_dl_clickcall.png) left top no-repeat;
+}
+
+div.helloagain-cols {
+	margin: -5px 0 10px 0;
+}
+div.helloagain-cols .left, div.helloagain-cols .right {
+	float: left;
+}
+div.helloagain-cols .left {
+	width: 190px;
+	margin-right: 20px;
+}
+div.helloagain-cols .right {
+	width: 190px;
+}
+
+/* steps */
+
+.graphical-steps {
+	padding-left: 40px !important;
+	margin-top: 28px;
+}
+* html .graphical-steps {
+    height: 33px !important;
+}
+.step1 {
+    background: transparent url(/i_preairlift/images/bullet_numbers/step1_bullet_light.png) 0 0 no-repeat !important;
+}
+.step2 {
+    background: transparent url(/i_preairlift/images/bullet_numbers/step2_bullet_light.png) 0 0 no-repeat !important;
+}
+.step3 {
+    background: transparent url(/i_preairlift/images/bullet_numbers/step3_bullet_light.png) 0 0 no-repeat !important;
+}
+.step4 {
+    background: transparent url(/i_preairlift/images/bullet_numbers/step4_bullet_light.png) 0 0 no-repeat !important;
+}
+.step5 {
+    background: transparent url(/i_preairlift/images/bullet_numbers/step5_bullet_light.png) 0 0 no-repeat !important;
+}
+.step6 {
+    background: transparent url(/i_preairlift/images/bullet_numbers/step6_bullet_light.png) 0 0 no-repeat !important;
+}
+.graphical-steps h2 {
+	margin: 0 !important;
+	padding: 5px 0 0 0 !important;
+}
+
+
+/* Skype 3.1 Beta */
+.blue-in-beta {
+	padding: 15px 30px 145px 216px;
+	background: transparent url(/i_preairlift/images/download/win3gold/s3g_dl_top.png) right top no-repeat;
+}
+.blue-in-beta h1 {
+	color: white;
+	font-size: 1.7em;
+	margin: 0;
+	padding: 0;
+}
+
+/* Blue gradient box */
+
+div.blue-gradient-back {
+	background: #6cd1f6 url(/i_preairlift/images/controlpanel/blue-back.png);
+	width: 540px;
+	margin-bottom: 20px;
+}
+div.blue-gradient-start {
+	background: url(/i_preairlift/images/controlpanel/blue-start.png) no-repeat top left;
+}
+div.blue-gradient-end {
+	background: url(/i_preairlift/images/controlpanel/blue-end.png) no-repeat bottom left;
+	padding: 12px 17px 5px 17px;
+}
+div.blue-gradient-end .content {
+	font: bold 1.3em/1.4em Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+div.blue-gradient-end .content a,
+div.blue-gradient-end .content-normal a {
+	color: #FFF;
+}
+div.blue-gradient-end .content-normal {
+	color: #FFF;
+	padding-left: 100px;
+}
+div.blue-gradient-end .content-normal-download {
+	margin:6px 0 0 0;
+	color: #FFF;
+	font: bold 1.3em/1.4em Arial, Helvetica, sans-serif;
+}
+div.blue-gradient-end h1 {
+	margin: 0;
+	font: bold 18px Arial, Helvetica, sans-serif;
+}
+div.blue-gradient-end p.links {
+	margin-top: -10px;
+	margin-bottom: 0;
+}
+/* Skype 3.1 Gold */
+
+
+.green-out {
+	background: #87c80a url(/i_preairlift/images/download/win31gold/s31g_dl_top.png) right top no-repeat;
+	margin-bottom: 10px;
+}
+.green-in {
+	padding: 25px 25px 100px 251px;
+	background: transparent url(/i_preairlift/images/download/win31gold/s31g_dl_bottom.png) right bottom no-repeat;
+	min-height: 110px;
+}
+* html .green-in {
+	height: 110px;
+}
+
+.green-in h1 {
+	color: white;
+	font: bold 31px Arial, Helvetica, sans-serif;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.green-in a.dl-button-blue-green {
+	background: url(/i_preairlift/images/dl-button/blue-green-end.png) no-repeat top right;
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 25px 10px 25px;
+	display: block;
+	font: bold 1.5em Arial, Helvetica, sans-serif;
+	line-height: 13px;
+}
+.green-in a.dl-button-blue-green:hover,
+.green-in a.dl-button-blue-green:visited {
+	color: #FFF;
+}
+.green-in span.dl-button-blue-green {
+	background: url(/i_preairlift/images/dl-button/blue-green-start.png) no-repeat top left;
+	color: #FFF;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+.smallprint {
+	font-size: 1.0em !important;
+}
+p.column {
+	width: 260px;
+	display: inline;
+	min-height: 65px;
+}
+p.column span {
+	width: 185px;
+	float: right;
+}
+* html p.column {
+	height: 65px;
+}
+p.skypefind {
+	background: url(/i_preairlift/images/download/win31gold/feature_skypefind.png) no-repeat top left;
+}
+p.premiumcalls {
+	background: url(/i_preairlift/images/download/win31gold/feature_premiumcalls.png) no-repeat top left;
+}
+
+/* Mac 2.6 beta */
+ul.features li {
+	margin: 0 0 2px 25px;
+	padding: 0;
+	list-style: none;
+	float: left;
+	width: 240px;
+	display: inline;
+	padding: 3px 0 8px 0;
+}
+ul.features li a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 30px;
+}
+ul.features li span {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 30px;
+	display: block;
+	height: 28px;
+}
+ul.features li.feat1 {
+	background: white url(/i_preairlift/images/brand/feat1.png) top left no-repeat;
+}
+ul.features li.feat2 {
+	background: white url(/i_preairlift/images/brand/feat2.png) top left no-repeat;
+}
+ul.features li.feat3 {
+	background: white url(/i_preairlift/images/brand/feat3.png) top left no-repeat;
+}
+ul.features li.feat4 {
+	background: white url(/i_preairlift/images/brand/feat4.png) top left no-repeat;
+}
+ul.features li.feat5 {
+	background: white url(/i_preairlift/images/brand/feat5.png) top left no-repeat;
+}
+ul.features li.feat6 {
+	background: white url(/i_preairlift/images/brand/feat6.png) top left no-repeat;
+}
+ul.features li.muchmore a {
+	display: inline;
+	color: #0083B3;
+	padding: 0;
+}
+ul.features li.muchmore {
+	font-weight: bold;
+	color: #333;
+}
+
+/* windows 3.2 gold */
+
+.col-2L, .col-2R {
+	padding-left: 60px !important;
+	width: 200px;
+	margin: 6px 0;
+}
+.sendmoney {
+	background: white url(/i_preairlift/images/download/win32beta/sendmoney.png) top left no-repeat;
+}
+.videosnapshot {
+	background: white url(/i_preairlift/images/download/win32beta/snapshot.png) top left no-repeat;
+}
+.findfriends {
+	background: white url(/i_preairlift/images/download/win32gold/findfriends.png) top left no-repeat;
+}
+.callquality {
+	background: white url(/i_preairlift/images/download/win32beta/callquality.png) top left no-repeat;
+}
+.mic {
+	background: white url(/i_preairlift/images/download/win32beta/mic.png) top left no-repeat;
+}
+
+.blue-out {
+	min-height: 210px;
+	margin-bottom: 10px;
+	padding-top: 25px;
+	background: #00AFF0 url(/i_preairlift/images/download/win32beta/s32b_dl_top.png) right top no-repeat;
+}
+* html .blue-out {
+	height: 210px;
+}
+.s32gold .blue-in-gold {
+	padding: 0 25px 100px 251px;
+	min-height: 110px;
+	background: transparent url(/i_preairlift/images/download/win32gold/s32g_dl_bottom.png) right bottom no-repeat;
+}
+
+* html .blue-in-gold {
+	height: 113px;
+}
+.s32gold .blue-in-gold h1 {
+	color: white;
+	font: bold 31px Arial, Helvetica, sans-serif;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.s32gold a.download-button {
+	display: block;
+	position: absolute;
+	font-size: 18px;
+	line-height: 31px;
+	background: transparent url(/i_preairlift/images/download/win32beta/download_button_left.png) left top no-repeat;
+	text-decoration: none;
+	padding: 0 1px 0 4px;
+	margin-top: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+}
+.s32gold a.download-button strong {
+	padding: 0 10px 0 5px;
+	background: transparent url(/i_preairlift/images/download/win32beta/download_button_right.png) right top no-repeat;
+	display: block;
+}
+
+/* Linux 1.4 Beta */
+
+.linux.download-linux {
+	background: url(/i_preairlift/images/linux_14_shot.png) no-repeat top left;
+	padding: 0 20px;
+	height: 228px;
+	border: 0;
+	margin-bottom: 20px;
+}
+.linux #download-14 {
+	display: block;
+	color: #ffffff;
+	padding: 20px 15px 15px 265px;
+}
+
+.linux #download-14 h1 {
+ 	font: bold 31px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+.linux #download-14 small {
+ 	color: #ffffff !important;
+}
+
+.linux.nospyware {
+	position: relative;
+	right: 0px;
+	top: 30px;
+	margin-left: -45px;
+	width: 45px;
+	height: 50px;
+}
+
+ul.linux.features li {
+	margin: 0 0 15px 15px;
+	padding: 0;
+	list-style: none;
+	float: left;
+	width: 230px;
+	display: inline;
+	padding: 0 0 5px 0;
+	font-weight: normal !important;
+}
+
+ul.linux.features li.ubuntu {
+	background: url(/i_preairlift/images/download/linux14/logo-ubuntu.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li.fedora {
+	background: url(/i_preairlift/images/download/linux14/logo-fedora.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li.mepis {
+	background: url(/i_preairlift/images/download/linux14/logo-mepis.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li.debian {
+	background: url(/i_preairlift/images/download/linux14/logo-debian.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li.xandros {
+	background: url(/i_preairlift/images/download/linux14/logo-xandros.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li.centos {
+	background: url(/i_preairlift/images/download/linux14/logo-centos.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li.mandriva {
+	background: url(/i_preairlift/images/download/linux14/logo-mandriva.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li.opensuse {
+	background: url(/i_preairlift/images/download/linux14/logo-opensuse.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li.dynstatic {
+	background: url(/i_preairlift/images/download/linux14/logo-dynstatic.png) top left no-repeat;
+	height: 36px;
+}
+ul.linux.features li a {
+	color: #0083b3;
+	text-decoration: none;
+	font-weight: normal;
+	padding-left: 48px;
+}

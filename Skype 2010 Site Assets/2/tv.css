@@ -1,0 +1,338 @@
+.floatRight {
+	float: right;
+	padding-top: 20px;
+}
+
+div #topSplash {
+	position: relative;
+	height: 337px;
+	margin: 0 auto 56px auto;
+	width: 960px;
+	background: url(/i/images/backgrounds/skype_tv_bg.png) 230px 0px no-repeat;
+}
+
+div #splashContent {
+	padding: 50px 20px 20px;
+}
+
+div.indexBlue {
+	margin: 4px 0 0 0;
+	background-color: #00aff0;
+	background-image: url(/i/images/backgrounds/top-splash-bg.png);
+	background-repeat: repeat-x;
+}
+
+div.indexBlue h1 {
+	color: #ffffff;
+	width: 350px;
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 0;
+}
+
+div.indexBlue h1.light {
+	color: #b3e7fa;
+	width: 350px;
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 0;
+}
+
+p.extraInfoSmall {
+	width: 300px;
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#textSeperatorHorisontal {
+	background-image: url(/i/images/misc/tv_divider.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 100%;
+	}
+	
+#mainFeatures {
+	display: block;
+	width: 100%;
+	height: auto;
+	min-height: 200px !important;
+	}
+	
+	.mainFeatureLeft {
+		display: block;
+		width: 225px;
+		height: auto;
+		min-height: 150px !important;
+		float: left;
+		background-image: url(/i/images/icons/skype-to-skype.png);
+		background-repeat: no-repeat;
+		background-position: 20px 20px;
+		}
+		
+	.mainFeatureCenter {
+		display: block;
+		width: 230px;
+		height: auto;
+		min-height: 150px !important;
+		float: left;
+		background-image: url(/i/images/backgrounds/skype-video-illustration.png);
+		background-repeat: no-repeat;
+		background-position: 20px 30px;
+		}
+		
+	.mainFeatureRight {
+		display: block;
+		width: 230px;
+		height: auto;
+		min-height: 150px !important;
+		float: left;
+		background-image: url(/i/images/backgrounds/call-phones-too.png);
+		background-repeat: no-repeat;
+		background-position: 20px 10px;
+		}
+		
+	p.mainFeatures {
+		padding-top: 140px;
+	}
+	
+#whatYouNeed {
+	display: inline-block;
+	background-image: url(/i/images/backgrounds/whatyouneed_grad_bg.png);
+	background-repeat: repeat-x;
+	background-color: #c3eaf9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-bottom:medium none;
+	border-top:medium none;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-bottom:10px !important;
+	padding-top:20px !important;
+}
+
+.threeThings {
+	width: 100%;
+	height: auto;
+	position: relative;
+	}
+
+	.firstThing {
+		display: inline;
+		width: 230px;
+		height: auto;
+		float: left;
+		margin-left: 20px;
+		}
+			
+	.secondThing {
+		display: inline;
+		padding-top: 25px;
+		width: 230px;
+		height: auto;
+		float:left;
+		}
+		
+	.thirdThing {
+		display: inline;
+		padding-top: 11px;
+		width: 180px;
+		height: auto;
+		float:left;
+		}
+		
+			p.threeThings {
+			position: relative;
+			bottom: -18px;
+			margin-left: -20px;
+			font-weight: bold;
+			height: auto;
+			width: auto;
+			}
+				
+			p.whatYouNeed {
+			display: inline-block;
+			margin-top: 40px;		
+			}
+
+			
+		
+#skypeTVs {
+	padding-left: 20px;
+	padding-top: 20px;
+	}
+	
+	.firstTV {
+		width: 230px;
+		height: auto;
+		float:left;
+		background-image: url(/i/images/backgrounds/skype-tv.png);
+		background-repeat: no-repeat;
+		}
+		
+	.secondTV {
+		width: 230px;
+		height: auto;
+		float:left;
+		background-image: url(/i/images/backgrounds/skype-tv.png);
+		background-repeat: no-repeat;
+		}
+		
+	.thirdTV {
+		width: 200px;
+		height: auto;
+		float:left;
+		background-image: url(/i/images/backgrounds/skype-tv.png);
+		background-repeat: no-repeat;
+		}
+		
+	#skypeTVs h2 {
+		padding-top: 100px;
+		margin-left: -20px;
+		display: block;	
+		margin-bottom: -25px;
+		}
+	
+
+/** New Get-Skype on your TV **/
+div#contentHeader.bigTvHeader {
+	min-width: 960px;
+	height: auto;
+	background: #00aff0 url(/content/dam/skype/images/tv-top-header-bg.png) repeat-x bottom center;
+}
+div#contentHeader.bigTvHeader .middleContent {
+	width: auto;
+	height: auto;
+	background: url(/content/dam/skype/images/tv-top-header.jpg) no-repeat bottom center;
+}
+div#contentHeader.bigTvHeader .middleContent .copy {
+	margin: 0 auto;
+	padding: 25px 300px 380px 260px;
+	width: 400px;
+}
+div#contentHeader.bigTvHeader .middleContent h1 {
+	font-size: 32px;
+	width: auto;
+	padding: 0;
+	margin: 0;
+}
+#content #paddedContent {
+	padding-right: 0;
+}
+
+div#contentHeader.bigTvHeader .middleContent h2 {
+	font-size: 24px;
+	width: auto;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
+div.helpBubble li {
+	font-size: 14px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #444444;
+	margin-bottom: 10px;
+}
+
+.callFriends {
+	position: relative;
+	padding-bottom: 1px;
+	margin-bottom: 20px;
+}
+	.callFriends .illustrated {
+		margin-top: 10px;
+		padding-left: 315px;
+	}
+	.callFriends .illustration {
+		position: absolute;
+		bottom: 0;
+		left: 10px;
+	}
+	* html .callFriends .illustration {
+		position: static;
+		float: left;
+		margin-left: 10px;
+	}
+
+.tvPanasonic {
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+	.tvPanasonic .illustrated {
+		margin-top: 10px;
+		margin-left: 490px;
+	}
+	.tvPanasonic .illustration {
+		float: left;
+	}
+
+.tvSamsung {
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+	.tvSamsung .illustrated {
+		margin-top: 10px;
+		margin-right: 490px;
+	}
+		.tvSamsung .illustrated h2 img {
+			margin-left: -18px;
+			margin-right: 10px;
+		}
+	.tvSamsung .illustration {
+		float: right;
+	}
+
+.tvLg {
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+	.tvLg .illustrated {
+		margin-top: 10px;
+		margin-left: 490px;
+	}
+	.tvLg .illustration {
+		float: left;
+	}
+
+	.tvLg h2 .soon {
+		font-size: 14px;
+	}
+	.tvLg h2 img {
+		margin-bottom:-30px;
+		margin-left: -60px;
+		margin-right: 20px;
+	}
+
+
+.bubbleLink a.buttonSimpleMedium {
+	margin-right: 10px;
+}
+.bubbleLink a.hasBubble {
+	vertical-align: bottom;
+	display: -moz-inline-box;
+	display: inline-block;
+	color: #afb4b4;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 2px 0 0px 23px;
+	background: url(/i/images/icons/info_with_shadow_20x20_white.png) no-repeat left top;
+}	
+.bubbleLink a.hasBubble:hover {
+	text-decoration: underline;
+}
+
+#content #paddedContent div.helpBubble div.body h2,
+#content #paddedContent div.helpBubble div.body p {
+	padding-left: 0;
+	padding-right: 0;
+}

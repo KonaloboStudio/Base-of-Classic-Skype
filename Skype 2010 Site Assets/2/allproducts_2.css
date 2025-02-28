@@ -1,0 +1,260 @@
+#customHeading {
+	width: 490px;
+}
+
+#customHeading p {
+	margin-top: 5px;
+}
+
+div.additionalInformation.productSpecific p {
+	font: bold 16px Helvetica, Arial, sans-serif;
+	line-height: 25px;
+	color: #2c2c2c;
+	margin: 0 0 0;
+}
+
+div.additionalInformation {
+	margin-bottom: 18px;
+}
+
+div.additionalInformation.products3ColumnList {
+	padding: 23px 0 0;
+}
+
+div.products3ColumnList h2 {
+	padding: 0 0 0 20px;
+}
+
+div.additionalInformation ul {
+	margin-bottom: 19px;
+}
+
+div.products3ColumnList ul li {
+	list-style-type: none;
+}
+
+div.products3ColumnList div.columnL {
+	width: 320px;
+	float: left;
+}
+div.products3ColumnList div.columnC {
+	width: 320px;
+	float: left;
+}
+div.products3ColumnList div.columnR {
+	width: 320px;
+	float: right;
+}
+
+div.products3ColumnList a, div.products3ColumnList a:visited {
+    color: #2C2C2C !important;
+    text-decoration: none !important;
+}
+div.products3ColumnList a:hover {
+    color: #3A9EEB !important;
+    text-decoration: underline !important;
+}
+
+#blueSplash {
+	background: url(/i/images/illustrations/bluesplash_products.png) top left no-repeat;
+	float: right;
+	width: 189px;
+	height: 198px;
+	margin-top: -120px;
+	margin-bottom: -90px;
+	position: relative;
+	z-index: 1000;
+}
+#blueSplash.voicemailToText,
+#blueSplash.skypeCredit {
+	margin-top:-100px;
+}
+
+.light {
+	margin-top: -160px !important;
+	background: url(/i/images/illustrations/bluesplash_products_light.png) !important;
+	z-index: -1 !important;
+}
+
+#blueSplashImg {
+	position: absolute;
+	left: 36px;
+	top: 24px;
+}
+
+#shortRow {
+	width: 505px;
+}
+
+div.leftSide {
+	float: left;
+	width: 570px;
+	margin-bottom: 5px;
+}
+
+div.rightSide {
+	float: right;
+	width: 332px;
+	margin-bottom: 5px;
+}
+
+div.rightSide div.rightPromoBox {
+	padding: 10px 0 0 40px;
+}
+
+div.rightSide div.rightPromoBox h2 {
+	padding: 0;
+}
+
+div.rightSide div.rightPromoBox p {
+	margin-bottom: 9px;
+}
+
+div.rightSide #skypeProPromo {
+    width: 100%;
+	background: transparent url(/i/images/icons/skypepro_46x46_white.png) 0 10px no-repeat;
+}
+div.rightSide #skypeCreditPromo {
+    width: 100%;
+	background: transparent url(/i/images/icons/skypecredit_46x46_white.png) 0 10px no-repeat;
+}
+div.rightSide #subscriptionsPromo {
+    width: 100%;
+	background: transparent url(/i/images/icons/subscriptions_48x48_white.png) 0 10px no-repeat;
+}
+div.leftSide p {
+	margin-top: 10px;
+}
+
+div.videohq_image {
+	padding: 17px 0 0 0;
+	margin-top: -40px;
+}
+#myspaceSkype {
+    margin: -125px 6px -45px 20px !important;
+    position: relative;
+    z-index: 9999;
+}
+#content #paddedContent .contentSplit .leftColumn p,
+#content #paddedContent .contentSplit .leftColumn h2 {
+    padding-right: 0;
+    padding-right: 20px;
+}
+#content #paddedContent .contentSplit .rightColumn p,
+#content #paddedContent .contentSplit .rightColumn h2 {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+div.pageIntro {
+    background: url(/i/images/illustrations/headets-header.png) no-repeat top left;
+    height: 274px;
+    padding-right: 400px;
+    margin: 0 0 30px 0;
+}
+
+    div.pageIntro h1 {
+        font-size: 32px;
+        color: #fff;
+        margin: 0;
+        padding: 30px 0 0 0;
+        width: 260px;
+    }
+    
+    div.pageIntro h2 {
+        margin: 0;
+        padding: 2px 0 0 0;
+        width: 230px;
+    }
+    
+div.featuresOverview h3 {
+    width: 200px;
+    float: left;
+}
+
+    div.featuresOverview {
+        overflow: hidden;
+        margin: 0 0 40px 0;
+    }
+    
+    div.featuresOverview h3 img {
+        display: block;
+        margin: 0 0 20px 0;
+    }
+    
+div.headsetDetails {
+    padding-left: 325px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+#headsetIllustration {
+    float: left;
+    margin: 5px 0 0 -302px;
+}
+
+div.headsetComparison {
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+    #content #paddedContent div.headsetComparison p {
+        padding-left: 110px;
+    }
+    
+    #content #paddedContent div.headsetComparison p img {
+        float: left;
+        margin-left: -90px;
+        margin-top: 2px;
+    }
+    
+p.buyHeadset {
+    overflow: hidden;
+    height: 100%;
+}    
+
+p.buyHeadset span.price {
+    color: #636363;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    line-height: 17px;
+}
+
+    p.buyHeadset span.price strong {
+        color: #333;
+        font-size: 18px;
+    }
+
+div.features {
+    padding: 15px 0 20px 0;
+}
+
+div.features p img {
+    vertical-align: top;
+    margin: -1px 5px 0 0;
+}
+
+div.launchOffer {
+    background: #fff5cc;
+    border: 1px solid #ffe682;
+    color: #525252;
+    padding: 6px 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    width: 300px;
+    margin: -10px 0 0 20px;
+}
+
+    div.launchOffer strong {
+        color: #2c2c2c;
+        font-weight: normal;
+    }
+
+    div.launchOffer .pointer {
+        position: absolute;
+        left: 44px;
+        top: -8px;
+    }

@@ -1,0 +1,484 @@
+#mainPromo {
+	width: 365px;
+	float: left;
+}
+#smallPromo {
+	width: 365px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+/* Index bubbles */
+
+#largeBlueBubbleTop {
+	background: #00aff0 url(/i_preairlift/images/ho-bl-bub-lrg-top.png) no-repeat top left;	
+	text-align: center;
+	margin-top: 7px;
+}
+#largeBlueBubbleBottom {
+	background: url(/i_preairlift/images/ho-bl-bub-lrg-bottom.png) no-repeat bottom left;
+	padding: 20px 15px 30px 15px;
+}
+#largeBlueBubbleTop h1,
+#largeBlueBubbleTop h1 a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 140%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#smallGreenBubbleTop {
+	background: #87c80a url(/i_preairlift/images/ho-gr-bub-sml-top.png) no-repeat top left;	
+	text-align: center;
+	width: 248px;
+	float: right;
+	margin: -20px 7px 0 0;
+	position: relative;
+	z-index: 10;
+}
+#smallGreenBubbleBottom {
+	background: url(/i_preairlift/images/ho-gr-bub-sml-bottom.png) no-repeat bottom left;
+	padding: 10px 15px 15px 15px;
+}
+#smallGreenBubbleTop h1,
+#smallGreenBubbleTop h1 a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 115%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/* Helloagain bubbles */
+
+#largeGreenBubbleTop {
+	background: #87c80a url(/i_preairlift/images/ho-gr-bub-lrg-top.png) no-repeat top left;	
+	text-align: center;
+	margin-top: 7px;
+}
+#largeGreenBubbleBottom {
+	background: url(/i_preairlift/images/ho-gr-bub-lrg-bottom.png) no-repeat bottom left;
+	padding: 20px 25px 30px 25px;
+}
+#largeGreenBubbleTop h1,
+#largeGreenBubbleTop h1 a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 140%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#smallBlueBubbleTop {
+	background: #00aff0 url(/i_preairlift/images/ho-bl-bub-sml-top.png) no-repeat top left;	
+	text-align: center;
+	width: 248px;
+	float: right;
+	margin: -20px 7px 0 0;
+	position: relative;
+	z-index: 10;
+}
+#smallBlueBubbleBottom {
+	background: url(/i_preairlift/images/ho-bl-bub-sml-bottom.png) no-repeat bottom left;
+	padding: 10px 15px 15px 15px;
+}
+#smallBlueBubbleTop h1,
+#smallBlueBubbleTop h1 a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 115%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#freeAndCheap {
+	margin: -27px 0 15px 0;
+}
+#callRates {
+	width: 125px;
+	margin-top: -35px;
+	padding-top: 60px;
+	background: url(/i_preairlift/images/ho-img_phone.png) no-repeat 15px 0px;
+	font-weight: bold;
+	position: relative;
+	z-index: 10;
+}
+#pcPc {
+	margin: -40px 0 25px 0;
+}
+#skypeIs {
+	margin: 5px 0 10px 0;
+}
+#skypeIs h1 {
+	font-size: 130%;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#skypeIs h1.nau {
+	font-size: 150%;
+}
+#skypeIs h2 {
+	font-size: 115%;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 133%;
+}
+#smallPromo.nau {
+	margin-top: 30px !important;
+}
+.story h1 {
+	font-size: 1.2em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.story img {
+	margin: 0 10px 0 0;
+}
+.story {
+	width: 365px;
+	margin: 0 0 30px 0;
+}
+.product {
+	width: 365px;
+	margin: 0 0 30px 0;
+}
+.product h1 {
+	font-size: 150%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 2px 0 !important;
+	color: black;
+	text-align: left;
+}
+.product p {
+	width: 275px;
+	float: right;
+}
+.product img {
+	margin: 0 10px 0 7px;
+}
+
+.talkforbritain h1 {
+	font-size: 150%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 2px 0 !important;
+}
+.talkforbritain img {
+	margin: 0 10px 0 0;
+}
+.talkforbritain {
+	width: 365px;
+	margin: 0 0 30px 0;
+}
+
+#download {
+	width: 365px;
+	margin-bottom: 20px;
+}
+.download {
+	border: 1px solid #e0e6e8;
+	background-color: #f1f8fa;
+	padding: 15px 15px 13px;
+	margin: 0 0 10px 0;
+}
+div#downloadButton {
+	background: url(/i_preairlift/bg/ho-dl-grad.png) no-repeat 0px 12px;
+}
+div#downloadButton img {
+	margin: 0 12px 0 13px;
+}
+div#downloadButton small {
+	color: #5a5a5a;
+}
+div#downloadButton h1 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 24px 0 0 0;
+	margin: 0 !important;
+	line-height: 18px;
+	font-size: 1.5em;
+}
+div#storeButton {
+	background: url(/i_preairlift/bg/ho-buy-grad-new.png) no-repeat 0px 12px;
+}
+div#storeButton img {
+	margin: 0 12px 0 13px;
+}
+div#storeButton small {
+	color: #5a5a5a;
+}
+div#storeButton h1 {
+	font-weight: bold;
+	font-size: 22px !important;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 29px 0 0 0;
+	margin: 0 !important;
+}
+div#storeButton-medium {
+	background: url(/i_preairlift/bg/ho-buy-grad-medium.png) no-repeat 0px 7px;
+}
+div#storeButton-medium img {
+	margin: 0 8px 0 13px;
+}
+div#storeButton-medium small {
+	color: #5a5a5a;
+}
+div#storeButton-medium h1 {
+	font-weight: bold;
+	font-size: 18px !important;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 19px 0 0 0;
+	margin: 0 !important;
+}
+div#storeButton-box {
+	margin: 25px 0 0 25px; 
+}
+p.center {
+	text-align: center;
+}
+form.download {
+	font: 1.2em Arial, sans-serif;
+}
+form.download input {
+	margin-bottom: 10px;
+}
+.threeColumns div {
+	float: left;
+	width: 240px;
+	margin: 0 15px 0 0;
+}
+div.threeColumns div.lead {
+	float: left !important;
+	width: 200px !important;
+	margin: -10px 15px 0 5px !important;
+}
+.threeColumns div.last {
+	margin: 0 !important;
+}
+.threeColumns h2 {
+	background: #00aff0 url(/i_preairlift/bg/ho-header_240.png) no-repeat top left;
+	height: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+	line-height: 25px;
+	text-shadow: #168fb3 2px 2px 1px;
+	padding: 0 10px 0 10px;
+	margin: 0 0 10px 0;
+}
+.threeColumns li {
+	margin-left: 25px;
+}
+.threeColumns p.links {
+	margin-top: -8px;
+	padding: 0 0 0 10px;
+}
+.threeColumns img {
+	margin: 0 10px 0 10px;
+}
+.threeColumns p.desc {
+	padding: 0 10px 0px 66px;
+}
+.threeColumns p.nau {
+	padding: 0 0 0px 0px;
+}
+.threeColumns img.nau {
+	margin: 0 !important;
+}
+
+.threeColumns p.win32beta {
+	padding: 0 0 0 67px !important;
+}
+
+.buyButton {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: url(/i_preairlift/bg/ho-buy-grad.png) top right no-repeat;
+	height: 31px;
+	padding-right: 17px;
+	/* margin: 0 0 30px 0; */
+	float: left;
+}
+.buyButton a {
+	float: left;
+	line-height: 31px;
+}
+.buyButton img {
+	margin: 0 12px 0 0;
+}
+.morelink {
+	display: block;
+	float: left; 
+	margin-left: 10px !important;
+	padding-top: 5px;
+}
+.hiLight {
+	border: 1px solid #b7ec93;
+	padding: 10px 0 10px 0;
+	background: #f3fced;
+}
+.hiLightBottom {
+	background: url(/i_preairlift/bg/ho-hilite_bottom.png) bottom left no-repeat;
+	margin: 0 0 10px 0;
+}
+.hiLightTop {
+	background: url(/i_preairlift/bg/ho-hilite_top.png) top left no-repeat;
+	padding: 10px 0 1px 0;
+}
+.product-icon {
+    float: left;
+    width: 78px;
+    margin: 0 0 0 10px;
+}
+.product-feat {
+	float: left;
+	width: 430px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.two-col div {
+	width: 260px;
+}
+.two-col .left {
+	float: left;
+}
+.two-col .right {
+	float: right;
+}
+div.two-col h2, h2.ho {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 1ex 0 0.2ex;
+}
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+form {
+	margin-bottom: 5px;
+}
+.buy-button {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 31px;
+	line-height: 31px;
+	background: url(/i_preairlift/bg/ho-buy-grad.png) top right no-repeat;
+	text-align: center;
+	margin: 5px auto 20px auto;
+	clear: both;
+	display: table;
+}
+.buy-button span {
+	background: url(/i_preairlift/images/ho-buy_button.png) top left no-repeat;
+	display: table-cell;
+	padding: 6px 10px 6px 50px;
+	line-height: 20px;
+	text-decoration: underline;
+}
+
+* html .buy-button {
+	display: block;
+	position: absolute;
+	cursor: hand;
+	margin-left: expression(((document.getElementById('content').offsetWidth)/2) - (document.getElementById('buy-button').offsetWidth/2) + "px");
+}
+* html div.right .buy-button, * html div.left .buy-button {
+	margin-left: 0 !important;
+}
+* html .buy-button span {
+	float: left;
+}
+* html .button-clear {
+	margin-bottom: 51px;
+}
+h4.white {
+	color: #5a5a5a;
+	background: #f8f8f8 url(/i_preairlift/bg/headers_wide.png) 0px 75px !important;
+	text-shadow: none;
+	font-weight: bold;
+	line-height: 25px;
+	height: 25px;
+	font-size: 1em;
+	margin: 10px 0 10px 0 !important;
+	padding: 0 10px;
+}
+div#skypeout-head {
+	float: left;
+	width: 365px;
+}
+div#skypeout-mid {
+	float: right;
+	width: 365px;
+}
+div.skypeout-rates {
+	margin-left: 20px;
+}
+div#skypeout-mid ul {
+	margin: 10px 0;
+	padding: 0;
+}
+li.graphical-steps {
+	margin: 0 !important;
+	background-position: 0 0 !important;
+	line-height: 31px;
+	min-height: 34px;
+	padding: 0 0 0 37px;
+}
+div.skypeout div a {
+	display: inline !important;
+}
+
+div.col3-box div span {
+	float: left;
+	width: 53px;
+	text-align: center;
+}
+div.col3-box div p {
+	float: right;
+	width: 160px;
+}
+
+#callPrice {
+	display: block;
+	height: 25px;
+	padding-top: 7px;
+}
+#fiftyOff {
+	margin: -72px 31px 0 0;
+}
+#fiftyOffPrice {
+	font: bold 2.0em Arial, Helvetica, sans-serif;
+	color: #f5821f;
+	text-align: center;
+	letter-spacing: -1px;
+	margin: 0 !important;
+}
+#fiftyOffPrice a,
+#fiftyOffPrice a:hover,
+#fiftyOffPrice a:visited {
+	color: #f5821f;
+	text-decoration: none;
+}
+
+#fiftyOffPrice2 {
+	color: #f5821f;
+	letter-spacing: -1px;
+}
+#fiftyOffPrice2 a,
+#fiftyOffPrice2 a:hover,
+#fiftyOffPrice2 a:visited {
+	color: #f5821f;
+	text-decoration: none;
+}
+
+#pcToPhone {
+	margin: 10px 0 30px 0;
+}
+span.strike {
+	text-decoration: line-through;
+}
+.text-center {
+	text-align: center;
+}

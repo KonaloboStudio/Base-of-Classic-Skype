@@ -1,0 +1,2002 @@
+#container.default {
+	margin-top: -37px !important;
+}
+
+#screenshotWindows {
+	float: right;
+	margin: -170px 0px 0 20px;
+	z-index: 999;
+	position: relative;
+}
+.vistaCertified {
+	float: right;
+	margin: -5px -25px 0 20px;
+}
+#screenshotMacosx {
+	float: right;
+	margin: -210px 35px 0 20px;
+	z-index: 999;
+	position: relative;
+}
+#screenshotLinux {
+	float: right;
+	margin: -210px 35px 0 20px;
+	z-index: 999;
+	position: relative;
+}
+#screenshotLinuxChoose {
+	float: right;
+	margin: -255px 35px -3px 20px;
+	z-index: 999;
+	position: relative;
+}
+#screenshotN800{
+	float: right;
+	margin: -120px 35px 0 20px;
+	z-index: 999;
+	position: relative;
+}
+#screenshotN810{
+	float: right !important;
+	margin: -145px 0 0 20px;
+	z-index: 999;
+	position: relative;
+}
+#screenshotPSP {
+	float: right !important;
+	margin: -125px -10px 0 -50px;
+	z-index: 999;
+	position: relative;
+}
+#screenshotEmailtoolbar {
+	float: right;
+	margin: -87px -20px 0 20px;
+	z-index: 999;
+	position: relative;
+}
+#screenshotOfficeToolbar {
+	float: right;
+	margin: -154px -10px 0 20px;
+	z-index: 999;
+	position: relative;
+}
+#screenshotIphone {
+	float: right;
+	margin: -205px -20px 0 -50px;
+	z-index: 999;
+	position: relative;
+}
+div#shotContainer {
+	position: relative;
+	width: 408px;
+	float: right;
+	margin-left: -88px;
+}
+
+	div.n900 div#shotContainer {
+		width: auto;
+		margin: 0;
+		float: none;
+		background: none;
+		zoom: 1;
+	}
+	
+	div.n900 div#shotContainer #animateShotBase,
+	div.n900 div#shotContainer #animateShotTop {
+		width: 311px;
+		top: 28px;
+		left: 194px;
+	}
+	
+	div.n900 div#shotContainer #animateShotBase {
+		height: 190px;
+	}
+	
+	#animateShotBase {
+		position: absolute;
+		z-index: 1000;
+		top: -148px;
+		left: 203px;
+		height: 230px;
+		overflow: hidden;
+		width: 153px;
+		line-height: 0;
+		background: transparent;
+	}
+	#animateShotTop {
+		position: absolute;
+		z-index: 1001;
+		top: -148px;
+		left: 203px;
+		height: 0px;
+		overflow: hidden;
+		width: 153px;
+		line-height: 0;
+		background: transparent;
+	}
+.downloadForm {
+	border-top: 1px solid #7fd7f7;
+	border-bottom: 1px solid #7fd7f7;
+	background: #e5f6fd url(/i/images/illustrations/download_blue.png) no-repeat 354px 0px;
+	display: block;
+	padding: 14px 20px 20px 20px;
+	margin: 9px 0 17px 0;
+}
+
+.downloadForm.emailToolbar {
+	background: #e5f6fd url(/i/images/illustrations/download_blue.png) no-repeat 540px -37px;
+}
+.officeToolbar {
+	background: #e5f6fd;
+}
+.chooseForm {
+	border-top: 1px solid #7fd7f7;
+	border-bottom: 1px solid #7fd7f7;
+	background: #e5f6fd url(/i/images/illustrations/download_blue.png) no-repeat 570px -18px;
+	display: block;
+	padding: 14px 10px 20px 10px;
+	margin: 9px 0 17px 0;
+	overflow: hidden;
+	zoom: 1;
+}
+.downloadWindows,
+.downloadMac,
+.downloadLinux,
+.downloadOfficeToolbar,
+.downloadEmailToolbar,
+.downloadMobile,
+.downloadPsp {
+	padding-left: 43px;
+	width: 400px;
+	padding-top: 11px;
+}
+.downloadWindows {
+	background: url(/i/images/icons/download_windows.png) no-repeat top left;
+}
+.downloadMac {
+	background: url(/i/images/icons/download_mac.png) no-repeat top left;
+}
+.downloadLinux {
+	background: url(/i/images/icons/download_linux.png) no-repeat top left;
+}
+.downloadMobile {
+	background: url(/i/images/icons/download_mobile.png) no-repeat top left;
+}
+.downloadEmailToolbar {
+	background: url(/i/images/icons/download_emailtoolbar.png) no-repeat 0 6px;
+}
+.downloadOfficeToolbar {
+	background: url(/i/images/icons/download_officetoolbar.png) no-repeat 0 6px;
+	width: 280px;
+}
+.downloadPsp {
+	background: url(/i/images/icons/download_psp.png) no-repeat top left;
+}
+.downloadForm h2 {
+	margin-top: 0;
+}
+#content #paddedContent .downloadForm h2,
+#content #paddedContent .downloadForm p {
+	padding: 0;
+}
+p#upgradeToLatest {
+	margin-bottom: 0;
+	display: none;
+}
+div.chooseLinux {
+	float: left;
+	width: 265px;
+}
+#content #paddedContent div.chooseLinux p {
+	padding: 0;
+}
+div.chooseLinux p.last {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+div.chooseLinux p img {
+	float: left;
+}
+
+.rightColumn p,
+.rightColumn h3,
+.rightColumn h2 {
+	padding-left: 0 !important;
+}
+
+.rightColumn h3 img.icon {
+	margin: 0 5px 0 0;
+	float: left;
+}
+
+p.center {
+	padding: 0 !important;
+}
+
+p.center strong {
+	display: block;
+}
+
+p.center span {
+	display: block;
+}
+
+/* Images for different Linux distros */
+img#downloadUbuntu {
+	margin: 0 13px 0 1px;
+}
+img#downloadDebian {
+	margin: 0 16px 0 6px;
+}
+img#downloadMepis {
+	margin: -2px 16px 0 8px;
+}
+img#downloadXandros {
+	margin: -4px 13px 0 2px;
+}
+img#downloadFedora {
+	margin: 1px 13px 0 2px;
+}
+img#downloadSuse {
+	margin: 0 14px 0 0;
+}
+img#downloadMandriva {
+	margin: -3px 14px 0 1px;
+}
+img#downloadDynamicStatic {
+	margin: 2px 17px -10px 4px;
+}
+
+div.chooseLinux ul {
+	margin: 0 0 0 10px !important;
+	padding: 0 !important;
+}
+
+div.chooseLinux ul li {
+	list-style: none !important;
+	padding: 10px 0 0 48px !important;
+	min-height: 35px;
+}
+
+* html div.chooseLinux ul li {
+	height: 35px;
+}
+
+div.chooseLinux ul li#distroUbuntu {
+	background: url(/i/images/icons/download_ubuntu.png) left center no-repeat;
+}
+div.chooseLinux ul li#distroDebian {
+	background: url(/i/images/icons/download_debian.png) left center no-repeat;
+}
+div.chooseLinux ul li#distroMepis {
+	background: url(/i/images/icons/download_mepis.png) left center no-repeat;
+}
+div.chooseLinux ul li#distroXandros {
+	background: url(/i/images/icons/download_xandros.png) left center no-repeat;
+}
+div.chooseLinux ul li#distroFedora {
+	padding-top: 0 !important;
+	padding-bottom: 1px !important;
+	background: url(/i/images/icons/download_fedora.png) left center no-repeat;
+}
+div.chooseLinux ul li#distroSuse {
+	background: url(/i/images/icons/download_suse.png) left center no-repeat;
+}
+div.chooseLinux ul li#distroMandriva {
+	background: url(/i/images/icons/download_mandriva.png) left center no-repeat;
+}
+div.chooseLinux ul li#distroDynSta {
+	padding-top: 0 !important;
+	padding-bottom: 10px !important;
+	background: url(/i/images/icons/download_stat-dyn.png) left center no-repeat;
+}
+div.chooseLinux ul li#distroCentos {
+	background: url(/i/images/icons/download_centos.png) left center no-repeat;
+}
+
+#pspWithHeadphones {
+	margin: 0 -10px 0 10px;
+}
+#prettyGirlPsp {
+	/* margin: 6px 0 0 0; */
+}
+* html #prettyGirlPsp {
+	position: absolute;
+	/* width: 235px; */
+}
+li.bulletPsp {
+	 list-style-image: url(/i/images/bullets/psp_device.png);
+}
+li.bulletHeadset {
+	 list-style-image: url(/i/images/bullets/headphones.png);
+}
+li.bulletWifi {
+	 list-style-image: url(/i/images/bullets/wifi.png);
+}
+li.bulletMemoryStick {
+	 list-style-image: url(/i/images/bullets/memory_stick.png);
+}
+
+img#soundQuality {
+	padding-bottom: 8px;
+}
+
+img#myspaceIllustartion {
+	margin-left: 10px;
+}
+
+.clouds {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 98;
+}
+
+
+body.windowsMobile .clouds {
+	margin-bottom:-1px;
+}
+
+* html .clouds {
+	margin-bottom: -1px !important;
+}
+
+
+div.bannerTitle {
+	background: #00aff0 url(/i/images/backgrounds/lightblue_to_skypeblue.png) repeat-x left top;
+	width: 690px;
+	padding: 20px 0 0;
+	margin-bottom: 20px;
+	position: relative;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+	div.bannerTitle h1 {
+		color: #fff;
+		line-height: 34px;
+		margin-bottom: 5px;
+	}
+		div.bannerTitle h1 sup {
+			font-size: 16px;
+		}
+	div.bannerTitle h2 {
+		color: #2c2c2c;
+		padding-top: 0px;
+	}
+
+	div.bannerTitle.centered h1,
+	div.bannerTitle.centered h2 {
+		text-align: center;
+	}
+
+div.downloadHeader {
+	background: #00aff0 url(/i/images/backgrounds/downloadheader_lightblue.png) no-repeat left top;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	width: 690px;
+	padding: 20px 0 0;
+	margin-bottom: 20px;
+	position: relative;	
+	margin-top: 30px;
+}
+	div.downloadHeader.win41gold {
+		background: #00aff0;
+	}
+
+div.downloadSMS {
+	background: #00aff0 url(/i/images/backgrounds/lightblue_to_skypeblue.png) repeat-x left top;
+	width: 690px;
+	padding: 30px 0 0;
+	position: relative;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+html.rtl div.downloadSMS {
+	margin-top: 20px;
+}
+
+div.downloadSMS.android {
+	padding:30px 0 10px 0;
+}
+
+div.contentDownload {
+	margin-bottom: 10px;
+}
+
+	div.downloadHeader.threesp {
+		background:#fff url(/i/images/backgrounds/threesp-blue-header-hero-tenright.png) no-repeat left top;
+		margin-bottom:2em;
+	}
+
+	div.downloadHeader.macos {
+		background: #00aff0 url(/i/images/backgrounds/downloadheader_lightblue_mac.png) no-repeat left top;
+	}
+
+	div.downloadHeader.n900 {
+		background: #fff url(/i/images/backgrounds/downloadheader_lightblue_n900.png) no-repeat left top;
+		margin-bottom: 2em;
+	}
+
+	div.downloadHeader.n900 h1 {
+		font-size: 32px;
+		margin-bottom: 5px;
+	}
+
+	div.downloadHeader.threesp h1 {
+		font-size:32px;
+		margin-bottom:5px;
+	}
+
+	div.downloadHeader h1 {
+		color: #fff;
+		line-height: 34px;
+		margin-bottom: 5px;
+	}
+	
+		div.downloadHeader.macos h1 {
+			font-size: 32px;
+			margin-bottom: 3px;
+		}
+		
+		div.downloadHeader h1 sup {
+			font-size: 16px;
+		}
+	div.downloadHeader h2 {
+		color: #2c2c2c;
+		padding-top: 0px;
+	}
+	
+	div.downloadHeader h1 {
+		text-align: center;
+	}
+	
+	div.downloadHeader h2 {
+		text-align: center;
+	}
+	
+	div.downloadSMS h1,
+	div.downloadSMS h2 {
+		text-align: left;
+	}
+	html.rtl div.downloadSMS h1,
+	html.rtl div.downloadSMS h2 {
+		text-align: right;
+	}
+	
+	div.downloadSMS h1 {
+		width: 340px;
+		color: #fff;
+		line-height: 34px;
+		margin-bottom: 5px;
+	}
+	
+	div.downloadSMS h3 {
+		width: 340px;
+	}	
+	
+	div.threesp2 {
+		display: inline;
+		position: relative;
+		top: 123px;
+		left: 460px;
+		background-color:#bfebfb;
+		overflow:hidden;
+		float:left;
+		z-index:900;
+	}
+	
+	
+	div.downloadSMS .downloadOptions {
+		padding: 5px 2px 2px 0;
+		margin-left: 20px;
+		margin-bottom: 0;
+		margin-right: 20px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		background-color: #83D8F8;
+		overflow: hidden;
+		z-index: 900;
+		height: 100%;
+	}
+	
+	div.roundedBlue .downloadOptions {
+		position: relative;
+		left: 20px;
+		width: 650px;
+		padding: 15px 2px 18px 0;
+		margin-bottom: 15px;
+		margin-right: 20px;
+		margin-top: 10px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		background-color: #83D8F8;
+		overflow: hidden;
+		z-index: 900;
+		height: 100%;
+	}
+	html.rtl div.roundedBlue .downloadOptions {
+		position: static;
+	}
+
+	
+	div.roundedBlue2 .downloadOptions {
+		position: relative;
+		left: 20px;
+		width: 650px;
+		padding: 15px 2px 18px 0;
+		margin-bottom: 15px;
+		margin-right: 20px;
+		margin-top: 10px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		background-color: #83D8F8;
+		overflow: hidden;
+		z-index: 900;
+		height: 100%;
+	}
+	
+	div.contentDownload .downloadOptions,
+	div.downloadHeader .downloadOptions {
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		margin: 0 20px;
+		padding: 20px;
+		background-color: #83d8f8;
+		overflow: hidden;
+		height: 100%;
+	}
+	
+	div.contentDownload .downloadOptions {
+		background: #CCEFFC;
+		margin: 0;
+	}
+	
+		div.contentDownload.macos .downloadOptions,
+		div.downloadHeader.macos .downloadOptions {
+			padding: 15px;
+		}
+		
+		div.contentDownload.n900 .downloadOptions {
+			padding: 20px;
+			background-color: #7fd7f7;
+		}
+		
+		
+	
+	div.downloadHeader .downloadOptions #downloadButtonWrapper,
+	div.contentDownload .downloadOptions #contentDownloadButtonWrapper {
+		float: left;
+	}
+	
+	div.contentDownload .downloadOptions span.description,
+	div.downloadHeader .downloadOptions span.description {
+		float: left;
+		color: #fff;
+		font: bold 18px/24px Arial, Helvetica, sans-serif;
+		margin: 6px 0 0 20px;
+	}
+	
+		div.downloadHeader .downloadOptions span.description.windows {
+			background: url(/i/images/icons/download_windows_small.png) no-repeat left top;
+			padding-left: 30px;		
+		}
+		
+		div.downloadHeader .downloadOptions span.description.macosx {
+			background: url(/i/images/icons/download_mac_small.png) no-repeat left top;
+			padding-left: 30px;
+			color: #636363;
+		}
+		
+		div.contentDownload .downloadOptions span.description.macosx {
+			background: url(/i/images/icons/download_mac_small_lightblue.png) no-repeat left top;
+			padding-left: 30px;
+			color: #636363;
+		}
+		
+		div.contentDownload .downloadOptions span.description.n900 {
+			padding-right: 15px;
+		}
+
+		div.downloadHeader .downloadOptions span.description.n900 {
+			padding-right: 15px;
+		}
+	
+	div.downloadHeader .titleImageSkype40 {
+		margin: 0px auto;
+		display: block !important;
+		z-index: 10;
+		width: 540px;
+	}
+
+	div.downloadHeader .titleImageSkype41 {
+		margin: 0px auto;
+		display: block !important;
+		z-index: 10;
+		width: 630px;
+	}
+	
+	div.downloadHeader .titleImageSkype28Mac {
+		margin: 5px auto 5px auto;
+		display: block !important;
+		z-index: 10;
+	}
+	
+	div.downloadHeader .titleImageN900 {
+		margin: 0 auto 15px auto;
+		display: block !important;
+		z-index: 10;
+	}
+
+div.bannerTitle img.centerPhone {
+	margin: 0px auto;
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+
+div.bannerTitle span.centerPhone {
+	margin: 0px auto;
+	display: block;
+	position: relative;
+	z-index: 10;
+	margin-left:202px;
+}
+
+div.bannerTitle ul.belowHeading {
+	color: #fff;
+	margin: 20px 0 -95px 15px !important;
+}
+
+div.bannerTitle img.rightPhone {
+	margin: 0 0 0 500px;
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+div.bannerTitle span.rightPhone {
+	margin: 0 0 0 500px;
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+
+	div.bannerTitle .downloadOptions {
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		padding: 20px 0px;
+		background: #fff;
+		margin: 155px 20px -245px;
+		position: relative;
+		background:#FFFFFF none repeat scroll 0 0;
+		z-index: 1;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	body.windowsMobile.lang-pl div.bannerTitle .downloadOptions {
+		margin:115px 20px -245px;
+	}
+
+	div.bannerTitle.mobilePhones .downloadOptions {
+		margin: 120px 20px -200px !important;
+	}
+
+	div.bannerTitle .downloadOptions .pocketpc {
+		float: left;
+		width: 170px;
+		padding-left: 20px;
+	}
+		div.bannerTitle .downloadOptions .pocketpc h3 {
+			font-size: 18px;
+			line-height: 18px;
+			padding: 3px 10px 3px 24px;
+			margin-bottom: 10px;
+			background: white url(/i/images/icons/download_pocketpc.png) no-repeat left top;
+		}
+		div.bannerTitle .downloadOptions .smartphone h3 {
+			font-size: 18px;
+			line-height: 18px;
+			padding: 3px 10px 3px 22px;
+			margin-bottom: 10px;
+			background: white url(/i/images/icons/download_smartphone.png) no-repeat left top;
+		}
+	div.bannerTitle .downloadOptions .smartphone {
+		float: right;
+		width: 170px;
+		padding-left: 20px;
+	}
+	div.bannerTitle .downloadOptions .mobilePhones {
+		padding-left: 20px;
+		width: 440px;
+		height: 100%;
+		overflow: hidden;
+	}
+
+	div.bannerTitle .downloadOptions .text {
+		font-size: 12px;
+		margin-top: 2px;
+		float: left;
+	}
+
+	div.bannerTitle .downloadOptions .mobilePhones .text {
+		margin-bottom: -2px;
+	}
+
+p img.iconInText {
+	vertical-align: top;
+	margin-right: 3px;
+	margin-top: 1px;
+}
+
+.extraSpaceBefore,
+.extraSpace {
+	margin-top: 30px;
+}
+.extraSpaceAfter,
+.extraSpace {
+	margin-bottom: 30px;
+}
+
+.lessSpaceBefore {
+	margin-top: -10px;
+}
+
+
+div.newFeatures {
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 8px;
+	background: none;
+}
+	div.newFeatures .oneThird {
+		float: left;
+		width: 210px;
+		min-height: 110px;
+		padding-left: 20px;
+		text-align: center;
+	}
+	
+	div.n900 .oneThird {
+		min-height: 100% !important;
+		height: 100% !important;
+		background: none;
+		overflow: hidden;
+	}
+	
+	* html div.newFeatures .oneThird {
+		height: 110px;
+	}
+	
+
+	div.newFeatures.leftAligned .oneThird {
+		text-align: left;
+	}
+
+#content #paddedContent .oneThird p {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+ul.featureList li {
+	padding: 3px 10px 10px 30px;
+	list-style-type: none;
+}
+
+	ul.featureList.split li {
+		font-size: 12px;
+		width: 290px;
+		float: left;
+	}
+
+	ul.featureList li.skypeOut {
+		background: url(/i/images/icons/landlines_24x24_white.png) top left no-repeat;
+	}
+	ul.featureList li.skypeIm {
+		background: url(/i/images/icons/chat_24x24_white.png) top left no-repeat;
+	}
+	ul.featureList li.skypeCall {
+		background: url(/i/images/icons/call_24x24_white.png) top left no-repeat;
+	}
+	ul.featureList li.videoCall {
+		background: url(/i/images/icons/video_24x24_white.png) top left no-repeat;
+	}
+	ul.featureList li.voiceMail {
+		background: url(/i/images/icons/voicemail_24x24_white.png) top left no-repeat;
+	}
+	ul.featureList li.callFwd {
+		background: url(/i/images/icons/callfwd_24x24_white.png) top left no-repeat;
+	}
+
+	ul.newFeatureList li {
+		padding: 26px 10px 55px 105px;
+		margin-bottom:-20px;
+		list-style-type: none;
+	}
+	ul.newFeatureList li.soundQuality {
+		background: url(/i/images/illustrations/better_sound_quality_small.png) top left no-repeat;
+	}
+	ul.newFeatureList li.sendFile {
+		background: url(/i/images/illustrations/better_sound_quality_small.png) top left no-repeat;
+	}
+	ul.newFeatureList li.sendSMS {
+		background: url(/i/images/illustrations/better_sound_quality_small.png) top left no-repeat;
+	}
+
+
+.downloadInfo {
+	font-size: 12px;
+	color: #666666;
+}
+
+.smallInfo {
+	font-size: 12px;
+	color: black;
+}
+
+.smallInfo a {
+	text-decoration: underline;
+	font-size: 12px;
+	color: white;
+}
+
+.smallInfo a:hover,
+.smallInfo a:visited{
+	text-decoration: underline;
+	font-size: 12px;
+	color: white;
+}
+
+.smallInfo2 {
+	font-size: 14px;
+	color: black;
+}
+
+.smallInfo2 a {
+	text-decoration: underline;
+	font-size: 14px;
+	color: white;
+}
+
+.smallInfo2 a:hover {
+	text-decoration: underline;
+	font-size: 14px;
+	color: white;
+}
+
+
+div.bannerTitle.mobilePhones .smallInfo2, div.bannerTitle.mobilePhones h2 {
+	width: 420px;
+}
+
+div.bannerTitle.mobilePhones .smallInfo2 a {
+	color: #0181E3;
+}
+
+div.bannerTitle.mobilePhones .smallInfo2 a:hover {
+	color: #3A9EEB;
+}
+
+
+
+h2.guideHeading {
+	color: #454545;
+}
+
+table.phonesListWrapper {
+	margin-bottom: 19px;
+	margin-left: 10px;
+}
+
+	table.phonesListWrapper td {
+		border-left: 1px solid #ddd;
+	}
+	
+	table.phonesListWrapper td:first-child {
+		border-left: none;
+	}
+	
+	table.phonesListWrapper table.phonesList th {
+		color: #2c2c2c;
+		font-weight: bold;
+		padding: 0 4px 5px 10px;
+	}
+	
+	table.phonesListWrapper table.phonesList td {
+		border-left: none;
+		color: #636363;
+		font-size: 12px;
+		padding: 4px 10px;
+		line-height: 12px;
+		width: 45px;
+	}
+	
+	table.phonesListWrapper table.phonesList tr.odd td {
+		background-color: #e5f7fd;
+	}
+	
+	div.indexBlue .goVideo {
+		background:url(/i/images/backgrounds/gray_videobox_blue.png) no-repeat top left;
+		width: 341px;
+		height: 81px;
+		display: block;
+		margin-top: 40px;
+		margin-bottom: 66px;
+		margin-left: -1px;
+	}
+
+	* html div.indexBlue .goVideo {
+		display: block;
+	}
+
+		div.indexBlue .goVideo a {
+			width: 341px;
+			display: table-cell;
+			height: 81px;
+			vertical-align: middle;
+			padding: 0px 70px 0px 127px;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 14px;
+			color: #666666;
+			background: url(/i/images/misc/business_video_100.png) no-repeat 5px 5px;
+		}
+
+		* html div.indexBlue .goVideo a {
+			width: 144px;
+			display: block;
+			height: 70px;
+			padding-top: 11px;
+		}
+
+		*:first-child+html div.indexBlue .goVideo a {
+			width: 144px;
+			display: block;
+			height: 70px;
+			padding-top: 11px;
+		}
+
+		div.indexBlue .goVideo a.longtext {
+			font-size: 12px;
+			padding: 0px 70px 0px 120px;
+			width: 348px;
+		}
+
+		* html div.indexBlue .goVideo a.longtext {
+			padding-top: 11px;
+			width: 151px;
+		}
+		*:first-child+html div.indexBlue .goVideo a.longtext {
+			padding-top: 11px;
+			width: 151px;
+		}
+
+	#paddedContent .goVideo {
+		background: url(/i/images/backgrounds/gray_big_videobox_white.png) no-repeat top left;
+		width: 204px;
+		margin: 0 19px 10px 30px;
+		min-height: 172px;
+	}
+
+	* html #paddedContent .goVideo {
+		margin-left: 10px;
+		height: 172px;
+	}
+
+		#paddedContent .goVideo .videoBox {
+			padding: 6px 6px 4px;
+			width: 192px;
+			height: 107px;
+		}
+
+		#paddedContent .goVideo .textBox {
+			padding: 2px 6px 7px;
+			background: url(/i/images/backgrounds/gray_big_videobox_bottom_white.png) no-repeat bottom left;
+			min-height: 47px;
+		}
+		
+		* #paddedContent .goVideo .textBox {
+			height: 47px;
+		}
+
+		#paddedContent .goVideo a {
+			display: block;
+			padding: 4px 50px 4px 6px;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 14px;
+			color: #666666;
+		}
+
+.downloadSpecified {
+	color: #999;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 17px !important;
+}
+	.downloadSpecified img {
+		vertical-align: middle;
+		margin-top: -3px;
+	}
+
+img#n900Device {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+#screenShotViewer {
+	
+}
+	#screenShotViewer div.screenShotsRow {
+		position: relative;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		background-color: #cceffc;
+		padding: 10px 10px 0px 10px;
+		z-index: 50;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	* html #screenShotViewer div.screenShotsRow {
+		padding-top: 15px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+		#screenShotViewer div.screenShotsRow h2 {
+			font-size: 14px;
+			color: #636363;
+			padding: 5px 10px 10px 10px !important;
+			margin: 0 !important;
+		}
+
+		#screenShotViewer div.screenShotsRow img {
+			padding: 0;
+			margin: 0;
+		}
+		
+		#screenShotViewer div.screenShotsRow a {
+			display: block;
+			float: left;
+			padding-bottom: 15px;
+			margin: 0 8px 0 8px;  
+		}
+		 
+			 #screenShotViewer div.screenShotsRow a.selected {		 
+				 background: url(/i/images/misc/bottomarrow_lightblue.png) no-repeat center bottom;
+			 }
+		 
+		 #screenShotViewer div.screenShotViewerContainer {
+			 width: 648px;
+			 height: 603px;
+			 margin-top: -128px;
+			 overflow: hidden;
+			 position: relative;
+			 z-index: 10;
+			 padding: 0 20px 15px 20px;
+			 background-color: #fff;
+			 border-left: 1px solid #cceffc;
+			 border-right: 1px solid #cceffc;
+			 border-bottom: 1px solid #cceffc;
+			 -moz-border-radius-bottomleft: 4px;
+			 -moz-border-radius-bottomright: 4px;
+			 -webkit-border-bottom-left-radius: 4px;
+			 -webkit-border-bottom-right-radius: 4px;
+		 }
+		 
+		 #screenShotViewer div.screenShotViewerContainer .screenShotBig {
+			 position: relative;
+			 padding: 150px 0 15px;
+			 height: 100%;
+		 }
+		 
+			#screenShotViewer div.screenShotViewerContainer .screenShotBig h3 {
+				padding: 0 0 19px 0 !important;
+				margin: 0 !important;
+				color: #2c2c2c;
+			}
+			
+			#screenShotViewer div.screenShotViewerContainer .screenShotBig a.closeScreenShot {
+				float: right;
+				padding-right: 30px;
+				background: url(/i/images/buttons/close_button.png) no-repeat top right;
+				font-size: 12px;				
+				font-weight: bold;
+				line-height: 24px;
+				display: block;
+				cursor: pointer;
+			}
+			
+ul.small.clear li.title #betaVistaCertified {
+	display: none;
+}
+body.windowsMobile.lang-fr span.buttonSmall a.green span {
+	font-size:13px;
+}
+body.windowsMobile.lang-pl span.buttonSmall a.green span,
+body.windowsMobile.lang-pt span.buttonSmall a.green span {
+	font-size:12px;
+
+}
+
+/* windowsmmobile beta */
+div.bannerTitle .downloadContainer {
+	background: url(/i/images/illustrations/win_mobile_beta_01.png) 130px 61px no-repeat;
+	padding: 160px 0 10px 0;
+}
+
+div.bannerTitle .downloadContainer .downloadContent {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 20px 30px;
+	background: #ffffff;
+	margin: 0 70px 0px 70px;
+	position: relative;
+	z-index: 1;
+}
+
+* html div.bannerTitle .downloadContainer .downloadContent .buttonSmall {
+	zoom: 1;
+}
+
+#content #paddedContent div.bannerTitle .downloadContainer .downloadContent p.downloadNote {
+	font-size: 12px;
+	clear: left;
+	padding: 4px 0 0 0;
+	margin: 0;
+}
+
+div.bannerTitle img.alignPhone {
+	margin: -245px 0 0 335px;
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+div.bannerTitle span.alignPhone {
+	margin: -245px 0 0 335px;
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+
+ul.betaFeatureList li {
+	padding: 26px 10px 26px 82px;
+	margin-bottom:-20px;
+	list-style-type: none;
+}
+	ul.betaFeatureList li.sendFiles {
+		background: url(/i/images/icons/win_mobile_beta_features_01.png) top left no-repeat;
+	}
+	ul.betaFeatureList li.sendSMS {
+		background: url(/i/images/icons/win_mobile_beta_features_02.png) top left no-repeat;
+	}
+	ul.betaFeatureList li.skypePanel {
+		background: url(/i/images/icons/win_mobile_beta_features_03.png) top left no-repeat;
+	}
+body.windowsMobile #content #paddedContent span.buttonSmall a.green span.smallFont {
+	font-size: 0.9em;
+}
+body.windowsMobile #content #paddedContent span.buttonSmall a.green span.smallerFont {
+	font-size: 0.8em;
+}
+body.windowsMobile #content #paddedContent .bannerTitle h1 {
+	font-size: 2.1em;
+}
+body.windowsMobile #content #paddedContent .downloadNote.smallFont {
+	font-size: 10px !important;
+
+}
+
+/* windows business */
+#content.business .pageHeader {
+	background: url(/i/images/backgrounds/business/windows_download_header.png) no-repeat top left;
+	height: 375px;
+	width: 700px;
+	text-align: center;
+	padding: 18px 0 0 0;
+	margin: 20px 0 20px 0;
+	position: relative;
+	text-shadow: #4B465A 0px 0px 1px;
+}
+	#content.business .pageHeader h1 {
+		font-size: 22px;
+		font-family: Helvetica, Arial, sans-serif;
+		line-height: 28px;
+		font-weight: bold;
+		color: #ffffff;
+		padding: 0;
+		margin: 0;
+	}
+	#content.business .pageHeader h2 {
+		font-size: 14px;
+		font-family: Helvetica, Arial, sans-serif;
+		line-height: 20px;
+		font-weight: bold;
+		color: #ffffff;
+		padding: 0;
+		margin: 0;
+	}
+	#content.business .pageHeader img.headerImage {
+		margin: 20px 0 15px 0;
+	}
+	#content.business .pageHeader .downloadButton {
+		width: 220px;
+		position: absolute;
+		left: 50%;
+		margin-left: -110px;
+	}
+	#content.business .pageHeader .downloadButton a {
+		display: block;
+		padding: 4px 0px 4px 0px;
+		background: #fff url(/i/images/buttons/simple/white_large.png) repeat-x left 0px;
+		color: #4B465A;
+		font-family: Arial, sans-serif;
+		font-size: 1.286em;
+		line-height: 24px;
+		text-align: center;
+		text-decoration: none;
+		text-shadow: 0px -1px 1px #ffffff;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+	}
+	#content.business .pageHeader .downloadButton a:hover {
+		background: #fff url(/i/images/buttons/simple/white_large.png) repeat-x left -36px;
+	}
+		#content.business .pageHeader .downloadButton a img {
+			margin: 0 5px -5px 0;
+		}
+		
+		#content.business .pageHeader .downloadButton a strong {
+			line-height: 24px;
+			padding: 0;
+		}
+	#content.business .twoColumns {
+		margin: 0;
+		padding: 0;
+	}
+		#content.business .twoColumns .leftColumn {
+			float: left;
+			width: 335px;
+		}
+			#content.business .twoColumns .leftColumn h1 {
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+			#content.business .twoColumns .leftColumn h2,
+			#content.business .twoColumns .rightColumn h2 {
+				padding-top: 0;
+			}
+			#content.business #paddedContent .twoColumns .leftColumn.business li {
+				list-style-position: outside;
+				margin-left: 10px;
+			}
+		#content.business .twoColumns .rightColumn {
+			float: right;
+			width: 335px;
+		}
+			#content.business .twoColumns .rightColumn.business {
+				background: #EBEBEB url(/i/images/backgrounds/business/windows_download_grey_content.png) no-repeat right bottom;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				margin-top: 16px;
+				padding: 20px;
+				width: 295px;
+			}
+			#content.business .twoColumns .rightColumn.business img.columnImage {
+				margin: 10px 0;
+			}
+.upsellBlock {
+	text-align: right;
+	height: 100%;
+	overflow: hidden;
+}
+
+#padded.upsellBlock {
+ padding-top:20px;
+ padding-bottom:20px;
+}
+
+
+.upsellBlock .downloadVersion {
+	width:300px;
+	float:left;
+	text-align:left;
+	padding-top:22px;
+	padding-bottom:15px;
+	margin-left:-10px;
+}
+
+.upsellBlock .downloadVersionLarger {
+	width:320px;
+	float:left;
+	text-align:left;
+	padding-top:22px;
+	padding-bottom:15px;
+	margin-left:-30px;
+}
+
+.upsellBlock .infoBCP {
+	width:300px;
+	float:right;
+	text-align:left;
+}
+
+.upsellBlock .infoBCP p {
+	margin-bottom:0 !important;
+}
+
+.upsellBlock .infoBCP div.titleImage {
+	padding-left: 20px;
+}
+
+.upsellBlock span {
+	font-size: 18px;
+	line-height: 40px;
+	padding: 9px 20px 10px 0;
+	font-weight: bold;
+	text-align: right;
+}
+
+.upsellBlock img.windowsIcon {
+	margin: 0 0 -15px 15px;
+}
+	.upsellBlock .downloadButton {
+		width: 220px;
+		display: inline-block;
+		float: left;
+		margin-top: 4px;
+	}
+	
+	#padded.upsellBlock .downloadButton {
+		margin-top: 12px;
+	}
+	
+	.upsellBlock .downloadButton a {
+		display: block;
+		padding: 4px 0px 4px 0px;
+
+		background: url(/i/images/buttons/simple/purple_large.png) repeat-x left 0px;
+
+		color: #ffffff;
+		font-family: Arial, sans-serif;
+		font-size: 1.286em;
+		line-height: 24px;
+		text-align: center;
+		text-decoration: none;
+		text-shadow: 0px -1px 1px #4B465A;
+
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	.upsellBlock .downloadButton a:hover {
+		background: url(/i/images/buttons/simple/purple_large.png) repeat-x left -36px;
+	}
+		.upsellBlock .downloadButton a img {
+			margin: 0 5px -5px 0;
+		}
+		.upsellBlock .downloadButton a strong {
+			line-height: 24px;
+			padding: 0;
+		}
+#content ul.small.business li {
+	color: #7B7F81;
+}
+#content .requirements li {
+	color:#7B7F81;
+	font-size:0.85em;
+}
+#content h2.blue {
+	color: #00aff0;
+}
+	#content h2.blue.head1 {
+		background: url(/i/images/misc/win_41_gold_headline_1.png) no-repeat 0px top;
+		padding-top: 12px;
+	}
+	#content h2.blue.head2 {
+		background: url(/i/images/misc/win_41_gold_headline_2.png) no-repeat 0px top;
+		padding-top: 17px;
+	}
+	#content h2.blue.head3 {
+		background: url(/i/images/misc/win_41_gold_headline_3.png) no-repeat 0px top;
+	}
+#content ul.splitList {
+	width: 325px;
+	list-style: disc;
+}
+
+p#skypeOnlineIcon {
+ float: none;
+ display: block;
+ margin-right: 60px;
+ margin-bottom: 8px;
+ padding-bottom: 8px;
+ padding-left: -15px !important;
+ padding-top: 8px;
+ position: relative;
+ left: 45px;
+ background: url(/i/images/icons/skypeon3_online_40x40_white.png) no-repeat 205px;
+}
+div.splitContent {
+	height: 100%;
+	overflow: hidden;
+	padding-right: 20px;
+}
+	div.splitContent .left {
+		float: left;
+		width: 335px;
+	}
+	div.splitContent .right {
+		float: right;
+		width: 335px;
+	}
+	div.splitContent img.illustration {
+		margin-left: 10px;
+	}
+h2.grey {
+	color: #666666;
+}
+
+div.threespClear {
+	padding:0 0 0 0;
+	height: 390px;
+	}
+img#threesp3g {
+	float:right;
+	margin:-20px 0 20px 20px;
+}
+.threespTerms {
+	margin:10px 0 8px 0;
+	font-weight:bold;
+}
+.threespTableImg {
+	left:-2px;
+}
+#skypePhoneInfo div.grayRounded div.grayRoundedContent table td {
+	font-weight:normal;
+	border-bottom:none;
+	padding:5px 5px 3px 0;
+}
+#skypePhoneInfo div.grayRounded div.grayRoundedContent table .header {
+	font-size:1.286em;
+	font-weight:bold;
+	line-height:1.056em;
+	padding:9px 0 15px 0;
+	color:#2C2C2C;
+}
+#skypePhoneInfo div.grayRounded div.grayRoundedContent table .strong {
+	font-weight:bold;
+	width:80px;
+}
+.threespAvailability {
+	padding-left:20px;
+	position:relative;
+	bottom:-10px;
+}
+
+/* Symbian page code */
+
+p.smallInfo.ovi {
+	height: 50px;
+	line-height: 50px;
+	}
+	
+p.smallInfo.ovi a,
+p.smallInfo.ovi a:hover,
+p.smallInfo.ovi a:active,
+p.smallInfo.ovi a:visited,{
+	color: white;
+	}	
+	
+.ovi1 {
+	float: left;
+	margin-right: 10px;
+	}
+
+.ovi2 {
+	float: right; 
+	}	
+	
+* html .ovi2 {
+	position: relative;
+	bottom: 50px;
+	right: 20px;
+}
+
+*:first-child+html .ovi2 {
+	position: relative;
+	bottom: 40px;
+	right: 20px;
+}
+	
+/* ! Symbian page code */	
+
+/*  New download page */
+
+div#contentHeader {
+	background-color: #00AFF0;
+	margin-top: 0;
+}
+	
+div#contentHeader .middleContent {
+	background: #03b0f0 url(/i/images/backgrounds/download_bg.png) no-repeat bottom left;
+}
+
+div#contentHeader .middleContent.rtl {
+	background: #03b0f0 url(/i/images/backgrounds/download_bg_rtl.png) no-repeat bottom left;
+}
+
+div#contentHeader .registeredUser {
+	background: #00aff0 url(/i/images/backgrounds/download_bg_2.png) no-repeat bottom right;
+}
+	div#contentHeader .registeredUser a.buttonSimpleMedium {
+		margin-left: 38px;
+	}
+		
+	.transparentH3 a, .transparentH3 a:hover, .transparentH3 a:active, .transparentH3 a:visited {
+		color: white;
+		text-decoration: underline;
+	}
+
+	h2.gray {
+		color: #474848 !important;
+		}
+		
+	div#helpSteps .helpStep {
+		width: 212px;
+		margin-right: 15px;
+		min-height: 200px;
+		height: auto !important;
+		height: 200px;
+		background-color: white;
+		float: left;
+		}	
+		
+		#paddedContent #helpSteps {
+			clear: both;
+			height: 100%;
+			overflow: hidden;
+			padding-left: 20px;
+		}
+		
+	div#helpSteps .helpStep img{
+		margin-bottom: 15px;
+		padding: 6px;
+		background: #ebebeb url(/i/images/backgrounds/download_helpstep_bg.png) repeat-x; 
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;		
+		}
+		
+	#paddedContent #helpSteps .helpStep h2.stepH2 {
+		padding-left: 0px;
+		color: #dadada;
+	}
+	
+	#paddedContent #helpSteps .helpStep p {
+		padding-left: 0px;
+	}
+	
+	#content #paddedContent #rightSide h2,
+	#content #paddedContent #rightSide p {
+		padding-left: 0px;
+	}
+			
+	p.noEmergencyCalls {
+	clear: both;
+	padding-left: 50px !important;
+	height: 40px;
+	background: url(/i/images/icons/noemergency.png) no-repeat 0 5px;
+	margin-left: 20px;
+	}	
+	
+	p.noEmergencyCalls small.smallBlack {
+	color: #000000;
+	}	
+	
+	div.selectCountryCellLower sup {
+		font-size: 11px;
+	}
+	
+/*  New download page 2 */	
+
+#paddedContent div#selectCountry {
+	float: left;
+	width: 600px;
+	min-height: 200px;
+/*	height: auto !important;*/
+/*	height: 200px;*/
+	background-color: white;
+	margin-top: 20px;
+	margin-right: 20px;
+	}
+
+#paddedContent div#selectCountry.ratesArea {
+	width: 640px;
+}
+
+div#selectCountry p {
+	color: #474848;
+	}	
+	
+	div#selectCountry .upperCell{
+		min-height: 122px;
+		height: auto !important;
+		height: 122px;
+		background: white url(/i/images/illustrations/call-people.png) no-repeat bottom right;
+		padding-right: 240px;
+		}
+		
+	div#selectCountry .lowerCell{
+		min-height: 122px;
+		height: auto !important;
+		height: 122px;
+		background-color: #e5f7fd;
+		-moz-border-radius-topleft: 4px;
+		-moz-border-radius-bottomleft: 4px;		
+		-moz-border-radius-topright: 4px;
+		-moz-border-radius-bottomright: 4px;		
+		-webkit-border-top-left-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;		
+		-webkit-border-top-right-radius: 4px;	
+		-webkit-border-bottom-right-radius: 4px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		}	
+		
+			div#selectCountry .lowerCell .selectCountryCell {
+				position: relative;
+				border-bottom: solid 1px #d9eaf0;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				min-height: 50px;
+				height: auto !important;
+				height: 50px;
+				overflow: hidden;
+				}
+				
+			div#selectCountry .lowerCell .selectCountryCellLower {
+				border-top: solid 1px white;
+				min-height: 160px;
+				height: auto !important;
+				height: 160px;	
+				overflow: hidden;
+				padding-left: 20px;
+				}
+		
+			label.selectCountryLabel {
+				position: relative;
+				float: left;
+				display: block;
+				width: 250px;
+				padding-left: 20px;
+				padding-right: 20px;
+				color: #474848;
+				font-size: 18px;
+				font-weight: bold;
+				margin-top: 10px;
+				}
+			/*
+			div#selectCountry select {
+				border: solid 1px #d0d0d0;
+				background-color: white;
+				width: 200px;
+				}
+			*/
+
+.jsVisible {
+	display: none;
+}
+
+
+.ratesArea #suggesticator {
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	padding: 10px;
+	background-color: #cceffc;
+	margin-bottom: 19px;
+	margin-top: 10px;
+	margin-left: 5px;
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ratesArea #suggesticator {
+	padding: 10px 15px;
+}
+	.ratesArea #suggesticator div.currencyChange {
+		font-size: 12px;
+		color: #00aff0;
+		line-height: 32px;
+	}
+
+	.ratesArea #suggesticator div.quickfilterWrapper {
+		display: inline;
+	}
+
+		.ratesArea #suggesticator div.viewAllRates {
+			display: inline;
+		}
+			
+		.ratesArea #suggesticator div.currencyChange a {
+			text-decoration: none;
+			color: #00aff0;
+			margin-right: 5px;
+		}
+
+		.ratesArea #suggesticator div.currencyChange select {
+			margin-left: 5px;
+			width: 210px;
+		}
+
+
+.ratesArea .paymentOptionCell .paymentMethod {
+	font-weight: bold;
+	color: #afb4b4;
+	text-transform: uppercase;
+}
+
+#paddedContent .ratesArea .paymentOptionCell .paymentMethod {
+	padding-left: 20px;
+}
+
+#paddedContent .ratesArea .paymentOptionCell .paymentPrice {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.ratesArea .paymentOptionCell .paymentPrice {
+	margin-bottom: 5px;
+}
+	.ratesArea .paymentOptionCell .paymentPrice .noVat {
+		color: #2c2c2c;
+		font-size: 18px;
+		font-weight: bold;
+	}
+		.countryRateOptions .paymentOptionCell .paymentPrice .noVat a {
+			color: #2c2c2c;
+			text-decoration: none;
+		}
+		.countryRateOptions .paymentOptionCell .paymentPrice .noVat a:hover {
+			color: #666;
+			text-decoration: none;
+		}
+	.ratesArea .paymentOptionCell .paymentPrice .vat {
+		color: #474848;
+		font-size: 14px;
+		font-weight: normal;
+	}
+
+	.ratesArea .paymentDetails {
+		min-width: 320px;
+	}
+	.ratesArea .paymentNotFound {
+		padding-top: 10px;
+		display: none;
+		min-width: 320px;
+	}
+	.ratesArea .paymentNotFound .detailMessage {
+		font-weight: bold;
+		color: #474848;
+	}
+
+div.quickFilter {
+	margin-top: 10px;
+}
+.ratesArea div#homeRateSelector.quickFilter {
+	background: url(/i/images/backgrounds/quickfilter_bg.gif) no-repeat 0 0;
+	border: 0;
+	height: 32px;
+	margin-top: 0px;
+	width: 242px;
+}
+	.ratesArea div.quickFilter input#rateSelectorInput {
+		font-family: Helvetica, Arial, sans-serif;
+		opacity: 1;
+		height: 27px;
+		padding-top: 4px;
+		padding-bottom: 0;
+		font-weight: bold;
+	}
+	.ratesArea div.quickFilter input#rateSelectorInput.grayOut {
+		color: #999999;
+	}
+
+.dynamicRatesWithSidebar {
+	height: 100%;
+	overflow: hidden;
+	background: url(/i/images/backgrounds/download_side_seperator.png) no-repeat 660px bottom;
+	padding-bottom: 30px;
+	margin-bottom: 5px;
+}
+
+	#paddedContent .dynamicRatesWithSidebar div#rightSide {
+		margin-top: 0;
+		padding-top: 20px;
+		width: 240px;
+		height: auto;
+		min-height: 0;
+	}
+
+	#paddedContent .dynamicRatesWithSidebar div#rightSide h2 {
+		padding-bottom: 0;
+	}
+	#paddedContent .dynamicRatesWithSidebar div#rightSide p {
+		margin-bottom: 0;
+	}
+
+	#paddedContent .dynamicRatesWithSidebar div#rightSide a {
+		color: #00aff0;
+	}
+	#paddedContent .dynamicRatesWithSidebar div#rightSide img {
+		margin: 0 5px;
+	}
+
+div.paymentOptionCell {
+	width: 274px;
+	min-width: 274px;
+	float: left;
+	min-height: 100px;
+	height: auto !important;
+	height: 100px;
+	padding-bottom: 10px;
+	}
+
+	.ratesArea .paymentOptionCell {
+		width: 320px;
+		min-width: 320px;
+	}
+
+div.paymentOptionCell h1 {	
+	color: #2c2c2c;
+	}
+	
+.paymentMethod {
+	color: #afb4b4;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+	}
+	
+.call30Countries {
+	font-size: 18px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	color: #474848;
+	}	
+
+.ratesArea .callTo {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	color: #474848;
+	}	
+	
+div.paymentOptionCell h1 {
+	margin-bottom: 0px;
+	}
+	
+div.paymentOptionCell p {
+	margin-bottom: 10px;
+	}	
+	
+p.learnMore {
+/*	display: inline;*/
+	color: #00aff0;
+	font-weight: bold;
+	}	
+	
+div.paymentOptionCell a {
+	color: #00aff0;
+	}	
+	
+#paddedContent div#rightSide {
+	padding-left: 30px;
+	margin-top: 20px;
+	float: left;
+	width: 280px;
+	min-height: 375px;
+	height: auto !important;
+	height: 375px;
+	background: white url(/i/images/backgrounds/download_side_seperator.png) no-repeat top left;
+	}	
+
+	
+div#finishDownload {
+	width: 100%;
+	background-color: #e5f7fd;
+	height: 65px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-align: center;
+	}	
+	
+div#finishDownload .buttonWrapper {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	height: 65px;
+	text-align: center;
+	}
+	
+	* html div#finishDownload .buttonWrapper {
+			display: block;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			height: 65px;
+			text-align: center;
+			}	
+			
+			*:first-child+html div#finishDownload .buttonWrapper {
+				padding-left: 20%;
+				display: block;
+				width: auto;
+				margin-left: auto;
+				margin-right: auto;
+				height: 65px;
+				text-align: center;
+				}			
+	
+.buttonWrapper img {
+	position: relative;
+	top: 17px;
+	display: inline-block;
+	line-height: 65px;
+	margin-left: 10px;
+	float: left;
+	}	
+
+span.appVersion {
+	display: block;
+	float: left;
+	height: 65px;
+	line-height: 65px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 10px;
+	}
+	
+span.buttonPositioner {
+	display: inline-block;
+	float: left;
+	height: 65px;
+	position: relative;
+	top: 16px;
+	}	
+	
+p.informationParagraph {
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	}	
+	
+div#horSeperator {
+	display: block;
+	width: 921px;
+	height: 36px;
+	background: white url(/i/images/illustrations/download_horiz_separator.png) no-repeat 0px 0px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+	
+#content #paddedContent #selectCountry .lowerCell .paymentOptionCell h1,
+#content #paddedContent #selectCountry .lowerCell .paymentOptionCell h2,
+#content #paddedContent #selectCountry .lowerCell .paymentOptionCell p {
+	padding-left: 0px;
+}

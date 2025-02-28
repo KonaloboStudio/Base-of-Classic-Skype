@@ -1,0 +1,31 @@
+/* Main navigation over-ride */
+
+div#global-navigation li {
+	float: left;
+	display: block;
+	line-height: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0;
+	margin: 0 1px 0 0 !important;
+}
+
+div#login-panel h2 {
+	line-height: 1em !important;
+	font-size: 1.4em !important;
+	font-weight: bold !important;
+	margin: 1ex 0 !important;
+}
+
+ul#secondary-navigation {
+	height: 20em !important;
+}
+
+* html ul#secondary-navigation ul li {
+	height: auto;
+}
+
+.help-section {
+	margin: 0 0 20px 60px !important;
+}

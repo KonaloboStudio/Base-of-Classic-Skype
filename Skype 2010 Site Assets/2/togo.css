@@ -1,0 +1,343 @@
+/* remade design for cq release */
+
+div#wideContent {
+	height: 340px;
+	background: #00aff0;
+	margin-bottom: 20px;
+}
+div#wideContent.largeHeader {
+	height: 370px;
+}
+* html div#paddedContent {
+	width: 680px;
+}
+div#topSplash {
+	width: 1006px;
+	height: 340px;
+	margin: 0 auto;
+	position: relative;
+}
+div#wideContent.largeHeader div#topSplash {
+	height: 370px;
+}
+div#topSplash.screenshot {
+	background: url(/i/images/backgrounds/togo_header_screenshot.png) no-repeat bottom right;
+}
+.clouds {
+	margin-bottom: -1px;
+}
+	div#topSplash .clouds {
+		bottom:0;
+		display:block;
+		position:absolute;
+	}
+	div#topSplash div.splashContent {
+		width: 380px;
+		padding: 45px 0 0 40px;
+	}
+		div#topSplash div.splashContent h1 {
+			font-size: 30px;
+			line-height: 35px;
+			color: #FFFFFF;
+		}
+		div#topSplash div.splashContent.adjustSize h1 {
+			font-size: 24px;
+			line-height: 29px;
+		}
+		div#topSplash div.splashContent.adjustSizeSmaller h1 {
+			font-size: 22px;
+			line-height: 27px;
+		}
+		div#topSplash div.splashContent h2 {
+			font-size: 18px;
+			line-height: 21px;
+			color: #B3E7FA;
+			padding: 3px 30px 12px 0;
+		}
+		div#topSplash div.splashContent.adjustSize h2 {
+			font-size: 16px;
+			line-height: 19px;
+		}
+		div#topSplash div.splashContent.adjustSizeSmaller h2 {
+			font-size: 14px;
+			line-height: 17px;
+		}
+		div#topSplash div.splashContent p {
+			color: #FFFFFF;
+		}
+		div#topSplash div.splashContent p span.button a {
+			text-decoration: none;
+		}
+		div#topSplash div.splashContent p a {
+			color: #FFFFFF;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		div#topSplash div.splashContent p.clear {
+			padding-top: 10px;
+		}
+		* html div#topSplash div.splashContent p.clear {
+			padding-top: 0;
+		}
+		*:first-child+html div#topSplash div.splashContent p.clear {
+			padding-top: 0;
+		}
+div#skypeToGoBox {
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	z-index: 99;
+	text-align: center;
+	right: 309px;
+	bottom: 90px;
+	font-weight: bold;
+	color: #FFF;
+}
+div#container.sidebar {
+	margin-top: 0;
+}
+
+h3 {
+	color: #999999;
+}
+
+ul.countries {
+	padding-top: 10px;
+	height: 100%;
+	overflow: hidden;
+}
+ul.countries,
+ul.countries li {
+	list-style-type: none;
+}
+	ul.countries li {
+		display: inline;
+		float: left;
+		margin: 0 25px 0 0;
+		padding: 15px 0 0 0 !important;
+		font-size: 0.79em;
+		color: #525252;
+		line-height: 32px;
+		height: 32px;
+	}
+	ul.countries li img.flagImage {
+		margin: 0 5px 0 0;
+		vertical-align: middle;
+	} 
+	ul.countries li span.text {
+		padding-top: 3px;
+	}
+img.toGoImage {
+	float: right;
+	margin: -20px 0 20px 40px;
+}
+
+#content h2.listHeader {
+	padding-bottom: 25px ;
+}
+
+ul.checkBoxList li {
+	list-style-type: none;
+	list-style-image: url(/i/images/misc/checkbox.png);
+	padding: 0 0 15px 0;
+}
+
+div.bulletedSteps {
+	width: 660px;
+	margin: 0 0 20px 20px;
+	height: 100%;
+	overflow: hidden;
+}
+	div.bulletedSteps .step {
+		width: 170px;
+		padding: 10px 0 0 45px;
+		float: left;
+	}
+	div.bulletedSteps .bulletOne {
+		background: transparent url(/i/images/bullets/blue_1.png) 5px top no-repeat;
+	}
+	div.bulletedSteps .bulletTwo {
+		background: transparent url(/i/images/bullets/blue_2.png) 5px top no-repeat;
+	}
+	div.bulletedSteps .bulletThree {
+		background: transparent url(/i/images/bullets/blue_3.png) 5px top no-repeat;
+	}
+span.button a.skypeToGo span.normalFont {
+	font-size: 0.79em;
+}
+p.buttonAndText {
+	padding-bottom: 20px;
+}
+p.buttonAndText span.text {
+	color: #00aff0;
+}
+p.buttonAndText span.text a {
+	font-weight: bold;
+	color: #00aff0;
+}
+
+div#priceCalc {
+	width: 650px;
+	padding-left: 20px;
+	height: 100%;
+	overflow: hidden;
+}
+	div#priceCalc div.left {
+		width: 309px;
+		float: left;
+	}
+		#content div#priceCalc div.left p.callFrom {
+			padding: 0 0 0 30px;
+			margin-bottom: 7px;
+			background: url(/i/images/icons/call_24x24_white.png) top left no-repeat;
+			line-height: 26px;
+			font-weight: bold;
+		}
+	div#priceCalc div.right {
+		width: 309px;
+		float: right;
+	}
+		#content div#priceCalc div.right p.callTo {
+			padding: 0 0 0 30px;
+			margin-bottom: 7px;
+			background: url(/i/images/icons/contact_24x24_white.png) top left no-repeat;
+			line-height: 26px;
+			font-weight: bold;
+		}
+	div#priceCalc img.separator {
+		float: left;
+		margin-top: 46px;
+	}
+	div#priceCalc div.finalPrice {
+		clear: left;
+		padding: 20px 0 0 70px;
+		background: url(/i/images/misc/togo_calculator_final.png) left 15px no-repeat;
+	}
+	* html div#priceCalc div.finalPrice {
+		padding-bottom: 10px;
+		background: #FFF url(/i/images/misc/togo_calculator_final.png) left 55px no-repeat;
+	}
+	*:first-child+html div#priceCalc div.finalPrice {
+		padding: 10px 0 10px 70px;
+		background: #FFF url(/i/images/misc/togo_calculator_final.png) left 20px no-repeat;
+	}
+		#content div#priceCalc div.finalPrice h2 {
+			padding: 0;
+		}
+		div#priceCalc div.finalPrice h2 span.largeFont {
+			font-size: 32px;
+		}
+	#content div#priceCalc p.note {
+		padding: 20px 0 0 0;
+		margin: 0;
+		color: #888888;
+	}
+
+div#callFromFlag,
+div#callToFlag {
+	width: 70px;
+	text-align: left;
+	float: left;
+}
+div#callFromSelectorDiv {
+}
+select#callFromSelector,
+select#callToSelector {
+	width: 235px;
+	margin-top: 12px;
+}
+
+
+div#topSplash.videoInHeader .splashContent {
+	float: left;
+}
+	div#topSplash.videoInHeader #togovideo-paid {
+		background-image:url("/i/images/backgrounds/skype-to-go-video-bg.png");
+		height: 312px;
+		left: 420px;
+		position:absolute;
+		top: 10px;
+		width: 554px;
+	}
+
+/* Tabs */
+div.tabs {
+	background: url(/i/images/tabs/togo/bg-tabs.png) left 2px no-repeat;
+	margin: 0;
+	padding: 0 0 10px 10px;
+	width: 100%;
+	display: none;
+}
+div.tabs span {
+	font-size: 0.9em;
+}
+div.tabs ul {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+div.tabs ul li {
+	float: left;
+	display: block;
+	list-style: none;
+	line-height: 52px;
+	padding: 0;
+	margin: 0 !important;
+	background: none;
+}
+div.tabs ul li a {
+	float: left;
+	display: block;
+	color: #0181e3;
+	text-decoration: none;
+	background: none;
+	padding: 0 20px 0 25px;
+	font: bold 1.2em/52px Arial, Helvetica, sans-serif;
+}
+
+div.tabs ul li.selected {
+	background: #FFF url(/i/images/tabs/togo/tabs_active_right.png) right 2px no-repeat;
+	color: #545454;
+}
+div.tabs ul li.selected a {
+	background: #FFF url(/i/images/tabs/togo/tabs_active_left.png) left 2px no-repeat;;
+	color: #545454;
+}
+div.tabs ul.smallFont li a,
+div.tabs ul.smallFont li.selected a {
+	font-size: 13px;
+}
+.allTabs {
+	height: 100%;
+	overflow: hidden;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	background: url(/i/images/tabs/togo/tabs-bottom.png) left bottom no-repeat;
+}
+div#checkCallRates {
+	display: none;
+}
+span.vatPricex {
+	color: #888888;
+}
+
+div#container div#content div#paddedContent div#flashcontent {
+	width: 670px;
+	height: 378px;
+	background-color: blue;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	background-image: url(/i/images/backgrounds/skype-to-go-video-bg.png);
+}
+
+div#container div#content div#paddedContent h1.heading {
+	font-size: 32px;
+	color: #afb4b4;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+div#container div#content div#paddedContent h2.subHeading {
+	padding-top: 0px;
+	margin-bottom: 20px;
+}

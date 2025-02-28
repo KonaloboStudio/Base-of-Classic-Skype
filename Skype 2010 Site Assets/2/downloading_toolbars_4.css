@@ -1,0 +1,131 @@
+p.downloading, ul.downloading, form.downloading {
+	margin-left: 70px;
+}
+form.downloading {
+	margin-top: -5px !important;
+	margin-bottom: 10px;
+}
+h3.downloading {
+	padding-left: 70px;
+	line-height: 63px !important;
+	margin-bottom: -10px;
+	font-size: 1.1em;
+}
+h3.down {
+	height: 64px;
+	position: absolute;
+	z-index: 99;
+	border-right: 1px solid #E0E6E8;
+}
+h3.down1 span, h3.down2 span {
+	border-top: 1px solid #E0E6E8;
+	margin-left: -35px;
+	padding-left: 35px;
+	display: block;
+}
+h3.down1 {
+	background: #F1F8FA url(/i_preairlift/images/toolbars/step1.png) top left no-repeat !important;
+	height: 64px;
+	position: relative;
+	border-right: 1px solid #E0E6E8;
+}
+h3.down2 {
+	background: #F1F8FA url(/i_preairlift/images/toolbars/ie_step2.png) top left no-repeat !important;
+	height: 64px;
+	position: relative;
+	border-right: 1px solid #E0E6E8;
+}
+h3.step1 {
+	background: white url(/i_preairlift/images/toolbars/ie_step1.png) top left no-repeat;
+}
+h3.step2 {
+	background: white url(/i_preairlift/images/toolbars/step2.png) top left no-repeat;
+}
+h3.step3 {
+	background: white url(/i_preairlift/images/toolbars/step3.png) top left no-repeat;
+}
+h3.step4 {
+	background: white url(/i_preairlift/images/toolbars/step4.png) top left no-repeat;
+}
+h3.step5 {
+	background: white url(/i_preairlift/images/toolbars/step5.png) top left no-repeat;
+}
+h3.step6 {
+	background: white url(/i_preairlift/images/toolbars/step6.png) top left no-repeat;
+}
+div.newskype {
+	margin: 30px 0 15px 0;
+	width: 540px;
+	height: 95px;
+	line-height: 85px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	background: white url(/i_preairlift/images/downloading/got_the_new_skype.png) top left no-repeat;
+	text-align: center;
+}
+h4 {
+	margin: 0 0 10px 0 !important;
+	padding: 0 10px;
+	background: #F5F5F5 url(/i_preairlift/bg/headers.png) 0 -50px no-repeat;
+	height: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #909090;
+	line-height: 25px;
+	white-space: nowrap;
+	overflow: visible;
+}
+
+/* 1.4 download page */
+
+.setup-beta {
+	margin: 10px 0 0 10px;
+	padding-left: 50px;
+}
+.download-tb {
+	margin-left: 34px;
+	padding: 10px 15px 1px 15px;
+	background-color: #F1F8FA;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #E0E6E8;
+	border-left: 1px solid #E0E6E8;
+	border-right: 1px solid #E0E6E8;
+}
+.download-14 h1 {
+	margin-top: 0;
+}
+.download-14, .download-tb h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.download-tb form {
+	position: relative;
+	z-index: 1;
+	margin: -15px 0 10px 20px !important;
+	clear: both;
+}
+.download-tb p {
+	margin-left: 20px !important;
+}
+form#download-14 {
+	margin-bottom: 10px;
+}
+div.download-listing {
+	width: 543px;
+	margin: 15px 0 15px 0;
+}
+div.download-listing span {
+	float: left;
+	width: 181px;
+	text-align: center;
+	font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 1.7em;
+	line-height: 35px;
+	padding: 5px 0;
+}
+.download-14 a, .download-14 a:hover {
+	color: #999;
+}

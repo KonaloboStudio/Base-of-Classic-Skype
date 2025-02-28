@@ -1,0 +1,133 @@
+div.feature {
+	clear: both;
+	min-height: 50px;
+}
+div.narrow {
+	clear: none !important;
+	min-height: 50px;
+	width: 360px !important;
+}
+div.feature a {
+	width: 50px;
+	height: 50px;
+	display: block;
+	float: left;
+}
+div.feature p a {
+	width: auto;
+	display: inline;
+	float: none;
+}
+div.feature p {
+	float: left;
+	width: 450px;
+}
+div.narrow p {
+	float: left;
+	width: 310px !important;
+}
+h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 1ex 0 0;
+}
+div.screenshot {
+	padding-left: 90px;
+	min-height: 75px;
+}
+div.outlook {
+	background: white url(/i_preairlift/images/features/view_outlook_contacts_1.png) left center no-repeat;
+}
+div.groups {
+	background: white url(/i_preairlift/images/features/groups_1.png) left center no-repeat;
+}
+div.importcontacts {
+	background: white url(/i_preairlift/images/features/import_contacts_1.png) left center no-repeat;
+}
+div.conferencecall {
+	background: white url(/i_preairlift/images/features/conference_calling_2.png) left center no-repeat;
+}
+div.chat {
+	background: white url(/i_preairlift/images/features/chat_1.png) left center no-repeat;
+}
+div.groupchat {
+	background: white url(/i_preairlift/images/features/groupchat_1.png) left center no-repeat;
+}
+div.contacts {
+	background: white url(/i_preairlift/images/features/contacts_1.png) left center no-repeat;
+}
+div.video {
+	background: white url(/i_preairlift/images/features/video_1.png) left center no-repeat;
+}
+
+div.screenshot.ebayalerts {
+	background: white url(/i_preairlift/images/features/ebayalerts.png) left center no-repeat;
+	padding-left: 128px;
+	min-height: 128px;
+}
+
+img.screenshot {
+	margin: 0 0 10px 0;
+}
+* html div.chat {
+	height: 72px;
+}
+.download-box {
+	border: 1px solid #e0e6e8;
+	background-color: #f1f8fa;
+	padding: 15px 15px 7px;
+	margin: 4px 0 15px;
+}
+form.download-box {
+	text-align: center;
+	font: 1.2em Arial, sans-serif;
+}
+form.download-box strong {
+	margin-left: 10px;
+}
+
+
+p.links {
+	font: 16px/16px Arial, sans-serif;
+	font-weight: bold;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.videosnapshot {
+	padding-right: 85px;
+	background: white url(/i_preairlift/images/guides/videosnapshot/snapshot.png) right top no-repeat;	
+}
+
+
+.div.col-2 {
+	margin: -5px 0 10px 0;
+}
+div.col-2 .left, div.col-2 .right {
+	float: left;
+}
+div.col-2 .left {
+	width: 190px;
+	margin-right: 20px;
+}
+div.col-2 .right {
+	width: 190px;
+}
+
+.left.ebay {
+	background: white url(/i_preairlift/images/features/ebayalerts_ebay.png) left top no-repeat;	
+	padding-left: 70px;
+	width: 190px;
+}
+
+.right.paypal {
+	background: white url(/i_preairlift/images/features/ebayalerts_paypal.png) left top no-repeat;	
+	padding-left: 70px;
+}
+
+.left.alert411 {
+	background: white url(/i_preairlift/images/features/ebayalerts_411.png) left top no-repeat;	
+	padding-left: 70px;
+}

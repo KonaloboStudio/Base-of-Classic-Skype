@@ -1,0 +1,241 @@
+div#header {
+	margin: 0;
+	padding: 0;
+	background: white url(/i_preairlift/bg/navigation/navi_bars.png) 0 -300px repeat-x;
+	height: 86px;
+}
+
+div#header div#account-bar {
+	background: transparent url(/i_preairlift/bg/navigation/navi_bars.png) 0 0 repeat-x;
+	width: 749px;
+	height: 25px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -374px;
+}
+
+/* Main navigation */
+
+div#global-navigation {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -375px;
+	width: 61em;
+	min-width: 750px;
+}
+div#global-navigation ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0;
+	margin: 0 0 0 165px;
+}
+
+div#global-navigation li {
+	float: left;
+	display: block;
+	line-height: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0 30px 0 0;
+}
+div#global-navigation li a:hover {
+	border: 1px solid #00aff0;
+	background: white;
+	padding: 6px 7px 7px 7px;
+}
+div#global-navigation li.selected a:hover {
+	border: none;
+	padding: 5px 7px 6px 7px;
+	background: #00aff0;
+}
+div#global-navigation li.selected {
+	background: #00aff0;            
+}
+div#global-navigation li.selected a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 7px 6px 7px;
+}
+div#global-navigation li a {
+	color: #00aff0;
+	text-decoration: none;
+	padding: 7px 8px 8px 8px;
+	display: block;
+}
+
+ul#gnav li#gnav-help {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+/* Account bar */
+
+div#account-bar {
+	line-height: 25px;
+	font-size: 0.9em;
+}
+div#account-bar a {
+	color: black;
+}
+div#account-bar span.welcome {
+	margin-left: 10px;
+	float: left;
+}
+div#account-bar span.balance {
+	margin-right: 10px;
+	float: right;
+}
+div#account-bar span.tagline {
+	margin-right: 10px;
+	float: right;
+	color: #00AFF0;
+	font-weight: bold;
+}
+div#account-bar span.tagline strong {
+	color: black;
+}
+/*
+body.simple div#header div#account-bar {
+	background: transparent url(/i_preairlift/bg/navigation/top_bar_short.png) 125px 0 no-repeat;
+	width: 624px;
+	height: 25px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -374px;
+	padding-left: 125px
+}
+*/
+div#login-panel {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	height: 95px;
+	width: 753px;
+	background: white url(/i_preairlift/bg/login/login_bg.png) top left no-repeat;
+	left: 50%;
+	margin-left: -376px;
+	
+	color: white;
+	text-align: center;
+}
+div#login-panel a {
+	color: white;
+}
+div#login-panel h2 {
+	background: transparent url(/i_preairlift/logos/skype_logo_negative.png) 90px 1px no-repeat;
+	font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif !important;
+	line-height: normal !important;
+	font-size: 1.6em !important;
+	font-weight: 500 !important;
+	margin: 1ex 0 !important;
+}
+div#login-panel a.close {
+	position: relative;
+	margin-right: 15px;
+	margin-top: -35px;
+	font-size: 0.9em;
+	float: right;
+}
+div#login-panel form {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+div#login-panel table {
+	text-align: left !important;
+	margin: 0 0 0 20px !important;
+	vertical-align: middle !important;
+}
+div#login-panel table td div input {
+	width: 155px !important;
+}
+div#login-panel table td label {
+	padding-top: 3px;
+	margin-right: 10px;
+	display: block;
+	text-align: right;
+}
+div#login-panel input#loginbutton {
+	height: 24px;
+	background: #D5E9F0 url(/i_preairlift/bg/login/login_button_padlock.png) 5px 1px no-repeat;
+	border: 2px solid #00aff0;
+	border-bottom: 2px solid #0291C8;
+	border-right: 2px solid #0291C8;
+	padding-left: 22px;
+	font-weight: bold;
+	font-size: 0.9em;
+	text-decoration: underline;
+	font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+}
+
+a#skype-logo {
+	position: absolute;
+	top: 32px;
+	left: 50%;
+	margin-left: -360px;
+}
+
+/* Rounded corners */
+
+.rtop, .rbottom {
+	display: block;
+}
+.rtop *, .rbottom * {
+	display: block;
+	height: 1px;
+	overflow: hidden;
+}
+.r1{
+	margin: 0 5px;
+}
+.r2{
+	margin: 0 3px;
+}
+.r3{
+	margin: 0 2px;
+}
+.r4{
+	margin: 0 1px;
+	height: 2px
+}
+.rs1{
+	margin: 0 2px;
+}
+.rs2{
+	margin: 0 1px;
+}
+
+/* Simple body */
+
+div#header.simple {
+	margin: 0;
+	padding: 0;
+	background: white url(/i_preairlift/bg/navigation/navi_bars.png) 0 -336px repeat-x;
+	height: 51px;
+}
+div#header.simple div#global-navigation {
+	position: absolute;
+	top: 7px;
+	left: 50%;
+	margin-left: -375px;
+	width: 61em;
+	min-width: 750px;
+}
+div#header.simple a#skype-logo {
+	position: absolute;
+	top: 6px;
+	left: 50%;
+	margin-left: -360px;
+}
+
+li#gnav-shop img {
+	margin-right: 3px;
+}

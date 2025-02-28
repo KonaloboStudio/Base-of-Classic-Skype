@@ -1,0 +1,1004 @@
+#content #paddedContent p,
+#content #paddedContent h1,
+#content #paddedContent h2,
+#content #paddedContent h3,
+#content #paddedContent h4,
+#content #paddedContent h5,
+#content #paddedContent h6,
+#content #paddedContent .padded {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+#content #paddedContent ul {
+	padding-right: 10px;
+}
+* html #content #paddedContent ul li {
+	list-style-type: none;
+}
+*:first-child+html  #content #paddedContent ul li {
+	list-style-type: none;
+}
+#sidebar #sidebarContent p,
+#sidebar #sidebarContent ul {
+	padding-right: 10px;
+}
+#sidebar #sidebarContent #sidebarMenu p,
+#sidebar #sidebarContent #sidebarMenu ul {
+	padding-right: 0px;
+}
+*:first-child+html #container.subsSidebar {
+	background: transparent url(/i/images/backgrounds/sidebar_end.png) no-repeat scroll 729px !important;
+}
+*:first-child+html #container.creditSidebar {
+	background: transparent url(/i/images/backgrounds/sidebar_end.png) no-repeat scroll 694px !important;
+}
+div.lightHeader #skypeScreenshot {
+	margin: 24px 38px 0 0 ;
+	float: right;
+}
+div#headings p {
+	float:right;
+}
+div.contentSplitWide div.paidServices {
+    float: right;
+    background: url(/i/images/misc/paidservices_lightsite.png) right top no-repeat;
+    padding-right: 115px;
+	padding-left:0;
+}
+div.contentSplitWide div.paidServices span.buttonSmall {
+	float:right;
+}
+div.contentSplitWide div.freeConvs {
+    float: right;
+    background: url(/i/images/icons/freecalls_ho_white.png) right top no-repeat;
+    padding-right: 125px;
+	padding-left:0;
+}
+div.freeConvs li {
+    list-style: none;
+    padding-right: 25px !important;
+	padding-left:0;
+}
+
+div.freeConvs li.freecalls_ico {
+    background: url(/i/images/icons/freecalls_16x16_white.png) right top no-repeat;
+}
+
+div.freeConvs li.chat_ico {
+    background: url(/i/images/icons/chat_16x16_white.png) right top no-repeat;
+}
+
+div.freeConvs li.video_ico {
+    background: url(/i/images/icons/video_16x16_white.png) right top no-repeat;
+}
+#screenshotLinuxChoose {
+	float: left;
+	margin: -255px 20px -3px 35px;
+}
+.chooseForm {
+	background: #e5f6fd url(/i/images/illustrations/download_blue_ar.png) no-repeat -60px;
+}
+div.chooseLinux {
+	float:right;
+}
+div.chooseLinux ul li#distroUbuntu {
+    background: url(/i/images/icons/download_ubuntu.png) right center no-repeat;
+}
+div.chooseLinux ul li#distroDebian {
+    background: url(/i/images/icons/download_debian.png) right center no-repeat;
+}
+div.chooseLinux ul li#distroMepis {
+    background: url(/i/images/icons/download_mepis.png) right center no-repeat;
+}
+div.chooseLinux ul li#distroXandros {
+    background: url(/i/images/icons/download_xandros.png) right center no-repeat;
+}
+div.chooseLinux ul li#distroFedora {
+	background: url(/i/images/icons/download_fedora.png) right center no-repeat;
+}
+div.chooseLinux ul li#distroSuse {
+    background: url(/i/images/icons/download_suse.png) right center no-repeat;
+}
+div.chooseLinux ul li#distroMandriva {
+    background: url(/i/images/icons/download_mandriva.png) right center no-repeat;
+}
+div.chooseLinux ul li#distroDynSta {
+    background: url(/i/images/icons/download_stat-dyn.png) right center no-repeat;
+}
+div.chooseLinux ul li#distroCentos {
+    background: url(/i/images/icons/download_centos.png) right center no-repeat;
+}
+div.chooseLinux ul li {
+    padding: 10px 48px 0 0 !important;
+}
+p.info {
+	background:#E9FAD0 url(/i/images/icons/message_info_ar.png) no-repeat scroll right center;
+}
+#content p.message {
+	margin:1.31em 0 1.45em !important;
+	padding:14px 67px 16px 20px !important;
+}
+.graphicalSteps {
+	background:transparent url(/i/images/backgrounds/graphical_steps_ar.png) no-repeat scroll right bottom;
+	padding-left:0px;
+	padding-right:35px;
+}
+#content #paddedContent h2.step1,
+#content #paddedContent h2.step2,
+#content #paddedContent h2.step3,
+#content #paddedContent h2.step4,
+#content #paddedContent h2.step5,
+#content #paddedContent h2.step6,
+#content #paddedContent h2.step7,
+#content #paddedContent h2.step8,
+#content #paddedContent h2.step9,
+#content #paddedContent h2.step10 {
+	padding-right: 35px !important;
+	background-position: top right;
+	background-repeat: no-repeat;
+	margin-right: -25px;
+	zoom: 1;
+}
+.removeStepsBorder {
+	background:#FFFFFF none repeat scroll 0 0;
+	margin-bottom:-15px;
+	margin-right:-35px;
+	padding-right:35px;
+}
+a.supEN {
+	background:transparent url(/i/images/misc/sup_en.png) no-repeat scroll left top;
+	padding-left:12px;
+	padding-right:0;
+}
+a.supEN.blue {
+	background:transparent url(/i/images/misc/sup_en.png) no-repeat scroll left -19px;
+	padding-left:12px;
+	padding-right:0;
+}
+div.additionalInformation.legal2ColumnList {
+	padding:23px 40px 15px;
+}
+div.lightHeader.windows {
+	background:#00AFF0 url(/i/images/backgrounds/lightheader_bg_ar.jpg) no-repeat scroll center top;
+}
+.downloadSpecified img {
+	margin-left:10px;
+	margin-right:10px;
+}
+div.downloadHeader .downloadOptions span.description.windows {
+	background:transparent url(/i/images/icons/download_windows_small.png) no-repeat scroll right top;
+	padding-right:30px;
+	margin-right:10px;
+	padding-left:0;
+}
+div.newFeatures.leftAligned .oneThird {
+    text-align: right;
+}
+#screenShotViewer div.screenShotViewerContainer .screenShotBig a.closeScreenShot {
+	float: left;
+	padding-left: 30px;
+	background: url(/i/images/buttons/close_button.png) no-repeat top left;
+	font-size: 12px;                
+	font-weight: bold;
+	line-height: 24px;
+	display: block;
+	cursor: pointer;
+}
+#content #paddedContent ul.featureList li.skypeOut {
+	background: url(/i/images/icons/landlines_24x24_white.png) top right no-repeat;
+	padding-left:10px;
+	padding-right:30px;
+}
+#content #paddedContent ul.featureList li.skypeIm {
+	background: url(/i/images/icons/chat_24x24_white.png) top right no-repeat;
+	padding-left:10px;
+	padding-right:30px;
+}
+#content #paddedContent ul.featureList li.skypeCall {
+	background: url(/i/images/icons/call_24x24_white.png) top right no-repeat;
+	padding-left:10px;
+	padding-right:30px;
+}
+#content #paddedContent ul.featureList li.videoCall {
+	background: url(/i/images/icons/video_24x24_white.png) top right no-repeat;
+	padding-left:10px;
+	padding-right:30px;
+}
+#content #paddedContent ul.featureList li.voiceMail {
+	background: url(/i/images/icons/voicemail_24x24_white.png) top right no-repeat;
+	padding-left:10px;
+	padding-right:30px;
+}
+#content #paddedContent ul.featureList li.callFwd {
+	background: url(/i/images/icons/callfwd_24x24_white.png) top right no-repeat;
+	padding-left:10px;
+	padding-right:30px;
+}
+#screenshotWindows {
+	float:left;
+	margin:-170px 0 0 20px;
+}
+.downloadForm {
+	background:#E5F6FD url(/i/images/illustrations/download_blue_ar.png) no-repeat scroll 180px 0;
+}
+.downloadMobile, .downloadWindows {
+	padding-right:43px;
+	padding-left:0;
+	padding-top:11px;
+	width:400px;
+	background:transparent url(/i/images/icons/download_windows.png) no-repeat scroll right top;
+}
+
+#upgradeLayer a#dontUpgrade {
+    float: left;
+    padding-left: 25px;
+    background: url(/i/images/misc/closedimmer-16x16-index.png) no-repeat left center;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 11px 0 0 0;
+}
+
+/* Win 4.1 beta */
+div.grayNotification {
+	float: left;
+}
+#content #paddedContent ul.iconedBullets li {
+    padding-right: 35px;
+	padding-left: 0;
+    background-position: right top;
+}
+p.rightPadding {
+	padding-right: 40px;
+}
+
+
+div.indexBlue h1,
+div.indexGreen h1 {
+	padding-right: 630px;
+}
+div.indexBlue h1.mobile {
+	padding-right: 560px;
+}
+#splashContent2 h1 {
+	padding-right: 0;
+}
+#grayLeft {
+	text-align: left;
+}
+a.service {
+	background-position: 370px top !important;
+	padding-right: 56px;
+	padding-left: 0;
+}
+#sidebarContent p.noEmergency {
+	background:white url(/i/images/icons/noemergency.png) no-repeat scroll 160px 130px !important;
+}
+#splashContent p.light {
+	padding-right: 560px;
+}
+#splashContent input.sendtoNumber,
+#splashContent div#sendSmsBlock #sendSmsButton {
+	float: left;
+}
+#splashContent div#sendSmsBlock #sendSmsButton {
+	margin-top: -1px;
+}
+div.mobileColumns div.mobileColumn {
+	float: right;
+}
+#blueSplash {
+	float: left;
+	margin-bottom: -100px;
+}
+
+/* Subscriptions */
+* html #paddedContent {
+	width: 670px;
+}
+.packageBlock {
+	float: right;
+}
+div.indexBlue h1.subscriptions {
+	padding-right: 0 !important;
+}
+div.tabs {
+	padding: 0 10px 19px;
+}
+div.tabs ul li {
+	float: right;
+	margin-right: 20px;
+}
+.flag {
+	margin-left: 5px;
+}
+#content #paddedContent ul.countryList {
+	margin-right: 20px;
+}
+* html #content #paddedContent ul.countryList {
+	margin-right: 0;
+	margin-left: 10px;
+}
+#content #paddedContent ul.countryList,
+#content #paddedContent ul.countryListDynamic {
+	float: right;
+}
+
+#content #paddedContent ul.countryList .flag,
+#content #paddedContent ul.countryListDynamic .flag {
+	float: right;
+}
+.morePadding {
+	margin-bottom: 27px !important;
+}
+#content #paddedContent ul.countryList li span.landlines,
+#content #paddedContent ul.countryListDynamic li span.landlines {
+	background-position: top right !important;
+	padding-top: 1px !important;
+	padding-right: 16px !important;
+}
+* html #content #paddedContent ul.countryList li span.landlines,
+* html #content #paddedContent ul.countryListDynamic li span.landlines {
+	padding: 1px 0 0 16px !important;
+}
+*:first-child+html #content #paddedContent ul.countryList li span.landlines,
+*:first-child+html #content #paddedContent ul.countryListDynamic li span.landlines {
+	padding: 1px 0 0 16px !important;
+}
+#content #paddedContent ul.countryList li span.mobiles,
+#content #paddedContent ul.countryListDynamic li span.mobiles {
+	background-position: top right !important;
+	padding-top: 1px !important;
+	padding-right: 14px !important;
+	margin-right: 2px;
+}
+* html #content #paddedContent ul.countryList li span.mobiles,
+* html #content #paddedContent ul.countryListDynamic li span.mobiles {
+	padding: 1px 0 0 14px !important;
+}
+*:first-child+html #content #paddedContent ul.countryList li span.mobiles,
+*:first-child+html #content #paddedContent ul.countryListDynamic li span.mobiles {
+	padding: 1px 0 0 14px !important;
+}
+#content #paddedContent ul.cityList li span.landlines {
+	background-position: top right !important;
+	padding: 1px 16px 0 0 !important;
+}
+* html #content #paddedContent ul.cityList li span.landlines {
+	background-position: top right !important;
+	padding: 1px 0 0 16px !important;
+}
+*:first-child+html #content #paddedContent ul.cityList li span.landlines {
+	background-position: top right !important;
+	padding: 1px 0 0 16px !important;
+}
+#content #paddedContent .cityListContainer ul.cityList li {
+	float: right;
+}
+div.cityListContainer.full img.mexicoFlag {
+	float: right !important;
+}
+
+div.mexicoInfo {
+	padding: 20px 90px 20px 20px;
+	background: #E7E8E8 url(/i/images/flags/grey/MX.png) 600px 20px no-repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+div.mexicoInfoBlue {
+	padding: 20px 90px 20px 20px;
+	background: #CCEFFC url(/i/images/misc/subscriptions_MX_blue.png) 560px 20px no-repeat;
+	margin: 0 20px 10px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	min-height: 50px;
+	height: auto !important;
+	height: 50px;	
+}
+*:first-child+html div.mexicoInfo {
+	width: 550px;
+	float: left;
+	background-position: 585px 20px;
+}
+*:first-child+html div.mexicoInfoBlue {
+	width: 510px;
+	float: left;
+	background-position: 545px 20px;
+}
+	div.mexicoInfo ul.specialPrices,
+	div.mexicoInfoBlue ul.specialPrices {
+		margin: 10px 0 0 0;
+		padding: 0;
+	}
+	#content #paddedContent div.mexicoInfo ul.specialPrices li,
+	#content #paddedContent div.mexicoInfoBlue ul.specialPrices li {
+		list-style-type: none;
+		display: inline-block;
+		width: auto;
+		padding: 2px 20px 0 0 !important;
+		margin: 0 10px 0 0!important;
+		line-height: 13px;
+		float: right;
+	}
+	
+	    .subscriptionHeader .packageDescription span.price {
+		display: block;
+		width: 160px;
+		}
+		
+		div.mexicoInfo ul.specialPrices li.landlineCalls  {
+			background: url(/i/images/misc/subscriptions_landline_calls_16x14.png) top right no-repeat;
+		}
+		div.mexicoInfoBlue ul.specialPrices li.landlineCalls  {
+			background: url(/i/images/misc/subscriptions_landline_calls_16x14_blue.png) top right no-repeat;
+		}
+		* html #content #paddedContent div.mexicoInfo ul.specialPrices li.landlineCalls,
+		* html #content #paddedContent div.mexicoInfoBlue ul.specialPrices li.landlineCalls {
+			padding: 0 0 0 15px;
+			margin: 0 0 0 10px;
+		}
+		*:first-child+html #content #paddedContent div.mexicoInfo ul.specialPrices li.landlineCalls,
+		*:first-child+html #content #paddedContent div.mexicoInfoBlue ul.specialPrices li.landlineCalls {
+			padding: 0 0 0 15px;
+			margin: 0 0 0 10px;
+		}
+		div.mexicoInfo ul.specialPrices li.mobileCalls {
+			background: url(/i/images/misc/subscriptions_mobile_calls_16x14.png) top right no-repeat;
+		}
+		div.mexicoInfoBlue ul.specialPrices li.mobileCalls {
+			background: url(/i/images/misc/subscriptions_mobile_calls_16x14_blue.png) top right no-repeat;
+		}
+		* html #content #paddedContent div.mexicoInfo ul.specialPrices li.mobileCalls,
+		* html #content #paddedContent div.mexicoInfoBlue ul.specialPrices li.mobileCalls {
+			padding: 0 0 0 5px;
+			margin: 0 0 0 10px;
+		}
+		*:first-child+html #content #paddedContent div.mexicoInfo ul.specialPrices li.mobileCalls,
+		*:first-child+html #content #paddedContent div.mexicoInfoBlue ul.specialPrices li.mobileCalls {
+			padding: 0 0 0 5px;
+			margin: 0 0 0 10px;
+		}
+
+select.countrySelector {
+	width: 200px !important;
+}
+.cityHiliteIcon {
+	float: right;
+	margin: 0 5px;
+}
+
+.packageDescription {
+	margin-right: 400px;
+	padding-left: 0;
+	padding-right: 77px;
+}
+* html .packageDescription {
+	padding: 0 430px 0 0;
+}
+*:first-child+html .packageDescription {
+	padding: 0 430px 0 0;
+}
+.subscriptionHeader .singlePackage,
+.subscriptionHeader .limitedPackage,
+.subscriptionHeader .fullPackage {
+	background-position: top right;
+}
+* html .subscriptionHeader .singlePackage,
+* html .subscriptionHeader .limitedPackage,
+* html .subscriptionHeader .fullPackage {
+	background-position: 500px top;
+}
+*:first-child+html .subscriptionHeader .singlePackage,
+*:first-child+html .subscriptionHeader .limitedPackage,
+*:first-child+html .subscriptionHeader .fullPackage {
+	background-position: 500px top;
+}
+.subscriptionHeader .packageDescription div.price {
+	float: right;
+}
+#skypeRatesSwitch {
+	margin-right: 20px;
+}
+
+#skypeRatesDisplayFlag {
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+	margin-top: -3px;
+}
+.contentPrice p.price {
+	float: right;
+}
+.buttonFloater {
+	float: right;
+	margin-right: 20px;
+}
+.subscriptionContents .columnIcon {
+	float: right;
+	margin-left: 10px;
+}
+#sidebarMenu ul li img.menuIcon {
+	margin-left: 5px;
+}
+#content #paddedContent img.mexicoFlag {
+	float: left;
+	margin: 3px 5px 10px -5px;
+}
+#content #paddedContent div.mobileColumns div.mobileColumn h2,
+div.mobileColumn a.callToAction {
+	padding: 0 30px 0 0;
+}
+#sidebarMenu ul li a strong,
+#sidebarMenu ul li.active a strong,
+#sidebarMenu ul li.subTitle strong {
+	padding: 0 11px 6px 5px;
+}
+
+* html #sidebarMenu ul li a strong,
+* html #sidebarMenu ul li.active a strong,
+* html #sidebarMenu ul li.subTitle strong {
+	padding: 0 16px 6px 20px;
+}
+
+*:first-child+html #sidebarMenu ul li a strong,
+*:first-child+html #sidebarMenu ul li.active a strong,
+*:first-child+html #sidebarMenu ul li.subTitle strong {
+	padding: 0 21px 6px 5px;
+}
+
+* html #sidebarMenu ul li.active {
+	margin-right: 5px;
+	margin-left: -27px;
+}
+
+*:first-child+html #sidebarMenu ul li.active {
+	margin-right: -17px;
+}
+
+* html #content .upSellBox {
+	background:transparent url(/i/images/backgrounds/upsell_box.png) no-repeat scroll -10px bottom;
+	width: 670px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+* html #content .upSellBox .leftColumn,
+* html #content .upSellBox .rightColumn {
+	width: 335px;
+}
+* html #content .upSellBox .leftColumn h2 {
+	margin-left:0;
+}
+
+#content #paddedContent table.prices th img {
+	float: right;
+	margin: 0 0 0 8px;
+}
+
+caption, th, td {
+	text-align: right;
+}
+.currency {
+	text-align: center;
+}
+p.footNote {
+	padding-right: 30px;
+}
+div.devicesOverlay {
+	margin: 0 0 0 100px;
+}
+#splashContent input.sendtoNumber {
+	margin-left: 3px;
+}
+* html #content #infoBox .rightBlockTriple {
+	width: 210px;
+}
+* html div.mobileColumns div.mobileColumn {
+	width: 180px;
+}
+.singlePackage .illustration {
+	margin: 8px 13px 0 13px;
+}
+.limitedPackage .illustration {
+	margin: 8px 13px 0 13px;
+}
+.fullPackage .illustration {
+	margin: 0 13px;
+}
+* html #paddedContent .packageBlock {
+	width: 223px
+}
+#content #paddedContent ul.splitList {
+	padding-right: 0;
+	width: 300px;
+	margin-right: 10px;
+}
+* html #content #paddedContent ul.splitList {
+	margin-right: 0;
+	margin-left: 10px;
+}
+*:first-child+html #content #paddedContent ul.splitList {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.newIndicator {
+	margin-right: 3px;
+}
+* html .newIndicator {
+	margin-left: 3px;
+}
+*:first-child+html .newIndicator {
+	margin-left: 3px;
+}
+
+ul#destinationList li span.flag {
+	margin: 2px 0 0 5px;
+	float: right;
+}
+
+#content #paddedContent div.graphicalSteps strong.title {
+    font-size: 1.14em;
+}
+
+    #content #paddedContent div.graphicalSteps img {
+        float: right;
+        margin: -10px 0 15px -80px;
+        padding-left: 90px;
+    }
+
+#content #paddedContent div.graphicalSteps p {
+    padding-left: 120px !important;
+    clear: both;
+    padding-bottom: 10px !important;
+}
+
+#content #paddedContent div.graphicalSteps .buttonSmall {
+    display: block;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+
+#content #paddedContent div.graphicalSteps img#splashCash {
+    margin-left: -75px;
+}
+	
+div.tabs span.icon.globe {
+	background-position: right 7px !important;
+}
+
+div.tabs span.icon {
+	padding-left: 0px !important;
+	padding-right: 22px;
+	display:block !important;
+}
+
+/********* atWork page **************/
+
+body.atWork #widePromo #promoText {
+	text-align: left;
+}
+
+body.atWork #content a.blueButton.paddedTop {
+	float: right;
+	clear: both;
+}
+
+body.atWork #content .twoColumn .halfColumn {
+	width: 220px;
+	padding-right: 10px;
+}
+
+body.atWork #content .twoColumn .textLeft,
+body.atWork #content a.blueButton.paddedBottom {
+	float: right;
+	margin-left: 10px;
+}
+
+/********* payAsYouGo page **************/
+
+div#contentHeader div.paygArabic {
+	text-align: left;
+}
+
+div#contentHeader div.paygArabic h1,
+div#contentHeader div.paygArabic h2,
+div#contentHeader div.paygArabic h3 {
+	width: 100% !important;
+	float: left;
+	margin-left: 40px;
+}
+
+div#contentHeader div.paygArabic h3 a.text {
+	margin-left: 0px;
+}
+
+ul.paygArabic {
+	margin-left: 0px !important;
+	margin-right: 45px !important;
+}
+
+#content #paddedContent div.upSell p.price {
+	margin-right: 10px;
+}
+
+#suggesticator div.currencyChange a {
+	float: left;
+}
+
+div.quickFilter .quickFilterInput {
+	text-indent: 40px;
+	background: url("/i/images/backgrounds/search.png") no-repeat scroll 180px 9px transparent;
+	float: right;
+}
+
+div.quickFilter a.clear {
+	position: absolute;
+	right: 210px !important;
+}
+
+#ratesList table.ratesTable td:first-child, #ratesList table.ratesTable th:first-child {
+	padding-right:10px;
+}
+
+/************* prices page ***************/
+
+form#currencyChangeForm {
+	margin-right: 170px !important;
+	margin-top: -27px;
+}
+
+#content #paddedContent table.bluePrices tr th h2 {
+	padding: 0 30px 0 0;
+}
+
+table.bluePrices tr td {
+	padding: 18px 20px 18px 0;
+}
+
+table.bluePrices tr th.left h2 {
+	background: url(/i/images/icons/prices_table_left.png) no-repeat scroll right 14px #CCEFFC;
+}
+
+table.bluePrices tr th.right h2 {
+	background: url(/i/images/icons/prices_table_right.png) no-repeat scroll right 14px #CCEFFC;
+}
+
+table.bluePrices tr th.left,
+table.bluePrices tr th.left {
+	padding: 0 20px 0 0;
+}
+
+/************* get skype page *************/
+
+div#contentHeader.getSkype div.middleContent h1 {
+	float: left;
+}
+
+div#content div#paddedContent div.onYourComputer p, 
+div#content div#paddedContent div.onYourComputer h2, 
+div#content div#paddedContent div.onYourComputer img, 
+div#content div#paddedContent div.onYourComputer a, 
+div#content div#paddedContent div.onYourMobile a {
+	float: right;
+	
+}
+
+div#container div#content div#paddedContent div.onYourComputer div.bubbleLink a {
+	background: url(/i/images/icons/info_with_shadow_20x20_white.png) no-repeat scroll right top transparent;
+	padding: 0 30px 7px !important;
+}
+
+div#container div#content div#paddedContent div.onYourComputer div.bubbleLink a:hover {
+	background: url(/i/images/icons/info_with_shadow_20x20_white.png) no-repeat scroll right top transparent;
+	padding: 0 30px 7px !important;
+}
+
+
+#bottomSubNavigation table td:first-child {
+	border-left: 1px solid #D0D0D0 !important;
+}
+
+#bottomSubNavigation table td:last-child {
+	border-left: medium none !important;
+}
+
+div.onYourComputer p, 
+div.onYourComputer h2, 
+div.onYourMobile p,
+div.onYourMobile h2,
+div.onYourTv p,
+div.onYourTv h2,
+div.atWork p, 
+div.atWork h2 {
+	padding-right: 0px !important;
+}
+
+div#content div#paddedContent div.atWork h2,
+div#content div#paddedContent div.atWork p,
+div#content div#paddedContent div.atWork a {
+	padding-right: 470px !important;
+}
+
+div.helpBubble {
+	position: absolute;
+	left: 50px;
+}
+
+div#skypedetectioncontainer {
+	position: absolute;
+	left: 0px !important;
+	right: -10px;
+}
+
+div#detection-container {
+	position: absolute;
+	left: 0px !important;
+	right: -10px;	
+}
+
+/************* features page *************/
+
+#container .videoCalling h2 {
+	padding: 16px 60px 26px 0px; 
+	background: url(/i/images/icons/video_48x48_white.png) no-repeat scroll right top #FFFFFF;
+}
+
+#container .voiceCalling h2 {
+	padding: 16px 60px 26px 0;
+	background: url(/i/images/icons/call_48x48_white.png) no-repeat scroll right top #FFFFFF;
+}
+
+#container .callPhones h2 {
+	padding: 16px 60px 26px 0px; 
+	background: url(/i/images/icons/callphones_48x48_white.png) no-repeat scroll right top #FFFFFF;
+}
+
+#container .instantMessaging h2 {
+	padding: 16px 60px 26px 0px; 
+	background: url(/i/images/icons/chat_48x48_white.png) no-repeat scroll right top #FFFFFF;
+}
+
+#container .twoColumns .smallColumn .bubbleLink a {
+	background: url(/i/images/icons/info_with_shadow_20x20_white.png) no-repeat scroll right top transparent;
+	padding: 4px 30px 3px 23px;
+}
+
+#container .twoColumns .smallColumn .bubbleLink a:hover {
+	background: url(/i/images/icons/info_with_shadow_20x20_white.png) no-repeat scroll right top transparent;
+	padding: 4px 30px 3px 23px;
+}
+
+div.helpBubble div.needed {
+	padding: 7px 35px 5px 0;
+}
+
+	div.helpBubble div.computer {
+		background: url(/i/images/misc/features_bubbleicon_computer.png) no-repeat top right;
+	}
+	div.helpBubble div.broadband {
+		background: url(/i/images/misc/features_bubbleicon_broadband.png) no-repeat top right;
+	}
+	div.helpBubble div.webcam {
+		background: url(/i/images/misc/features_bubbleicon_webcam.png) no-repeat top right;
+	}
+	div.helpBubble div.headset {
+		background: url(/i/images/misc/features_bubbleicon_headset.png) no-repeat top right;
+	}
+	div.helpBubble div.mobile {
+		background: url(/i/images/misc/features_bubbleicon_mobile.png) no-repeat top right;
+	}
+	div.helpBubble div.skype {
+		background: url(/i/images/misc/features_bubbleicon_skype.png) no-repeat top right;
+	}
+
+#container #content .threeColumns .offlineCalling h2 {
+	background: url(/i/images/icons/togo_48x48_white.png) no-repeat scroll right top #FFFFFF;
+	padding: 16px 60px 26px 20px;
+}
+
+#container #content .threeColumns .onlineNumber h2 {
+	background: url(/i/images/icons/skypein_48x48_white.png) no-repeat scroll right top #FFFFFF;
+	padding: 16px 60px 26px 20px;
+}
+
+#container #content .threeColumns .skypeSms h2 {
+	background: url(/i/images/icons/sms_48x48_white.png) no-repeat scroll right top #FFFFFF;
+	padding: 16px 60px 26px 20px;
+}
+	
+/************* on your mobile page *************/
+
+div#contentHeader .middleContent h1.arabic {
+	padding-right: 600px;
+}
+
+#content .threeColumns .download {
+	background: url(/i/images/backgrounds/mobile_icon_download.png) no-repeat scroll right top transparent;
+}
+
+#content .threeColumns .preinstalled {
+	background: url(/i/images/backgrounds/mobile_icon_preinstalled.png) no-repeat scroll right top transparent;
+}
+
+#content .threeColumns .togo {
+	background: url(/i/images/backgrounds/mobile_icon_togo.png) no-repeat scroll right top transparent;
+}
+
+#content .threeColumns .column h2 {
+	padding: 0 45px 0 0;
+}
+
+#content .threeColumns .column h3 {
+	padding: 0 45px 0 0;
+}
+
+#content .threeColumns .column p {
+	padding: 0 45px 0 0;
+}
+
+#content .threeColumns .column ul li {
+	background: url(/i/images/icons/mobile_icon_green_tick.png) no-repeat scroll left 4px transparent;
+	padding: 0 45px 0 0;
+}
+
+#content .threeColumns .column .imgBlock img {
+	float: right;
+}
+
+#content .threeColumns .column .imgBlock {
+padding: 0 30px 0 0;
+}
+
+#viewAll div.body table tr th:first-child, #viewAll div.body table tr td:first-child {
+	border-right: none;
+	border-left: 1px solid #BCEAFB;
+}
+
+#viewAll div.body table tr th, #viewAll div.body table tr td {
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+h2.blueIllustrated img {
+	display: none;
+}
+
+.forceLayout span.button {
+	float: right;
+}
+
+#betaVistaCertified {
+	float: left;
+	margin-right: 40px !important;
+}
+
+small.rightPadding {
+	padding-right: 40px;
+}
+
+/*business page contact form*/
+
+#contactform form fieldset legend {
+	padding-right: 15px;
+}
+
+#contactform form fieldset div label {
+	text-align: right;
+}
+
+#contactform form fieldset div label span {
+	float: right;
+}
+
+#content h3 {
+	text-align: right;
+}
+
+.rtl .smsDownload label {
+	float: right;
+	margin-left: 20px;
+}
+	.rtl .smsDownload label input.sendtoNumber {
+		padding-left: 0;
+		padding-right: 6px;
+		position: relative;
+		right: 5px;
+	}

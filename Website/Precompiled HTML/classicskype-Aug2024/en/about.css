@@ -1,0 +1,866 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/10-10-6k.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #00489F;
+   text-decoration: underline;
+}
+a:active
+{
+   color: #0064DD;
+}
+a:hover
+{
+   color: #0064DD;
+   text-decoration: underline;
+}
+#SKYLIB3_HEADER
+{
+   background-image: linear-gradient(to bottom, #FFFFFF 0%, #F8F8F8 34%, #E1E1E1 34%, #F6F6F6 70%, #E5F7FD 70%, #E5F7FD 100%);
+   border-radius: 0px;
+   box-sizing: border-box;
+}
+#SKYLIB_ABOUT_MX
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#SKYLIB_ABOUT_MX .modal-content
+{
+   background-image: linear-gradient(to bottom, #C5DFFD 0%, #8DBEFF 100%);
+   border: 1px solid #D3D3D3;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px #4F4F4F;
+   overflow: visible;
+   pointer-events: all;
+}
+#SKYLIB_ABOUT_MX.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#SKYLIB_ABOUT_MX .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#SKYLIB_ABOUT_MX .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#SKYLIB_ABOUT_MX.modal
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#SKYLIB_ABOUT_MX .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#SKYLIB_ABOUT_MX .modal-open
+{
+   overflow: hidden;
+}
+#SKYLIB_ABOUT_MX .modal-dialog
+{
+   position: relative;
+   width: 970px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#SKYLIB_ABOUT_MX .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#SKYLIB_ABOUT_MX .modal-header
+{
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   padding: 7px 10px 7px 10px;
+   background-color: #E9E9E9;
+   border-bottom: 1px solid #DDDDDD;
+}
+#SKYLIB_ABOUT_MX .modal-footer
+{
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   padding: 7px 10px 7px 10px;
+   border-top: 1px solid #DDDDDD;
+}
+#SKYLIB_ABOUT_MX .modal-body
+{
+   position: relative;
+   width: 970px;
+   height: 554px;
+}
+#SKYLIB_ABOUT_MX .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #333333;
+   margin-right: 3px;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#SKYLIB_ABOUT_MX .modal-header
+{
+   cursor: move;
+}
+#SKYLIB_ABOUT_MX .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: 1.75rem auto;
+   min-height: calc(100% - 3.5rem);
+   pointer-events: none;
+}
+#SKYLIB_ABOUT_MX .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#SKYLIB_ABOUT_MX .modal-title
+{
+   color: #333333;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   font-style: normal;
+   text-align: left;
+   margin: 0;
+}
+#CALL_WINDOW
+{
+   background-color: transparent;
+   background-image: url('images/office-blur.png');
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: contain;
+   border: 1px solid #CCCCCC;
+   border-radius: 5px;
+}
+#wb_MAGIXA
+{
+   vertical-align: top;
+}
+#MAGIXA
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SKYLIB_FOOTER_IF
+{
+   box-sizing: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   margin: 0;
+}
+#SKYPE5_WINDOW
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 3px;
+}
+#LEFT_PANEL
+{
+   background-image: linear-gradient(to top, #D2D4D7 0%, #EBEBEB 100%);
+   border: 1px solid #CCCCCC;
+   border-radius: 5px;
+}
+#TOP_LEFT
+{
+   background-image: linear-gradient(to top, #D2D4D7 0%, #EBEBEB 100%);
+   border: 1px solid #CCCCCC;
+   border-radius: 5px;
+}
+#wb_SKYLIB_ABOUT2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 5px 5px 5px 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_SKYLIB_ABOUT2 div
+{
+   text-align: left;
+}
+#THANK
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 5px;
+}
+#wb_THANKS_TEXT 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 5px 5px 5px 5px;
+   margin: 0;
+   text-align: justify;
+}
+#wb_THANKS_TEXT div
+{
+   text-align: justify;
+}
+#wb_Image7
+{
+   vertical-align: top;
+}
+#Image7
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text10 div
+{
+   text-align: justify;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#THANKS1
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#THANKS2
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text3 div
+{
+   text-align: justify;
+}
+#THANKS3
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text5 div
+{
+   text-align: justify;
+}
+#THANKS4
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image4
+{
+   vertical-align: top;
+}
+#Image4
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text17 div
+{
+   text-align: justify;
+}
+#CONTACT_NAME
+{
+   background-image: linear-gradient(to top, #D2D4D7 0%, #EBEBEB 100%);
+   border: 1px solid #CCCCCC;
+   border-radius: 5px;
+}
+#CREATOR
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text18 div
+{
+   text-align: left;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text19 div
+{
+   text-align: justify;
+}
+#EN_TOGGLE
+{
+   top: 0px;
+   width: 177px;
+   height: 151px;
+   background-image: linear-gradient(to top, rgba(211,211,211,0.07) 0%, rgba(245,245,245,0.09) 100%);
+   border: 0px #CCCCCC solid;
+   border-radius: 8px;
+}
+#EN_TOGGLE:hover
+{
+   background-image: linear-gradient(to top, rgba(211,211,211,0.20) 0%, rgba(245,245,245,0.20) 100%);
+   border: 0px #0963AD solid;
+}
+#EN_TOGGLE_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 2.26%;
+   top: 2.65%;
+   width: 94.92%;
+   height: 94.04%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#SKYLIB_HEADER_IF
+{
+   box-sizing: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   margin: 0;
+}
+#wb_S_LOGO
+{
+   vertical-align: top;
+}
+#S_LOGO
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_T_LOGO
+{
+   vertical-align: top;
+}
+#T_LOGO
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SKYLIB_PLAYER
+{
+   box-sizing: border-box;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border: 0px solid #DDDDDD;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px rgba(79,79,79,0.40);
+}
+#wb_SKYLIB_PLAYER
+{
+   --plyr-color-main: #00AFF0;
+}
+#ABOUT_INSTANCE
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 5px;
+}
+#wb_INSTANCE 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 5px 10px 5px 10px;
+   margin: 0;
+   text-align: center;
+}
+#wb_INSTANCE div
+{
+   text-align: center;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image5
+{
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text6 div
+{
+   text-align: justify;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image6
+{
+   vertical-align: top;
+}
+#Image6
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text11 div
+{
+   text-align: justify;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image8
+{
+   vertical-align: top;
+}
+#Image8
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image9
+{
+   vertical-align: top;
+}
+#Image9
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image10
+{
+   vertical-align: top;
+}
+#Image10
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image11
+{
+   vertical-align: top;
+}
+#Image11
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image12
+{
+   vertical-align: top;
+}
+#Image12
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 3px 0 3px 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text12 div
+{
+   text-align: left;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 10px 10px 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text13 div
+{
+   text-align: left;
+}
+#wb_SKYLIB_ABOUTINSTANSE 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 10px 10px 10px;
+   margin: 0;
+   text-align: right;
+}
+#wb_SKYLIB_ABOUTINSTANSE div
+{
+   text-align: right;
+}
+#SKYLIB_FOOTER
+{
+   background-image: linear-gradient(to top, #E2E2E2 0%, #FEFEFE 100%);
+   border-radius: 0px;
+   box-sizing: border-box;
+}

@@ -1,0 +1,62 @@
+table.b1,
+table.b2,
+table.b3,
+table.b4,
+table.b5,
+table.b6,
+table.b7,
+table.b8 {
+	position: absolute;
+	z-index: 10;
+}
+td.b1-right {
+	background: transparent url(/i_preairlift/images/guidebubble/1_repeat_right.png) bottom right repeat-y;
+}
+td.b1-left {
+	background: transparent url(/i_preairlift/images/guidebubble/1_repeat_left.png) bottom left repeat-y;
+}
+td.b2-right {
+	background: transparent url(/i_preairlift/images/guidebubble/2_repeat_right.png) bottom right repeat-y;
+}
+td.b2-left {
+	background: transparent url(/i_preairlift/images/guidebubble/2_repeat_left.png) bottom left repeat-y;
+}
+td.b3-right {
+	background: transparent url(/i_preairlift/images/guidebubble/3_repeat_right.png) bottom right repeat-y;
+}
+td.b3-left {
+	background: transparent url(/i_preairlift/images/guidebubble/3_repeat_left.png) bottom left repeat-y;
+}
+td.b4-right {
+	background: transparent url(/i_preairlift/images/guidebubble/4_repeat_right.png) bottom right repeat-y;
+}
+td.b4-left {
+	background: transparent url(/i_preairlift/images/guidebubble/4_repeat_left.png) bottom left repeat-y;
+}
+td.b5-right {
+	background: transparent url(/i_preairlift/images/guidebubble/5_repeat_right.png) bottom right repeat-y;
+}
+td.b5-left {
+	background: transparent url(/i_preairlift/images/guidebubble/5_repeat_left.png) bottom left repeat-y;
+}
+td.b6-right {
+	background: transparent url(/i_preairlift/images/guidebubble/6_repeat_right.png) bottom right repeat-y;
+}
+td.b6-left {
+	background: transparent url(/i_preairlift/images/guidebubble/6_repeat_left.png) bottom left repeat-y;
+}
+td.b7-right {
+	background: transparent url(/i_preairlift/images/guidebubble/7_repeat_right.png) bottom right repeat-y;
+}
+td.b7-left {
+	background: transparent url(/i_preairlift/images/guidebubble/7_repeat_left.png) bottom left repeat-y;
+}
+td.b8-right {
+	background: transparent url(/i_preairlift/images/guidebubble/8_repeat_right.png) bottom right repeat-y;
+}
+td.b8-left {
+	background: transparent url(/i_preairlift/images/guidebubble/8_repeat_left.png) bottom left repeat-y;
+}
+td.center {
+	background: white;text-align:center;font-size:1em;color:#424242;
+}

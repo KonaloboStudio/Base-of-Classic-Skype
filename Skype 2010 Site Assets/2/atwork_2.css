@@ -1,0 +1,195 @@
+body.atWork #widePromo {
+	height:100%;
+	margin-top: 4px;
+}
+
+body.atWork #widePromo.gradientBlue {
+	background-image:url(/i/images/backgrounds/atwork_promo_blue.png);
+	background-position:top center;
+	background-repeat:repeat-y;
+}
+
+body.atWork #widePromo #promoImage {}
+
+body.atWork #widePromo #promoImage.atWork {
+	background-image:url(/i/images/illustrations/atwork_clouds.png);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+}
+
+/* ie6 */
+body.atWork #widePromo #promoImage.atWork {
+	_background-image:url(/i/images/illustrations/atwork_clouds_blue.png);
+	_background-position:bottom center;
+	_background-repeat:no-repeat;
+}
+
+body.atWork #widePromo #promoText {
+	width:940px;
+	margin:0 auto;
+	padding:25px 0 110px 20px;
+}
+
+body.atWork #widePromo #promoText h1 {
+	font-size:32px;
+	color:#FFFFFF;
+	margin:0;
+	padding:0;
+	line-height:100%;
+}
+
+body.atWork #widePromo #promoText p {
+	font-size:18px;
+	color:#FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+
+body.atWork #content {
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+body.atWork #content #videoHolder {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+body.atWork a.blueButton {
+	display:block;
+	height:21px;
+	background-image:url(/i/images/business/buttons/blue/button-blue.png);
+	background-position:top left;
+	background-repeat:repeat-x;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	color:#FFFFFF;
+	text-decoration:none;
+	float:left;
+	font-weight:bold;
+	padding:5px 10px 0 10px;
+	text-shadow:none;
+	line-height:15px;
+	font-size:13px;
+	border:0;
+	white-space:nowrap;
+}
+
+body.atWork a.blueButton:hover {
+	background-image:url(/i/images/business/buttons/blue/button-blue.png);
+	background-position:bottom left;
+	background-repeat:repeat-x;
+}
+
+
+body.atWork #content a.blueButton.paddedTop {
+	margin-top:10px;
+}
+
+body.atWork #content a.blueButton.paddedBottom {
+	margin-top:4px;
+}
+
+body.atWork #content img.borderImg {
+	padding:6px;
+	background-image:url(/i/images/backgrounds/atwork_image_border.png);
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+body.atWork #content .wideContent {
+	padding:34px 20px 0 20px;
+}
+
+body.atWork #content .wideContent .left {
+	width:640px; /* max 680 */
+	float:left;
+}
+
+body.atWork #content .wideContent .right {
+	width:250px;
+	float:right;
+}
+
+body.atWork #content .wideContent .right.paddedTop {
+	padding-top:3px;
+}
+
+body.atWork #content .wideContent .right img.bcp {
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+body.atWork #content .twoColumn {
+	width:920px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+body.atWork #content .twoColumn .left {
+	width:460px;
+	float:left;
+	overflow:hidden;
+}
+
+body.atWork #content .twoColumn .right {
+	width:460px;
+	float:right;
+	overflow:hidden;
+}
+
+body.atWork #content .twoColumn .textLeft {
+	float:left;
+	padding-right:12px;
+}
+
+body.atWork #content .twoColumn .halfColumn.atWork h3 {
+	padding-top:8px;
+}
+
+body.atWork #content .twoColumn .halfColumn {
+	width:220px;
+	float:left;
+	overflow:hidden;
+	padding: 0 5px;
+}
+
+
+body.atWork .baseline {
+	height:19px;
+	clear:both;
+}
+
+body.atWork .baseline2 {
+	height:34px;
+	clear:both;
+}
+
+body.atWork #content p {
+	color:#666666;
+}
+
+body.atWork #content h1 {
+	font-size:22px;
+}
+
+body.atWork #content h2 {
+	font-size:18px;
+}
+
+body.atWork #content h3 {
+	font-size:14px;
+}
+
+body.atWork #content h1,
+body.atWork #content h2,
+body.atWork #content h3 {
+	color:#4b465a;
+	font-weight:bold;
+	line-height:110%;
+	margin:0;
+	padding:0;
+}

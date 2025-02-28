@@ -1,0 +1,83 @@
+div#preview {
+	float: left;
+	width: 260px;
+}
+div#code {
+	float: left;
+	width: 260px;
+	margin-bottom: 40px;
+}
+div#code textarea {
+	width: 220px;
+	margin-top: 5px;
+}
+div#code p {
+	font-size: 0.9em;
+	margin-bottom: 2px;
+}
+
+div#step1 input {
+	width: 220px;
+}
+
+div#code div, div#code p, div#step1 div, div#step1 p, div#step2 div, div#step2 p, div#step2 h5 {
+	padding-left: 40px;
+}
+
+div#step1 h3, div#step2 h3, div#preview h3, div#code h3 {
+	color: black;
+	padding-left: 40px;
+	height: 36px;
+	padding-top: 5px;
+	margin-bottom: 2px !important;
+}
+
+div#static-buttons table td, div#status-buttons table td {
+	vertical-align: middle;
+	height: 90px;
+}
+
+div#static-buttons input, div#static-buttons img, div#status-buttons input, div#status-buttons img  {
+	vertical-align: middle;
+}
+
+div#step1 h3 {
+	margin-top: 10px;
+	background: white url(/i_preairlift/share_new/buttons/step_1.png) left top no-repeat;
+}
+div#step2 h3 {
+	background: white url(/i_preairlift/share_new/buttons/step_2.png) left top no-repeat;
+}
+div#preview h3 {
+	background: white url(/i_preairlift/share_new/buttons/step_3.png) left top no-repeat;
+}
+div#code h3 {
+	background: white url(/i_preairlift/share_new/buttons/step_4.png) left top no-repeat;
+}
+
+div#button-preview {
+	text-align: center;
+}
+
+/*div#status-reply{padding:10px 15px 10px 15px;border:1px solid #eadfba;margin-top:5px;margin-left: 40px;background: #FAF7EA url(/i_preairlift/share_new/buttons/status_www.gif) 10px 10px no-repeat;}*/
+
+table#btn-wizard {
+	margin-bottom: 15px;	
+}
+table#btn-wizard td {
+	height: 30px !important;
+	border-bottom: 1px solid #D0D6D8;
+	vertical-align: middle;
+}
+table#btn-wizard td img, table#btn-wizard td input {
+	vertical-align: middle;
+}
+
+div.notification {padding:10px 15px 1px 15px;border:1px solid #eadfba;margin-top:5px;margin-left: 40px;background: #FDF7E4 url(/i_preairlift/images/exclam.png) 10px 10px no-repeat;}
+div.notification p { padding-left: 10px !important; }
+
+table.advancedbuttons td {
+	height: 50px;
+	vertical-align: middle;
+	font-size: 0.9em;
+}

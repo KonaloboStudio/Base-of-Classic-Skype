@@ -1,0 +1,23 @@
+.jsHidden {
+    display: none;
+}
+
+.jsVisible {
+    display: block !important;
+}
+
+span.jsVisible {
+    display: inline !important;
+}
+
+#suggesticator div.currencyChange {
+	float: right;
+}
+
+#suggesticator div.quickfilterWrapper {
+	float: right;
+}
+
+div.upSell {
+	display: none;
+}

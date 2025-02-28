@@ -1,0 +1,14 @@
+$template_title_header
+  #text="<title>Chat history with %remote_user_displayname% (%remote_user%)</title>"
+$template_header
+  #text="<h2>Chat history with <a href="callto://%remote_user%">%remote_user_displayname% (%remote_user%)</a></h2>"
+$template_footer
+  #text="<hr width="85%%" align=left>"
+$template_no_entries
+  #text="<h2>You have no chat history with <a href="callto://%remote_user%">%remote_user_displayname% (%remote_user%)</a></h2>"
+$template_day_delimiter
+  #text="<hr width="85%%" align=left><font size="+1"><b>Date %date%</b></font>"
+$template_entry_from
+  #text="<br>[%date% %time%] <b>&lt;%remote_user%&gt;</b> %msgtext%"
+$template_entry_to
+  #text="<br>[%date% %time%] <b>&lt;%local_user%&gt;</b> %msgtext%"

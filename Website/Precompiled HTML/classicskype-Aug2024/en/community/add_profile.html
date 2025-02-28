@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Add Profile - Classic Skype Website</title>
+<meta name="description" content="Classic Skype Website">
+<meta name="author" content="SonicProject">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="31 days">
+<meta name="generator" content="Rendered by WYSIWYG Web Builder 19">
+<link href="4606.ico" rel="shortcut icon" type="image/x-icon">
+<link href="skylib31.css" rel="stylesheet">
+<link href="add_profile.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   var prevScrollTop = 0;
+   $(window).scroll(function(event)
+   {
+      var scrollTop = $(this).scrollTop();
+      if (Math.abs(prevScrollTop - scrollTop) <= 5)
+         return;
+      if (scrollTop < prevScrollTop)
+      {
+         $('#SKYLIB31_HEADER').removeClass('scroll-up');
+      }
+      else
+      {
+         $('#SKYLIB31_HEADER').addClass('scroll-up');
+      }
+      prevScrollTop = scrollTop;
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_SEP5" style="position:absolute;left:44px;top:1391px;width:883px;height:36px;z-index:3;">
+<img src="images/download_horiz_separator_2_DOWN.png" id="SEP5" alt="" width="883" height="35"></div>
+<div id="wb_SEP4" style="position:absolute;left:44px;top:1330px;width:883px;height:36px;z-index:4;">
+<img src="images/download_horiz_separator_2.png" id="SEP4" alt="" width="883" height="35"></div>
+<!-- ADDPROFILE_IF -->
+<div id="ADDPROFILE_IF" style="position:absolute;left:0px;top:330px;width:970px;height:1000px;z-index:5">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLLB0XQ3QrNgVrFn2-FquZJSQMfdHBKFlFukUdWB_i0-6o8A/viewform?embedded=true" width="970" height="1000" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe></div>
+</div>
+<div id="SKYLIB31_HEADER" style="position:fixed;text-align:center;left:0;top:0;right:0;height:115px;z-index:7777;">
+<div id="SKYLIB31_HEADER_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<iframe name="SKYLIB_IF" id="SKYLIB_HEADER_IF" style="position:absolute;left:0px;top:0px;width:970px;height:115px;z-index:0;" src="./../d_en/HEADER_EN.html" scrolling="no" allowfullscreen></iframe>
+</div>
+</div>
+<div id="USERS" style="position:absolute;text-align:center;left:0%;top:115px;width:100%;height:215px;z-index:6;">
+<div id="USERS_Container" style="width:970px;height:215px;position:relative;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto;text-align:left;">
+<div id="wb_USERS_TEXT" style="position:absolute;left:0px;top:65px;width:945px;height:36px;z-index:1;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:32px;"><strong>Request for adding a profile to the list</strong></span></div>
+</div>
+</div>
+<div id="SKYLIB_FOOTER" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:1424px;width:100%;height:192px;z-index:7;">
+<div id="SKYLIB_FOOTER_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<iframe name="SKYLIB_IF" id="SKYLIB_FOOTER_IF" style="position:absolute;left:0px;top:0px;width:970px;height:192px;z-index:2;" src="./../d_en/FOOTER_EN.html" scrolling="no" allowfullscreen></iframe>
+</div>
+</div>
+</body>
+</html>

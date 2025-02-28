@@ -1,0 +1,355 @@
+div#topSplash {
+	position: relative;
+	height: 424px;
+	margin: 10px auto 0 auto;
+	width: 960px;
+	background: url(/i/images/photos/index_tv_v1.jpg) 20px 0px no-repeat;
+}
+
+* html div#topSplash {
+	margin-top: 0px;
+}
+
+	div#topSplash.indexHelloWorld {
+		background: #00aeef url(/i/images/backgrounds/index_illustration_v1.png) no-repeat center bottom;
+		height: 420px;
+		width: auto;
+	}
+	div#topSplash.indexHelloWorld.large {
+		background: #00aeef url(/i/images/backgrounds/index_illustration_v2.png) no-repeat center bottom;
+		height: 505px;
+	}
+	div#topSplash.indexHelloWorld.extraLarge {
+		background: #00aeef url(/i/images/backgrounds/index_illustration_v2.png) no-repeat center bottom;
+		height: 555px;
+	}
+	div#topSplash.indexHelloWorld h1,
+	div#topSplash.indexHelloWorld h2 {
+		color: #FFFFFF;
+		text-align: center;
+	}
+	div#topSplash.indexHelloWorld h1 {
+		font-size: 32px;
+		padding-top: 20px;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	div#topSplash.indexHelloWorld h2 {
+		font-size: 18px;
+		padding-top: 10px;
+	}
+div#widePromo.lightGradient {
+	background: #01aeef url(/i/images/backgrounds/index_videocall_gradient.png) repeat-x left bottom;
+}
+	div #topSplash2 {
+		position: relative;
+		margin: 10px auto 0 auto;
+		width: 960px;
+		height: 330px;
+		overflow: visible;
+		background: transparent url(/i/images/backgrounds/index_illustration_videocall.png) no-repeat left bottom;
+	}
+
+div#splashContent {
+	position: relative;
+	padding: 40px 20px 20px 635px;
+}
+
+#splashContent.onTop {
+	z-index: 99;
+}
+
+#spyLink {
+	display: block;
+	position: absolute;
+	bottom: 40px;
+	right: 15px;
+	width: 50px;
+	height: 50px;
+	z-index: 100;
+}
+
+	#spyLink img {
+		width: 50px;
+		height: 50px;
+	}
+
+#spyLink2 {
+	display: block;
+	position: absolute;
+	bottom: 65px;
+	right: 15px;
+	width: 50px;
+	height: 50px;
+	z-index: 100;
+}
+
+	#spyLink2 img {
+		width: 50px;
+		height: 50px;
+	}
+
+.clouds {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+div.indexHeader {
+	margin: 4px 0 0 0;
+	background-color: #00aff0;
+	width: 100%;
+}
+
+div.indexHeader {
+	margin: 4px 0 0 0;
+	background-color: #00aff0;
+	width: 100%;
+}
+
+div.indexHeader h1 {
+	color: #ffffff;
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: bold !important;
+	margin-bottom: 0;
+}
+
+div.indexHeader h2 {
+    font-weight: normal;
+}
+
+#footer {
+	margin:47px 0pt 0pt !important;
+}
+p.alignBottom {
+	text-align: center;
+	padding: 0;
+}
+p.alignBottom.large {
+	margin: 300px 0 0 0;
+}
+p.alignBottom.small {
+	margin: 221px 0 0 0;
+}
+p.alignBottom.de,
+p.alignBottom.es,
+p.alignBottom.fr {
+	margin: 182px 0 0 0;
+}
+p.alignBottom.it,
+p.alignBottom.ja,
+p.alignBottom.pt,
+p.alignBottom.sv {
+	margin: 202px 0 0 0;
+}
+p.alignBottom.pl,
+p.alignBottom.ru,
+p.alignBottom.tr{
+	margin: 212px 0 0 0;
+}
+p.alignBottom.zh {
+	margin: 222px 0 0 0;
+}
+	p.alignBottom .noFloat {
+		float: none !important;
+		display:-moz-inline-box;
+		display: inline-block;
+	}
+
+div.splitContents {
+	width: 570px;
+	padding: 0 40px 0 38px;
+	margin: 20px auto 0 auto;
+	background: url(/i/images/backgrounds/index_illustration_hands.png) no-repeat center center;
+}
+	div.splitContents div.leftContent,
+	div.splitContents div.rightContent {
+		width: 220px;
+		background: #30bdf2;
+	    -moz-border-radius: 20px;
+	    -webkit-border-radius: 20px;
+		padding: 20px 20px 15px 20px;
+	}
+	div.splitContents div.leftContent {
+		float: left;
+	}
+	div.splitContents div.rightContent {
+		float: right;
+	}
+		div.splitContents p,
+		div.splitContents h3 {
+			color: #FFFFFF;
+			margin: 0;
+			padding: 0;
+		}
+		div.splitContents h3 {
+			font-size: 16px;
+			font-weight: bold;
+			font-family: Helvetica, Arial, sans-serif;
+		}
+		div.splitContents p {
+			padding-bottom: 5px;
+		}
+		div.splitContents p a {
+			color: #FFFFFF;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+	div.splitContents div.leftFull,
+	div.splitContents div.rightFull {
+		height: 100%;
+		width: 50%;
+	}
+div#contentBubble {
+	width: 285px;
+	margin-top: 30px;
+	padding-left: 40px;
+	position: absolute;
+	z-index: 99;
+	margin-left: -40px;
+	background: url(/i/images/backgrounds/index_illustration_left_hand.png) no-repeat left center;
+}
+* html div#contentBubble,
+*:first-child+html div#contentBubble {
+	background: none;
+}
+	div#contentBubble div.content {
+		background: transparent url(/i/images/backgrounds/index_content_bubble.png) repeat left top;
+	    -moz-border-radius: 20px;
+	    -webkit-border-radius: 20px;
+		padding: 20px 20px 20px 20px;
+	}
+	* html div#contentBubble div.content {
+		background: #57caf5;
+	}
+	*:first-child+html div#contentBubble div.content {
+		background: #57caf5;
+	}
+	div#contentBubble div.content h1 {
+		color: #FFFFFF;
+		font-weight: bold;
+		padding: 0;
+		margin: 0 0 5px 0;
+		line-height: 35px;
+	}
+	div#contentBubble div.content h2 {
+		color: #FFFFFF;
+		font-weight: bold;
+		padding: 0;
+		margin: 0;
+		font-size: 18px;
+		line-height: 18px;
+	}
+div.threeBlocks {
+	height: 100%;
+	overflow: hidden;
+	clear: left;
+	margin-top: 80px;
+}
+	div.threeBlocks div.block {
+		width: 270px;
+		float: left;
+		padding: 0;
+		margin: 0 50px 0 0;
+	}
+	div.threeBlocks div.block.last {
+		margin-right: 0;
+	}
+	div.threeBlocks div.block h3 {
+		font-size: 16px;
+		color: #666666;
+	}
+div.imageBlock {
+	height: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+div.imageBlock.calling {
+	background: url(/i/images/misc/location_arrow.png) no-repeat 13px bottom;
+}
+div.imageBlock.videoCall {
+	background: url(/i/images/misc/location_arrow.png) no-repeat center bottom;
+}
+div.imageBlock.instantMessage {
+	background: url(/i/images/misc/location_arrow.png) no-repeat 236px bottom;
+}
+div.imageBlock.callPhones {
+	background: url(/i/images/misc/location_arrow.png) no-repeat 13px bottom;
+}
+div.imageBlock.sms {
+	background: url(/i/images/misc/location_arrow.png) no-repeat center bottom;
+}
+div.imageBlock.onlineNumber {
+	background: url(/i/images/misc/location_arrow.png) no-repeat 236px bottom;
+}
+	div.imageBlock.img {
+		border: none;
+	}
+	div.imageBlock img.left {
+		float: left;
+		margin: 0 63px 0 0;
+	}
+	div.imageBlock img.middle {
+		float: left;
+		margin: 0 63px 0 0;
+	}
+	div.imageBlock img.right {
+		float: left;
+		margin: 0;
+	}
+div.singleImageBlock {
+	height: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+div.hoverText {
+	margin-top: 20px;
+}
+	div.hoverText a {
+		font-weight: bold;
+	}
+span.indexButton a { 
+    height: 47px;
+    font: bold 18px/32px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+    span.indexButton a span {
+        display: block;
+        white-space: nowrap;
+        padding: 5px 12px 15px 0;
+        line-height: 26px;
+        cursor: pointer;
+    }
+
+span.indexButton a.downloadGreen {
+    color: #FFFFFF;
+    padding: 0 0 0 50px;
+    background: url(/i/images/misc/download_skype_left.png) left top no-repeat;
+}
+span.indexButton a.downloadGreen:hover {
+    padding: 0 0 0 50px;
+    background: url(/i/images/misc/download_skype_left.png) 0 -47px no-repeat;
+}
+	span.indexButton a.downloadGreen span {
+		margin: 7px 0;
+	    background: url(/i/images/misc/download_skype_right.png) right top no-repeat;
+	}
+	span.indexButton a.downloadGreen:hover span {
+		margin: 7px 0;
+	    background: url(/i/images/misc/download_skype_right.png) right -48px no-repeat;
+	}
+.hidden {
+	display: none;
+}
+.mboxDefault {
+	zoom: 1;
+}
+

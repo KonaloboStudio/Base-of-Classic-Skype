@@ -1,0 +1,51 @@
+/* Share index page */
+div#share-email .formWrapper span.buttonSmall,
+div#share-email .formWrapper span.button {
+	display: block;
+}
+div#share-email .formWrapper span.text {
+	display: inline;
+}
+#shareform button {
+	display: none;
+}
+
+.jsHidden {
+	display: none;
+}
+.jsEnabled {
+	display: block;
+}
+.jsEnabled.inline {
+	display: inline;
+}
+
+/* Toggle tweaks */
+.toggle a.link {
+	display: inline;
+}
+.toggle a.link img.state {
+	display: block;
+}
+.toggle .body {
+	height: 0;
+	opacity: 0;
+}
+
+.toggle .body .body {
+	height: auto;
+	opacity: 1;
+}
+
+.toggle.open .body {
+	height: auto;
+	opacity: 1;
+}
+
+/* Takeover tweaks */
+#takeover {
+	display: block;
+}
+body.takeover #content .component {
+	display: none;
+}

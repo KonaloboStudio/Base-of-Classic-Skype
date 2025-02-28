@@ -1,0 +1,75 @@
+#demo {
+	margin: 0;
+	padding: 10px 2px 10px 10px;
+	clear: both;
+	background: url(/i_preairlift/bg/demo.png) top left no-repeat;
+	height: 550px;
+}
+#screenshot {
+	float: left;
+	background: transparent url(/i_preairlift/bg/demo_padding.jpg) left top no-repeat;
+	width: 350px;
+	height: 550px;
+	text-align: center;
+}
+#demo p.links {
+	font-size: 1.1em;
+	margin-left: 360px;
+	margin-top: 5px;
+}
+#demo a, #demo a:visited {
+	white-space: nowrap;
+	color: #0083B3;
+	cursor: pointer;
+}
+#demo .step {
+	background: #F9F9F9 url(/i_preairlift/bg/demo_step.png) left top no-repeat;
+	margin: 0 0 1px 349px;
+	padding: 0 0 0 40px;
+}
+#demo .current {
+	background: #EFF0F0 url(/i_preairlift/bg/demo_step_cur.png) left top no-repeat;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+#demo .step p {
+	display: none;
+    margin-right: 20px;
+}
+#demo .current p {
+	display: block !important;
+}
+#demo h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 58px;
+}
+#demo h3 span {
+	color: white;
+	float: left;
+	margin-left: -30px;
+	font-weight: 800;
+}
+#demo h3 span.red {
+	color: red;
+	float: none;
+	margin-left: auto;
+	font-weight: inherit;
+	text-decoration: none !important;
+	display: inline;
+}
+#demo .current h3 {
+	line-height: normal;
+}
+#demo .current h3 span {
+	display: none;
+}
+#demo .current h3 span.red {
+	display: inline;
+}
+#demo .current h3 a {
+	text-decoration: none;
+	color: black;
+	cursor: default;
+}

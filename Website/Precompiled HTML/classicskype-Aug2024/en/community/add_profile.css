@@ -1,0 +1,121 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #00489F;
+   text-decoration: underline;
+}
+a:active
+{
+   color: #0064DD;
+}
+a:hover
+{
+   color: #0064DD;
+   text-decoration: underline;
+}
+#SKYLIB31_HEADER
+{
+   background-image: linear-gradient(to bottom, #FFFFFF 0%, #F8F8F8 34%, #E1E1E1 34%, #F6F6F6 70%, #E5F7FD 70%, #E5F7FD 100%);
+   border-radius: 0px;
+   box-sizing: border-box;
+}
+#SKYLIB31_HEADER
+{
+   transition: top 150ms linear 0ms;
+}
+#SKYLIB31_HEADER.scroll-up
+{
+   top: -115px !important;
+}
+#SKYLIB_HEADER_IF
+{
+   box-sizing: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   margin: 0;
+}
+#wb_SEP5
+{
+   vertical-align: top;
+}
+#SEP5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SEP4
+{
+   vertical-align: top;
+}
+#SEP4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SKYLIB_FOOTER_IF
+{
+   box-sizing: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   margin: 0;
+}
+#USERS
+{
+   background-color: #00B0F1;
+   background-image: url('images/header-bg-intl-en.png');
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   border-radius: 0px;
+}
+#wb_USERS_TEXT 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 25px;
+   margin: 0;
+   text-align: left;
+}
+#wb_USERS_TEXT div
+{
+   text-align: left;
+}
+#SKYLIB_FOOTER
+{
+   background-color: #00AFF0;
+   background-image: url('images/getskype.jpg');
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   border-radius: 0px;
+   box-sizing: border-box;
+}

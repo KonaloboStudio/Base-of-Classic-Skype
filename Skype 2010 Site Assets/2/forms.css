@@ -1,0 +1,355 @@
+.grayFormContainer,
+.blueFormContainer {
+    background: #e4e4e4 url(/i/images/backgrounds/gray_gradient_200.png) repeat-x top left;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+
+.checkboxRight {
+	padding-left: 27px;
+}
+
+.blueFormContainer {
+    background: #c3eaf9 url(/i/images/backgrounds/lightblue_gradient.png) repeat-x top left;
+}
+    .blueFormContainer h2 {
+        color: #666;
+        padding-top: 4px;
+    }
+	#content #paddedContent .blueFormContainer h3 {
+		color:#666666;
+	}
+    .blueFormContainer textarea,
+ 	.grayFormContainer textarea {
+        width: 644px;
+        height: 81px;
+        padding: 1px 2px;
+        font-size: 14px;
+        font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 16px;
+        margin-top: 5px;
+    }
+    .blueFormContainer select {
+        line-height: 19px;
+        font-size: 14px;
+        font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .blueFormContainer .submitButton {
+        margin-left: 20px;
+        float: left;
+    }
+	.blueFormContainer.enquiry .submitButton {
+		margin-left: 0;
+	}
+
+.twoColumn {
+    
+}
+    .twoColumn .left {
+        width: 358px;
+        margin-top: 5px;
+        float: left;
+        display: inline;
+    }
+	.twoColumn .left.leftToRight {
+		float: right;
+	}
+	.twoColumn.enquiryForm .left {
+		width:340px;
+	}
+	.twoColumn.sip-beta .left {
+		width: 340px;
+	}
+        .twoColumn label,
+        .twoColumn input,
+        .twoColumn select {
+            margin-top: 5px;
+            float: left;
+        }
+        .twoColumn select {
+            width: 190px;
+        }
+        .twoColumn label {
+            padding-right: 5px;
+            color: #333;
+        }
+        .twoColumn .left label {
+            text-align: right;
+            width: 125px;
+            line-height: 22px;
+            padding-right: 5px;
+        }
+		.twoColumn.enquiryForm .left label {
+			width:125px;
+		}
+        .twoColumn .left input {
+            height: 19px;
+            line-height: 19px;
+            font-size: 14px;
+            font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            padding: 1px 2px;
+            color: #333;
+            width: 190px;
+        }
+    .twoColumn .right {
+        width: 328px;
+        margin-top: 5px;
+        float: right;
+        display: inline;
+    }
+	.twoColumn .right.rightToLeft {
+		float:left;
+	}
+	.twoColumn.enquiryForm .right {
+		width:340px;
+	}
+	.twoColumn.sip-beta .right {
+		width: 340px;
+	}
+	
+        .twoColumn .right p {
+            margin-bottom: 0px;
+        }
+        .twoColumn .right label {
+            line-height: 19px;
+            margin-left: 20px;
+        }
+        .twoColumn .right input {
+            margin-left: 20px;
+            margin-top: 7px;
+        }
+    .twoColumn .right.separator {
+        border-left: 1px solid white;
+        width: 328px;
+    }
+    .twoColumn .left.separator {
+        border-right: 1px solid white;
+        width: 358px !important;
+    }
+    .twoColumn .enquiryForm .left.separator {
+        border-right: none;
+    }
+	.twoColumn.sip-beta .left.separator {
+		width: 340px !important;
+	}
+	.twoColumn.enquiryForm .left.separator {
+        width: 346px !important;
+	}
+    .twoColumn br {
+        clear: both;
+    }
+.threeColumn {
+	padding-left:10px;
+}
+	#content #paddedContent .blueFormContainer .threeColumn h3 {
+		margin-left:0;
+		padding-left:5px;
+	}
+	.threeColumn .columnL {
+		float:left;
+		width:220px;
+		padding-left:5px;
+	}
+	.threeColumn .columnL label {
+		margin-left:10px;
+		text-align:left;
+	}
+	.threeColumn .columnC {
+		float:left;
+		width:220px;
+		padding-left:5px;
+	}
+	.threeColumn .columnC label {
+		margin-left:10px;
+		text-align:left;
+	}
+	.threeColumn .columnR {
+		float:right;
+		width:220px;
+		padding-left:10px;
+	}
+	.threeColumn .columnR label {
+		margin-left:10px;
+		text-align:left;
+	}
+	.threeColumn label {
+		color:#333;
+	}
+.wideContent {
+	
+}
+	.wideContent label,
+    .wideContent input,
+    .wideContent select {
+        margin-top: 5px;
+    }
+	.wideContent label {
+        line-height: 19px;
+        padding-right: 5px;
+		display: block;
+		float: left;
+	}
+	.wideContent input {
+		 height: 19px;
+         line-height: 19px;
+         font-size: 14px;
+         font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+         padding: 1px 2px;
+         color: #333;
+         width: 190px;
+	}
+	.wideContent select {
+		width: 190px;
+	}
+	.wideContent.enquiry,
+	.wideContent.check {
+		padding: 0 20px 0 20px;
+	}
+		.wideContent.enquiry label,
+		.wideContent.check label {
+			color: #333;
+			width: 280px;
+			text-align: right;
+		}
+		.wideContent.enquiry input,
+		.wideContent.enquiry select {
+			width: 300px;
+			margin-left:10px;
+		}
+		
+		.wideContent.check input {
+			width:30px;
+			float:left;
+		}
+		
+		.wideContent.check .left label {
+			line-height: 19px;
+        	padding-right: 5px;
+			width:280px;
+			text-align:left;
+		}
+		
+		.wideContent.check .leftToRight label {
+			line-height: 19px;
+        	padding-right: 5px;
+			width:300px;
+			text-align:left;
+		}
+		
+		
+		
+		
+div#additionalInfo h1,
+div#additionalInfo h2,
+div#additionalInfo h3,
+div#additionalInfo p {
+	background: #e4e4e4;
+}
+
+/* feedback form */
+
+.grayFormHolder {
+	width:690px;
+    background:#e4e4e4 url(/i/images/backgrounds/gray_gradient_200.png) repeat-x top left;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+	padding:20px 0;
+	margin-bottom:20px;
+    height:100%;
+}
+
+.grayFormHolder label,
+.grayFormHolder input,
+.grayFormHolder select {
+    margin-top: 5px;
+}
+
+.grayFormHolder .alignLeft {
+	text-align:left;
+}
+
+.grayFormHolder .alignRight {
+	text-align:right;
+}
+
+.grayFormHolder .largeContent {
+	padding:0 20px;
+}
+
+.grayFormHolder .largeContent input {
+	height:19px;
+	line-height:19px;
+	font-size:14px;
+	font-family:'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding:1px 2px;
+	color: #333;
+	width:300px;
+}
+
+.grayFormHolder .largeContent select {
+	width:300px;
+}
+
+.grayFormHolder .leftContent {
+	width:320px;
+	float:left;
+	padding:0 5px 0 20px;
+}
+
+.grayFormHolder .rightContent {
+	width:320px;
+	float:right;
+	padding:0 20px 0 5px;
+}
+
+.grayFormHolder .leftContent input,
+.grayFormHolder .rightContent input {
+	height:19px;
+	line-height:19px;
+	font-size:14px;
+	font-family:'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding:1px 2px;
+	color: #333;
+	width:182px;
+}
+
+.grayFormHolder .leftContent.enquiry select,
+.grayFormHolder .rightContent.enquiry select {
+	width:190px;
+}
+
+.grayFormHolder .leftContent select,
+.grayFormHolder .rightContent select {
+	width:300px;
+}
+
+.grayFormHolder label {
+	padding-right:5px;
+	color:#333;
+}
+
+.grayFormHolder input.checkBox {
+	width:20px;
+}
+
+.grayFormHolder textarea {
+	width: 644px;
+	height: 81px;
+	padding: 1px 2px;
+	font-size: 14px;
+	font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 16px;
+	margin-top: 5px;
+}
+
+.grayFormHolder .hiddenField {
+	display:none;
+	visibility:hidden;
+}

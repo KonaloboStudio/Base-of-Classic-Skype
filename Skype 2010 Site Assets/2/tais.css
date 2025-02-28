@@ -1,0 +1,1139 @@
+/* reset.css */
+
+		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			outline: 0;
+			font-weight: inherit;
+			font-style: inherit;
+			font-size: 100%;
+			font-family: inherit;
+			vertical-align: baseline;
+			background: transparent;
+		}
+		:focus {
+			outline: 0;
+		}
+		body {
+			line-height: 1;
+			color: black;
+			background: white;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		caption, th, td {
+			text-align: left;
+			font-weight: normal;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: "";
+		}
+		blockquote, q {
+			quotes: "" "";
+		}
+
+
+
+/* base.css */
+
+		body {
+			font-size: 14px;
+			line-height: 1.357em; /* 19px */
+			font-family: Helvetica, Arial, sans-serif;
+		}
+		
+		p {
+			font-size: 1em; /* 14px */
+			line-height: 1.357em;
+			margin: 0 0 1.357em 0;
+			color: #2C2C2C;
+		}
+		ul,
+		ol {
+			margin: 0 0 1.357em 0;
+			color: #2C2C2C;
+		}
+		.contentTable {
+			margin: 0 0 1.357em 0;
+		}
+		.contentTable td {
+			padding: 0 20px;
+		}
+		p.small {
+			font-size: 0.786em; /* 11px */
+			line-height: 1.727em;
+			margin-bottom: 1.727em;
+			color: #999;
+		}
+		
+		strong {
+			font-weight: bold;
+		}
+		em {
+			font-style: italic;
+		}
+		
+		a {
+			color: #0181E3;
+		}
+		a:hover {
+			color: #3a9eeb;
+		}
+		a:visited {
+			color: #62a8f0;
+		}
+		
+		/* Headings */
+		
+		h1, h2, h3, h4, h5, h6 {
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+		}
+		h1 {
+			font-size: 2.462em; /* 32px */
+			line-height: 1.19em;
+			margin-bottom: 15px;
+			letter-spacing: -0.03em;
+			color: #525252;
+		}
+		h1.products {
+			color: #afb4b4;
+			margin: 22px 0 0 0;
+			line-height: 100%;
+		}
+		h2 {
+			font-size: 1.286em; /* 18px */
+			line-height: 1.056em; /* 19(px) : 18(px) =   1.056(em) */
+			padding: 9px 0 10px 0; /* was margin: 9px 0 10px 0; but changed beacuse of 19px + 9px case */
+			color: #2C2C2C;
+		}
+		h2.products {
+			padding: 0 0 10px 0;
+			line-height: 100%;
+		}
+		h3, h4, h5, h6  {
+			/* font-family: "Lucida Grande", Calibri, Verdana, Geneva, Tahoma, sans-serif; */
+			font-size: 1em; /* 14px */
+			line-height: 1.357em;
+			margin: 0;
+			color: black;
+		}
+		
+		sup {
+			font-size: 0.85em;
+			vertical-align: super;
+		}
+		sub {
+			font-size: 0.85em;
+			vertical-align: sub;
+		}
+		
+		.floatl {
+			float: left;
+		}
+		.floatr {
+			float: right;
+		}
+		.clearer {
+			clear: both;
+			font: 1px/1px monospace;
+			height: 1px;
+			width: 1px;
+		}
+		.clear {
+			clear: both;
+		}
+		div.clear {
+			clear: both;
+			overflow: hidden;
+		}
+		div.clearLine {
+			clear: both;
+			height: 19px;
+		}
+		
+		div.clearLineLeft {
+			clear: left;
+			height: 19px;
+		}
+		
+		div.clearLineRight {
+			clear: right;
+			height: 19px;
+		}
+
+
+
+/* Grid.css */
+
+		#container {
+			width: 960px;
+			margin: -37px auto 0 auto;
+			overflow: hidden;
+		}
+		
+		#container #content {
+			padding: 0;
+		}
+		
+		#container #content.wide {
+			padding: 45px 0;
+		}
+		
+		#container.noCloud {
+			margin-top: 0 !important;
+		}
+		div.default {
+			margin: 30px auto 0 auto !important;
+		}
+		#content #paddedContent { /* So we can have backgrounds outside the 20px left margin */
+			padding: 0 30px 0 0;  /* was 0 30px 0 10px before */
+		}
+		#paddedContent .contentSplit {
+			overflow: visible;
+			clear: both;
+		}
+		#paddedContent .contentSplit .leftColumn,
+		#paddedContent .contentSplit .rightColumn {
+			width: 335px;
+			overflow: visible;
+		}
+		#paddedContent .contentSplit .leftColumn {
+			float: left;
+			padding-left: 5px;
+			margin-left: -5px;
+		}
+		#paddedContent .contentSplit .rightColumn {
+			float: right;
+			padding-left: 5px;
+			margin-left: -5px;
+		}
+		#paddedContent .contentSplit .leftQuarter,
+		#paddedContent .contentSplit .rightQuarter {
+			width: 160px;
+		}
+		#paddedContent .contentSplit .leftQuarter {
+			float: left;
+		}
+		#paddedContent .contentSplit .rightQuarter {
+			float: right;
+		}
+		#paddedContent .thirdsColumnsLeft {
+			width: 215px;
+			float: left;
+			display: inline;
+			padding-left: 5px;
+			margin-left: -5px;
+		}
+		#paddedContent .thirdsColumnsRight {
+			width: 220px;
+			float: right;
+			display: inline;
+		}
+		#paddedContent .wide {
+			width: 455px !important;
+			padding-left: 5px;
+			margin-left: -5px;
+		}
+		
+		div.fourColumnSplit {
+			overflow: hidden;
+			width: 100%;
+		}
+			div.fourColumnSplit div.column {
+				float: left;
+				width: 172px;
+			}
+		
+		/* Development grip */
+		div#grid {
+			background: url(/i/images/backgrounds/_grid.png);
+			position: absolute;
+			top: 5px;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+
+
+/* Buttons.css */
+
+		div.downloadButtons {
+			margin-top: 15px;
+			width: 100%;
+		}
+		
+		/* Big button */
+		span.button a { 
+			height: 32px;
+			font: bold 18px/32px Helvetica, Arial, sans-serif;
+			text-decoration: none;
+			display: block;
+			overflow: hidden;
+			padding: 0;
+		}
+			span.button a span {
+				display: block;
+				white-space: nowrap;
+				padding: 5px 12px 5px 0;
+				line-height: 23px;
+				cursor: pointer;
+			}
+		
+		/* Small button */
+		
+		span.buttonSmall a {
+			height: 22px;
+			font: bold 14px/22px Helvetica, Arial, sans-serif;
+			text-decoration: none;
+			float: left;
+			display: block;
+			overflow: hidden;
+			padding: 0;
+		}
+			span.buttonSmall a span {
+				display: block;
+				white-space: nowrap;
+				padding: 0px 11px 0 0;
+				line-height: 24px;    
+				cursor: pointer;
+			}
+			
+			* html span.buttonSmall a span {
+				line-height: 22px;
+			}
+		
+		
+		
+		/* Green */
+		
+		span.button a.green {
+			color: #FFFFFF;
+			padding: 0 0 0 12px;
+			background: #87C80A url(/i/images/buttons/green/green_comp_left.png) left top no-repeat;
+		}
+		span.button a.green:hover {
+			padding: 0 0 0 12px;
+			background: #87C80A url(/i/images/buttons/green/green_comp_left.png) 0 -32px no-repeat;
+		}
+			span.button a.green span {
+				background: #87C80A url(/i/images/buttons/green/green_comp_right.png) right top no-repeat;
+			}
+			span.button a.green:hover span {
+				background: #87C80A url(/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
+			}
+		
+		span.button a.green.skype {
+			padding: 0 0 0 40px;
+			background: #87C80A url(/i/images/buttons/green/green_comp_skype_left.png) left top no-repeat;
+		}
+		span.button a.green.skype:hover {
+			padding: 0 0 0 40px;
+			background: #87C80A url(/i/images/buttons/green/green_comp_skype_left.png) 0 -32px no-repeat;
+		}
+		
+		span.button a.green.extras {
+			padding: 0 0 0 40px;
+			background: #87C80A url(/i/images/buttons/green/green_comp_extras_left.png) left top no-repeat;
+		}
+		span.button a.green.extras:hover {
+			padding: 0 0 0 40px;
+			background: #87C80A url(/i/images/buttons/green/green_comp_extras_left.png) 0 -32px no-repeat;
+		}
+		
+		/* Green small */
+		
+		span.buttonSmall a.green {
+			color: #fff;
+			background:  #8ac519 url(/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
+			padding-left: 11px;
+		}
+		
+		span.buttonSmall a.green:hover {
+			color: #fff;
+			background:  #8ac519 url(/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
+			padding-left: 11px;
+		}
+		
+		span.buttonSmall a.green:active {
+			color: #fff;
+			background:  #8ac519 url(/i/images/buttons/green/green_small_comp_left.png) left -44px no-repeat;
+			padding-left: 11px;
+		}
+		
+		span.buttonSmall a.green span {
+			background: #8ac519 url(/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
+		}
+		
+		span.buttonSmall a.green:hover span {
+			background: #8ac519 url(/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
+		}
+		
+		span.buttonSmall a.green:active span {
+			background: #8ac519 url(/i/images/buttons/green/green_small_comp_right.png) right -44px no-repeat;
+		}
+						
+		
+		/* Buttons and text on right */
+		
+		.buttonAndText span.button,
+		.buttonAndText span.buttonSmall,
+		.buttonSmallAndText span.button,
+		.buttonSmallAndText span.buttonSmall {
+			margin-right: 0.25em;
+		}
+		
+		.buttonAndText .text {
+			line-height: 32px;
+			padding-left: 0.5em;
+		}
+		.buttonSmallAndText .text {
+			line-height: 23px;
+			padding-left: 0.5em;
+		}
+		
+		/* Buttons in infoBox columns */
+		
+		#content #infoBox p span.buttonSmall {
+			float: left;
+			padding-bottom: 8px;
+		}
+		
+		/* Used for forms where we need to submit forms, but have only button links */
+		.hiddenSubmit {
+			position: absolute;
+			top: -10000px;
+			left: -10000px;
+		}
+		
+		.fieldHelper {
+			vertical-align: middle;
+			width: 16px;
+			height: 16px;
+			margin-top: 2px;
+		}
+		
+		
+		
+/* content.css */
+
+		#content #paddedContent table.list {
+			width: 100%;
+			border-top: 1px solid #d9d9d9;
+			margin-bottom: 28px;
+		}
+		#content #paddedContent table.list td,
+		#content #paddedContent table.list th {
+			padding: 3px 20px;
+			border-bottom: 1px solid #d9d9d9;
+		}
+		#content #paddedContent table.list thead td,
+		#content #paddedContent table.list thead th {
+			background: #e5f6fd;
+		}
+		#content #paddedContent table.list th {
+			font-weight: bold;
+		}
+				
+		#content #paddedContent p,
+		#content #paddedContent h1,
+		#content #paddedContent h2,
+		#content #paddedContent h3,
+		#content #paddedContent h4,
+		#content #paddedContent h5,
+		#content #paddedContent h6,
+		#content #paddedContent .padded {
+			padding-left: 20px;
+			padding-right: 10px;
+		}
+		
+		#content #paddedContent ul p,
+		#content #paddedContent ul h1,
+		#content #paddedContent ul h2,
+		#content #paddedContent ul h3,
+		#content #paddedContent ul h4,
+		#content #paddedContent ul h5,
+		#content #paddedContent ul h6,
+		#content #paddedContent ul .padded {
+			padding-left: 0;
+			padding-right: 10px;
+		}
+		
+		#content div.fullWidth h1,
+		#content div.fullWidth h2,
+		#content div.fullWidth h3,
+		#content div.fullWidth h4,
+		#content div.fullWidth h5,
+		#content div.fullWidth p,
+		#content div.fullWidth .padded {
+			padding-left: 20px
+			padding-right: 20px;
+		}
+		#content #paddedContent li {
+			padding-right: 10px;
+		}
+				
+		#content #paddedContent img.floatl {
+			margin: 0 20px 0 -10px;
+		}
+		
+		#content #paddedContent img.floatr {
+			margin: 0 -10px 0 20px;
+		}
+		
+		#content ul {
+			margin-left: 0px;
+			padding-left: 20px;
+			list-style: outside circle;
+		}
+		#content ol {
+			margin-left: 0px;
+			padding-left: 20px;
+			list-style: decimal inside;
+		}
+		#content ul li,
+		#content ol li {
+			overflow: visible;
+		}
+		small {
+			color: #7b7f81;
+			font-size: 0.85em;
+		}
+		ul.small {
+			color: #7b7f81;
+			font-size: 0.85em;
+			margin-top: 0;
+		}
+		#content ul li.title {
+			list-style: none;
+		}
+		#content ul li.action {
+			list-style: none;
+		}
+		p.center {
+			text-align: center;
+		}
+		.graphicalSteps {
+			background: url(/i/images/backgrounds/graphical_steps.png) no-repeat 23px bottom;
+			padding-left: 35px;
+		}
+		
+		.removeStepsBorder {
+			background: #fff;
+			margin-left: -35px;
+			padding-left: 35px;
+			margin-bottom: -15px;
+		}
+		
+		#content #paddedContent div.fakeParagraph {
+			margin-bottom: 1.357em;
+			height: 100%;
+		}
+		
+		#content div.contentbox div.boxheading {
+			padding: 10px 10px 8px 10px;
+			margin: 0 !important;
+			font: bold 1.385em Helvetica, Arial, sans-serif;
+			color: #2c2c2c;
+		}
+		
+		#content div.contentbox p {
+			margin: 0;
+			padding: 10px;
+		}
+		
+		#content div.contentbox img.floatr {
+			padding: 0 10px 10px 10px;
+		}
+		
+		#content div.contentbox.yellow {
+			background-color: #fff8e1;
+		}
+		
+		#content div.contentbox.yellow div.boxheading {
+			background-color: #ffe9a4;
+		}
+		
+		#content div.contentbox.blue {
+			background-color: #e2f2fe;
+		}
+		
+		#content div.contentbox.blue div.boxheading {
+			background-color: #9dd6ff;
+		}
+		
+		#content div.contentbox.orange {
+			background-color: #fff0e5;
+		}
+		
+		#content div.contentbox.orange div.boxheading {
+			background-color: #ffb97f;
+			color: #ffffff;
+		}
+		
+		#content #infoBox {
+			margin: 10px 0 0 10px;
+			background: url(/i/images/backgrounds/yellow_blue_bottombox_bg.png) -462px 0px repeat-y;
+		}
+		
+		#content #infoBox p {
+			padding: 10px;
+		}
+		#content #infoBox .leftBlock {
+			width: 335px;
+			float: left;
+		}
+		
+		#content #infoBox .rightBlock {
+			width: 335px;
+			float: right;
+		}
+		
+		#content #infoBox .leftBlockTriple {
+			width: 210px;
+			float: left;
+			margin: 0 10px 0 0;
+		}
+		
+		#content #infoBox .centerBlockTriple {
+			width: 220px;
+			float: left;
+		}
+		
+		#content #infoBox .rightBlockTriple {
+			width: 230px;
+			float: right;
+		}
+		#content .upSellBox {
+			background: url(/i/images/backgrounds/upsell_box.png) no-repeat bottom left;
+			overflow: hidden;
+			zoom: 1;
+		}
+		#content .upSellBoxYellow {
+			background: url(/i/images/backgrounds/upsell_box_yellow.png) no-repeat bottom left;
+			overflow: hidden;
+			zoom: 1;
+		}
+			#content .upSellBox h2,
+			#content .upSellBoxYellow h2 {
+				margin-bottom: 0.75em;
+				padding-top: 10px;
+			}
+			#content .upSellBox .leftColumn {
+				width: 345px;
+				float: left;
+				display: inline;
+				overflow: hidden;
+			}
+				#content .upSellBox .leftColumn h2 {
+					background: #9dd6ff;
+					padding-left: 10px !important;
+					margin-left: 10px;
+				}
+			#content .upSellBox .rightColumn {
+				width: 345px;
+				float: right;
+				display: inline;
+				overflow: hidden;
+			}
+				#content .upSellBox .rightColumn h2,
+				#content .upSellBoxYellow .singleColumn h2 {
+					background: #ffe9a4;
+					padding-left: 10px !important;
+					margin-left: 10px;
+				}
+			#content .upSellBoxYellow .singleColumn {
+				overflow: hidden;
+			}
+			#content .upSellBox h2 img,
+			#content .upSellBoxYellow h2 img {
+				margin: -5px 0 0 0 !important;
+			}
+			#content .upSellBox p.buttonSmallAndText,
+			#content .upSellBoxYellow p.buttonSmallAndText {
+				margin-bottom: 1em;
+			}
+			#content .upSellCta {
+				height: 23px;
+			}
+		#content p.message {
+			padding: 14px 20px 16px 67px !important;
+			margin: 1.31em 0 1.45em 0 !important;
+		}
+		p.error {
+			border-top: 1px solid #f08a73;
+			border-bottom: 1px solid #f08a73;
+			color: #525252;
+			background: #ffe3df url(/i/images/icons/message_error.png) no-repeat 20px center;
+		}
+		p.info {
+			border-top: 1px solid #aee756;
+			border-bottom: 1px solid #aee756;
+			color: #525252;
+			font-weight: bold;
+			background: #e9fad0 url(/i/images/icons/message_info.png) no-repeat 20px center;
+		}
+		p.warning {
+			border-top: 1px solid #FFCA0B;
+			border-bottom: 1px solid #FFCA0B;
+			color: #525252;
+			font-weight: bold;
+			background: #FFEFB5 url(/i/images/icons/warning_icon.png) no-repeat 20px center;
+		}
+		#content p.forceLayout {
+			zoom: 1;
+		}
+		div.additionalInformation {
+			background: #E5F6FD;
+			border-bottom: 1px solid #7FD7F7;
+			border-top: 1px solid #7FD7F7;
+			padding: 15px 0;
+			overflow: hidden;
+			width: 100%;
+		}
+		div.success {
+			padding-left: 86px;
+			padding-right: 20px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			width: auto;
+			background: #E5F6FD url(/i/images/icons/okay_48x48_lightblue.png) no-repeat 20px center;
+		}
+		p.available {
+			color: #666666;
+			clear: both;
+		}
+		p.available img {
+			vertical-align: top;
+			margin-right: 3px;
+		}
+		p.available span {
+			/* padding-left: 5px; */
+		}
+		
+		p.available a {
+			text-decoration: none;
+			color: #666666;
+		}
+		
+		p.available a:hover {
+			text-decoration: underline;
+			color: #0181e3;
+		}
+		
+		div.customLinks a {
+			color: #2c2c2c;
+			text-decoration: none;
+		}
+		
+		div.customLinks a:hover {
+			color: #0181E3 !important;
+			text-decoration: underline !important;
+		}
+		
+		div.customLinks a:visited {
+			color: #2c2c2c;
+			text-decoration: none;
+		}
+		p.noEmergency.icon {
+			background: url(/i/images/icons/noemergency.png) center left no-repeat;
+			padding-left: 50px !important;
+			margin-left: 20px;
+		}
+		p.noEmergency small {
+			color: #2c2c2c;
+		}
+		p.noEmergency strong {
+			color: #f00;
+			font-weight: normal;
+		}
+		
+		#sidebarContent p.noEmergency {
+			padding: 170px 0 0 0 !important;
+			margin: 0 !important;
+			background: white url(/i/images/icons/noemergency.png) 0 130px no-repeat !important;
+		}
+		#sidebarContent p.noEmergency small {
+			color: #2c2c2c;
+		}
+		#sidebarContent p.noEmergency strong {
+			color: #f00;
+			font-weight: normal;
+		}
+		
+		.flowContainerTop {
+			background: url(/i/images/backgrounds/flow_container_top.png) no-repeat top left;
+			width: 960px;
+			margin-bottom: 0.93em;
+		}
+		.flowContainerBottom {
+			background: url(/i/images/backgrounds/flow_container_bottom.png) no-repeat bottom left;
+			padding: 21px 21px 22px 21px;
+		}
+		.flowContent {
+			padding: 10px 20px 0 20px;
+		}
+		.flowSubmit {
+			padding: 17px 20px 18px 20px;
+			background: url(/i/images/backgrounds/flow_container_submit.png);
+		}
+		
+		#content #paddedContent.fullWidth {
+			padding-right: 0;
+		}
+		p.simpleInfo {
+			background: url(/i/images/icons/info_16x16.png) no-repeat 10px 0;
+			padding-left: 34px !important;
+		}
+				
+		.tabContents {
+			overflow: hidden;
+			height: 0;
+		}
+				
+		.default p.simpleInfo,
+		.fullWidth p.simpleInfo {
+			background: url(/i/images/icons/info_16x16.png) no-repeat 20px 0;
+			padding-left: 44px !important;
+		}
+		#content #paddedContent .flowContent p.simpleInfo {
+			background: url(/i/images/icons/info_16x16.png) no-repeat 10px 0;
+			padding-left: 34px !important;
+		}
+		table.listTable {
+			width: 100%;
+		}
+		.flowContent table.listTable {
+			margin-top: 0.79em;
+		}
+		table.listTable th {
+			border-bottom: 1px solid #7fd7f7;
+			font-weight: bold;
+			padding: 8px 5px 9px 5px;
+		}
+		table.listTable td {
+			padding: 8px 5px 8px 5px;
+			vertical-align: middle;
+		}
+		table.listTable .right {
+			padding-right: 20px;
+		}
+		table.listTable .left {
+			padding-left: 20px;
+		}
+		.flowContent table.listTable .right {
+			padding-right: 10px;
+		}
+		.flowContent table.listTable .left {
+			padding-left: 10px;
+		}
+		table.listTable span.flag {
+			margin-top: -2px;
+		}
+		tr.even td {
+			background: #fff;
+		}
+		tr.odd td {
+			background: #e5f7fd;
+		}
+		tr.edit td.edit {
+			border-top: 1px solid #bfc4c4;
+			background: #fffb93 url(/i/images/backgrounds/flow_edit.png) top left repeat-x;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		table.listTable td.edit th {
+			border: none;
+			padding-bottom: 3px;
+			padding-top: 3px;
+		}
+		table.listTable td.edit table.editTable td {
+			padding-top: 2px;
+			padding-bottom: 2px;
+		}
+		table.editTable span.buttonSmall {
+			margin-left: 8px;
+		}
+		table.editTable td small {
+			margin-top: 5px;
+		}
+		table.wideTable {
+			width: 100%;
+		}
+		.hiLite {
+			color: #00aff0;
+		}
+		#content .flowContent p.message {
+			margin-top: 0 !important;
+		}
+		td.toBottom {
+			vertical-align: bottom !important;
+			padding-bottom: 10px !important;
+		}
+		.atlasImage {
+			position: absolute;
+		}
+
+
+
+/* Header related styles */ 
+
+		body {
+		background: white url(/i/images/backgrounds/top_gradient.png) top left repeat-x; /* TODO: Backgrounds on one larger image... */
+		position: relative;
+		}
+		
+		#header {
+		width: 960px;
+		margin: 0 auto 5px auto;
+		padding: 20px 0 0 0;
+		overflow: hidden;
+		font-size: 0.786em;
+		line-height: 47px;
+		font-weight: bold;
+		}
+		#header form {
+			display: inline;
+		}
+		#footer fieldset, #header fieldset {
+			display: inline;
+			line-height: 1em;
+			vertical-align: middle;
+		}
+		#header #searchSet {
+			display: inline;
+		}
+		#skypeLogo {
+		float: left;
+		width: 35%;
+		overflow: auto;
+		text-decoration: none;
+		}
+		#skypeLogo img {
+			margin: 0 15px 0 20px;
+			display: block;
+			float: left;
+			display: inline;
+		}
+		#skypeLogo span {
+			display: block;
+			float: left;
+			color: #7FD7F7;
+		}
+		#toshibaLogo img {
+			margin: 0 15px 0 20px;
+			display: block;
+			float: right;
+			display: inline;
+		}
+		#headerNavigation {
+		float: right;
+		width: 65%;
+		text-align: right;
+		color: #AFB4B4;
+		}
+		#headerNavigation a {
+			margin: 0 4px;
+			color: #00AFF0;
+			text-decoration: none;
+		}
+		#headerNavigation a:hover {
+			text-decoration: underline;
+		}
+		#headerNavigation input {
+			margin: 0 20px 0 6px;
+		}
+		#headerNavigation span {
+			margin: 0;
+			color: #636363;
+		}
+	
+/* Footer related styles */
+		
+		#footer {
+			height: 75px;
+			background: white url(/i/images/backgrounds/bottom_gradient.png) top left repeat-x;
+			padding: 14px;
+			clear: both;
+			color: #AFB4B4;
+			font-size: 0.786em;
+			margin: 60px 0 0 0;
+		}
+			#footer a {
+				color: #636363;
+				text-decoration: none;
+				margin: 0 4px;
+			}
+			#footer a:hover {
+				color: #444444;
+				text-decoration: underline;
+			}
+			#footer strong {	
+				color: #7FD7F7;
+				margin: 0 4px;
+			}
+		#userPreferencesForm {
+			width: 960px;
+			margin: 0 auto;
+			overflow: auto;
+		}
+		#footerNavigation {
+			float: left;
+			padding: 0 0 0 20px;
+			line-height: 26px !important;
+		}
+			#footerNavigation select {
+				margin: 0 10px 0 5px;
+			}
+			#footerNavigation .flag {
+				margin-top: 5px;
+			}
+			#userLanguage {
+				width:185px;
+			}
+		#legalLinks {
+			float: right;
+			text-align: right;
+			padding: 0 20px 0 0;
+			line-height: 26px !important;	
+		}
+			#legalLinks span {
+				margin: 0 0 0 4px;
+			}
+
+			
+
+/* Helloagain.css */
+					
+		div #topSplash {
+			position: relative;
+			height: 306px;
+			margin: 0 auto 0 auto;
+			width: 960px;
+		}
+		
+		div #splashContent {
+			position: relative;
+			padding: 30px 20px 20px;
+		}
+		#splashContent.onTop {
+			z-index: 99;
+		}
+		.clouds {
+			display: block;
+			position: absolute;
+			bottom: -10px;
+			left: 0;
+		}
+		
+		div.helloAgainHeader {
+			margin: 4px 0 0 0;
+			background: #00aff0;
+		}
+		
+		div.helloAgainHeader h1 {
+			font: bold 28px Helvetica, Arial, sans-serif;
+			padding: 0;
+			margin: 0;
+			color: #ffffff;
+		}
+
+		div.helloAgainHeader h2 {
+			font: normal 18px Helvetica, Arial, sans-serif;
+			padding: 0;
+			margin: 0;
+			color: #1e324b;
+			line-height: 1.1em;
+		}
+		
+		div.helloAgainHeader h3 {
+			font: normal 18px Helvetica, Arial, sans-serif;
+			padding: 0;
+			margin: 0;
+			color: #ffffff;
+		}
+		
+		div.helloAgainHeader #skypeScreenshot {
+			margin: 20px 0 0 5px;
+			float: left;
+			position: relative;
+		}
+		div.helloAgainHeader #skypeCredit {
+			margin: 50px 25px 0 100px;
+			float: left;
+		}
+		
+		div.helloAgainHeader #downloadSkype {
+			margin: 40px 15px 0 165px;
+			float: left;
+			position: relative;
+			z-index: 99;
+			zoom: 1;
+		}
+		div.helloAgainHeader #firstIsFree {
+			margin: 29px 0px 0 20px;
+			float: left;
+			position: relative;
+		}
+		div.helloAgainHeader #headings {
+			width: 560px;
+			float: left;
+			margin: 0 0 10px 0;
+			padding-left: 22px;
+		}
+		
+		.helloagainSplit {
+			width: 960px;
+		}
+		.helloagainSplit .leftColumn {
+			width: 480px;
+			float: left;
+			margin: 0 !important;
+		}
+		.helloagainSplit .rightColumn {
+			width: 480px;
+			float: right;
+		}
+		#content #paddedContent .helloagainSplit h2,
+		#content #paddedContent .helloagainSplit p {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		#content #paddedContent .helloagainSplit h2 {
+			font: bold 24px Helvetica, Arial, sans-serif;
+			color: #525252;
+			margin: 0;
+			padding-bottom: 0;
+		}
+		#content #paddedContent .helloagainSplit p {
+			margin-bottom: 0;
+			padding-bottom: 1.357em;
+		}
+		#content #paddedContent .illustrated {
+			padding-left: 140px;
+			overflow: visible;
+		}
+		#content #paddedContent .helloagainSplit .callPhones {
+			background: url(/i/images/misc/welcomeback_callphones.png) no-repeat 10px 0px;
+			height: 100%;
+		}
+		#content #paddedContent .helloagainSplit .hqVideo {
+			background: url(/i/images/misc/welcomeback_hqvideo.png) no-repeat 15px 5px;
+			height: 100%;
+		}
+		#content #paddedContent .helloagainSplit .s2SCall {
+			background: url(/i/images/icons/call_80x80_white.png) no-repeat 60px 0px;
+			height: 100%;
+		}
+		#content #paddedContent .helloagainSplit .payMonthly {
+			background: url(/i/images/icons/paymonthly_96x111_white.png) no-repeat 40px 5px;
+			height: 100%;
+		}

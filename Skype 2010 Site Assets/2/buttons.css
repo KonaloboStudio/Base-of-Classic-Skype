@@ -1,0 +1,1399 @@
+div.downloadButtons {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Big button */
+span.button a { 
+    height: 32px;
+    font: bold 18px/32px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+    span.button a span {
+        display: block;
+        white-space: nowrap;
+        padding: 5px 12px 5px 0;
+        line-height: 23px;
+        cursor: pointer;
+    }
+
+/* Small button */
+
+span.buttonSmall a {
+	height: 22px;
+	font: bold 14px/22px Helvetica, Arial, sans-serif;
+	text-decoration: none;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+	span.buttonSmall a span {
+		display: block;
+        white-space: nowrap;
+		padding: 0px 11px 0 0;
+        line-height: 24px;    
+        cursor: pointer;
+	}
+	
+	* html span.buttonSmall a span {
+        line-height: 22px;
+    }
+
+/* Blue */
+
+span.button a.blue {
+    background: #42B2F5;
+	color: #fff;
+    padding: 0 0 0 12px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_left.png) left top no-repeat;
+}
+
+span.button a.blue:hover {
+    padding: 0 0 0 12px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_left.png) 0 -32px no-repeat;
+}
+	span.button a.blue span {
+	    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_right.png) right top no-repeat;
+	}
+	span.button a.blue:hover span {
+	    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_right.png) right -32px no-repeat;
+	}
+span.button a.blue.skypeCredit {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_credit_left.png) left top no-repeat;
+}
+
+span.button a.blue.skypeCredit:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_credit_left.png) 0 -32px no-repeat;
+}
+
+span.button a.blue.shop {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_shop_left.png) left top no-repeat;
+}
+
+span.button a.blue.shop:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_shop_left.png) 0 -32px no-repeat;
+}
+
+span.button a.blue.logitechWebcam {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_logitechwebcam_left.png) left top no-repeat;
+}
+
+span.button a.blue.logitechWebcam:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_logitechwebcam_left.png) 0 -32px no-repeat;
+}
+span.button a.blue.freeCall {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_call_left.png) no-repeat scroll left top;
+}
+span.button a.blue.freeCall:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_call_left.png) 0 -32px no-repeat;
+}
+span.button a.blue.skypeToGo {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_togo_left.png) left top no-repeat;
+}
+
+span.button a.blue.skypeToGo:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_comp_togo_left.png) 0 -32px no-repeat;
+}
+
+
+/* Blue small */
+
+span.buttonSmall a.blue {
+	background:  #42B2F5 url(/i/images/buttons/blue/blue_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+    color: #FFFFFF;
+}
+
+span.buttonSmall a.blue:hover {
+	background:  #42B2F5 url(/i/images/buttons/blue/blue_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.blue span {
+	background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.blue:hover span {
+	background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.blue.skypeCredit {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_credit_left.png) left top no-repeat;
+}
+span.buttonSmall a.blue.skypeCredit:hover {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_credit_left.png) left -22px no-repeat;
+}
+span.buttonSmall a.blue.skypeOnlineNr {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_onlinenr_left.png) left top no-repeat;
+}
+span.buttonSmall a.blue.skypeOnlineNr:hover {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_onlinenr_left.png) left -22px no-repeat;
+}
+span.buttonSmall a.blue.skypeVoicemail {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_voicemail_left.png) left top no-repeat;
+}
+span.buttonSmall a.blue.skypeVoicemail:hover {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_voicemail_left.png) left -22px no-repeat;
+}
+span.buttonSmall a.blue.shop {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_cart_left.png) left top no-repeat;
+}
+span.buttonSmall a.blue.shop:hover {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/i/images/buttons/blue/blue_small_comp_cart_left.png) left -22px no-repeat;
+}
+
+
+/* Yellow */
+
+span.button a.yellow {
+	color: #545454;
+    padding: 0 0 0 12px;
+    background: #FFCD00 url(/i/images/buttons/yellow/yellow_comp_left.png) left top no-repeat;
+}
+span.button a.yellow:hover {
+    padding: 0 0 0 12px;
+    background: #FFCD00 url(/i/images/buttons/yellow/yellow_comp_left.png) left -32px no-repeat;
+}
+	span.button a.yellow span {
+	    background: #FFCD00 url(/i/images/buttons/yellow/yellow_comp_right.png) right top no-repeat;
+	}
+	span.button a.yellow:hover span {
+	    background: #FFCD00 url(/i/images/buttons/yellow/yellow_comp_right.png) right -32px no-repeat;
+	}
+span.button a.yellow.skypePro {
+    padding: 0 0 0 40px;
+    background: #FFCD00 url(/i/images/buttons/yellow/yellow_comp_pro_left.png) left top no-repeat;
+}
+span.button a.yellow.skypePro:hover {
+    padding: 0 0 0 40px;
+    background: #FFCD00 url(/i/images/buttons/yellow/yellow_comp_pro_left.png) left -32px no-repeat;
+}
+span.button a.yellow.freeCall {
+    padding: 0 0 0 40px;
+    background: #FFCD00 url(/i/images/buttons/yellow/yellow_comp_call_left.png) left top no-repeat;
+}
+span.button a.yellow.freeCall:hover {
+    padding: 0 0 0 40px;
+    background: #FFCD00 url(/i/images/buttons/yellow/yellow_comp_call_left.png) left -32px no-repeat;
+}
+
+
+/* Yellow small */
+
+span.buttonSmall a.yellow {
+    color: #545454;
+    background:  #FFCD00 url(/i/images/buttons/yellow/yellow_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.yellow:hover {
+	background:  #FFCD00 url(/i/images/buttons/yellow/yellow_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.yellow span {
+	background: #FFCD00 url(/i/images/buttons/yellow/yellow_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.yellow:hover span {
+	background: #FFCD00 url(/i/images/buttons/yellow/yellow_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.yellow.skypePro {
+    padding: 0 0 0 32px;
+    background: #FFCD00 url(/i/images/buttons/yellow/yellow_small_comp_pro_left.png) left top no-repeat;
+}
+
+span.buttonSmall a.yellow.skypePro:hover {
+    padding: 0 0 0 32px;
+    background: #FFCD00 url(/i/images/buttons/yellow/yellow_small_comp_pro_left.png) left -22px no-repeat;
+}
+
+/* Gray */
+
+span.button a.gray {
+	color: #0181E3;
+    padding: 0 0 0 12px;
+    background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_left.png) left top no-repeat;
+}
+span.button a.gray:hover {
+    padding: 0 0 0 12px;
+    color: #006ABC;
+    background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_left.png) left -32px no-repeat;
+}
+span.button a.gray.subscriptions {
+	padding: 0 0 0 39px;
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_subs_left.png) left top no-repeat;
+}
+	span.button a.gray.subscriptions:hover {
+	padding: 0 0 0 39px;
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_subs_left.png) left -32px no-repeat;
+}
+	span.button a.gray span {
+	    background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_right.png) right top no-repeat;
+	}
+	span.button a.gray:hover span {
+	    background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_right.png) right -32px no-repeat;
+	}
+
+/* Gray small */
+
+span.buttonSmall a.gray {
+    color: #0181E3;
+	background:  #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.gray:hover {
+    color: #006ABC;
+	background:  #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.gray span {
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.gray:hover span {
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.gray.mail {
+    padding: 0 0 0 32px;
+    background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_mail_left.png) left top no-repeat;
+}
+span.buttonSmall a.gray.mail:hover {
+    padding: 0 0 0 32px;
+    background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_mail_left.png) left -22px no-repeat;
+}
+
+
+/* Green */
+
+span.button a.green {
+    color: #FFFFFF;
+    padding: 0 0 0 12px;
+    background: #87C80A url(/i/images/buttons/green/green_comp_left.png) left top no-repeat;
+}
+span.button a.green:hover {
+    padding: 0 0 0 12px;
+    background: #87C80A url(/i/images/buttons/green/green_comp_left.png) 0 -32px no-repeat;
+}
+    span.button a.green span {
+        background: #87C80A url(/i/images/buttons/green/green_comp_right.png) right top no-repeat;
+    }
+    span.button a.green:hover span {
+        background: #87C80A url(/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
+    }
+
+span.button a.green.skype {
+    padding: 0 0 0 40px;
+    background: #87C80A url(/i/images/buttons/green/green_comp_skype_left.png) left top no-repeat;
+}
+span.button a.green.skype:hover {
+    padding: 0 0 0 40px;
+    background: #87C80A url(/i/images/buttons/green/green_comp_skype_left.png) 0 -32px no-repeat;
+}
+
+span.button a.green.extras {
+    padding: 0 0 0 40px;
+    background: #87C80A url(/i/images/buttons/green/green_comp_extras_left.png) left top no-repeat;
+}
+span.button a.green.extras:hover {
+    padding: 0 0 0 40px;
+    background: #87C80A url(/i/images/buttons/green/green_comp_extras_left.png) 0 -32px no-repeat;
+}
+
+span.button a.green.skypeToGo {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/green/green_comp_togo_left.png) left top no-repeat;
+}
+span.button a.green.skypeToGo:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/i/images/buttons/green/green_comp_togo_left.png) 0 -32px no-repeat;
+}
+
+/* Green small */
+
+span.buttonSmall a.green {
+    color: #fff;
+	background:  #8ac519 url(/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green:hover {
+    color: #fff;
+	background:  #8ac519 url(/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green:active {
+    color: #fff;
+	background:  #8ac519 url(/i/images/buttons/green/green_small_comp_left.png) left -44px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green span {
+	background: #8ac519 url(/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.green:hover span {
+	background: #8ac519 url(/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.green:active span {
+	background: #8ac519 url(/i/images/buttons/green/green_small_comp_right.png) right -44px no-repeat;
+}
+
+span.buttonSmall a.green.download {
+    padding: 0 0 0 32px;
+    background: #8ac519 url(/i/images/buttons/green/green_small_comp_download_left.png) left top no-repeat;
+}
+span.buttonSmall a.green.download:hover {
+    padding: 0 0 0 32px;
+    background: #8ac519 url(/i/images/buttons/green/green_small_comp_download_left.png) left -22px no-repeat;
+}
+
+/* Orange */
+
+span.button a.orange {
+    color: #FFFFFF;
+    padding: 0 0 0 12px;
+    background: #fe9000 url(/i/images/buttons/orange/orange_comp_left.png) left top no-repeat;
+}
+span.button a.orange:hover {
+    padding: 0 0 0 12px;
+    background: #fe9000 url(/i/images/buttons/orange/orange_comp_left.png) 0 -32px no-repeat;
+}
+span.button a.orange:active {
+    padding: 0 0 0 12px;
+    background: #fe9000 url(/i/images/buttons/orange/orange_comp_left.png) 0 -64px no-repeat;
+}
+    span.button a.orange span {
+        background: #fe9000 url(/i/images/buttons/orange/orange_comp_right.png) right top no-repeat;
+    }
+    span.button a.orange:hover span {
+        background: #fe9000 url(/i/images/buttons/orange/orange_comp_right.png) right -32px no-repeat;
+    }
+    span.button a.orange:active span {
+        background: #fe9000 url(/i/images/buttons/orange/orange_comp_right.png) right -64px no-repeat;
+    }
+
+
+/* Orange small */
+
+span.buttonSmall a.orange {
+    color: #fff;
+	background:  #fe9000 url(/i/images/buttons/orange/orange_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange:hover {
+    color: #fff;
+	background:  #fe9000 url(/i/images/buttons/orange/orange_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange:active {
+    color: #fff;
+	background:  #fe9000 url(/i/images/buttons/orange/orange_small_comp_left.png) left -44px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange span {
+	background: #fe9000 url(/i/images/buttons/orange/orange_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.orange:hover span {
+	background: #fe9000 url(/i/images/buttons/orange/orange_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.orange:active span {
+	background: #fe9000 url(/i/images/buttons/orange/orange_small_comp_right.png) right -44px no-repeat;
+}
+
+/* Purple */
+
+span.button a.purple {
+    color: #FFFFFF;
+    padding: 0 0 0 12px;
+    background: #7c1b7c url(/i/images/buttons/purple/purple_comp_left.png) left top no-repeat;
+}
+span.button a.purple:hover {
+    padding: 0 0 0 12px;
+    background: #7c1b7c url(/i/images/buttons/purple/purple_comp_left.png) 0 -32px no-repeat;
+}
+span.button a.purple:active {
+    padding: 0 0 0 12px;
+    background: #7c1b7c url(/i/images/buttons/purple/purple_comp_left.png) 0 -64px no-repeat;
+}
+    span.button a.purple span {
+        background: #7c1b7c url(/i/images/buttons/purple/purple_comp_right.png) right top no-repeat;
+    }
+    span.button a.purple:hover span {
+        background: #7c1b7c url(/i/images/buttons/purple/purple_comp_right.png) right -32px no-repeat;
+    }
+    span.button a.purple:active span {
+        background: #7c1b7c url(/i/images/buttons/purple/purple_comp_right.png) right -64px no-repeat;
+    }
+
+/* Purple small */
+
+span.buttonSmall a.purple {
+    color: #fff;
+	background:  #7c1b7c url(/i/images/buttons/purple/purple_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple:hover {
+    color: #fff;
+	background:  #7c1b7c url(/i/images/buttons/purple/purple_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple:active {
+    color: #fff;
+	background:  #7c1b7c url(/i/images/buttons/purple/purple_small_comp_left.png) left -44px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple span {
+	background: #7c1b7c url(/i/images/buttons/purple/purple_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.purple:hover span {
+	background: #7c1b7c url(/i/images/buttons/purple/purple_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.purple:active span {
+	background: #7c1b7c url(/i/images/buttons/purple/purple_small_comp_right.png) right -44px no-repeat;
+}
+
+
+/* Disabled buttons */
+
+span.button a.disabled {
+	color: #afb4b4 !important;
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+	cursor: default !important;
+}
+span.buttonSmall a.disabled {
+	color: #afb4b4 !important;
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+	cursor: default !important;
+}
+
+span.button a.disabled:hover {
+	color: #afb4b4 !important;
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+	cursor: default !important;
+}
+span.button a.disabled span {
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+	cursor: default !important;
+}
+span.button a.disabled:hover span {
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+	cursor: default !important;
+}
+span.buttonSmall a.disabled:hover {
+    color: #afb4b4 !important;
+	background:  #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+	cursor: default !important;
+}
+span.buttonSmall a.disabled span {
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+	cursor: default !important;
+}
+span.buttonSmall a.disabled:hover span {
+	background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+	cursor: default !important;
+}
+
+
+/* Buttons and text on right */
+
+.buttonAndText span.button,
+.buttonAndText span.buttonSmall,
+.buttonSmallAndText span.button,
+.buttonSmallAndText span.buttonSmall {
+	margin-right: 0.25em;
+}
+
+.buttonAndText .text {
+	line-height: 32px;
+	padding-left: 0.5em;
+}
+.buttonSmallAndText .text {
+	line-height: 23px;
+	padding-left: 0.5em;
+}
+
+/* Buttons in infoBox columns */
+
+#content #infoBox p span.buttonSmall {
+	float: left;
+	padding-bottom: 8px;
+}
+
+/* Used for forms where we need to submit forms, but have only button links */
+.hiddenSubmit {
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+}
+
+.fieldHelper {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+}
+    .fieldHelper img {
+        vertical-align: top;
+        line-height: 16px;
+        margin-top: 3px;
+    }
+/* Experimental buttons that don't require JS */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    overflow: visible;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+}
+    button span {
+        display: block;
+        overflow: visible;
+        padding: 0;
+        white-space: nowrap;
+        margin: 0;
+    }
+        button span strong {
+            display: block;
+            white-space: nowrap;
+            margin: 0;
+            overflow: visible;
+        }
+button:focus,
+button:active {
+    outline: hidden;
+}
+button.button {
+    font: bold 18px Helvetica, Arial, sans-serif;
+    height: 34px;
+    margin-top: -4px;
+}
+button.button span {
+    height: 32px;
+}
+    button.button span strong {
+        padding: 0 12px 0 0;
+        line-height: 32px;
+        *line-height: 31px; /* IE specific line-height fix */
+        height: 32px;
+    } 
+    button.button span.gray {
+    	color: #0181E3;
+        padding-left: 12px;
+        background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_left.png) left top no-repeat;
+    }
+    button.button span.green {
+    	color: #fff;
+        padding-left: 12px;
+        background: #F0F0F0 url(/i/images/buttons/green/green_comp_left.png) left top no-repeat;
+    }
+    button.button span.blue {
+    	color: #fff;
+        padding-left: 12px;
+        background: #F0F0F0 url(/i/images/buttons/blue/blue_comp_left.png) left top no-repeat;
+    }
+    button.button span.yellow {
+    	color: #545454;
+        padding-left: 12px;
+        background: #F0F0F0 url(/i/images/buttons/yellow/yellow_comp_left.png) left top no-repeat;
+    }
+    button.button span.purple {
+    	color: #fff;
+        padding-left: 12px;
+        background: #F0F0F0 url(/i/images/buttons/purple/purple_comp_left.png) left top no-repeat;
+    }
+    button.button span.orange {
+    	color: #fff;
+        padding-left: 12px;
+        background: #F0F0F0 url(/i/images/buttons/orange/orange_comp_left.png) left top no-repeat;
+    }
+    button.button:hover span.gray {
+        color: #006ABC;
+        background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.blue {
+        color: #fff;
+        background: #F0F0F0 url(/i/images/buttons/blue/blue_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.green {
+        color: #fff;
+        background: #F0F0F0 url(/i/images/buttons/green/green_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.yellow {
+        color: #545454;
+        background: #F0F0F0 url(/i/images/buttons/yellow/yellow_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.purple {
+        color: #fff;
+        background: #F0F0F0 url(/i/images/buttons/purple/purple_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.orange {
+        color: #fff;
+        background: #F0F0F0 url(/i/images/buttons/orange/orange_comp_left.png) left -32px no-repeat;
+    }
+    	button.button span.gray strong {
+    	    background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.green strong {
+    	    background: #F0F0F0 url(/i/images/buttons/green/green_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.blue strong {
+    	    background: #F0F0F0 url(/i/images/buttons/blue/blue_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.yellow strong {
+    	    background: #F0F0F0 url(/i/images/buttons/yellow/yellow_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.purple strong {
+    	    background: #F0F0F0 url(/i/images/buttons/purple/purple_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.orange strong {
+    	    background: #F0F0F0 url(/i/images/buttons/orange/orange_comp_right.png) right top no-repeat;
+    	}
+    	button.button:hover span.gray strong {
+    	    background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.green strong {
+    	    background: #F0F0F0 url(/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.blue strong {
+    	    background: #F0F0F0 url(/i/images/buttons/blue/blue_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.yellow strong {
+    	    background: #F0F0F0 url(/i/images/buttons/yellow/yellow_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.purple strong {
+    	    background: #F0F0F0 url(/i/images/buttons/purple/purple_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.orange strong {
+    	    background: #F0F0F0 url(/i/images/buttons/orange/orange_comp_right.png) right -32px no-repeat;
+    	}
+    button.button span.disabled {
+        color: #afb4b4 !important;
+    	background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+    	cursor: default !important;
+    }
+    button.button:hover span.disabled {
+        color: #afb4b4 !important;
+    	background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+    	cursor: default !important;
+    }
+        button.button span.disabled strong {
+    	    background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+    	}
+    	button.button:hover span.disabled strong {
+    	    background: #F0F0F0 url(/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+    	}
+button.buttonSmall {
+    font: bold 14px Helvetica, Arial, sans-serif;
+    height: 24px;
+    margin-top: -1px;
+}
+.buttonSmallAndText button.buttonSmall {
+    margin-top: -4px;
+}
+button.buttonSmall span {
+    height: 22px;
+}
+    button.buttonSmall span strong {
+        padding: 0 11px 0 0;
+        line-height: 23px;
+        *line-height: 21px; /* IE specific line-height fix */
+        height: 22px;
+    } 
+    button.buttonSmall span.gray {
+    	color: #0181E3;
+        padding-left: 11px;
+        background: transparent url(/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.green {
+    	color: #fff;
+        padding-left: 11px;
+        background: #F0F0F0 url(/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.blue {
+    	color: #fff;
+        padding-left: 11px;
+        background: #F0F0F0 url(/i/images/buttons/blue/blue_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.yellow {
+    	color: #545454;
+        padding-left: 11px;
+        background: #F0F0F0 url(/i/images/buttons/yellow/yellow_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.purple {
+    	color: #fff;
+        padding-left: 11px;
+        background: #F0F0F0 url(/i/images/buttons/purple/purple_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.orange {
+    	color: #fff;
+        padding-left: 11px;
+        background: #F0F0F0 url(/i/images/buttons/orange/orange_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall:hover span.gray {
+        color: #006ABC;
+        background: transparent url(/i/images/buttons/gray/gray_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.blue {
+        color: #fff;
+        background: #F0F0F0 url(/i/images/buttons/blue/blue_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.green {
+        color: #fff;
+        background: #F0F0F0 url(/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.yellow {
+        color: #545454;
+        background: #F0F0F0 url(/i/images/buttons/yellow/yellow_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.purple {
+        color: #fff;
+        background: #F0F0F0 url(/i/images/buttons/purple/purple_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.orange {
+        color: #fff;
+        background: #F0F0F0 url(/i/images/buttons/orange/orange_small_comp_left.png) left -22px no-repeat;
+    }
+    	button.buttonSmall span.gray strong {
+    	    background: transparent url(/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.green strong {
+    	    background: #F0F0F0 url(/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.blue strong {
+    	    background: #F0F0F0 url(/i/images/buttons/blue/blue_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.yellow strong {
+    	    background: #F0F0F0 url(/i/images/buttons/yellow/yellow_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.purple strong {
+    	    background: #F0F0F0 url(/i/images/buttons/purple/purple_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.orange strong {
+    	    background: #F0F0F0 url(/i/images/buttons/orange/orange_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall:hover span.gray strong {
+    	    background: transparent url(/i/images/buttons/gray/gray_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.green strong {
+    	    background: #F0F0F0 url(/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.blue strong {
+    	    background: #F0F0F0 url(/i/images/buttons/blue/blue_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.yellow strong {
+    	    background: #F0F0F0 url(/i/images/buttons/yellow/yellow_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.purple strong {
+    	    background: #F0F0F0 url(/i/images/buttons/purple/purple_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.orange strong {
+    	    background: #F0F0F0 url(/i/images/buttons/orange/orange_small_comp_right.png) right -22px no-repeat;
+    	}
+    button.buttonSmall span.disabled {
+        color: #afb4b4 !important;
+    	background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+    	cursor: default !important;
+    }
+    button.buttonSmall:hover span.disabled {
+        color: #afb4b4 !important;
+    	background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+    	cursor: default !important;
+    }
+        button.buttonSmall span.disabled strong {
+    	    background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+    	}
+    	button.buttonSmall:hover span.disabled strong {
+    	    background: #F0F0F0 url(/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+    	}
+/* FF specific line-height fix */
+@-moz-document url-prefix() {
+    button {
+        margin: 0 0 0 -3px;
+    }
+
+    button.button span strong {
+        line-height: 35px;
+    }
+    button.buttonSmall span strong {
+        line-height: 25px;
+    }
+    .buttons button {
+        margin-left: 6px !important;
+    }
+}
+
+
+/* Simple buttons, only light gradient */
+button.simple,
+a.buttonSimple {
+    height: 22px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+a.buttonSimple {
+	text-decoration: none;
+}
+    button.simple span,
+    a.buttonSimple span {
+        margin-top: -2px;
+        .margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        display: block;
+        height: 14px;
+        padding: 3px 10px;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+    }
+    button.simple span.white,
+    a.buttonSimple span.white {
+        border: 1px solid white;
+        background: #fff url(/i/images/buttons/simple/white.png) repeat-x top left;
+        color: #4b465a;
+        text-shadow: 0px 1px 1px #fff;
+    }
+    button.simple:hover span.white,
+    a.buttonSimple:hover span.white {
+        background: #fff url(/i/images/buttons/simple/white.png) repeat-x left -20px;
+    }
+
+    button.simple span.purple,
+    a.buttonSimple span.purple {
+        border: none;
+        padding: 4px 11px;
+
+        background: #332f3e url(/i/images/buttons/simple/purple.png) repeat-x top left;
+        color: #fff;
+        text-shadow: 0px -1px 1px #332f3e;
+    }
+    button.simple:hover span.purple,
+    a.buttonSimple:hover span.purple {
+        background: #34303f url(/i/images/buttons/simple/purple.png) repeat-x left -22px;
+    }
+
+    button.simple:hover span.blue,
+    a.buttonSimple span.blue {
+        border: none;
+        padding: 4px 11px;
+
+        background: #00AEEA url(/i/images/buttons/simple/blue.png) repeat-x top left;
+        color: #fff;
+        text-shadow: 0px -1px 1px #39BBF6;
+    }
+    button.simple:hover span.blue,
+    a.buttonSimple:hover span.blue {
+        background: #20B5F1 url(/i/images/buttons/simple/blue.png) repeat-x left -22px;
+    }
+
+
+    a.buttonSimple span {
+        display:-moz-inline-box;
+        display: inline-block;
+        margin-top: 0px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+/* Big dark button for Busines section */    
+    
+	div.darkBusinessButton {
+		width: 140px;
+		margin-left: 20px;
+	}
+		div.darkBusinessButton.large {
+			width: 200px;
+		}
+	
+	
+	div.darkBusinessButton a {
+	    display: block;
+		/*    height: 16px;*/
+	    padding: 10px 10px 10px 5px;
+	    background-color: #4B465A;
+	    color: #fff;
+	    font-family: Arial, sans-serif;
+	    font-size: 1.286em;
+	    line-height: 16px;
+	    text-align: center;
+	    text-decoration: none;
+	    text-shadow: 0px -1px 1px #2F2C38;
+	    -moz-border-radius: 2px;
+	    -webkit-border-radius: 2px;
+	}
+		* html div.darkBusinessButton a {
+			width: 140px;
+		}
+		* html div.darkBusinessButton.large a {
+			width: 200px;
+		}
+	
+	div.darkBusinessButton a:hover {
+	background-color: #5b566f;
+	}
+        
+   
+
+/* FF specific line-height fix */
+@-moz-document url-prefix() {
+    button.simple {
+        margin: 0;
+    }
+        button.simple span {
+            margin-left: -3px;
+            margin-right: -3px;
+        }
+}
+
+
+
+/* Simple buttons, only light gradient */
+
+/* Core styles */
+button.simple,
+a.buttonSimple,
+button.simpleMedium,
+a.buttonSimpleMedium,
+button.simpleLarge,
+a.buttonSimpleLarge {
+    display:-moz-inline-box;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+    background: none;
+    width: auto;
+    border: none;
+    overflow: visible;
+
+    height: 22px;
+
+	text-decoration: none;
+}
+    button.simple span,
+    a.buttonSimple span,
+    button.simpleMedium span,
+    a.buttonSimpleMedium span,
+    button.sipleLarge,
+    a.buttonSimpleLarge {
+        white-space: nowrap;
+        text-decoration: none;
+        margin: 0;
+    }
+button.simpleLarge,
+a.buttonSimpleLarge {
+	height: 32px;
+}
+
+/* Small buttons */
+    button.simple span,
+    a.buttonSimple span {
+        margin-top: -2px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        display: block;
+        height: 14px;
+        padding: 3px 10px;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+	    border-radius: 3px;
+    }
+    * html button.simple span {
+        margin-top: 0;
+    }
+    button.simple span.white,
+    a.buttonSimple span.white {
+        border: 1px solid white;
+        background: #fff url(/i/images/buttons/simple/white.png) repeat-x top left;
+        color: #4b465a;
+        text-shadow: 0px 1px 1px #fff;
+        border: 1px solid #e4e4e4;
+    }
+    button.simple:hover span.white,
+    a.buttonSimple:hover span.white {
+        background: #fff url(/i/images/buttons/simple/white.png) repeat-x left -20px;
+    }
+
+    button.simple span.purple,
+    a.buttonSimple span.purple {
+        border: none;
+        padding: 4px 11px;
+
+        background: #332f3e url(/i/images/buttons/simple/purple.png) repeat-x top left;
+        color: #fff;
+        text-shadow: 0px -1px 1px #332f3e;
+    }
+    button.simple:hover span.purple,
+    a.buttonSimple:hover span.purple {
+        background: #34303f url(/i/images/buttons/simple/purple.png) repeat-x left -22px;
+    }
+
+    button.simple span.blue,
+    a.buttonSimple span.blue {
+        border: none;
+        padding: 4px 11px;
+
+        background: #00AEEA url(/i/images/buttons/simple/blue.png) repeat-x top left;
+        color: #fff;
+        text-shadow: 0px -1px 1px #39BBF6;
+    }
+    button.simple:hover span.blue,
+    a.buttonSimple:hover span.blue {
+        background: #20B5F1 url(/i/images/buttons/simple/blue.png) repeat-x left -22px;
+    }
+
+
+    a.buttonSimple span,
+    a.buttonSimpleMedium span {
+        display:-moz-inline-box;
+        display: inline-block;
+        margin-top: 0px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+	
+	/* Disabled*/
+	button.simple.disabled{
+		cursor:default
+	}
+	button.simple.disabled span.blue {
+		background:url(/i/images/buttons/simple/blue_disabled.png) repeat-x top left;
+		color:#fff;
+		text-shadow:none
+	}
+
+
+/* Medium size buttons */
+button.simpleMedium,
+a.buttonSimpleMedium {
+    height: 26px;
+}
+    button.simpleMedium span,
+    a.buttonSimpleMedium span {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        display: -moz-inline-box;
+        display: inline-block;
+        height: 16px;
+        padding: 5px 10px;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+	    border-radius: 3px;
+    }
+    button.simpleMedium span {
+        .margin-top: -2px;
+    }
+    * html button.simpleMedium {
+        margin-top: 0;
+    }
+    * html button.simpleMedium span,
+    * html a.buttonSimpleMedium span {
+        margin-top: 0;
+    }
+    
+    /* White */
+    button.simpleMedium span.white,
+    a.buttonSimpleMedium span.white {
+        background: #fff url(/i/images/buttons/simple/white_medium.png) repeat-x top left;
+        color: #4b465a;
+        padding: 4px 9px;
+        text-shadow: none;
+        border: 1px solid #e4e4e4;
+    }
+    button.simpleMedium:hover span.white,
+    a.buttonSimpleMedium:hover span.white {
+        background: #fff url(/i/images/buttons/simple/white_medium.png) repeat-x left -26px;
+    }
+    
+    /* Blue */
+    button.simpleMedium span.blue,
+    a.buttonSimpleMedium span.blue {
+        background: #00aff0 url(/i/images/buttons/simple/blue_medium.png) repeat-x top left;
+        color: #fff;
+        text-shadow: none;
+		text-shadow: 0px -1px 1px #39BBF6;
+    }
+    button.simpleMedium:hover span.blue,
+    a.buttonSimpleMedium:hover span.blue {
+        background: #00aff0 url(/i/images/buttons/simple/blue_medium.png) repeat-x left -26px;
+    }
+
+	/* Green */
+    button.simpleMedium span.green,
+    a.buttonSimpleMedium span.green {
+        background: #87C80A url(/i/images/buttons/simple/green_medium.png) repeat-x top left;
+        color: #fff;
+        text-shadow: none;
+    }
+    button.simpleMedium:hover span.green,
+    a.buttonSimpleMedium:hover span.green {
+        background: #87C80A url(/i/images/buttons/simple/green_medium.png) repeat-x left -26px;
+    }
+
+button.simpleMedium span .buttonIcon,
+a.buttonSimpleMedium span .buttonIcon {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+button.simpleMedium.disabled span,
+a.buttonSimpleMedium.disabled span,
+button.simpleMedium.disabled:hover span,
+a.buttonSimpleMedium.disabled:hover span {
+    background: #fff url(/i/images/buttons/simple/white_medium.png) repeat-x left -52px;
+    padding: 4px 9px;
+    border: 1px solid #ececec;
+    color: #93909C;
+}
+button.simpleMedium.disabled:hover span,
+a.buttonSimpleMedium.disabled:hover span {
+    cursor: default;
+}
+
+
+/* Large buttons */
+button.simpleLarge span,
+a.buttonSimpleLarge span {
+    margin-top: -2px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    display: block;
+    height: 26px;
+    padding: 3px 25px;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+	* html button.simpleLarge span {
+	    margin-top: 0;
+	}
+	
+	/* Green */
+	button.simpleLarge span.green,
+    a.buttonSimpleLarge span.green {
+        background: #87C80A url(/i/images/buttons/simple/green_large.png) repeat-x left top;
+        color: #fff;
+        text-shadow: 0px 1px 1px #78AD12;
+    }
+    button.simpleLarge:hover span.green,
+    a.buttonSimpleLarge:hover span.green {
+        background: #87C80A url(/i/images/buttons/simple/green_large.png) repeat-x left -32px;
+    }
+
+	/* Purple */
+	button.simpleLarge span.purple,
+    a.buttonSimpleLarge span.purple {
+        background: #87C80A url(/i/images/buttons/simple/purple_large.png) repeat-x left top;
+        color: #fff;
+        text-shadow: 0px 1px 1px #2F2C38;
+    }
+    button.simpleLarge:hover span.purple,
+    a.buttonSimpleLarge:hover span.purple {
+        background: #87C80A url(/i/images/buttons/simple/purple_large.png) repeat-x left -32px;
+    }
+
+	/* White */
+	button.simpleLarge span.white,
+    a.buttonSimpleLarge span.white {
+        background: #fff url(/i/images/buttons/simple/white_large.png) repeat-x left -4px;
+        color: #4b465a;
+        text-shadow: 0px 1px 1px #e4e4e4;
+    }
+    button.simpleLarge:hover span.white,
+    a.buttonSimpleLarge:hover span.white {
+        background: #fff url(/i/images/buttons/simple/white_large.png) repeat-x left -36px;
+    }
+
+	/* Disabled */
+	button.simpleLarge.disabled span,
+	a.buttonSimpleLarge.disabled span,
+	button.simpleLarge.disabled:hover span,
+	a.buttonSimpleLarge.disabled:hover span {
+	    background: #fff url(/i/images/buttons/simple/white_large.png) repeat-x left -36px;
+	    border: 1px solid #ececec;
+	    color: #93909C;
+        text-shadow: 0px 1px 1px #fff;
+	}
+	button.simpleLarge,
+	a.buttonSimpleLarge{
+		outline: none;
+	}
+	button.simpleLarge.disabled:hover,
+	a.buttonSimpleLarge.disabled:hover {
+	    cursor: default;
+	}
+
+
+/* Dirty IE-only hack */
+button.simple,
+a.buttonSimple,
+button.simpleMedium,
+a.buttonSimpleMedium {
+/*    margin-top: expression(1 + "px");*/
+}
+
+/* Big dark button for Business section */
+
+div.darkBusinessButton {
+    width: 140px;
+    margin-left: 20px;
+}
+
+
+div.darkBusinessButton a {
+    display: block;
+    padding: 10px 10px 10px 5px;
+    background-color: #4B465A;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 1.286em;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px -1px 1px #2F2C38;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* simple blue twoline button for business page sidebar */
+
+a.buttonSimpleTwoline {
+	width: 170px;
+	height: 41px;
+    display:-moz-inline-box;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 1px solid red;
+    overflow: visible;
+	text-decoration: none;
+}
+
+a.buttonSimpleTwoline.blue:hover {
+	background-position: 0 -52px;
+}
+
+a.buttonSimpleTwoline.blue {
+	background: url("/i/images/buttons/simple/blue_twoline.png") 0 0 repeat-x;
+	color: white;
+	font-weight: bold;
+	line-height: 20px;
+	text-decoration: none;
+	border: none;
+	padding: 4px 11px;
+	text-shadow: 0px -1px 1px #39BBF6;
+    font-size: 14px;
+}
+
+/* if the button is inside grayBox */
+.grayBox a.buttonSimpleTwoline {
+	position: relative;
+	top: -11px;
+}
+
+/* FF specific line-height fix */
+@-moz-document url-prefix() {
+    button.simple {
+        margin: 0;
+    }
+        button.simple span {
+            margin-left: -3px;
+            margin-right: -3px;
+        }
+    button.simpleMedium {
+        margin: 0;
+    }
+        button.simpleMedium span {
+            margin-top: -2px;
+            margin-left: -3px;
+            margin-right: -3px;
+        }
+    button.simpleLarge {
+		margin: 0;
+	}
+		button.simpleLarge span {
+			margin-top: -2px;
+			margin-left: -3px;
+			margin-right: -3px;
+		}
+}
+}
+

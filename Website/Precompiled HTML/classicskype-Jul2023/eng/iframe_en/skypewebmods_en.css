@@ -1,0 +1,242 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Layer1
+{
+   background-color: #01BBFF;
+   background-image: none;
+   border-radius: 10px;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Layer2
+{
+   background-color: #01BBFF;
+   background-image: none;
+   border-radius: 10px;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0 0 0 5px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 5px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
+#Layer5
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 5px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape4
+{
+   top: 0px;
+   width: 426px;
+   height: 62px;
+   background-image: linear-gradient(to top, #48BA0E 0%, #7CD344 100%);
+   border: 1px #3FA50C solid;
+   border-radius: 38px;
+}
+#Shape4:hover
+{
+   background-image: linear-gradient(to top, #3FA50C 0%, #64B733 100%);
+   border: 1px #7CD344 solid;
+}
+#Shape4_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.46%;
+   top: 30.65%;
+   width: 90.85%;
+   height: 37.1%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape2
+{
+   top: 0px;
+   width: 426px;
+   height: 62px;
+   background-image: linear-gradient(to top, #48BA0E 0%, #7CD344 100%);
+   border: 1px #3FA50C solid;
+   border-radius: 38px;
+}
+#Shape2:hover
+{
+   background-image: linear-gradient(to top, #3FA50C 0%, #64B733 100%);
+   border: 1px #7CD344 solid;
+}
+#Shape2_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.46%;
+   top: 30.65%;
+   width: 90.85%;
+   height: 37.1%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape3
+{
+   top: 0px;
+   width: 426px;
+   height: 62px;
+   background-image: linear-gradient(to top, #48BA0E 0%, #7CD344 100%);
+   border: 1px #3FA50C solid;
+   border-radius: 38px;
+}
+#Shape3:hover
+{
+   background-image: linear-gradient(to top, #3FA50C 0%, #64B733 100%);
+   border: 1px #7CD344 solid;
+}
+#Shape3_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 4.46%;
+   top: 30.65%;
+   width: 90.85%;
+   height: 37.1%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}

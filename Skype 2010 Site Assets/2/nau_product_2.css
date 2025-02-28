@@ -1,0 +1,53 @@
+
+div.affiliate_box_center table td {
+border-bottom: none;
+padding: 0px 0px 0px 0px;
+vertical-align: top;
+}
+
+div.affiliate_box_center table {
+margin: 0px 0px 0px 0px;
+position: relative;
+text-align: left;
+width: 100%;
+z-index: 999;
+}
+
+body.simple div#header div#account-bar {
+padding-left: 0px;
+}
+
+.threeColumns {
+width: 750px; 
+margin: 20px auto 0px auto;
+}
+
+.threeColumns h2 {
+background:#FFFFFF url(/i_preairlift/bg/ho-header-grad_240x29.png) no-repeat scroll left top;
+color:black;
+font-size:14px;
+font-weight:bold;
+height:29px;
+line-height:29px;
+margin:0pt 0pt 10px;
+padding:0pt 10px;
+text-shadow:none;
+}
+
+.btn_grn {
+width: 216px; 
+margin: 0 auto;
+}
+
+.btn_grn a {
+height: 40px; 
+display: block; 
+text-align: center; 
+color: white; 
+font: bold 16px Arial, Verdana, sans-serif; 
+line-height: 40px;"
+}
+
+.btn_grn a:hover {
+color: white;
+}

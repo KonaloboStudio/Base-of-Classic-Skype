@@ -1,0 +1,224 @@
+div.indexBlue {
+    background-color:#00AFF0;
+}
+
+div#splashContent h1 {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+div#splashContent h2 {
+    padding: 0;
+    margin: 0;
+    font: bold 14px/16px Helvetica, Arial, sans-serif;
+}
+
+div#splashContent {
+    padding: 20px;
+}
+
+div#splashLinks {
+    margin-top: 15px;
+    color: #99dff9;
+    font: bold 18px/20px Helvetica, Arial, sans-serif;
+}
+
+div#splashLinks a {
+    color: #ffffff;
+}
+
+div#topSplash {
+    margin: 0 auto 56px;
+    position: relative;
+    width: 960px;
+    height: 130px;    
+}
+
+div.indexBlue .clouds {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+    * html div.indexBlue .clouds {
+        margin-bottom: -1px;
+        bottom: -1px;
+    }
+
+div#paddedContent {
+    margin-top: 20px;
+}
+
+div.contentSplit div.leftColumn.wider {
+    width: 415px !important;
+}
+
+div.contentSplit div.rightColumn.thinner {
+    width: 255px !important;
+}
+
+table#howitworksSteps {
+    width: 650px;
+    margin-left: 10px;
+}
+
+table#howitworksSteps tr td {
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+#performanceIllustration {
+    margin-top: -25px;
+    float: right;
+}
+
+#sidebarMenu {
+}
+
+div.splitIllustration {
+    min-height: 100px;
+    padding-left: 135px !important;
+}
+
+* html div.splitIllustration {
+    height: 100px;
+}
+
+    div.splitIllustration.callPhones {
+        min-height: 90px;
+        background: url(/i/images/business/affiliate/callphones_illustration.png) left top no-repeat;
+    }
+    
+        * html div.splitIllustration.callPhones {
+            height: 90px;
+        }
+    
+    div.splitIllustration.onlineNumbers {
+        min-height: 90px;
+        background: url(/i/images/business/affiliate/onlinenr_illustration.png) left top no-repeat;
+    }
+        
+        * html div.splitIllustration.onlineNumbers {
+            height: 90px;
+        }
+        
+    div.splitIllustration.bundles {
+        background: url(/i/images/business/affiliate/bundles_illustration.png) left top no-repeat;
+    }
+
+    div.splitIllustration.hardware {
+        background: url(/i/images/business/affiliate/hardware_illustration.png) left top no-repeat;
+    }
+    
+ul.creditList {
+    width: 225px;
+    margin: 15px 0 15px -25px !important;
+    padding: 0 !important;
+}
+
+ul.creditList li {
+    list-style-type: none;
+    background: url(/i/images/icons/skypecredit_16x16_white.png) left top no-repeat;
+    line-height: 16px;
+    margin: 4px 0 !important;
+    padding-left: 24px;
+    font-weight: bold;
+}
+
+/* linkBuilder */
+#linkBuilderForm {
+	display: none;
+}
+#linkBuilderForm p.message {
+	display: none;
+}
+#linkBuilderForm #buildArea {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#linkBuilderForm table {
+    width: 650px;
+}
+
+#linkBuilderForm table th {
+    font-weight: bold;
+    padding: 1px 0 10px 20px;
+    line-height: 16px;
+}
+    #linkBuilderForm table th.step1 {
+        background: url(/i/images/bullets/blue_1_small.png) top left no-repeat;
+    }
+    #linkBuilderForm table th.step2 {
+        background: url(/i/images/bullets/blue_2_small.png) top left no-repeat;
+    }
+    #linkBuilderForm table th.step3 {
+        background: url(/i/images/bullets/blue_3_small.png) top left no-repeat;
+    }
+	
+	#linkBuilderForm table th.step4 {
+		padding-top: 10px;
+        background: url(/i/images/bullets/blue_4_small.png) 0px 10px no-repeat;
+    }
+    
+#linkBuilderForm #affiliatepartner {
+    width: 150px;
+    margin-right: 10px;
+}
+
+#linkBuilderForm #affiliatepartnerEng {
+    width: 235px;
+    margin-right: 10px;
+}
+
+#linkBuilderForm #affiliateid {
+    width: 190px;
+    margin-right: 10px;    
+}
+
+#linkBuilderForm #affiliateId {
+    width: 190px;
+    margin-right: 10px;    
+}
+
+#linkBuilderForm #skypeurl {
+    width: 275px;
+}
+
+#linkBuilderForm #linkTo {
+    width: 230px;
+}
+
+#linkBuilderForm #linkid {
+    width: 150px;
+}
+
+#linkBuilderForm input.showCodeRadio {
+    vertical-align: middle;
+    margin: -2px 0 0 10px;
+}
+
+
+#linkBuilderForm #resultArea {
+	min-width: 650px;
+	padding-top: 20px;
+	display: none;
+}
+#linkBuilderForm #resultArea code {
+	margin-top: 5px;
+	border: 1px solid #aaa;
+	background: #fafafa;
+	color: #555;
+	padding: 8px;
+	font: normal 12px "panic sans","monaco","consolas", monospace;
+	display: block;
+	word-wrap: break-word;
+}
+#linkBuilderForm #resultArea code:hover {
+	color: #2c2c2c;
+	border-color: #888;
+	background: #fff;
+}

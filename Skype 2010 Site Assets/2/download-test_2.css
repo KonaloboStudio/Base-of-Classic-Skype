@@ -1,0 +1,222 @@
+#headerWide {
+	display: block;
+	width: 100%;
+	height: 156px;
+	background: #07b1f0 url(/i/images/backgrounds/download_header_bg_grad.png) repeat-x;
+	margin-bottom: 50px;
+	}
+	
+	.headerCenter {
+		display: block;
+		width: auto;
+		height: 156px;
+		background: url(/i/images/backgrounds/download_header_bg.png) no-repeat center;	
+		}
+
+.skype41 {
+	position: absolute;
+	left: 230px;
+	top: 85px;
+	width: 446px;
+	height: 290px;
+	z-index: 2;
+	}
+
+#keepInTouchBox {
+	width: 255px;
+	height: 100%;
+	z-index: 1;
+	margin: 0 0 30px 0;
+	}
+	
+.keepInTouchHeader {
+	width: 255px;
+	height: auto;
+	min-height: 60px !important;
+	background-color: #42c4f4;
+	margin-top: 20px;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+	border-top: solid #bceafb 1px;
+	border-left: solid #bceafb 1px;
+	border-right: solid #bceafb 1px;
+	}
+	
+	.keepInTouchContent {
+		width: 255px;
+		height: auto;
+		min-height: 326px !important;
+		background: #d5f3fe;
+		-moz-border-radius-bottomleft: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		-moz-border-radius-bottomright: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		border-bottom: solid #bceafb 1px;
+		border-left: solid #bceafb 1px;
+		border-right: solid #bceafb 1px;
+		}
+	
+			.keepInTouchHeader h3{
+				color: white;
+				padding-top: 11px;
+				padding-bottom: 11px;
+				}
+				
+			.keepInTouchContent ul{	
+				width: 210px;
+				padding-top: 25px;
+			}
+			
+			.keepInTouchContent li{	
+				color: #484848;
+				list-style-type: disc;
+				margin-left: 13px;	
+				padding-bottom: 10px;
+			}
+			
+			p.smallGrey {
+				display: block;
+				font-size: 10px;
+				margin-top: 20px;
+				}
+#getGoingBox {
+	margin: 0 0 30px 0;
+	}
+.boxContainer {
+	position: relative;
+}
+	
+.getGoing {
+	color: white;
+	display: block;
+	width: 688px;
+	height: 35px;
+	background-color: #44c5f4;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+	border-top: solid #bceafb 1px;
+	border-left: solid #bceafb 1px;
+	border-right: solid #bceafb 1px;
+	}
+
+.getGoingContent {
+	display: block;
+	width: 668px;
+	background-color: #d9f4fd;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+	border-bottom: solid #bceafb 1px;
+	border-left: solid #bceafb 1px;
+	border-right: solid #bceafb 1px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	}
+	
+	.getGoingParagraphs {
+		float: left;
+		display: inline-block;
+		width: 330px;
+		height: auto;
+		min-height: 80px !important;
+		margin-top: 10px;
+		}
+		
+	.getGoing h3{
+		color: white;
+		line-height: 35px;
+		}
+		
+	span.getGoingStrong{
+		display: inline-block;
+		color: #484848;
+		font-size: 15px;
+		line-height: 17px;
+		vertical-align: top;
+		padding: 4px 0 4px 10px;
+		font-weight: bold;
+		width: 270px;
+		}
+		
+		.getGoingContent p{
+			font-size: 11px;
+			color: #636363;
+			margin-left: 20px;
+			margin-bottom: 0;
+			}
+		
+		.getGoingContent a{
+			font-size: 11px;
+			margin-left: 40px;
+			}
+		p.technicalRequirements {
+			display: block;
+			margin-top: -240px;
+			}
+
+		
+
+/*********** Sidebar Info ****************/
+
+span.sidebarRelated {
+	display: block;
+	font-size: 11px;
+	}
+
+#sidebarContent li{
+	list-style-type: disc;
+	}
+	
+li.noBullet {
+	list-style-type: none;
+	margin-left: 0px;;
+	}
+
+.sidebarSeperator {
+	display: block;
+	width: 100%;
+	height: 10px;
+	background: url(/i/images/backgrounds/download_sidebar_seperator.png) repeat-x;
+	margin-bottom: 18px;
+	margin-left: -17px;
+	}
+
+p.sidebarSmallText {
+	font-size: 11px;
+	}
+	
+/* Hide submenus */
+
+.hidden {display:none;}
+
+#sidebarContent.downloadPageSidebar h3.sidebarHeading {
+	color: #62A8F0;
+	font-weight: bold;
+	line-height: 20px;
+	}
+	#sidebarContent.downloadPageSidebar h3.sidebarHeading a {
+		color: #62A8F0;
+		text-decoration: none;
+	}
+a.normalSize {
+	font-size: 14px;
+	}
+h2.requirementsTitle {
+	font-size: 14px;
+	font-weight: bold;
+}
+.toggleBlock a.showContent,
+.toggleBlock.closed a.showContent {
+	padding-left: 15px;
+	background: url(/i/images/backgrounds/toggle-arrow-closed.png) left 4px no-repeat;
+}
+.toggleBlock.open a.showContent {
+	padding-left: 15px;
+	background: url(/i/images/backgrounds/toggle-arrow-open.png) left 4px no-repeat;
+}

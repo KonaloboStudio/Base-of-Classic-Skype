@@ -1,0 +1,170 @@
+#container {
+    margin-top: 30px;
+}
+
+
+/* Rates pages content&formatting, spanning all languages */
+
+img.largeFlag {
+	 width: 57px;
+	 height: 42px;
+	 float: left;
+	 margin: 0 10px 10px 0;
+}
+img.illustration {
+	width: 194px;
+	height: 139px;
+	float: right;
+	margin: 0 0 20px 30px;
+}
+
+#ccy-change-form {
+    float: right;
+    background: url(/i/images/icons/skypecredit_16x16_white.png) top left no-repeat;
+    margin-top: 9px;
+}
+
+    #paddedContent #ccy-change-form p {
+        padding: 0 0 0 20px;
+    }
+    
+    #ccy-change-form label {
+        font-weight: bold;
+        float: left;
+    }
+
+    #ccy-change-form select {
+        margin-left: 5px;
+        margin-top: -3px;
+    }
+        
+    * html #ccy-change-form select {
+        margin-top: 0px;    
+    }
+    
+
+
+
+#widePromo {
+	margin-top: 4px;
+    background: #00aff0;
+}
+
+div #topSplash {
+	position: relative;
+	min-height: 197px;
+	margin: 0 auto 0 auto;
+	width: 960px;
+	background: #00aff0 url(/i/images/illustrations/cheapcalls.png) no-repeat bottom center;
+}
+
+* html #topSplash {
+    height: 197px;
+}
+
+div #splashContent {
+	padding: 25px 350px 0 20px;
+}
+
+#topSplash h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+	font-size: 24px;
+}
+
+#content #paddedContent div.graphicalSteps strong.title {
+    font-size: 1.14em;
+}
+
+    #content #paddedContent div.graphicalSteps img {
+        float: left;
+        margin: -10px 0 15px -80px;
+    }
+
+#content #paddedContent div.graphicalSteps p {
+    padding-left: 120px !important;
+    clear: both;
+    padding-bottom: 10px !important;
+}
+
+#content #paddedContent div.graphicalSteps .buttonSmall {
+    display: block;
+    margin-top: 5px;
+}
+
+#content #paddedContent div.graphicalSteps img#splashCash {
+    margin-left: -75px;
+}
+
+div.additionalInformation {
+    border: none;
+    padding: 15px 0 0 0;
+    width: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+	zoom: 1;
+}
+
+table.priceList {
+    border-top: 1px solid #c1cddb;
+    width: 650px;
+    margin: 0 20px 10px 20px;
+}
+
+    table.priceList th,
+    table.priceList td {
+        border-bottom: 1px solid #c1cddb;
+        color: #303030;
+    }
+
+    table.priceList thead th {
+        font-size: 0.86em;
+        padding: 5px;
+    }
+    
+    table.priceList td,
+    table.priceList tbody th {
+        font-weight: bold;
+        padding: 13px 5px;
+    }
+    
+    table.priceList td:first-child,
+    table.priceList th:first-child {
+        padding-left: 0px;
+    }
+    
+    table.priceList td:last-child,
+    table.priceList th:last-child {
+        padding-right: 0px;
+    }
+    
+#countryFlag {
+    float: left;
+    margin-left: -68px;
+    margin-top: -4px;
+}
+
+#content #paddedContent div.additionalInformation h2 {
+    padding-left: 85px;
+    font-size: 1.0em;
+    line-height: 1.357em;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+    #content #paddedContent div.additionalInformation h2 span.price,
+    #content #paddedContent div.additionalInformation h2 span.vat {
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    #content #paddedContent div.additionalInformation h2 span.vat {
+        font-size: 0.86em;
+        color: #5d5b5b;
+    }
+    
+    div.additionalInformation form#ccy-change-form {
+        padding-right: 20px;
+    }

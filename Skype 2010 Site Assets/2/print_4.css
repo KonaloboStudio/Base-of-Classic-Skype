@@ -1,0 +1,20 @@
+body {
+	background: none;
+	color: black;
+}
+
+img {
+	border: 0;
+}
+
+div#header, .skip, div#footer, div#download, div#counter, div#sidebar, div#lang-img {
+	display: none;
+}
+
+div#container, div#content {
+	background: none;
+	width: auto;
+	float: none;
+	margin: 0;
+	padding: 0;
+}

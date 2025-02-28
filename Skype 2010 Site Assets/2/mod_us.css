@@ -1,0 +1,69 @@
+/* US styles */ 
+
+
+div.contentHomeUs {
+margin-top: 60px;
+}
+
+p.iphoneHomeUs {
+margin-left: 75px; 
+padding-top: 8px;
+}
+
+div.customLinks a:link {
+color:#0181E3;
+text-decoration:underline;
+}
+
+div.customLinks a:hover {
+color:#3A9EEB;
+text-decoration:underline;
+}
+
+div.customLinks a:visited {
+color:#3A9EEB;
+text-decoration:underline;
+}
+
+#content #paddedContent .helloagainSplit .toGo {
+	background: url(/i/images/icons/skypetogo_phone_96x96v2.png) no-repeat 40px 5px;
+	height: 100%;
+}
+
+#content #paddedContent .helloagainSplit .hqVideo {
+	background: url(/i/images/promo/ane/logitechhqwebcam.png) no-repeat 70px 5px;
+	height: 100%;
+}
+
+#content #paddedContent .helloagainSplit .cheapCalls {
+	background:transparent url(/i/images/icons/cheapcalls_ho_white.png) no-repeat scroll 20px 5px;
+	height:100%;
+}
+
+#content #paddedContent .helloagainSplit .skypeCredit {
+	background:transparent url(/i/images/icons/skypecredit_96x96_white.png) no-repeat scroll 40px 5px;
+	height:100%;
+}
+
+#content #paddedContent .helloagainSplit h2, 
+#content #paddedContent .helloagainSplit p {
+padding-left:20px;
+padding-right:20px;
+}
+
+div.additionalInformation div#leftBlock {
+float:left;
+width:1px;
+}
+
+div.additionalInformation div#rightBlock {
+float:left;
+width:600px;
+}
+
+#sidebarContent p.noEmergency {
+background:white url(/i/images/icons/noemergency.png) no-repeat scroll 0pt 20px !important;
+line-height:1.1em;
+margin:0pt !important;
+padding:55px 0pt 0pt !important;
+}

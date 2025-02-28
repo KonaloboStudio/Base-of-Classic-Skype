@@ -1,0 +1,352 @@
+#container.default {
+	margin-top: -37px !important;
+}
+
+#contentHeader.features {
+	background: #00aff0 url(/i/images/backgrounds/features_header_bg.jpg) no-repeat bottom center;
+	overflow: visible;
+	background-color: #03b0f0;
+	padding-top: 40px;
+	min-height: 165px;
+	height: 165px;
+	/* margin-top: 4px; */
+}
+	#contentHeader .content {
+		width: 960px;
+		margin: 0 auto;
+		min-height: 165px;
+		height: 165px;
+		position: relative;
+	}
+		#contentHeader .content h1 {
+			text-align: center;
+			color: #fff;
+			font-size: 32px;
+			line-height: 32px;
+		}
+		#contentHeader .content img.firstIllustration {
+			position: absolute;
+			top: 65px;
+			left: -30px;
+			z-index: 99;
+		}
+
+		#contentHeader .content img.featuresTopMac {
+			background: url(/i/images/illustrations/features_illustration_1_mac.jpg) no-repeat 32px 0;
+		}
+		#contentHeader .content img.featuresTopWindows {
+			background: url(/i/images/illustrations/features_illustration_1_win.jpg) no-repeat 32px 0;
+		}
+	
+#container.features {
+	margin-top: 0;
+}
+#container .twoColumns {
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+#container .videoCalling {
+	padding-bottom: 10px;
+}
+#container .getSkype {
+	background: #f4f4f4;
+}
+	#container .twoColumns .largeColumn {
+		width: 620px;
+	}
+	#container .twoColumns .largeColumn.floatr img {
+		float: right;
+	}
+	#container .twoColumns .largeColumn.floatr span.alphaPng {
+		float: right;
+	}
+	#container .twoColumns .largeColumn.floatl img {
+		float: left;
+	}
+	#container .twoColumns .largeColumn.floatl span.alphaPng {
+		float: left;
+	}
+		#container .twoColumns .largeColumn .fourColumns .column {
+			float: left;
+			margin: 0 30px;
+			text-align: center;
+		}
+		#container .twoColumns .largeColumn .fourColumns .column img {
+			float: none;
+		}
+		#container .twoColumns .largeColumn .fourColumns .column a {
+			font-weight: bold;
+			text-decoration: none;
+			color: #afb4b4;
+			padding-right: 8px;
+		}
+		
+		#container .twoColumns .largeColumn .fourColumns .column a:hover {
+			text-decoration: underline;
+		}	
+		
+	#container .twoColumns .smallColumn {
+		width: 320px;
+	}
+	* html #container .twoColumns .smallColumn {
+		width: 300px;
+	}
+	* html #container .videoCalling .smallColumn {
+		margin-top: 36px;
+	}
+	#container .twoColumns .smallColumn.floatr {
+		padding-right: 20px;
+	}
+	#container .twoColumns .smallColumn.floatl {
+		padding-left: 20px;
+	}
+	#container .callPhones .smallColumn,
+	#container .instantMessaging .smallColumn {
+		padding-top: 20px;
+	}
+	#container .getSkype .smallColumn {
+		width: 300px;
+		padding: 20px 20px 0 0;
+	}
+	* html #container .getSkype .smallColumn {
+		margin-left: 10px;
+		width: 280px;
+	}
+		#container .twoColumns .smallColumn .bubbleLink a {
+			color: #afb4b4;
+			text-decoration: none;
+			font-weight: bold;
+			line-height: 20px;
+			padding: 4px 0 3px 23px;
+			background: url(/i/images/icons/info_with_shadow_20x20_white.png) no-repeat left top;
+		}
+		#container .twoColumns .smallColumn .bubbleLink a:hover {
+			color: #afb4b4;
+			text-decoration: underline;
+			font-weight: bold;
+			line-height: 20px;
+			padding: 4px 0 3px 23px;
+			background: url(/i/images/icons/info_with_shadow_20x20_white.png) no-repeat left top;
+		}		
+		#container .videoCalling h2 {
+			color: #00aff0;
+			padding: 16px 20px 26px 60px;
+			background: #fff url(/i/images/icons/video_48x48_white.png) no-repeat left top;
+		}
+		
+			#container .videoCalling h2 a,
+			#container .voiceCalling h2 a,
+			#container .instantMessaging h2 a,
+			#container .offlineCalling h2 a,
+			#container .onlineNumber h2 a,
+			#container .skypeSms h2 a,
+			#container .callPhones h2 a {
+				text-decoration: none;
+			}
+			
+			#container .videoCalling h2 a:hover,
+			#container .voiceCalling h2 a:hover,
+			#container .instantMessaging h2 a:hover,
+			#container .offlineCalling h2 a:hover,
+			#container .onlineNumber h2 a:hover,
+			#container .skypeSms h2 a:hover,
+			#container .callPhones h2 a:hover {
+				text-decoration: underline;
+			}			
+			
+		#container .voiceCalling h2 {
+			color: #00aff0;
+			padding: 16px 20px 26px 60px;
+			background: #fff url(/i/images/icons/call_48x48_white.png) no-repeat left top;
+		}
+		#container .callPhones h2 {
+			color: #00aff0;
+			padding: 16px 20px 26px 60px;
+			background: #fff url(/i/images/icons/callphones_48x48_white.png) no-repeat left top;
+		}
+		#container .instantMessaging h2 {
+			color: #00aff0;
+			padding: 16px 20px 26px 60px;
+			background: #fff url(/i/images/icons/chat_48x48_white.png) no-repeat left top;
+		}
+		
+		div#container.features p.callPhonesWorldwide {
+			text-transform: uppercase;
+			font-weight: bold;
+			color: #afb4b4;
+			margin-bottom: 0px;
+		}
+		
+		div#container.features span.largeBlackText {
+			font-size: 18px;
+			font-weight: bold;
+		}
+		
+		#container .twoColumns .smallColumn.floatr div.bubbleLink {
+			margin-top: 20px;
+		}
+		
+		
+#container .threeColumns {
+	height: 100%;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+	#container .threeColumns .column {
+		width: 300px;
+		margin-right: 15px;
+		float: left;
+	}
+	#container .threeColumns .column:first-child {
+		margin-left: 15px;
+	}
+		#container .threeColumns .column img.frame {
+			padding: 7px;
+			background: url(/i/images/misc/features_image_frame.png) no-repeat center center;
+			margin-bottom: 20px;
+		}
+		#container .threeColumns .column p {
+			padding: 0 15px 0 5px;
+		}
+		#container .threeColumns .offlineCalling h2 {
+			color: #00aff0;
+			padding: 16px 20px 26px 60px;
+			background: #fff url(/i/images/icons/togo_48x48_white.png) no-repeat left top;
+		}
+		#container .threeColumns .onlineNumber h2 {
+			color: #00aff0;
+			padding: 16px 20px 26px 60px;
+			background: #fff url(/i/images/icons/skypein_48x48_white.png) no-repeat left top;
+		}
+		#container .threeColumns .skypeSms h2 {
+			color: #00aff0;
+			padding: 16px 20px 26px 60px;
+			background: #fff url(/i/images/icons/sms_48x48_white.png) no-repeat left top;
+		}
+/* Local help bubble tweaks */
+div.helpBubble.topRight {
+	margin-left: -26px;
+	margin-top: -11px;
+}
+div.helpBubble div.body {
+	max-width: 370px;
+}
+	div.helpBubble div.needed {
+		padding: 7px 0 5px 35px;
+		margin-bottom: 5px;
+		height: 100%;
+	}
+		div.helpBubble h2 {
+			font-size: 18px;
+		}
+		div.helpBubble p {
+			font-size: 14px;
+		}
+		div.helpBubble p:last-child {
+			margin-bottom: 0;
+		}
+		div.helpBubble div.needed p {
+			font-size: 14px;
+			margin: 0;
+		}
+	div.helpBubble div.webcam {
+		background: url(/i/images/sprites/features-bubble-icons.png) no-repeat 0 0;
+	}
+	div.helpBubble div.mobile {
+		background: url(/i/images/sprites/features-bubble-icons.png) no-repeat 0 -100px;
+	}
+	div.helpBubble div.computer {
+		background: url(/i/images/sprites/features-bubble-icons.png) no-repeat 0 -200px;
+	}
+	div.helpBubble div.skype {
+		background: url(/i/images/sprites/features-bubble-icons.png) no-repeat -400px 0;
+	}
+	div.helpBubble div.headset {
+		background: url(/i/images/sprites/features-bubble-icons.png) no-repeat -400px -100px;
+	}
+	div.helpBubble div.broadband {
+		background: url(/i/images/sprites/features-bubble-icons.png) no-repeat -400px -200px;
+	}
+
+/* 
+#bottomNavigation {
+	position: relative;
+	z-index: 9999;
+	background-color: #00aff0;
+	height: 32px;
+}
+	#bottomNavigation ul {
+		color: #fff;
+		font-size: 1em;
+		padding: 0;
+		position: relative;
+		width: 960px;
+		margin: 0 auto;
+		overflow: hidden;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+		#bottomNavigation ul li {
+			float: left;
+			margin: 0 9px 0 8px;
+			font-size: 1em;
+			background: none;
+			padding: 7px 15px 6px 15px;
+			display: inline;
+			white-space: nowrap;
+		}
+			#bottomNavigation ul li a {
+				color: #fff;
+				text-shadow: #3399cc 0px 0px 1px;
+				text-decoration: none;
+				font-weight: normal;
+			}
+			#bottomNavigation ul li a:hover {
+				color: #fff;
+				text-decoration: underline;
+			}
+		#bottomNavigation ul li.active {
+			background: transparent url(/i/images/backgrounds/navi_arrow_up.png) no-repeat bottom center;
+			font-weight: normal;
+		}
+			#bottomNavigation ul li.active:hover {
+				text-decoration: underline;
+			}
+		
+#bottomSubNavigation {
+	color: #666666;
+	padding: 20px 0;
+}
+	#bottomSubNavigation table {
+		width: 960px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+		#bottomSubNavigation table td {
+			font-size: 1em;
+			background: none;
+			margin-bottom:0;
+			 padding: 0 20px;
+			border-left: 1px solid #d0d0d0;
+		}
+		#bottomSubNavigation table td:first-child {
+			border-left: none;
+		}
+			#bottomSubNavigation table td ul {
+				margin-bottom: 0;
+			}
+				#bottomSubNavigation table td ul li.title {
+					font-weight: bold;
+				}
+					#bottomSubNavigation table td ul li a {
+						color: #636363;
+						text-decoration: none;
+					}
+					#bottomSubNavigation table td ul li a:hover {
+						text-decoration: underline;
+					}
+ */
+				
+#container p.extraPadding {
+	padding-left: 20px;
+}

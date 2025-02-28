@@ -1,0 +1,51 @@
+div.tabs {
+	background: url(/i/images/tabs/bg-tabs.png) 0 3px repeat-x;
+	margin: 0 0 0 0;
+	padding: 0 0 19px 0;
+	width: 100%;
+}
+div.tabs span {
+	font-size: 0.9em;
+}
+div.tabs ul {
+	padding: 0 !important;
+	margin: 0 0 0 10px !important;
+}
+div.tabs ul li {
+	float: left;
+	display: block;
+	list-style: none;
+	line-height: 32px;
+	padding: 0 10px 0 0;
+	margin: 0 0 -1px 0 !important;
+	background: transparent url(/i/images/tabs/tabs_right.png) top right no-repeat;
+}
+div.tabs ul li a {
+	float: left;
+	display: block;
+	color: #0181e3;
+	text-decoration: none;
+	background: transparent url(/i/images/tabs/tabs_left.png) top left no-repeat;
+	padding: 0 10px 0 10px;
+	font: bold 1.2em/32px Arial, Helvetica, sans-serif;
+}
+
+div.tabs ul li.selected {
+	background: url(/i/images/tabs/tabs_active_right.png) top right no-repeat;
+	color: #545454;
+}
+div.tabs ul li.selected a {
+	background: url(/i/images/tabs/tabs_active_left.png) top left no-repeat;
+	color: #545454;
+}
+
+/* icons */
+
+div.tabs span.icon {
+	font-size: 1em;
+	padding-left: 22px;
+}
+
+    div.tabs span.icon.globe {
+        background: url(/i/images/icons/globe_18x18_gray.png) 0px 1px no-repeat;
+    }

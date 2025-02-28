@@ -1,0 +1,82 @@
+#sidebar #sidebarContent {
+    padding: 10px 20px 0 17px;
+}
+
+#sidebarContent.sideMenu .alternative {
+    padding-top: 285px;
+}
+
+#sidebarMenu ul {
+	margin: 0 0 29px 0px;
+	padding: 0;
+	width: 220px;
+}
+
+* html #sidebarMenu ul {
+	margin: 10px 0 29px -18px !important;
+	width: 200px;
+}
+
+#sidebarMenu ul li {
+	list-style: none;
+	line-height: 19px;
+	font-weight: bold;
+	padding: 6px 0;
+	position: relative;
+	z-index: 666;
+	margin: 0;
+	width: 220px;
+}
+
+#sidebarMenu ul li h2 {
+	padding-bottom: 0px;
+}
+
+* html #sidebarMenu ul li {
+	padding: 6px 0;
+	width: 200px;
+}
+
+#sidebarMenu ul li a {
+	text-decoration: none;
+    zoom: 1;
+}
+
+#sidebarMenu ul li.active {
+	margin: 0 0 0 -27px;
+	padding: 0 0 0 10px;
+	background: url(/i/images/backgrounds/subnavi_third_arrow.png) left center no-repeat;
+	width: 220px;
+	height: 100%;
+}
+
+* html #sidebarMenu ul li.active {
+	margin: 0 0 0 -27px;
+	width: 200px;
+}
+
+*:first-child+html #sidebarMenu ul {
+	margin: 34px 0 49px -17px !important;
+}
+
+#sidebarMenu ul li.active a {
+	background: url(/i/images/backgrounds/subnavi_third_back.png) right top no-repeat;
+	padding: 6px 0 0 0;
+	display: block;
+	color: #ffffff;
+}
+
+#sidebarMenu ul li.active a strong {
+	background: url(/i/images/backgrounds/subnavi_third_back.png) right bottom no-repeat;
+	padding: 0 5px 6px 17px;
+	display: block;
+	position: relative;
+	z-index: 667;
+}
+
+    #sidebarMenu ul li img.menuIcon {
+        height: 16px;
+        width: 16px;
+        margin-right: 5px;
+        vertical-align: top;
+    }

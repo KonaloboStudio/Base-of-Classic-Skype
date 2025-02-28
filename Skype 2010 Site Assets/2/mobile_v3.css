@@ -1,0 +1,210 @@
+/* Mobile remake */
+
+.hidden {
+	display: none !important;
+}
+
+div#contentHeader {
+	margin-top: 0px;
+	overflow: visible;
+	margin-bottom: 84px;
+}
+
+.mobile {
+	background: #03b0f0;
+	min-height: 385px;
+	position: relative;
+	overflow: visible;
+}
+	div#contentHeader .middleContent {
+		background: none;
+		position: relative;
+		overflow: visible;
+		padding-bottom: 84px;
+	}
+	.mobile .middleContent h1 {
+		float: left;
+		position: relative;
+		z-index: 10;
+		font-size: 28px;
+	}
+	.mobile .middleContent img {
+		position: absolute;
+		bottom: -84px;
+		right: 0;
+		z-index: 9;
+	}
+	div#contentHeader .middleContent h1 {
+		width: 370px;
+		font-size: 32px;
+		line-height: 36px;
+	}
+		
+#container {
+	margin-top: 20px;
+}
+
+#content h2.contentHeading {
+	font-size: 24px;
+	line-height: 36px;
+	color: #afb4b4;
+	padding-top: 2px;
+	padding-left: 20px;
+}
+
+#content p.legalNotice {
+	padding-left: 20px;
+}
+
+#content .threeColumns {
+	height: 100%;
+	overflow: hidden;
+}
+	#content .threeColumns:last-child {
+		margin-bottom: 40px;
+	}
+	#content .threeColumns * {
+		zoom: 1;
+	}
+
+	#content .threeColumns .column {
+		width: 295px;
+		float: left;
+		margin-left: 20px;
+		padding: 7px 0 0 0;
+	}
+	* html #content .threeColumns .column {
+		margin-left: 0;
+		margin-right: 20px;
+	}
+	#content .threeColumns .download {
+		background: url(/i/images/backgrounds/mobile_icon_download.png) no-repeat top left;
+	}
+	#content .threeColumns .preinstalled {
+		background: url(/i/images/backgrounds/mobile_icon_preinstalled.png) no-repeat top left;
+	}
+	#content .threeColumns .togo {
+		background: url(/i/images/backgrounds/mobile_icon_togo.png) no-repeat top left;
+	}
+		#content .threeColumns .column h2 {
+			font-size: 24px;
+			line-height: 24px;
+			color: #525252;
+			padding: 0 0 0 45px;
+		}
+		#content .threeColumns .column h2 a {
+			color: #525252;
+			text-decoration: none;
+		}
+		#content .threeColumns .column h3 {
+			font-size: 14px;
+			line-height: 19px;
+			color: #afb4b4;
+			padding: 0 0 0 45px;
+		}
+		#content .threeColumns .column p {
+			padding: 0 10px 0 45px;
+			margin-bottom: 1.357em;
+		}
+		#content .threeColumns .column ul {
+			list-style-type: none;
+			margin: 20px 0;
+			padding: 0;
+		}
+			#content .threeColumns .column ul li {
+				padding: 0 0 0 45px;
+				background: url(/i/images/icons/mobile_icon_green_tick.png) no-repeat 25px 4px;
+			}
+		#content .threeColumns .column .imgBlock {
+			margin: 0 0 0 45px;
+		}
+			#content .threeColumns .column .imgBlock img {
+				margin-right: 5px;
+				margin-top: 3px;
+				padding: 0 5px;
+				float: left;
+			}
+			#content .threeColumns .column .imgBlock img.nokia {
+				margin-top: 15px;
+			}
+
+	div.horizontalSeparator,
+	div.toggleSeparator {
+		height: 12px;
+		background: white url(/i/images/backgrounds/content/hor-separator-middle.png) repeat-x;
+		margin-bottom: 3px;
+		clear: both;
+	}
+	.support div.horizontalSeparator, 
+	.support div.toggleSeparator {
+		margin-bottom: 0px;
+		height: 21px;
+	}
+	div.toggleSeparator {
+		padding-top: 10px;
+		background-position: 0 10px;
+	}
+		div.horizontalSeparator span.left,
+		div.toggleSeparator span.left {
+			width: 143px;
+			height: 12px;
+			float: left;
+			background: white url(/i/images/backgrounds/content/hor-separator-left.png) no-repeat;
+		}
+		div.horizontalSeparator span.right,
+		div.toggleSeparator span.right {
+			width: 143px;
+			height: 12px;
+			float: right;
+			background: white url(/i/images/backgrounds/content/hor-separator-right.png) no-repeat;
+		}
+		.extraPadding {
+			padding-top: 42px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+#viewAll div.body {
+	/* max-width: 475px; */
+	max-width:650px;
+	max-height: 250px;
+	font-size: 12px;
+}
+	#viewAll div.body h3 {
+		font-size: 14px;
+		color: #2c2c2c;
+		border-bottom: 1px solid #bceafb;
+		padding-bottom: 15px;
+		margin-bottom: 10px;
+	}
+	#viewAll div.body table tr th {
+		font-weight: bold;
+		white-space: nowrap
+	}
+	#viewAll div.body table tr th,
+	#viewAll div.body table tr td {
+		padding-left: 15px;
+		vertical-align: top;
+		height: auto;
+		border-left: 1px solid #bceafb
+	}
+	#viewAll div.body table tr th:first-child,
+	#viewAll div.body table tr td:first-child {
+		padding-left: 0;
+		padding-right: 10px;
+		border-left: none;
+	}
+	#viewAll div.body table tr td ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		float: left;
+		width: 80px;
+	}
+		#viewAll div.body table tr td ul li {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			color: #00aff0;
+			text-decoration: underline;
+		}

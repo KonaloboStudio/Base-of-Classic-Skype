@@ -1,0 +1,106 @@
+div.headerBlock {
+	background: #4CC7F4 url(/i/images/backgrounds/skypeon3_header_gradient.png) repeat-x left top;
+	-moz-border-radius-topLeft: 4px;
+	-moz-border-radius-topRight: 4px;
+	-webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+	padding-bottom: 0;
+}
+	div.headerBlock h1 {
+		color: #fff;
+		text-align: center;
+		padding: 20px 0 0 0;
+		margin: 0;
+	}
+	div.headerBlock h2 {
+		color: #2C2C2C;
+		text-align: center;
+		padding: 0 0 0 0;
+		margin: 0;
+	}
+	div.headerBlock .headerImage {
+		vertical-align: bottom;
+		bottom: 0;
+		margin-top: 15px;
+	}
+
+div.twoColumns {
+	padding: 0 20px;
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+	div.twoColumns div.leftColumn {
+		float: left;
+		width: 225px;
+		padding: 15px 0 0 100px;
+		background: url(/i/images/misc/skypeon3_free_calls.png) no-repeat left top;
+	}
+	div.twoColumns div.rightColumn {
+		float: right;
+		width: 225px;
+		padding: 15px 0 0 90px;
+		background: url(/i/images/misc/skypeon3_instant_message.png) no-repeat left top;
+	}
+	
+div.blueContainer {
+	background: #E5F7FE url(/i/images/misc/skypeon3_phones.png) no-repeat 490px 50px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 20px 210px 20px 0;
+}
+
+div.lowerContent {
+	padding: 0 20px 0px 20px;
+}
+	div.lowerContent h2 {
+		padding-bottom:3px;
+	}
+	div.lowerContent p {
+		margin-bottom: 10px;
+	}
+	#content #paddedContent div.lowerContent img.phones {
+		margin-top: 10px;
+		margin-right: 20px;
+		margin-bottom: 40px;
+	}
+	#content #paddedContent div.lowerContent img.onlineIcon {
+		margin-left: 5px;
+		margin-right: 10px;
+		margin-bottom: 40px;
+	}
+div.threeColumns {
+	padding: 0 20px;
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+	div.threeColumns .column {
+		float: left;
+		width: 220px;
+		overflow: hidden;
+		margin: 0;
+		padding: 100px 0 0 0;
+	}
+		#content #paddedContent div.threeColumns .column p {
+			padding-left: 0;
+		}
+	div.threeColumns .column.last {
+		width: 210px;
+	}
+	div.threeColumns .column.freeCalls {
+		background: url(/i/images/misc/skypeon3_free_calls.png) no-repeat left top;
+	}
+	div.threeColumns .column.instantMessage {
+		background: url(/i/images/misc/skypeon3_instant_message.png) no-repeat left top;
+	}
+	div.threeColumns .column.valueCalls {
+		background: url(/i/images/misc/skypeon3_value_calls.png) no-repeat left top;
+	}
+p.footerNote {
+	clear: left;
+	font-size: 12px;
+	color: #636363;
+	padding-top: 30px;
+}

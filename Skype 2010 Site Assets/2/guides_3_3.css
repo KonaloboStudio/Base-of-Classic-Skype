@@ -1,0 +1,200 @@
+div#topSplash {
+	margin: 10px auto 35px auto;
+}
+
+ul.guideAnchors li a {
+	padding-right: 15px;
+	background: url(/i/images/misc/anchor_arrow.png) center right no-repeat;	
+	color: #000000;
+	text-decoration: none;
+}
+
+ul.guideAnchors li a:hover {
+	color: #0181E3;
+	text-decoration: underline;
+}
+
+
+
+
+
+img.inlineIcon {
+	margin-bottom: -3px;
+}
+
+#sidebarHeading {
+	margin: 48px 0 10px;
+}
+
+#sidebarHeading h2, #sidebarHeading h3 {
+	color: #343434;
+	padding: 0;
+}
+
+ul.usefulThings li {
+	list-style-type: none;
+}
+
+div#header.guides {
+	border-bottom: 1px solid #e7e9e9;
+	background: url(/i/images/backgrounds/guides-head.png) repeat-x top left;
+	width: 100%;
+	padding: 20px 0 7px 0;
+}
+
+	div#header #headerInterior {
+		width: 960px;
+		margin: 0 auto;
+	}
+	
+div#container.guides {
+	background: url(/i/images/backgrounds/sidebar_end.png) no-repeat 489px bottom;
+}
+
+	div#container.guides #content {
+		min-height: 500px;
+	}
+
+div#guideHome {
+	padding: 10px 20px 0 20px;
+	text-align: right;
+	background: #fff;
+}
+
+	div#guideHome a {
+		background: url(/i/images/misc/guides-navi-arrow.png) no-repeat right 2px;
+		padding-right: 10px;
+		text-decoration: none;
+	}
+	
+div#container.guides h1 {
+	font-size: 26px;
+}
+
+div#guideHead {
+	background: #fff;
+	padding-bottom: 50px;
+}
+
+div#guideNavi {
+	overflow: hidden;
+	background: url(/i/images/backgrounds/sidebar_begin.png) no-repeat 489px 0;
+}
+
+div {
+	zoom: 1;
+}
+
+div#guideContents {
+	clear: both;
+}
+
+div#guideTopics,
+div#guideScreens {
+	width: 520px;
+	float: left;
+	display: inline;
+}
+
+	div#guideSubTopics h2 {
+		padding-top: 0;
+	}
+
+div#guideSubTopics,
+div#guideBody {
+	width: 440px;
+	float: right;
+	display: inline;
+}
+
+
+div#guideSubTopics,
+div#guideBody li {
+	list-style-position: outside;
+}
+
+#guideIllustration {
+	float: right;
+	display: inline;
+	width: 165px;
+	min-height: 165px;
+	text-align: right;
+	margin: 0 20px 0 10px;
+}
+
+	#guideIllustration img {
+		margin: 0;
+		padding: 0;
+	}
+
+div#container.guides #content #paddedContent p,
+div#container.guides #content #paddedContent h1,
+div#container.guides #content #paddedContent h2,
+div#container.guides #content #paddedContent h3,
+div#container.guides #content #paddedContent h4,
+div#container.guides #content #paddedContent h5,
+div#container.guides #content #paddedContent h6,
+div#container.guides #content #paddedContent .padded {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div#container.guides #content #paddedContent p,
+div#container.guides #content #paddedContent ul {
+	color: #666;
+}
+
+div#container.guides #content #paddedContent h2 {
+	color: #000;
+}
+
+div#container.guides #content #paddedContent h3 {
+	margin: 0 0 1.357em;
+}
+
+div#container.guides #content #paddedContent {
+	padding-right: 0;
+}
+
+#container.guides ul.topics {
+	list-style-position: inside;
+}
+
+	#container.guides ul.topics li.topicGroup {
+		font-weight: bold;
+		list-style: none;
+	}
+		
+#container.guides #guideBody ul,
+#container.guides #guideSubTopics ul {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+#container.guides #guideSubTopics ul.topics {
+	list-style-type: circle;
+}
+
+#container.guides #guideBody ul ul {
+	list-style-type: circle;
+	margin-bottom: 0;
+}
+
+#guideHead h2 {
+	padding-top: 0;
+}
+
+#container.guides a {
+	color: #00aff0;
+	text-decoration: none;
+}
+
+#container.guides a:hover {
+	color: #00aff0;
+	text-decoration: underline;
+}
+
+ul.circle li {
+    list-style-type: circle;
+    margin-left: 15px;
+}

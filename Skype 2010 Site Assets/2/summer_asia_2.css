@@ -1,0 +1,177 @@
+body.simple div#header div#account-bar {
+	background-image: url(/i_preairlift/bg/navigation/navi_bars.png);
+}
+
+#content {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#container {
+	margin-top: 0 !important;
+}
+
+#summerheader {
+	background: url(images/header_bg.png) bottom left no-repeat;
+	min-height: 247px;
+	padding: 0;
+	margin: 0 !important;
+}
+
+* html #summerheader {
+	height: 247px;
+}
+
+#summerheader h1 {
+	color: #ffffff;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	padding: 25px 25px 5px;
+	margin: 0;
+}
+
+#title {
+color:#757575 !important;
+margin-bottom:15px;
+}
+
+#summerheader h3 {
+	color: #ffffff !important;
+	font: bold 18px Arial, Helvetica, sans-serif !important;
+	padding: 0 150px 0 25px;
+	margin: 0;
+}
+
+#summerheader ul {
+	margin: 15px 0 10px;
+}
+
+#summerheader ul li {
+	color: #ffffff;
+	list-style-type: none !important;
+	padding-left: 17px;
+	background: url(images/yellowtick.png) 0px 1px no-repeat;
+}
+
+
+#middlecontent {
+	padding: 0 25px;
+}
+
+.leftcolumn {
+	float: left;
+	width: 340px;
+}
+
+.rightcolumn {
+	float: right;
+	width: 345px;
+}
+
+#termsblock {
+	margin: 20px 0 0;
+}
+
+a.greenSmallBtn {
+	display: block;
+	cursor: pointer;
+	float: left;
+	background: url(images/callbtn_right.png) top right no-repeat;
+	text-align: left;
+	height: 46px;
+	font: bold 15px/46px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	margin: 0 25px 45px 25px;
+}
+
+* html a.greenSmallBtn {
+	margin: 0 25px 45px 15px;
+}
+
+a:hover.greenSmallBtn {
+	color: #ffffff;
+}
+
+a:visited.greenSmallBtn {
+	color: #ffffff;
+}
+
+
+a.greenSmallBtn span {
+	display: block;
+	float: left;
+	background: url(images/callbtn_left.png) top left no-repeat;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 15px 0 60px;
+}
+
+#sidebar-end {
+	display: none;
+}
+
+div#first-call {
+	width: 750px;
+	height: 55px;
+	margin: 0 auto;
+	background-image: url(/i_preairlift/images/nau/make_call.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	line-height: 55px;
+}
+
+li.num1 {
+background:white url(/i_preairlift/images/products/number1.png) no-repeat scroll 0px 1px;
+}
+
+li.num2 {
+background:white url(/i_preairlift/images/products/number2.png) no-repeat scroll 0px 1px;
+}
+
+li.num3 {
+background:white url(/i_preairlift/images/products/number3.png) no-repeat scroll 0px 1px;
+}
+
+li.num1, li.num2, li.num3 {
+min-height:18px;
+}
+
+.gotoList ul li {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0px;
+padding:0pt 0pt 0pt 20px;
+}
+
+
+.threeColumns h2 {
+	background: #ffffff url(/i_preairlift/bg/ho-header-grad_240x29.png) no-repeat top left;
+	height: 29px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #757575;
+	line-height: 29px;
+	text-shadow: none;
+	padding: 0 10px 0 10px;
+	margin: 0 0 10px 0;
+}
+
+div#threeColumns {
+	margin: 50px 0 0 0;
+	padding: 0px 0 0 0;
+}
+
+.threeColumns div {
+	float:left;
+	margin:0 15px 0 0;
+	width:240px;
+}
+
+.threeColumns div.last {
+margin:0pt !important;
+}
+
+.threeColumns p.nau {
+	padding: 0 0 0px 0px;
+}

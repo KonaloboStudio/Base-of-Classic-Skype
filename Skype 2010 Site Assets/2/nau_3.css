@@ -1,0 +1,331 @@
+div#footer.nau {
+	margin-top: 10px;
+	background: white;
+	height: 40px;
+	font-size: 1.1em;
+}
+div#footer.nau div#legal {
+	background: transparent url(/i_preairlift/bg/footer/footer_round.png) 0 0 repeat-x;
+	height: 26px;
+	overflow: hidden;
+	line-height: 26px !important;	
+}
+div#footer.nau div#legal a {
+	color: #0083b3;
+}
+div#legal span.copyright {
+	float: left;
+	margin-left: 10px;
+	line-height: 28px;
+}
+div#footer.nau div#legal span.legal-information {
+	float: left;
+	margin-left: 10px;
+	line-height: 28px;
+}
+div#footer.nau span {
+	color: #666;
+}
+#slope h1,
+#flakes h1 {
+	font: bold 27px Arial, Helvetica, sans-serif;
+	color: #0083b3;
+	margin: 0 !important;
+	padding: 15px 0 0 0 !important;
+}
+#slope h2,
+#flakes h2 {
+	font: bold 16px Arial, Helvetica, sans-serif;
+	color: #0083b3;
+	margin: 0 !important;
+}
+div.huge-dl {
+	background: transparent url(/i_preairlift/images/nau/lrg-dl-start.png) no-repeat top left;
+}
+div.huge-dl a,
+div.huge-dl a:hover {
+	background: transparent url(/i_preairlift/images/nau/lrg-dl-end.png) no-repeat top right;
+	font: bold 25px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	padding: 30px 30px 32px 125px;
+	display: block;
+	line-height: 25px;
+}
+#skype-shot {
+	float: right;
+	margin: -355px 20px 0 0;
+}
+#skype-shot-flakes {
+	float: right;
+	margin: 20px 40px 0 0;
+	position: relative;
+	z-index: 9999;
+}
+.icon {
+	padding-left: 40px;
+	margin: 20px 0 0 10px;
+	min-height: 32px;
+}
+.icon-lrg {
+	padding-left: 90px;
+	margin: 15px 0 0 10px;
+	width: 390px;
+}
+.credit {
+	background: url(/i_preairlift/images/nau/ico-credit.png) no-repeat top left;
+}
+.skype {
+	line-height: 35px;
+	background: url(/i_preairlift/images/nau/ico-skype.png) no-repeat top left;
+}
+.call {
+	background: url(/i_preairlift/images/nau/ico-call.png) no-repeat top left;
+}
+.gift {
+	background: url(/i_preairlift/images/nau/ico-lrg-gift.png) no-repeat 5px 0px;
+	padding: 25px 0 22px 90px;
+}
+.download {
+	background: url(/i_preairlift/images/nau/ico-lrg-download.png) no-repeat 15px 0px;
+	padding: 10px 0 15px 90px;
+}
+.phone {
+	background: url(/i_preairlift/images/nau/ico-lrg-phone.png) no-repeat 10px 0;
+	padding: 15px 0 20px 90px;
+}
+#slope {
+	background: url(/i_preairlift/images/nau/slope.png) no-repeat bottom left;
+	margin-bottom: -9px;
+	padding-bottom: 45px;
+}
+#flakes {
+	background: url(/i_preairlift/images/nau/flakes.png) no-repeat top left;
+	margin-top: -10px !important;
+	padding-bottom: 45px;
+}
+#flakes-content {
+	width: 420px;
+}
+#slope-content {
+	width: 520px;
+	margin-top: 15px;
+}
+#flakes-content h1 {
+	padding-top: 15px;
+}
+a.large {
+	font: bold 1.4em Arial, Helvetica, sans-serif;
+}
+#make-call {
+	background: url(/i_preairlift/images/nau/make_call.png) no-repeat top left;
+	width: 750px;
+	height: 55px;
+	margin-top: 5px;
+	text-align: center;
+}
+#make-call img {
+	margin: 0 4px -7px 0;
+	
+}
+#make-call p {
+	padding-top: 15px;
+}
+
+.one-column-colored {
+	padding: 0 0 40px 0;
+	margin: 0 0 0 0;
+}
+.one-column-colored div.blue-wide-header,
+.one-column-colored div.green-wide-header {
+	width: 540px;
+	color: #fff;
+	height: 81px;
+}
+div.blue-wide-header {
+	background: white url(/i_preairlift/images/nau/header-wide-blue.png) no-repeat bottom left;
+}
+div.green-wide-header {
+	background: white url(/i_preairlift/images/nau/header-wide-green.png) no-repeat bottom left;
+}
+div.blue-wide-header h1,
+div.green-wide-header h1 {
+	padding: 42px 0 0px 20px;
+	margin: 0 !important;
+	font: bold 1.65em Arial, Helvetica, sans-serif;
+}
+.one-column-colored div.top {
+	background: url(/i_preairlift/images/nau/1col-top-back.png) no-repeat top left;
+	width: 540px;
+	font-weight: normal;
+	padding: 0 0 20px 0;
+
+}
+.one-column-colored div.bottom {
+	background: url(/i_preairlift/images/nau/1col-bottom-back.png) no-repeat top left;
+	width: 540px;
+	font-weight: normal;
+}
+.one-column-colored div.content {
+	padding: 0 20px 0 20px;
+}
+.one-column-colored li {
+	margin-left: 15px;
+}
+.one-column-colored h2 {
+	font: bold 1.1em Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+
+.two-column-colored {
+	background: url(/i_preairlift/images/nau/2col-back.png) no-repeat bottom left;
+	padding: 0 0 30px 0;
+	margin: 0 0 15px 0;
+}
+.two-column-colored div.blue-header,
+.two-column-colored div.green-header {
+	width: 270px;
+	color: #fff;
+	height: 99px;
+}
+div.blue-header {
+	background: white url(/i_preairlift/images/nau/header-blue.png) no-repeat top left;
+}
+div.green-header {
+	background: white url(/i_preairlift/images/nau/header-green.png) no-repeat top left;
+}
+div.blue-header h1,
+div.green-header h1 {
+	padding: 42px 0 10px 20px;
+	margin: 0 !important;
+	font: bold 1.65em Arial, Helvetica, sans-serif;
+}
+.two-column-colored div.left,
+.two-column-colored div.right {
+	width: 270px;
+	font-weight: normal;
+}
+.two-column-colored div.content {
+	padding: 0 20px 0 20px;
+}
+.two-column-colored li {
+	margin-left: 15px;
+}
+.two-column-colored h2 {
+	font: bold 1.1em Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+#skypeoutRates #country {
+	font-size: 0.9em;
+}
+span#callPrice {
+	font-weight: bold;
+	font-size: 1.0em;
+}
+#callPrice {
+	display: block;
+	height: 25px;
+	padding-top: 7px;
+}
+form#skypeoutRates {
+	display: block;
+	padding: 7px 0 0 0;
+}
+.buyButton.nau {
+	display: block;
+	float: none;
+	width: 250px;
+}
+#join-me {
+	margin: -10px 10px 10px 0;
+}
+.PriceDropdown {
+	float: left;
+	width: 240;
+}
+.PriceOutput {
+	float: right;
+	width: 200;
+	font-align: left;
+	margin-right: 100px;
+}
+/* =============================== */
+/* = helloagain page in new brand= */
+/* =============================== */
+
+body.helloagain {
+	background: white url(/i_preairlift/images/nau/helloagain-brand-bg.jpg) center 86px no-repeat;
+}
+
+body.helloagain #splash-content {
+	padding-top: 50px;
+	padding-left: 0px;
+	color: black;
+}
+
+body.helloagain h1 {
+	font-size: 1.9em;
+	font-weight: bold;
+}
+
+body.helloagain #splash-content ul, body.helloagain #splash-content li {
+	margin: 0 0 0 15px;
+	padding: 0;
+	list-style: box;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+body.helloagain h3 {
+	font-size: 1.2em;
+	margin: 5px 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	padding-left: 21px;
+}
+
+body.helloagain ul.small {
+	font-size: 1.2em;
+	line-height: 1.2;
+}
+
+body.helloagain div#splash-content small {
+	display: block;
+	margin-top: 20px;
+	font-size: 1em;
+}
+
+div#helloagain-storeButton {
+	background: url(/i_preairlift/bg/ho-buy-grad-new.png) no-repeat 0px 12px;
+}
+div#helloagain-storeButton img {
+	margin: 0 12px 0 13px;
+}
+div#helloagain-storeButton h1 {
+	font-weight: bold;
+	font-size: 22px !important;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 29px 0 0 0;
+	margin: 0 !important;
+}
+div#helloagain-storeButton-medium {
+	background: url(/i_preairlift/bg/ho-buy-grad-medium.png) no-repeat 0px 7px;
+	height: 61px !important;
+}
+div#helloagain-storeButton-medium img {
+	margin: 0 8px 0 13px;
+}
+div#helloagain-storeButton-medium small {
+	color: #5a5a5a;
+}
+div#helloagain-storeButton-medium h1 {
+	font-weight: bold;
+	font-size: 18px !important;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 19px 0 0 0;
+	margin: 0 !important;
+}
+div#helloagain-storeButton-box {
+	margin: 10px 0 0 0px; 
+}

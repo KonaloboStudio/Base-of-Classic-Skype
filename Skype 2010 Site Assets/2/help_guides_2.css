@@ -1,0 +1,518 @@
+.graphicalSteps {
+	height: 100%;
+}
+
+#container {
+	margin: 37px auto 0 auto;
+}
+
+#searchKnowledge {
+	text-align: center;
+	margin: 20px 0;
+}
+#searchm {
+	width: 240px;
+	margin-right: 10px;
+	color: #999;
+}
+.openBlockBottom {
+	background: white url(/i/legacy/images/guides/block-bottom.png) no-repeat bottom left;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.openBlockTop {
+	background: url(/i/legacy/images/guides/block-top.png) no-repeat top left;
+	padding: 10px 12px 15px 12px;
+}
+.openBlockTop h2 {
+	margin: 0 0 10px 0 !important;
+	font-weight: bold;
+	font-size: 1.2em;
+	background: url(/i/legacy/images/guides/block-close.png) no-repeat;
+	padding: 0 23px 0 0;
+	cursor: pointer;
+	float: left;
+}
+.openBlockTop ul {
+	width: 235px;
+	margin-right: 15px;
+	float: left;
+	margin-bottom: 0;
+	background: white;
+}
+.openBlockTop ul li a.en {
+	background-position: 0px 3px !important;
+	padding-left: 20px !important;
+}
+.closedBlock {
+	background: white url(/i/legacy/images/guides/block-back.png) no-repeat top left;
+	padding: 10px 12px 7px 12px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.closedBlock span {
+	color: #3f3f3f;
+}
+.closedBlock h2 {
+	margin: 0 !important;
+	font-weight: bold;
+	font-size: 1.2em;
+	background: url(/i/legacy/images/guides/block-open.png) no-repeat;
+	padding: 0 23px 0 0;
+	color: #0083b3;
+	text-decoration: underline;
+	cursor: pointer;
+	float: left;
+}
+.iconWindows {
+	background: url(/i/legacy/images/guides/icon-windows.png) no-repeat top right;
+}
+.iconMac {
+	background: url(/i/legacy/images/guides/icon-mac.png) no-repeat top right;
+}
+.iconLinux {
+	background: url(/i/legacy/images/guides/icon-linux.png) no-repeat top right;
+}
+.iconPocketPC {
+	background: url(/i/legacy/images/guides/icon-pocketpc.png) no-repeat top right;
+}
+.iconPaid {
+	background: url(/i/legacy/images/guides/icon-paid.png) no-repeat top right;
+}
+.iconToolbars {
+	background: url(/i/legacy/images/guides/icon-toolbars.png) no-repeat top right;
+}
+.iconButtons {
+	background: url(/i/legacy/images/guides/icon-buttons.png) no-repeat top right;
+} 
+
+.openBlockTop div div ul {
+	float: none;
+	width: auto;
+	margin: 10px 0;
+}
+
+
+
+/* EXTENSIONS GUIDE */
+/* Buy Button */
+
+div.extension-head {
+	background: white url(/i/legacy/images/guides/addons/ico.png) top left no-repeat;
+	padding-left: 60px;
+	margin-bottom: 25px;
+}
+
+div.extension-left {
+	float: left;
+	width: 455px;
+}
+div.extension-right {
+	float: right;
+	width: 222px;
+	background: transparent url(/i/legacy/images/guides/addons/repeat.png) top left repeat-y;
+}
+div.extension-right p {
+	padding: 10px 10px 0 10px;
+	margin: 0;
+}
+div.extension-right p.top {
+	background: transparent url(/i/legacy/images/guides/addons/top.png) top left no-repeat;
+}
+div.extension-right p.bottom {
+	background: transparent url(/i/legacy/images/guides/addons/bottom.png) bottom left no-repeat;
+	padding-bottom: 10px;
+}
+
+div.extension-step img {
+	margin-right: 20px;
+}
+div.extension-step {
+	margin-bottom: 20px;
+	padding-left: 60px;
+}
+
+div.extension-buy {
+	margin-top: 20px;
+}
+div.extension-buy p {
+	float: right;
+	width: 300px;
+	padding-top: 7px;
+}
+
+div.separator {
+	background: transparent url(/i/legacy/images/guides/addons/separator.png) center top no-repeat;
+	padding: 20px 40px;
+	text-align: center;
+}
+div.separator p {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.buyButton {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: url(/i/legacy/images/bg/ho-buy-grad.png) top right no-repeat;
+	height: 31px;
+	padding-right: 17px;
+	/* margin: 0 0 30px 0; */
+	float: left;
+}
+.buyButton a {
+	float: left;
+	line-height: 31px;
+}
+.buyButton img {
+	margin: 0 12px 0 0;
+}
+
+.gettingstarted {
+	background-color: #F1F8FA;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #c4cbcc;
+	border-top: 1px solid #c4cbcc;
+	border-right: 1px solid #c4cbcc;
+	height: 94px;
+    padding-left: 15px;
+    float: left;
+    width: 469px;
+}
+.gettingstarted p {
+    font-size: 11px;
+    width: 220px;
+}
+.gettingstarted h3 {
+    font-size: 15px;
+}
+.step {
+    float: left;
+    width: 55px;
+    height: 95px;
+}
+.step div {
+    margin-left: 27px;
+	border-bottom: 1px solid #c4cbcc;
+	border-top: 1px solid #c4cbcc;
+    height: 94px;
+}
+
+.howeasy {
+    border-left: 1px solid #c4cbcc;
+    width: 495px;
+    height: 160px;
+    float: right;
+}
+.howeasy p, .howeasy h3 {
+    width: 440px;
+    margin-left: 27px;
+}
+
+.step1 {
+    background: transparent url(/i/legacy/images/guides/howtoskype/howtoskype_s1.gif) left top no-repeat;
+}
+.step2 {
+    background: transparent url(/i/legacy/images/guides/howtoskype/howtoskype_s2.gif) left top no-repeat;
+}
+.step3 {
+    background: transparent url(/i/legacy/images/guides/howtoskype/howtoskype_s3.gif) left top no-repeat;
+    height: 130px !important;
+}
+.step3 div {
+    height: 129px !important;
+}
+.step4 {
+    background: transparent url(/i/legacy/images/guides/howtoskype/howtoskype_s4.gif) left top no-repeat;
+}
+
+.step5 {
+    background: transparent url(/i/legacy/images/guides/howtoskype/howtoskype_s5.gif) left top no-repeat;
+}
+
+ul.message, ul.error, ul.warning {border: 1px solid;margin-top: 5px;margin-bottom: 20px;padding: 15px 15px 5px 45px;font-size: 1em;font-weight: normal;}
+	ul.message li, ul.error li, ul.warning li {display: block;margin: 0 0 10px 0;padding: 0;list-style: none;}
+	ul.error {background: #fff4f0; border-color: #F00;color: #F00;}
+	ul.warning {background: #fff8da; border-color: #ffe488;color: #000;}
+	ul.message {background: #effbdf; border-color: #cefa71;color: #000;}
+	ul.message a, ul.error a, ul.warning a {font-weight: normal !important;}
+	
+	
+	
+	table.b1,
+table.b2,
+table.b3,
+table.b4,
+table.b5,
+table.b6,
+table.b7,
+table.b8 {
+	position: absolute;
+	z-index: 10;
+}
+td.b1-right {
+	background: transparent url(/i/legacy/images/guidebubble/1_repeat_right.png) bottom right repeat-y;
+}
+td.b1-left {
+	background: transparent url(/i/legacy/images/guidebubble/1_repeat_left.png) bottom left repeat-y;
+}
+td.b2-right {
+	background: transparent url(/i/legacy/images/guidebubble/2_repeat_right.png) bottom right repeat-y;
+}
+td.b2-left {
+	background: transparent url(/i/legacy/images/guidebubble/2_repeat_left.png) bottom left repeat-y;
+}
+td.b3-right {
+	background: transparent url(/i/legacy/images/guidebubble/3_repeat_right.png) bottom right repeat-y;
+}
+td.b3-left {
+	background: transparent url(/i/legacy/images/guidebubble/3_repeat_left.png) bottom left repeat-y;
+}
+td.b4-right {
+	background: transparent url(/i/legacy/images/guidebubble/4_repeat_right.png) bottom right repeat-y;
+}
+td.b4-left {
+	background: transparent url(/i/legacy/images/guidebubble/4_repeat_left.png) bottom left repeat-y;
+}
+td.b5-right {
+	background: transparent url(/i/legacy/images/guidebubble/5_repeat_right.png) bottom right repeat-y;
+}
+td.b5-left {
+	background: transparent url(/i/legacy/images/guidebubble/5_repeat_left.png) bottom left repeat-y;
+}
+td.b6-right {
+	background: transparent url(/i/legacy/images/guidebubble/6_repeat_right.png) bottom right repeat-y;
+}
+td.b6-left {
+	background: transparent url(/i/legacy/images/guidebubble/6_repeat_left.png) bottom left repeat-y;
+}
+td.b7-right {
+	background: transparent url(/i/legacy/images/guidebubble/7_repeat_right.png) bottom right repeat-y;
+}
+td.b7-left {
+	background: transparent url(/i/legacy/images/guidebubble/7_repeat_left.png) bottom left repeat-y;
+}
+td.b8-right {
+	background: transparent url(/i/legacy/images/guidebubble/8_repeat_right.png) bottom right repeat-y;
+}
+td.b8-left {
+	background: transparent url(/i/legacy/images/guidebubble/8_repeat_left.png) bottom left repeat-y;
+}
+td.center {
+	background: white;text-align:center;font-size:1em;color:#424242;
+}
+
+body.guide {
+	background: none !important;
+}
+body.guide div#container {
+	background: transparent url(/i/legacy/bg/guide_container_bg.png) left top repeat-y !important;
+}
+body.guide div#sidebar-end {
+	display: block;
+	width: 750px;
+	clear: both;
+	margin: 1px 0 -20px 0;
+	padding: 11px 0 0;
+	background: white url(/i/legacy/bg/guide_container_end.png) left top no-repeat !important;
+	height: 25px;
+}
+div#guide-steps {
+	background: url(/i/legacy/bg/guide_steps_bg.png) left top no-repeat !important;
+	height: 54px;
+}
+div#guide-steps div {
+	height: 54px;
+	line-height: 54px;
+	font-weight: bold;
+	position: relative;
+	z-index: 100;
+}
+* html div#guide-steps div {
+	padding-top: 13px;
+	height: 41px;
+}
+div#guide-steps div a img {
+	vertical-align: middle;
+	margin: 0 10px;
+}
+div#logo {
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	margin-left: -375px;
+	height: 32px !important;
+	z-index: 101;
+	width: 400px;
+	background-color: white;
+}
+div#logo a {
+	margin-right: 27px;
+	height: 72px;
+	float: left;
+	display: block;
+}
+div#logo a img {
+	float: none;
+}
+div#logo img {
+	float: left;
+}
+body.guide div#container {
+	margin: 50px auto 0 auto;
+}
+body.guide div#logo a {
+	margin-right: -20px !important;
+	height: 32px;
+	float: left;
+	display: block;
+}
+body.guide div#logo h1 {
+	line-height: 32px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	padding-left: 70px;
+}
+
+body.guide #content {
+	margin: 1px;
+	float: none;
+	width: 748px;
+	padding: 0;
+	min-height: 250px;
+}
+body.guide div#guide-path {
+	margin-left: auto;
+	margin-right: auto;
+	width: 748px;
+	text-align: right;
+	margin-bottom: -37px;
+	padding-top: 20px;
+}
+body.guide div#guide-path a {
+	padding-right: 18px;
+	background: url(/i/legacy/images/guides/patharrow.png) no-repeat right center;
+	margin-right: 7px;
+}
+body.guide div#guide-faq {
+	margin-left: auto;
+	margin-right: auto;
+	width: 748px;
+	text-align: right;
+	margin-bottom: -37px;
+	padding-top: 20px;
+}
+body.guide div#guide-stepnumbers {
+	position: absolute;
+	text-align: center;
+	width: 330px;
+	margin-left: 209px;
+	top: 72px;
+}
+body.guide div#guide-stepnumbers a {
+	display: inline-block;
+	font-weight: bold;
+	color: #afb4b4;
+	text-decoration: none;
+	padding: 5px 7px 5px 7px;
+}
+body.guide div#guide-stepnumbers a.selectedstep {
+	background: url(/i/legacy/images/guides/activepage.png) no-repeat center center;
+	padding: 5px 7px 5px 7px;
+	color: #5a5a5a;
+}
+h1#pageName {
+	color: #a7a7a7 !important;
+	margin: 15px 0 0 20px;
+	display: inline;
+}
+#guide-faq {
+	position: relative;
+	z-index: 100;
+}
+#guide-path {
+	position: relative;
+	z-index: 100;
+}
+.legal-information {
+	position: relative;
+	z-index: 100;
+}
+
+#content #paddedContent h3.step1,
+#content #paddedContent h3.step2,
+#content #paddedContent h3.step3,
+#content #paddedContent h3.step4,
+#content #paddedContent h3.step5,
+#content #paddedContent h3.step6,
+#content #paddedContent h3.step7,
+#content #paddedContent h3.step8,
+#content #paddedContent h3.step9,
+#content #paddedContent h3.step10,
+#content #paddedContent h2.step1,
+#content #paddedContent h2.step2,
+#content #paddedContent h2.step3,
+#content #paddedContent h2.step4,
+#content #paddedContent h2.step5,
+#content #paddedContent h2.step6,
+#content #paddedContent h2.step7,
+#content #paddedContent h2.step8,
+#content #paddedContent h2.step9,
+#content #paddedContent h2.step10 {
+	padding-left: 35px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin-left: -25px;
+	line-height: 30px;
+}
+
+#content #paddedContent p.step1,
+#content #paddedContent p.step2,
+#content #paddedContent p.step3,
+#content #paddedContent p.step4,
+#content #paddedContent p.step5,
+#content #paddedContent p.step6,
+#content #paddedContent p.step7,
+#content #paddedContent p.step8,
+#content #paddedContent p.step9,
+#content #paddedContent p.step10 {
+	padding: 9px 0 8px 35px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin-left: -25px;
+}
+
+h2.step1,h3.step1,p.step1 {
+	background: url(/i/images/bullets/blue_1.png);
+}
+h2.step2,h3.step2,p.step2 {
+	background: url(/i/images/bullets/blue_2.png);
+}
+h2.step3,h3.step3,p.step3 {
+	background: url(/i/images/bullets/blue_3.png);
+	height: auto !Important;
+}
+h2.step4,h3.step4,p.step4 {
+	background: url(/i/images/bullets/blue_4.png);
+}
+h2.step5,h3.step5,p.step5 {
+	background: url(/i/images/bullets/blue_5.png);
+}
+h2.step6,h3.step6,p.step6 {
+	background: url(/i/images/bullets/blue_6.png);
+}
+h2.step7,h3.step7,p.step7 {
+	background: url(/i/images/bullets/blue_7.png);
+}
+h2.step8,h3.step8,p.step8 {
+	background: url(/i/images/bullets/blue_8.png);
+}
+h2.step9,h3.step9,p.step9 {
+	background: url(/i/images/bullets/blue_9.png);
+}
+h2.step10,h3.step10,p.step10 {
+	background: url(/i/images/bullets/blue_10.png);
+}

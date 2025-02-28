@@ -1,0 +1,12 @@
+/* Main navigation over-ride */
+
+div#global-navigation li {
+	float: left;
+	display: block;
+	line-height: 1.3em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 0;
+	margin: 0 18px 0 0 !important;
+}

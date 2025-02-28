@@ -1,0 +1,1284 @@
+div #topSplash {
+	position: relative;
+	height: 306px;
+	margin: 0 auto 56px auto;
+	width: 960px;
+	background: url(/i/images/photos/prices_cafe.jpg) 345px 0px no-repeat;
+}
+
+div#splashContent {
+	padding: 30px 20px 20px;
+}
+
+div#topSplash.cheapCalls div#splashContent {
+	padding: 30px 10px 20px;
+}
+
+.clouds {
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+
+div.indexOrange {
+	margin: 4px 0 0 0;
+	background-color: #ff7300;
+}
+
+div.indexOrange h1 {
+	color: #ffffff;
+	width: 280px;
+}
+
+#infoBox {
+	background: url(/i/images/backgrounds/orange_yellow_blue_bottombox_bg.png) -470px 0px repeat-y !important;
+	margin: 0 0 30px 0;
+}
+
+#infoBox2 {
+	background: url(/i/images/backgrounds/orange_yellow_blue_bottombox_bg.png) -470px 0px repeat-y !important;
+	margin: 10px 30px 30px 10px;
+}
+
+#content #infoBox2 .leftBlockTriple {
+	width: 210px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#content #infoBox2 .centerBlockTriple {
+	width: 220px;
+	float: left;
+}
+
+#content #infoBox2 .rightBlockTriple {
+	width: 230px;
+	float: right;
+}
+
+.currency {
+	background-color: #ffffcc;
+	border-top: 1px solid #afb4b4;
+	border-bottom: 1px solid #afb4b4;
+}
+
+.currency p {
+	margin: 6px 30px;
+	padding: 0;
+}
+
+.currency p img {
+	vertical-align: middle;
+	margin: 0 0 2px 0;
+}
+
+.prices span {
+    color: #AFB4B4;
+}
+
+#container {
+    margin-top: 20px;
+}
+#container #content #paddedContent.prices {
+	padding-top: 9px;
+}
+div #topSplash {
+	position: relative;
+	min-height: 180px;
+	margin: 0 auto 0 auto;
+	width: 960px;
+}
+div#topSplash.packageSelection {
+	min-height: 180px;
+	background: url(/i/images/illustrations/paymonthly.png) no-repeat bottom center;
+}
+
+div#widePromo div#topSplashCheapCalls {
+	width: 960px;
+	margin: 0 auto;
+	min-height: 160px;
+	height: auto! important;
+	height: 160px;
+	background: url(/i/images/backgrounds/cheap_calls_header.png) no-repeat bottom center;
+}
+
+* html #topSplashCheapCalls {
+    height: 180px;
+}
+* html #topSplashCheapCalls {
+    height: 180px;
+}
+
+div#topSplashCheapCalls div.selectionHeaderCheapCalls {
+    padding-right: 440px;
+}
+
+    div#topSplashCheapCalls div.selectionHeaderCheapCalls h1 {
+        margin: 0;
+		font-size: 28px;
+		color: #ffffff;
+    }
+	div#topSplashCheapCalls div.selectionHeaderCheapCalls h2 {
+		padding: 0;
+		padding-bottom: 20px;
+		font-size: 28px;
+		color: #b7ebff
+	}
+
+    div#topSplash div.selectionHeader h1 {
+        margin: 0;
+		font-size: 32px;
+		color: #ffffff;
+    }
+	div#topSplash div.selectionHeader h2 {
+		padding: 0;
+		padding-bottom: 20px;
+		font-size: 32px;
+		color: #b7ebff
+	}
+div.indexBlue {
+	margin: 0 0 0 0;
+	background: #00aff0;
+}
+div.subscriptionHeader {
+	margin: 4px 0 0 0;
+	height: 180px;
+	background: #00aff0;
+}
+
+p.noContracts {
+	background-color: #7fd7f7;
+	color: white;
+	width: 70px;
+	position: absolute;
+	left: 850px;
+	bottom: 48px;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 5px;
+	}
+
+div#pricesBox {
+	height: 364px;
+	width: 680px;
+	border: solid 1px #cceffc;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #d2d2d2;
+	text-indent: 20px;
+	padding-top: 30px;
+}
+
+h3.payMonthlyFaq {
+	padding-left: 0px !important;
+	}
+	
+p.noEmergencyCalls {
+	padding-left: 50px !important;
+	height: 30px;
+	background: url(/i/images/icons/noemergency.png) no-repeat 0 5px;
+	}	
+	
+.smallBlack {
+	color: #000000;
+	}	
+	
+div.faqLinks a {
+	color:#2C2C2C;
+	text-decoration:none;
+}
+
+/* Prices remake */
+
+.jsVisible {
+	display: none !important;
+}
+
+div#contentHeader {
+	background-color: #03b0f0;
+	min-height: 190px;
+	height: auto;
+}
+div#contentHeader.index {
+	min-height: 370px;
+	background: #03b0f0 url(/i/images/backgrounds/prices_index_header_bg.png) no-repeat bottom center;
+}
+
+	div#contentHeader .middleContent {
+		min-height: 190px;
+		height: auto;
+		background: #03b0f0 url(/i/images/backgrounds/prices_header_bg.png) no-repeat bottom left;
+	}
+	
+	div#contentHeader.index .middleContent {
+		min-height: 310px;
+		height: auto;
+		background: none;
+		padding-bottom: 60px;
+	}
+	
+	div#contentHeader .middleContent h1 {
+		padding-top: 20px;
+		width: auto;
+		padding-right: 150px;
+	}
+
+	div#contentHeader .middleContent h2.subHeading {
+		width: 470px;
+	}
+
+	div#contentHeader .middleContent h3.subHeading {
+		width: 450px;
+		margin-bottom: 25px;
+	}
+	
+		div#contentHeader .middleContent h3.subHeading a {
+			font-weight: normal;
+			color: #fefefe;
+		}
+	div#contentHeader .twoColumns {
+		height: 100%;
+		overflow: hidden;
+		margin: 10px 0 0 38px;
+		padding: 0 0 10px 0;
+	}
+		div#contentHeader .twoColumns .smallColumn {
+			float: left;
+			width: 260px;
+			min-height: 200px;
+			padding: 30px 30px 28px 30px;
+			margin: 0 20px 0 0;
+			position: relative;
+			background: #fff;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			box-shadow: 3px 3px 3px #1ea0d1;
+			-moz-box-shadow: 3px 3px 3px #1ea0d1;
+			-webkit-box-shadow: 3px 3px 3px #1ea0d1;
+		}
+			div#contentHeader .twoColumns .smallColumn .oneAction {
+				margin: 15px 0 0 0;
+				padding: 0 0 2px 0;
+				height: 100%;
+				overflow: hidden;
+			}
+				div#contentHeader .twoColumns .smallColumn .oneAction span.message {
+					display: -moz-inline-box;
+					display: inline-block;
+					float: left;
+					font-size: 24px;
+					line-height: 24px;
+					font-weight: bold;
+					padding: 4px 0 0 0;
+					color: #2c2c2c;
+					position: relative;
+					bottom: 0;
+					text-transform: uppercase;
+				}
+				div#contentHeader .twoColumns .smallColumn .oneAction span.smaller {
+					font-size: 16px;
+					color: #2C2C2C;
+				}
+				div#contentHeader .twoColumns .smallColumn .oneAction a.buttonSimpleMedium {
+					float: right;
+				}
+					div#contentHeader .twoColumns .smallColumn .oneAction a.buttonSimpleMedium.clearLeft {
+						clear: left;
+						float: left;
+					}
+				div#contentHeader .twoColumns .smallColumn h3 {
+					font-weight: normal;
+				}
+		div#contentHeader .twoColumns .largeColumn {
+			float: left;
+			width: 390px;
+			min-height: 200px;
+			padding: 30px 30px 28px 30px;
+			margin: 0;
+			position: relative;
+			background: #fff;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			box-shadow: 3px 3px 3px #1ea0d1;
+			-moz-box-shadow: 3px 3px 3px #1ea0d1;
+			-webkit-box-shadow: 3px 3px 3px #1ea0d1;
+		}
+			div#contentHeader .twoColumns .largeColumn .twoActions {
+				height: 100%;
+				overflow: hidden;
+				margin: 16px 0 0;
+				width: 390px;
+			}
+				div#contentHeader .twoColumns .largeColumn .twoActions .first {
+					width: 210px;
+					float: left;
+				}	
+				div#contentHeader .twoColumns .largeColumn .twoActions .second {
+					width: 170px;
+					float: right;
+				}
+					div#contentHeader .twoColumns .largeColumn .twoActions .message .upCase {
+						color: #afb4b4;
+						font-weight: bold;
+						text-transform: uppercase;
+					}
+					div#contentHeader .twoColumns .largeColumn .twoActions .message strong {
+						font-size: 18px;
+					}
+					div#contentHeader .twoColumns .largeColumn .twoActions .buttonAndText,
+					div#contentHeader .twoColumns .largeColumn .twoActions .buttonAndText {
+						clear: left;
+						line-height: 32px;
+						padding-top: 10px;
+					}
+						div#contentHeader .twoColumns .largeColumn .twoActions .buttonAndText .text.next {
+							padding-left: 0;
+						}
+				div#contentHeader .twoColumns .largeColumn h3 {
+					font-weight: normal;
+				}
+		div#contentHeader .twoColumns h2 {
+			margin: 0;
+			padding: 0 0 15px 0;
+			color: #2c2c2c;
+			font-size: 24px;
+			line-height: 28px;
+			
+		}
+		div#contentHeader .twoColumns h3 {
+			margin: 0;
+			padding: 0;
+			color: #444444;
+			font-size: 18px;
+			line-height: 19px;
+		}
+		
+h2#prices {
+	font-size: 16px;
+}
+		
+#suggesticator {
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	padding: 10px;
+	background-color: #cceffc;
+	margin-bottom: 19px;
+	margin-top: 10px;
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+#suggesticator div.quickFilter {
+/*	width: 370px;*/
+/*	background: url(/i/images/backgrounds/quickfilter_wide_bg.gif) 0 0 no-repeat;*/
+}
+
+	#suggesticator div.quickFilter input.quickFilterInput {
+/*		width: 315px;*/
+	}
+
+
+	#suggesticator div.currencyChange {
+		font-size: 12px;
+		color: #00aff0;
+		line-height: 32px;
+	}
+	
+	#suggesticator div.quickfilterWrapper {
+		display: inline;
+	}
+	
+		#suggesticator div.viewAllRates {
+			display: inline;
+		}
+				
+		#suggesticator div.currencyChange a {
+			text-decoration: none;
+			color: #00aff0;
+			margin-right: 5px;
+		}
+	
+		#suggesticator div.currencyChange select {
+			margin-left: 5px;
+			width: 210px;
+		}
+		
+table.bluePrices {
+	width: 670px;
+	margin-top: 10px;
+}
+	table.bluePrices tr th,
+	table.bluePrices tr td {
+		padding: 0 0 0 20px;
+	}
+	table.bluePrices tr th {
+		height: 51px;
+		background: #cceffc;
+		border-top: 1px solid #aee4fa;
+		border-bottom: 1px solid #aee4fa;
+		color: #2c2c2c;
+	}
+		#content #paddedContent table.bluePrices tr th h2 {
+			line-height: 53px;
+			padding: 0 0 0 30px;
+			margin: 0;
+		}
+		table.bluePrices tr th.left h2 {
+			background: #cceffc url(/i/images/icons/prices_table_left.png) no-repeat left 14px;
+		}
+		table.bluePrices tr th.right h2 {
+			background: #cceffc url(/i/images/icons/prices_table_right.png) no-repeat left 14px;
+		}
+	table.bluePrices tr td {
+		padding: 18px 0 18px 20px;
+	}
+	table.bluePrices tr.odd td {
+		border-bottom: 1px solid #d8f2fc;
+	}
+	table.bluePrices tr.lastRow td {
+		border-top: 1px solid #d8f2fc;
+	}
+		table.bluePrices tr td a {
+			font-weight: bold;
+			text-decoration: none;
+		}
+		table.bluePrices tr.lastRow td a {
+			font-weight: normal;
+			text-decoration: underline;
+		}
+		
+#currencyChangeForm {
+	float: right;
+	margin: -27px 20px 0 0;
+}
+* html #currencyChangeForm {
+	margin: -32px 10px 0 0;
+}
+	#currencyChangeForm label {
+		color: #afb4b4;
+		padding-right: 5px;
+	}
+		
+#ratesListWrapper {
+	border: 1px solid #cceffc;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+	#ratesListWrapper #ratesHeader {
+		background-color: #cceffc;
+		padding-top: 10px;
+		overflow: hidden;
+		height: 100%;
+	}
+	
+		#ratesListWrapper #ratesHeader h2 {
+			color: #636363
+		}
+		
+		#ratesListWrapper #ratesHeader div#bestPrice {
+			background-color: #fff;
+			-moz-border-radius: 4px;
+		    -webkit-border-radius: 4px;
+			padding: 12px 10px 10px 77px;
+			margin: 10px;
+		}
+		
+		#ratesListWrapper #ratesHeader div#bestPrice img.countryFlag {
+			float: left;
+			margin-top: -2px;
+			margin-left: -67px;
+		}
+		
+			#ratesListWrapper #ratesHeader div#bestPrice p,
+			#ratesListWrapper #ratesHeader div#bestPrice h3 {
+				color: #2c2c2c;
+				padding: 0;
+				margin: 0;
+				font-size: 17px;
+				line-height: 19px;
+			}
+			
+				#ratesListWrapper #ratesHeader div#bestPrice p span.price {
+					font-weight: bold;
+				}
+				
+				#ratesListWrapper #ratesHeader div#bestPrice p span.vat {
+					font-size: 14px;
+					font-weight: bold;
+					color: #999;
+				}
+	
+#ratesList {
+	padding: 20px;
+}
+
+	#ratesList table.ratesTable {
+		width: 100%;
+		font-size: 12px;
+	}
+		
+		#ratesList table.ratesTable caption {
+			color: #A9A9A9;
+			font-weight:bold;
+			line-height: 26px;
+			min-height: 40px;
+			overflow: hidden;
+			padding: 20px 0 0 12px;
+			text-align: right;
+		}
+		
+		#ratesList table.ratesTable:first-child caption {
+			padding-top: 0px;
+		}
+		
+			#ratesList table.ratesTable caption a {
+				padding: 4px 0.5ex;
+				text-decoration: none;
+			}
+			
+			#ratesList table.ratesTable caption span.rowLetter {
+				float: left;
+				color: #1189E4;
+				font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
+				font-weight: bold;
+				font-size: 32px;
+				margin-top: -8px;
+				line-height: 40px;
+			}
+	
+		#ratesList table.ratesTable td,
+		#ratesList table.ratesTable th {
+			line-height: 28px;
+		}
+		
+		#ratesList table.ratesTable td:first-child,
+		#ratesList table.ratesTable th:first-child {
+			padding-left: 10px;
+		}
+		
+		#ratesList table.ratesTable th {
+			background-color: #cceffc;
+			color: #444444;
+			border-top: 1px solid #a3e0f9;
+			font-weight: bold;
+		}
+
+		#ratesList table.ratesTable td {
+			color: #7c7c7c;
+		}
+		
+			#ratesList table.ratesTable td a {
+				text-decoration: none;
+				color: #7c7c7c;
+			}
+			
+			#ratesList table.ratesTable td a:hover {
+				text-decoration: underline;
+			}
+		
+		#ratesList table.ratesTable tr.odd td {
+			background-color: #fff;
+			line-height: 30px;
+		}
+		
+		#ratesList table.ratesTable tr.even td {
+			background-color: #f0fafe;
+			border-top: 1px solid #e0f5fd;
+			border-bottom: 1px solid #e0f5fd;
+		}
+
+div.upSell {
+	border: 1px solid #cceffc;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 20px 10px 10px 10px;
+	height: 100%;
+	overflow: hidden;
+}
+
+	#content #paddedContent div.upSell h2, 
+	#content #paddedContent div.upSell p {
+		padding-top: 0;
+		padding-left: 0;
+		padding-right: 0;
+		color: #444444;
+	}
+	
+		#content #paddedContent div.upSell p.price {
+			color: #000;
+			font-weight: bold;
+			padding-top: 8px;
+		}
+	
+		#content #paddedContent div.upSell p.price span.price {
+			font-weight: bold;
+			font-size: 32px;
+			letter-spacing: -1px;
+		}
+		
+		#content #paddedContent div.upSell p.price span.vat {
+			color: #999;
+		}
+	
+	div.upSell div.leftColumn {
+		padding: 10px 0 1px 0;
+		border-right: 1px solid #cceffc;
+		width: 440px;
+		height: 100%;
+		overflow: hidden;
+		margin-left: 10px;
+	}
+	
+		div.upSell div.leftColumn h2 {
+			width: 150px;
+			float: left;
+			margin-right: 30px;
+			padding-right: 30px;
+		}
+	
+		#content #paddedContent div.upSell.landlineAndMobiles div.leftColumn h2 {
+			padding-left: 55px;
+			background: url(/i/images/backgrounds/landlines_n_mobiles.png) 5px 0px no-repeat;
+			margin-top: -4px;
+			padding-top: 4px;
+		}
+	
+	div.upSell div.rightColumn {
+		padding: 10px 0 1px 0;
+		width: 150px;
+		margin-right: 30px;
+		float: right;
+		color: #999;
+	}
+	
+	#content #paddedContent div.upSell div.rightColumn p {
+		color: #999;
+		font-weight: bold;
+	}
+	
+	#content #paddedContent div.upSell div.rightColumn p a {
+		color: #02b0f0;
+		text-decoration: none;
+	}
+	
+	div.upSell div.footNotes {
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1px solid #cceffc;
+	}
+	
+		#content #paddedContent div.upSell div.footNotes p {
+			color: #999;
+		}
+			
+		
+		#content #paddedContent div.upSell div.footNotes p span.price {
+			color: #000;
+			font-weight: bold;
+		}
+		
+		div.helpBubble.bottomLeft div.pointer {
+			display: none;
+		}
+		
+		div.helpBubble.bottomLeft#countriesList {
+			display: none;
+			margin-right: -43px;
+		}
+		
+			div.helpBubble.bottomLeft#countriesList div.body {
+				width: 620px;
+				max-width: 620px;
+			}
+
+				div.helpBubble div.body #destinationList {
+					list-style-type: none;
+					padding: 0;
+					margin: 0 0 0 -5px;
+				}
+
+					div.helpBubble div.body #destinationList li {
+						float: left;
+						width: 135px;
+						margin: 4px 5px 0 6px;
+						border-bottom: 1px solid #ccc;
+					}
+
+/*************************** pay monthly page **************************/
+/*************************** headings **********************************/
+
+#content #paddedContent div.faqLinks ul {
+	padding-left: 40px;
+	}
+	
+#splashContent .selectionHeader h1.opaque {
+	padding: 0;
+	padding-bottom: 20px;
+	font-size: 32px;
+	color: #b7ebff;	
+	}	
+
+#splashContent .selectionHeader h3.opaque {
+	padding: 0;
+	padding-bottom: 20px;
+	font-size: 18px;
+	color: #e6f7fe;	
+	}		
+	
+/*************************** paragraphs **********************************/	
+
+#content #paddedContent p.noEmergencyCalls {
+	padding-left: 50px;
+	height: 30px;
+	background: url(/i/images/icons/noemergency.png) no-repeat 0 5px;
+	margin-left: 20px;
+	}	
+	
+p.noEmergencyCalls small.smallBlack {
+	color: #000000;
+	}	
+
+/*************************** other **********************************/	
+
+#container {
+    margin-top: 20px;
+}
+
+#widePromo #topSplash {
+	position: relative;
+	min-height: 180px;
+	margin: 0 auto 0 auto;
+	width: 980px;
+}
+
+div#topSplash.packageSelection {
+	min-height: 180px;
+	height: auto !important;
+	height: 180px
+	background: url(/i/images/illustrations/paymonthly.png) no-repeat bottom center;
+}
+
+div#topSplash.packageSelection #splashContent {
+	padding: 0px;
+}
+
+* html #topSplash {
+    height: 180px;
+}
+
+div#topSplash div.selectionHeader {
+    padding: 23px 540px 0 20px;
+}
+
+    div#topSplash div.selectionHeader h1 {
+        margin: 0;
+		font-size: 32px;
+		color: #ffffff;
+    }
+	
+div#widePromo.indexBlue {
+	margin: 0;
+	background: #00aff0;
+}
+
+div.subscriptionHeader {
+	margin: 4px 0 0 0;
+	height: 180px;
+	background: #00aff0;
+}
+
+div#paddedContent div#pricesBox {
+	height: 364px;
+	width: 680px;
+	border: solid 1px #cceffc;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #d2d2d2;
+	text-indent: 20px;
+	padding-top: 30px;
+	margin-top: 17px;
+}
+	
+#paddedContent .faqLinks a {
+	color:#2C2C2C;
+	text-decoration:none;
+}
+
+#paddedContent .faqLinks a:hover {
+	color: #0181E3;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+/*************************** prices main page **************************/
+
+#contentHeader.pricesMain {
+	min-height: 372px;
+	height: auto !important;
+	height: 372px;
+	margin-top: 0px;	
+}
+
+#contentHeader.pricesMain .middleContent.pricesMain {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/************************** cheap calls page **************************/
+
+#content #paddedContent ul.upSellCheapCalls li p {
+	color: #999;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+#content #paddedContent ul.upSellCheapCalls li {
+	list-style-type: none;
+}
+
+div.imageContainterLeft {
+	margin-top: 20px;
+	width: 320px;
+	height: 160px;
+	background: white url(/i/images/backgrounds/skype_on_pc_cell.png) no-repeat 20px 10px;
+	float: left;
+}
+
+div.infoContainerRight {
+	margin-top: 20px;
+	width: 360px;
+	min-height: 160px;
+	height: auto !important;
+	height: 160px;
+	float: left;
+}
+
+div.infoContainerRight h4 {
+	margin-bottom: 10px;
+}
+
+div.infoContainerRight li {
+	min-height: 30px;
+	height: auto !important;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+	div.infoContainerRight li.calls {
+		background: white url(/i/images/icons/callphones_24x24.png) no-repeat;
+	}
+	
+	div.infoContainerRight li.freeCalls {
+		background: white url(/i/images/icons/call_24x24_white.png) no-repeat;
+	}
+		
+	div.infoContainerRight li.freeIm {
+		background: white url(/i/images/icons/chat_24x24_white.png) no-repeat;
+	}		
+	
+div.whatDoINeedContainer {
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+	padding-top: 90px;
+}
+
+div.whatDoINeedContainer span.button {
+	display: block;
+	width: 100%;
+	margin: 10px 0px;
+}
+
+	div.whatDoINeedContainer.DownloadAndInstall{
+		background: white url(/i/images/illustrations/familiar_design.png) no-repeat 10px 0;
+	}
+	
+	div.whatDoINeedContainer.Buy{
+		background: white url(/i/images/illustrations/cheapcalls_buy.png) no-repeat 10px 0;
+	}	
+	
+p.extraMargin {
+	margin-top: 20px;
+}	
+
+div.upSellCheapCalls {
+	background-color: #EFFAFF;
+	min-height: 42px;
+	height: auto !important;
+	height: 42px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;		
+}
+
+#content #paddedContent div.upSellCheapCalls div.selectCountryHeader {
+	min-height: 42px;
+	height: auto !important;
+	height: 42px;
+	padding: 5px 20px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: solid 1px #D9EAF0;
+	overflow: hidden;
+}
+
+#content #paddedContent div.upSellCheapCalls div.selectCountryHeader h2.country {
+	width: 510px;
+	color: #636363;
+	float: left;
+	background: transparent url(/i/images/flags/GB-transparent.png) no-repeat;
+	padding-left: 70px;
+	min-height: 42px;
+	height: auto !important;
+	height: auto;
+	line-height: 42px;
+	font-size: 18px;
+	padding: 0px;
+	padding-left: 70px;
+}
+
+#content #paddedContent div.upSellCheapCalls div.selectCountryHeader p.currencySelector {
+	color: #007FE3;
+	font-size: 12px;
+	width: 40px;
+	height: 42px;
+	line-height: 42px;
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	background: transparent url(/i/images/icons/arrowdown.png) no-repeat right center;
+	cursor: hand;
+	cursor: pointer;
+	margin: 0px;
+}
+
+#content #paddedContent div.upSellCheapCalls div.callOptions {
+	padding: 20px;
+	overflow: hidden;
+}
+
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.package {
+		width: 200px;
+		float: left;
+		margin-left: 3px;
+		min-height: 100px;
+		height: auto !important;
+		height: 100px;
+	}
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider {
+		width: 300px;
+		float: left;
+		margin-left: 3px;
+		min-height: 100px;
+		height: auto !important;
+		height: 100px;
+	}	
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.package h3.packageType,
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider h3.packageType {
+		padding: 0px;
+		color: #AEB3B3;
+	}
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.package h2.packageName,
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider h2.packageName {
+		padding: 0px;
+		color: #464646;
+		margin-bottom: 15px;
+	}	
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.package p.blue,
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider p.blue {
+		padding: 0px;
+		color: #00ACF0;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}	
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.package p.price,
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider p.price {
+		padding: 0px;
+		color: #00ACF0;
+		margin-bottom: 0px;
+	}	
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.package p.price strong,
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider p.price strong {
+		font-size: 30px;
+	}
+	
+	* html #content #paddedContent div.upSellCheapCalls div.callOptions div.package p.price strong,
+	* html #content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider p.price strong {
+		line-height: 34px;
+	}	
+	
+	*:first-child+html #content #paddedContent div.upSellCheapCalls div.callOptions div.package p.price strong,
+	*:first-child+html #content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider p.price strong {
+		line-height: 34px;
+	}		
+
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.package p.vat,
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider p.vat {
+		color: #AEB3B3;
+		padding: 0px;
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	
+	
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.package p.extraInfo,
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.packageWider p.extraInfo {
+		color: #464646;
+		padding: 0px;
+		margin-bottom: 5px;
+	}	
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.buyCredit {
+		width: 100%;
+		clear: both;
+		min-height: 32px;
+		height: auto !important;
+		height: 32px;
+		line-height: 32px;
+	}
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.buyCreditWider {
+		width: 100%;
+		clear: both;
+		height: 1px;
+	}	
+	
+	* html #content #paddedContent div.upSellCheapCalls div.callOptions div.buyCredit {
+		clear: none;
+	}
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.buyCredit span.textNextToButton {
+		display: inline-block;
+		padding-left: 10px;
+		width: 250px;
+	}
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.buyCredit span.textNextToButtonWider {
+		padding-left: 10px;
+		width: 250px;
+	}	
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.buyCredit span.floatr {
+		padding-right: 60px;
+	}
+	
+	#content #paddedContent div.upSellCheapCalls div.callOptions div.buyCredit span.floatr {
+		padding-right: 60px;
+	}	
+	
+	* html #content #paddedContent div.upSellCheapCalls div.callOptions div.buyCredit span.floatr {
+		padding-right: 60px;
+		margin-top: -32px;
+	}	
+	
+	*:first-child+html #content #paddedContent div.upSellCheapCalls div.callOptions div.buyCredit span.floatr {
+		padding-right: 60px;
+		margin-top: -32px;
+	}	
+
+#content #paddedContent div#ratesListCheap {
+	margin-top: 0px;
+	border: solid 1px #CCEFFC;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	padding: 20px;
+}	
+
+	#content #paddedContent div#ratesListCheap table {
+		width: 100%;	
+	}	
+	
+	#content #paddedContent div#ratesListCheap table tr {
+		height: 30px;
+		line-height: 30px;
+		text-indent: 10px;	
+	}		
+	
+	#content #paddedContent div#ratesListCheap table tr a,
+	#content #paddedContent div#ratesListCheap table tr td {
+		color: #7C7C7C;
+		text-decoration: none;
+		font-size: 12px;
+	}
+	
+	#content #paddedContent div#ratesListCheap table tr a:hover {
+		text-decoration: underline;
+	}	
+	
+	#content #paddedContent div#ratesListCheap table tr.odd {
+		border-top: solid 1px #E0F5FD;
+	}
+	
+	div#ratesListCheap table td:first-child,
+	div#ratesListCheap table th:first-child {
+		padding-left: 10px;
+	}
+	
+	div#ratesListCheap table th {
+		background-color: #cceffc;
+		color: #444444;
+		border-top: 1px solid #a3e0f9;
+		font-weight: bold;
+		font-size: 12px;
+	}	
+	
+#content #paddedContent div.arrowUp {
+	position: relative;
+	bottom: -1px;
+	margin-top: 30px;
+	width: 100%;
+	height: 10px;
+	background: transparent url(/i/images/backgrounds/arrowUp.png) no-repeat 50px 0px;	
+}	
+
+* html #content #paddedContent div.arrowUp {
+	position: relative;
+	bottom: -7px;
+	margin-top: 30px;
+	width: 100%;
+	height: 10px;
+	background: transparent url(/i/images/backgrounds/arrowUp.png) no-repeat 50px 0px;	
+}
+
+div.notVisible {
+	display: none;
+}
+
+a.showHiddenPrices {
+	cursor: hand;
+	cursor: pointer;	
+}
+
+a.showHiddenPrices:hover {
+	text-decoration: underline;	
+}
+
+div.leftButton {
+	width: 300px;
+	float: left;
+	min-height: 30px;
+	height: auto !important;
+	height: 30px;
+	line-height: 30px;
+}
+
+div.rightButton {
+	width: 300px;
+	float: left;
+	min-height: 30px;
+	height: auto !important;
+	height: 30px;
+	line-height: 30px;
+}
+
+div#content div#paddedContent div.upSellCheapCalls div.callOptions div.leftButton p.wide {
+	width: 300px !important;
+	margin: 0px;
+	padding-top: 5px !important;
+	padding-left: 0px !important;
+	margin-top: 10px !important;
+	clear: both;
+}
+
+.footnote {
+	margin-top: 30px;
+}
+.countryRateOptions {
+	padding-top: 15px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.countryRateOptions div.paymentOptionCell {
+	width: 170px;
+	min-width: 180px;
+	float: left;
+	min-height: 100px;
+	height: auto !important;
+	height: 100px;
+}
+
+.countryRateOptions div.callTo,
+#contentHeader .pickupLine {
+	display: none;
+}
+
+.countryRateOptions div.paymentOptionCell:first-child {
+	width: 210px;
+}
+
+#contentHeader .countryRateOptions p.learnMore {
+	display: inline;
+	color: #00aff0;
+	margin-left: 0;
+}
+
+.countryRateOptions .paymentOptionCell .paymentMethod {
+	font-weight: bold;
+	color: #afb4b4;
+	text-transform: uppercase;
+}
+
+.countryRateOptions .paymentOptionCell .paymentPrice {
+	margin-bottom: 10px;
+}
+	.countryRateOptions .paymentOptionCell .paymentPrice .noVat {
+		color: #2c2c2c;
+		font-size: 18px;
+		font-weight: bold;
+	}
+		.countryRateOptions .paymentOptionCell .paymentPrice .noVat a {
+			color: #2c2c2c;
+			text-decoration: none;
+		}
+		.countryRateOptions .paymentOptionCell .paymentPrice .noVat a:hover {
+			color: #666;
+			text-decoration: none;
+		}
+	.countryRateOptions .paymentOptionCell .paymentPrice .vat {
+		color: #474848;
+		font-size: 14px;
+		font-weight: normal;
+	}
+
+	.countryRateOptions .paymentDetails {
+		min-width: 180px;
+	}
+	.countryRateOptions .paymentNotFound {
+		padding-top: 10px;
+		display: none;
+		min-width: 180px;
+	}
+	.countryRateOptions .paymentNotFound .detailMessage {
+		font-weight: bold;
+		color: #474848;
+	}
+	
+

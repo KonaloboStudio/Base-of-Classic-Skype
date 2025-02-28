@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Skype Web Wrapper - Classic Skype Website</title>
+<meta name="description" content="Classic Skype Website">
+<meta name="author" content="SonicProject">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="31 days">
+<meta name="generator" content="Rendered by WYSIWYG Web Builder 19">
+<link href="4104.ico" rel="shortcut icon" type="image/x-icon">
+<link href="skylib31.css" rel="stylesheet">
+<link href="webwrapper.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script>
+$(document).ready(function()
+{
+   var prevScrollTop = 0;
+   $(window).scroll(function(event)
+   {
+      var scrollTop = $(this).scrollTop();
+      if (Math.abs(prevScrollTop - scrollTop) <= 5)
+         return;
+      if (scrollTop < prevScrollTop)
+      {
+         $('#SKYLIB3_HEADER').removeClass('scroll-up');
+      }
+      else
+      {
+         $('#SKYLIB3_HEADER').addClass('scroll-up');
+      }
+      prevScrollTop = scrollTop;
+   });
+   $("a[data-rel='PhotoGallery3']").attr('rel', 'PhotoGallery3');
+   $("a[rel^='PhotoGallery3']").fancybox({});
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_SEP4" style="position:absolute;left:44px;top:1614px;width:883px;height:36px;z-index:31;">
+<img src="images/download_horiz_separator_2.png" id="SEP4" alt="" width="883" height="35"></div>
+<div id="wb_SEP5" style="position:absolute;left:44px;top:1671px;width:883px;height:36px;z-index:32;">
+<img src="images/download_horiz_separator_2_DOWN.png" id="SEP5" alt="" width="883" height="35"></div>
+<div id="FIXES" style="position:absolute;text-align:left;left:0px;top:646px;width:970px;height:474px;z-index:33;">
+<div id="wb_SEP2" style="position:absolute;left:485px;top:0px;width:485px;height:12px;z-index:2;">
+<img src="images/hor-separator-right.png" id="SEP2" alt="" width="485" height="41"></div>
+<div id="wb_SEP1" style="position:absolute;left:0px;top:0px;width:485px;height:12px;z-index:3;">
+<img src="images/hor-separator-left.png" id="SEP1" alt="" width="485" height="41"></div>
+<div id="wb_FIXES_TEXT" style="position:absolute;left:0px;top:9px;width:920px;height:465px;text-align:justify;z-index:4;">
+<p style="font-size:19px;line-height:21px;font-weight:bold;">Исправления клиента</p>
+<p style="font-size:19px;line-height:21px;font-weight:bold;">&nbsp;</p>
+<ul style="font-size:15px;line-height:16.5px;color:#4F4F4F;list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Подмена версии клиента до Skype 8.102
+</li>
+<li style="margin:0 0 0 24px;">Переводчик сообщений + нет флудвейта<br/>Восстановлена работа Bing AI <span style="font-style:italic;">(</span><span style="font-style:italic;">нет сообщения о старой версии </span><span style="font-style:italic;">Skype)</span>
+</li>
+<li style="margin:0 0 0 24px;">Страница входа изменена на новую из Skype 8
+</li>
+<li style="margin:0 0 0 24px;">Восстановлен вход в клиент
+</li>
+<li style="margin:0 0 0 24px;">Исправлен API аутентификации
+</li>
+<li style="margin:0 0 0 24px;">Исправлен endpoint 2FA аутентификации
+</li>
+<li style="margin:0 0 0 24px;">Заполнители теперь правильно заполняют окно чата
+</li>
+<li style="margin:0 0 0 24px;">Восстановлены старые эмодзи <span style="font-style:italic;">(теперь размер программы больше)</span>
+</li>
+<li style="margin:0 0 0 24px;">Исправлены Moji, стикеры
+</li>
+<li style="margin:0 0 0 24px;">Исправлено поле поиска эмодзи
+</li>
+<li style="margin:0 0 0 24px;">Восстановлены скрытые эмодзи, исправлены некоторые ошибочные эмодзи
+</li>
+<li style="margin:0 0 0 24px;">Международное реле вызовов для более низкой задержки / задержки для США, Турции, России и других 
+</li>
+<li style="margin:0 0 0 24px;">Исправлена работа Giphy, популярны, поиск <span style="font-style:italic;">(список ограничен до 20)</span>
+</li>
+<li style="margin:0 0 0 24px;">Добавлена кнопка маленького окна звонка
+</li>
+<li style="margin:0 0 0 24px;">Возможность отключения звука уведомления
+</li>
+<li style="margin:0 0 0 24px;">Изменено поведения копирования с <span style="font-style:italic;">"копирование цитаты" </span>на <span style="font-style:italic;">"копирование текста"</span>
+</li>
+<li style="margin:0 0 0 24px;">Логотипы платформы в <span style="font-style:italic;">"о программе"</span>
+</li>
+<li style="margin:0 0 0 24px;">Возможность автовоспроизведения видео
+</li>
+<li style="margin:0 0 0 24px;">Удалены упоминания Fieme
+</li>
+<li style="margin:0 0 0 24px;">Поддержка Linux <span style="font-style:italic;">(пока проверено в Mint 64bit , возможна работоспособность на любом Debian дистрибутиве на архитектурах x86, x86-64 или ARM32 / ARMv7</span><span style="font-style:italic;">)</span>
+</li>
+</ul></div>
+</div>
+<div id="DL" style="position:absolute;text-align:left;left:0px;top:1249px;width:970px;height:291px;z-index:34;">
+<div id="wb_SEP50" style="position:absolute;left:485px;top:0px;width:485px;height:12px;z-index:14;">
+<img src="images/hor-separator-right.png" id="SEP50" alt="" width="485" height="41"></div>
+<div id="wb_SEP51" style="position:absolute;left:0px;top:0px;width:485px;height:12px;z-index:15;">
+<img src="images/hor-separator-left.png" id="SEP51" alt="" width="485" height="41"></div>
+<div id="wb_DL_TEXT" style="position:absolute;left:0px;top:12px;width:553px;height:58px;text-align:justify;z-index:16;">
+<p style="font-size:19px;line-height:21px;font-weight:bold;">Совместимость</p>
+<p style="font-size:19px;line-height:21px;font-weight:bold;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;font-weight:bold;color:#4F4F4F;"><span style="font-size:15px;line-height:16.5px;font-weight:normal;">Клиент доступен для следующих платформ</span></p></div>
+<div id="DL_LIN_DEB" style="position:absolute;text-align:left;left:315px;top:107px;width:250px;height:130px;z-index:17;">
+<div id="wb_Text1" style="position:absolute;left:0px;top:78px;width:243px;height:42px;text-align:center;z-index:9;">
+<span style="color:#00568A;font-family:Arial;font-size:21px;"><strong>Debian-based Linux<br></strong></span><span style="color:#00568A;font-family:Arial;font-size:16px;">x32, x64, ARM7</span></div>
+<div id="wb_Image1" style="position:absolute;left:93px;top:5px;width:64px;height:64px;z-index:10;">
+<img src="debian.svg" id="Image1" alt="" width="64" height="64"></div>
+</div>
+<div id="DL_WIN" style="position:absolute;text-align:left;left:44px;top:107px;width:250px;height:130px;z-index:18;">
+<div id="wb_Image5" style="position:absolute;left:93px;top:5px;width:64px;height:64px;z-index:11;">
+<img src="windows.svg" id="Image5" alt="" width="64" height="64"></div>
+<div id="wb_Text15" style="position:absolute;left:0px;top:78px;width:243px;height:42px;text-align:center;z-index:12;">
+<span style="color:#00568A;font-family:Arial;font-size:21px;"><strong>Windows<br></strong></span><span style="color:#00568A;font-family:Arial;font-size:16px;">x32 и x64</span></div>
+</div>
+<div id="wb_Text2" style="position:absolute;left:603px;top:12px;width:317px;height:74px;text-align:justify;z-index:19;">
+<p style="font-size:19px;line-height:21px;font-weight:bold;">Загрузки</p>
+<p style="font-size:19px;line-height:21px;font-weight:bold;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;font-weight:bold;color:#4F4F4F;"><span style="font-size:15px;line-height:16.5px;font-weight:normal;">Скачать клиент можно из официального блога клиента</span></p></div>
+<div id="Layer1" style="position:absolute;text-align:left;left:624px;top:107px;width:324px;height:130px;z-index:20;">
+<div id="wb_Shape3" style="position:absolute;left:28px;top:38px;width:268px;height:55px;z-index:13;">
+<a href="http://skypeclassic.blogspot.com/" target="_blank"><div id="Shape3"><div id="Shape3_text"><div><span style="color:#FFFFFF;font-family:Arial;font-size:17px;"><strong>Перейти в блог клиента</strong></span></div></div></div></a></div>
+</div>
+<div id="wb_SEP3" style="position:absolute;left:593px;top:12px;width:10px;height:279px;z-index:21;">
+<img src="images/sidebar_shadow.png" id="SEP3" alt="" width="10" height="730"></div>
+</div>
+<div id="BUGS" style="position:absolute;text-align:left;left:0px;top:1120px;width:970px;height:129px;z-index:35;">
+<div id="wb_SEP40" style="position:absolute;left:485px;top:0px;width:485px;height:12px;z-index:22;">
+<img src="images/hor-separator-right.png" id="SEP40" alt="" width="485" height="41"></div>
+<div id="wb_SEP41" style="position:absolute;left:0px;top:0px;width:485px;height:12px;z-index:23;">
+<img src="images/hor-separator-left.png" id="SEP41" alt="" width="485" height="41"></div>
+<div id="wb_BUGS_TEXT" style="position:absolute;left:0px;top:12px;width:920px;height:117px;text-align:justify;z-index:24;">
+<p style="font-size:19px;line-height:21px;font-weight:bold;">Известные баги</p>
+<p style="font-size:19px;line-height:21px;font-weight:bold;">&nbsp;</p>
+<ul style="font-size:15px;line-height:16.5px;color:#4F4F4F;list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Реакция на сообщение <span style="font-style:italic;">(функция исправлена, но пока не активирована, так как она портит дизайн, работает только в одну сторону, - </span><span style="font-style:italic;">Skype 8 </span><span style="font-style:italic;">на </span><span style="font-style:italic;">Web Wrapper</span><span style="font-style:italic;">)</span>
+</li>
+<li style="margin:0 0 0 24px;"><span style="font-style:normal;">Уведомление о входящем сообщении </span>(сломано из-за глупого изменения, возможно будет исправлено в следующей версии)
+</li>
+<li style="margin:0 0 0 24px;"><span style="font-style:normal;">Загрузка старых чатов </span>(старые сообщения загружаются без проблем, но чаты нужно обновить из-за изменений в API Microsoft)
+</li>
+</ul></div>
+</div>
+<div id="INFO" style="position:absolute;text-align:left;left:0px;top:330px;width:970px;height:316px;z-index:36;">
+<div id="wb_SEP10" style="position:absolute;left:485px;top:0px;width:485px;height:12px;z-index:25;">
+<img src="images/hor-separator-right.png" id="SEP10" alt="" width="485" height="41"></div>
+<div id="wb_SEP11" style="position:absolute;left:0px;top:0px;width:485px;height:12px;z-index:26;">
+<img src="images/hor-separator-left.png" id="SEP11" alt="" width="485" height="41"></div>
+<div id="wb_INFO_TEXT" style="position:absolute;left:0px;top:12px;width:920px;height:42px;text-align:justify;z-index:27;">
+<p style="font-weight:bold;">Это клиент на базе старой версии Skype Web который повторяет дизайн Skype 7 на хорошем уровне</p></div>
+<div id="wb_PhotoGallery3" style="position:absolute;left:0px;top:76px;width:970px;height:214px;z-index:28;">
+<div id="PhotoGallery3">
+   <div class="thumbnails">
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/Skype_Classic_YjpUlqIDIG.png" data-rel="PhotoGallery3" title="Общий вид"><img alt="" id="PhotoGallery3_img0" src="images/tn_Skype_Classic_YjpUlqIDIG.png" class="image" title="Общий вид" width="317" height="188"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/Skype_Classic_vNurR7MApY.png" data-rel="PhotoGallery3" title="Звонок"><img alt="" id="PhotoGallery3_img1" src="images/tn_Skype_Classic_vNurR7MApY.png" class="image" title="Звонок" width="317" height="188"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/Skype_Classic_J7AwiTGKZ0.png" data-rel="PhotoGallery3" title="Чаты"><img alt="" id="PhotoGallery3_img2" src="images/tn_Skype_Classic_J7AwiTGKZ0.png" class="image" title="Чаты" width="317" height="188"></a>
+</div>
+      </div>
+      <div class="clearfix visible-col3"></div>
+   </div>
+</div></div>
+</div>
+<div id="wb_KSKYPE_BUT" style="position:absolute;left:24px;top:1560px;width:923px;height:42px;z-index:37;">
+<a href="http://limpe.do.am/kskype" target="_blank"><svg id="KSKYPE_BUT" height="100%" width="100%" style="position:absolute;height:100%;width:100%;left:0;top:0;overflow:visible;" viewBox="0 0 923 42" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <linearGradient id="KSKYPE_BUT-gradient" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="0%" stop-color="#FFEED9" />
+   <stop offset="100%" stop-color="#FFCF95" />
+   </linearGradient>
+   <path id="KSKYPE_BUT-shape" d="M3 0 L919 0 L920 0 C921 0, 922 1, 922 1 C922 1, 922 2, 922 2 L922 3 L922 38 L922 39 C922 40, 921 41, 921 41 L919 41 L3 41 L2 41 C1 41, 0 40, 0 40 L0 38 L0 3 L0 2 C0 1, 1 0, 1 0" vector-effect="non-scaling-stroke" />
+</defs>
+<use xlink:href="#KSKYPE_BUT-shape" data-href="#KSKYPE_BUT-shape" style="fill:url(#KSKYPE_BUT-gradient);stroke:#FFB051;stroke-width:1"/>
+</svg>
+<div id="KSKYPE_BUT_text"><div><span style="color:#4F4F4F;font-family:Arial;font-size:15px;"><strong>Также существует <u>альтернативный клиент</u> с дизайном поздних Skype 7</strong></span></div></div></a></div>
+<div id="wb_Image4" style="position:absolute;left:0px;top:1540px;width:485px;height:12px;z-index:38;">
+<img src="images/hor-separator-left.png" id="Image4" alt="" width="485" height="41"></div>
+<div id="wb_Image6" style="position:absolute;left:485px;top:1540px;width:485px;height:12px;z-index:39;">
+<img src="images/hor-separator-right.png" id="Image6" alt="" width="485" height="41"></div>
+</div>
+<div id="SKYLIB3_HEADER" style="position:fixed;text-align:center;left:0;top:0;right:0;height:115px;z-index:7777;">
+<div id="SKYLIB3_HEADER_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<iframe name="SKYLIB_IF" id="SKYLIB_HEADER_IF" style="position:absolute;left:0px;top:0px;width:970px;height:115px;z-index:0;" src="./d/HEADER.html" scrolling="no" allowfullscreen></iframe>
+</div>
+</div>
+<div id="WEBWRAP" style="position:absolute;text-align:center;left:0%;top:115px;width:100%;height:215px;z-index:40;">
+<div id="WEBWRAP_Container" style="width:970px;height:215px;position:relative;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto;text-align:left;">
+<div id="wb_WELCOME_TEXT" style="position:absolute;left:0px;top:66px;width:945px;height:58px;z-index:1;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:32px;"><strong>Skype Classic<br></strong></span><span style="color:#F5F5F5;font-family:Arial;font-size:20px;">aka ReSkype 4.0</span></div>
+</div>
+</div>
+<div id="SKYLIB_FOOTER" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:1706px;width:100%;height:192px;z-index:41;">
+<div id="SKYLIB_FOOTER_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<iframe name="SKYLIB_IF" id="SKYLIB_FOOTER_IF" style="position:absolute;left:0px;top:0px;width:970px;height:192px;z-index:30;" src="./d/FOOTER.html" scrolling="no" allowfullscreen></iframe>
+</div>
+</div>
+</body>
+</html>

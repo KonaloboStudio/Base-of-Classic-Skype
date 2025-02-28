@@ -1,0 +1,334 @@
+#bluebubble h1 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+div#flashcontent {
+	float: left;
+	width: 320px;
+}
+div#greenbubble {
+	float: right;
+	width: 389px;
+	height: 143px;
+	background: #87c80a url(/i_preairlift/skypeout/skypeout_green_bubble.png) top left no-repeat;
+	color: white;
+	padding: 15px;
+}
+div.col3-box div {
+	width: 225px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 15px;
+}
+div.col3-box {
+	margin-bottom: 20px;
+}
+div.col3-box h3.skypevoicemail, div.col3-box h3.skypeout, div.col3-box h3.skypein,  div.col3-box h3.personalise {
+	padding-left: 38px;
+	line-height: 1.9em;
+	background: none;
+}
+h3.skypevoicemail {
+	background: white url(/i_preairlift/skypeout/icon_voicemail.png) top left no-repeat !important;
+}
+h3.skypeout {
+	background: white url(/i_preairlift/skypeout/icon_skypeout.png) top left no-repeat !important;
+}
+h3.skypein {
+	background: white url(/i_preairlift/skypeout/icon_skypein.png) top left no-repeat !important;
+}
+h3.personalise {
+	background: white url(/i_preairlift/skypeout/icon_personalise.png) top left no-repeat !important;
+}
+div.col3-box a {
+	display: block;
+}
+div.col3-box p span {
+	color: #ff0000;
+	font-size: 0.9em;
+}
+a.buy {
+	line-height: 1.2em !important;
+	margin-bottom: 5px;
+}
+div#greenbubble h2 {
+	font-size: 2.2em;
+	font-weight: normal;
+}
+h4, h5 {
+	margin: 10px 0 10px 0 !important;
+	padding: 0 10px;
+	background: #A9A9A9 url(/i_preairlift/images/partner/partner_darkgray_wide.png) 0 0 no-repeat;
+	height: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+	line-height: 25px;
+	text-shadow: #168fb3 2px 2px 1px;
+}
+div#col2-box div.rates {
+	width: 240px;
+	float: left;
+}
+div#col2-box div.nicefeatures {
+	float: right;
+	width: 495px;
+}
+
+div#col2-box div.rates h4 {
+	background: white url(/i_preairlift/skypeout/blue_240px.png) top left no-repeat;
+	margin-bottom: 1px !important;
+}
+div#col2-box div.nicefeatures h4 {
+	background: white url(/i_preairlift/skypeout/blue_495px.png) top left no-repeat;
+	margin-bottom: 10px !important;
+}
+div.rates div {
+	background: #e5eef0 url(/i_preairlift/skypeout/gradient.png) top left repeat-x;
+	height: 90px;
+	padding: 10px 10px 0 10px;
+	border-bottom: 1px solid #d6e0e2;
+}
+div.rates div span {
+	display: block;
+	margin-top: 10px;
+	height: 20px;
+}
+div.rates div p {
+	margin-top: 0;
+	padding-top: 0;
+}
+div.rates div span.floatr {
+	text-align: right;
+}
+div.nicefeatures div {
+	width: 170px;
+	height: 8em;
+	float: left;
+	margin-left: 10px;
+}
+div.nicefeatures div h6 {
+	margin-top: 0;
+}
+div.nicefeatures div.skypesms {
+	background: white url(/i_preairlift/skypeout/skypesms.png) top left no-repeat !important;
+	padding-left: 60px;
+}
+div.nicefeatures div.skypezones {
+	background: white url(/i_preairlift/skypeout/skypezones.png) top left no-repeat !important;
+	padding-left: 60px;
+	clear: left;
+}
+div.nicefeatures div.skypegroups {
+	background: white url(/i_preairlift/skypeout/skypegroups.png) top left no-repeat !important;
+	padding-left: 60px;
+}
+div.nicefeatures div.personalise {
+	background: white url(/i_preairlift/skypeout/personaliseskype.png) top left no-repeat !important;
+	padding-left: 60px;
+}
+div.nicefeatures div.giftcertificates {
+	background: white url(/i_preairlift/skypeout/giftcertificates.png) top left no-repeat !important;
+	padding-left: 60px;
+}
+div.account {
+	margin: 10px 0 0 0;
+	text-align: center;
+	font-weight: bold;
+}
+div.account span {
+	color: #D7D9D9;
+	margin: auto 0.4ex;
+	speak: none;
+}
+h4.wide {
+	margin: 15px 0 0 0 !important;
+	background: url(/i_preairlift/bg/headers_wide.png) 0 0 no-repeat !important;
+}
+select#country {
+	width: 220px;
+}
+span#callPrice {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+div#noemergency {
+	position: absolute;
+	z-index: 100;
+	width: 750px;
+	margin: 0 0 -20px;
+}
+div#noemergency img {
+	margin-top: -3px;
+}
+div#noemergency p {
+	width: 650px;
+	font-size: 0.8em;
+	line-height: 1.3em;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+div#noemergency span {
+	color: #ff0000;
+	display: block;
+}
+div.bluebox {
+	border-bottom: 1px solid #e0e6e8;
+	border-top: none;
+	background: white url(/i_preairlift/bg/gradient.png) left top repeat-x;
+	padding-left: 13px;
+	padding-top: 5px;
+}
+
+div.smspriceselect {
+	text-align: center;
+	padding-top: 12px;
+}
+
+table.listing tbody {
+	background: none;
+}
+
+table.price-listing {
+	margin-bottom: 20px;
+}
+table.price-listing td {
+	border-bottom: 1px solid #d8e0e2;
+	background-color: white !important;	
+	padding: 7px 10px;
+}
+table.price-listing tr.altrow td {
+	background-color: #ecf5f9 !important;
+}
+table.price-listing td span {
+	display: none;
+}
+div.free-badge {
+	display: block;
+	position: absolute;
+	float: right;
+	margin-left: 350px;
+	margin-top: 27px;
+}
+
+div.pricelist-box {
+	text-align: center;
+	padding: 10px 10px 0 10px;
+	background: #ffffcc;
+	border: 1px solid #cccc99;
+	margin-bottom: 15px;
+}
+div.pricelist-bluebox select {
+	width: 140px;
+}
+
+small {
+	color: #909090;
+	line-height: 120%;
+}
+
+div#inlineHelper {
+	position: absolute;
+	z-index: 1;
+	display: none;
+	width: 238px;
+}
+img.helpToggler {
+	cursor: pointer;
+	margin-top: -2px;
+	position: relative;
+	z-index: 5;
+	top: 0;
+	left: 0;
+}
+img.closed {
+	background: transparent url(/i_preairlift/helper/disabled.png) no-repeat top right;
+}
+img.hover {
+	background: transparent url(/i_preairlift/helper/hover_disabled.png) no-repeat top right;
+}
+img.open {
+	background: transparent url(/i_preairlift/helper/active.png) no-repeat top right;
+}
+div.inlineHelperContent {
+	border: 1px solid #c0bbb6;
+	background: #fffdec;
+	padding: 15px 13px 15px 13px;
+	text-align: left;
+}
+
+/* =================== */
+/* = skype pro promo = */
+/* =================== */
+
+#skypeProPromo {
+	width: 365px;
+	float: left;
+	background: url(/i_preairlift/images/skypepro_promoback.png) no-repeat bottom left;
+	display: block;
+	margin: 5px 0 15px 0;
+	min-height: 300px;
+}
+* html #skypeProPromo {
+	height: 300px;
+}
+#skypeProTop {
+	display: block;
+	text-align: left;
+	background: transparent url(/i_preairlift/images/skypepro_promostart.png) top left no-repeat;
+	color: #FFF;
+	font: 1.9em Arial, Helvetica, sans-serif;
+	padding: 15px 15px 20px 20px;
+}
+
+#skypeProContent {
+	color: #fff;
+	padding: 0 20px 0 160px;
+	display: block;
+	background: url(/i_preairlift/images/skypepro_ho_icon.png) 25px 0 no-repeat;
+	margin: 0 0 10px 0;
+}
+
+#skypeProContent ul, #skypeProContent ul li {
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: white;
+	list-style: none;
+}
+ #skypeProContent ul li {
+	padding: 3px 3px 3px 21px;
+	margin: 5px 0 0 0;
+	background: transparent url(/i_preairlift/images/skypepro/check_yellow_frontpage.png) 4px 5px no-repeat;
+}
+
+#skypeProContent li.highlight {
+	background: #FCD112 url(/i_preairlift/images/skypepro/check_black.png) 4px 5px no-repeat;
+	display: inline;
+	clear: both;
+	color: black;
+	font-weight: bold;
+}
+
+#skypeProContent p {
+	margin: 0 0 10px 0;
+}
+
+#skypeProBottomlinks {
+	color: #fff;
+	padding: 0 15px 15px 15px;
+	font: 1.3em Arial, Helvetica, sans-serif;
+}
+
+#skypeProBottomlinks a {
+	color: #fff;
+	padding: 0;
+	margin: 0 !important;
+}
+
+#skypeProSmallprint {
+	padding: 0 15px 15px 15px;
+}
+p.links {
+	margin-top: -8px;
+}

@@ -1,0 +1,352 @@
+
+/* Simple buttons, only light gradient */
+
+/* Core styles */
+button.simple,
+a.buttonSimple,
+button.simpleMedium,
+a.buttonSimpleMedium,
+button.simpleLarge,
+a.buttonSimpleLarge,
+button.simpleTwoline,
+a.buttonSimpleTwoline {
+    display:-moz-inline-box;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin: 0;
+    padding: 0;
+    background: none;
+    width: auto;
+    border: none;
+    overflow: visible;
+
+    height: 22px;
+
+	text-decoration: none;
+}
+    button.simple span,
+    a.buttonSimple span,
+    button.simpleMedium span,
+    a.buttonSimpleMedium span,
+    button.simpleLarge,
+    a.buttonSimpleLarge {
+        white-space: nowrap;
+        text-decoration: none;
+        margin: 0;
+    }
+
+button.simpleLarge,
+a.buttonSimpleLarge {
+	height: 32px;
+}
+
+/* Small buttons */
+    button.simple span,
+    a.buttonSimple span {
+        margin-top: -2px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        display: block;
+        height: 14px;
+        padding: 3px 10px;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    }
+    * html button.simple span {
+        margin-top: 0;
+    }
+    button.simple span.white,
+    a.buttonSimple span.white {
+        border: 1px solid white;
+        background: #fff url(/i/images/buttons/simple/white.png) repeat-x top left;
+        color: #4b465a;
+        text-shadow: 0px 1px 1px #fff;
+        border: 1px solid #e4e4e4;
+    }
+    button.simple:hover span.white,
+    a.buttonSimple:hover span.white {
+        background: #fff url(/i/images/buttons/simple/white.png) repeat-x left -20px;
+    }
+
+    button.simple span.purple,
+    a.buttonSimple span.purple {
+        border: none;
+        padding: 4px 11px;
+
+        background: #332f3e url(/i/images/buttons/simple/purple.png) repeat-x top left;
+        color: #fff;
+        text-shadow: 0px -1px 1px #332f3e;
+    }
+    button.simple:hover span.purple,
+    a.buttonSimple:hover span.purple {
+        background: #34303f url(/i/images/buttons/simple/purple.png) repeat-x left -22px;
+    }
+
+    button.simple span.blue,
+    a.buttonSimple span.blue {
+        border: none;
+        padding: 4px 11px;
+
+        background: #00AEEA url(/i/images/buttons/simple/blue.png) repeat-x top left;
+        color: #fff;
+        text-shadow: 0px -1px 1px #39BBF6;
+    }
+    button.simple:hover span.blue,
+    a.buttonSimple:hover span.blue {
+        background: #20B5F1 url(/i/images/buttons/simple/blue.png) repeat-x left -22px;
+    }
+
+    button.simple span.lightblue,
+    a.buttonSimple span.lightblue {
+        border: none;
+        padding: 4px 11px;
+
+        background: #c5efff url(/i/images/buttons/simple/lightblue.png) repeat-x top left;
+        color: #00aff0;
+        text-shadow: 0px 1px 1px #fff;
+    }
+    button.simple:hover span.lightblue,
+    a.buttonSimple:hover span.lightblue {
+        background: #def6ff url(/i/images/buttons/simple/lightblue.png) repeat-x left -22px;
+    }
+
+
+    a.buttonSimple span,
+    a.buttonSimpleMedium span {
+        display:-moz-inline-box;
+        display: inline-block;
+        margin-top: 0px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+/* Medium size buttons */
+button.simpleMedium,
+a.buttonSimpleMedium {
+    height: 26px;
+}
+    button.simpleMedium span,
+    a.buttonSimpleMedium span {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        display: -moz-inline-box;
+        display: inline-block;
+        height: 16px;
+        padding: 5px 10px;
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    }
+    button.simpleMedium span {
+        .margin-top: -2px;
+    }
+    * html button.simpleMedium {
+        margin-top: 0;
+    }
+    * html button.simpleMedium span,
+    * html a.buttonSimpleMedium span {
+        margin-top: 0;
+    }
+    
+    /* White */
+    button.simpleMedium span.white,
+    a.buttonSimpleMedium span.white {
+        background: #fff url(/i/images/buttons/simple/white_medium.png) repeat-x top left;
+        color: #4b465a;
+        padding: 4px 9px;
+        text-shadow: none;
+        border: 1px solid #e4e4e4;
+    }
+    button.simpleMedium:hover span.white,
+    a.buttonSimpleMedium:hover span.white {
+        background: #fff url(/i/images/buttons/simple/white_medium.png) repeat-x left -26px;
+    }
+    
+    /* Blue */
+    button.simpleMedium span.blue,
+    a.buttonSimpleMedium span.blue {
+        background: #00aff0 url(/i/images/buttons/simple/blue_medium.png) repeat-x top left;
+        color: #fff;
+        text-shadow: none;
+    }
+    button.simpleMedium:hover span.blue,
+    a.buttonSimpleMedium:hover span.blue {
+        background: #00aff0 url(/i/images/buttons/simple/blue_medium.png) repeat-x left -26px;
+    }
+
+	/* Green */
+	button.simpleMedium span.green,
+    a.buttonSimpleMedium span.green {
+        background: #87c80a url(/i/images/buttons/simple/green_medium.png) repeat-x top left;
+        color: #fff;
+        text-shadow: none;
+    }
+    button.simpleMedium:hover span.green,
+    a.buttonSimpleMedium:hover span.green {
+        background: #87c80a url(/i/images/buttons/simple/green_medium.png) repeat-x left -26px;
+    }
+
+	/* Orange */
+	button.simpleMedium span.orange,
+    a.buttonSimpleMedium span.orange {
+        background: #fc8421 url(/i/images/buttons/simple/orange_medium.png) repeat-x top left;
+        color: #fff;
+        text-shadow: none;
+    }
+    button.simpleMedium:hover span.orange,
+    a.buttonSimpleMedium:hover span.orange {
+        background: #fc8421 url(/i/images/buttons/simple/orange_medium.png) repeat-x left -26px;
+    }
+
+button.simpleMedium span .buttonIcon,
+a.buttonSimpleMedium span .buttonIcon {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+button.simpleMedium.disabled span,
+a.buttonSimpleMedium.disabled span,
+button.simpleMedium.disabled:hover span,
+a.buttonSimpleMedium.disabled:hover span {
+    background: #fff url(/i/images/buttons/simple/white_medium.png) repeat-x left -52px;
+    padding: 4px 9px;
+    border: 1px solid #ececec;
+    color: #93909C;
+}
+button.simpleMedium.disabled:hover span,
+a.buttonSimpleMedium.disabled:hover span {
+    cursor: default;
+}
+
+
+/* Large buttons */
+button.simpleLarge span,
+a.buttonSimpleLarge span {
+    margin-top: -2px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    display: block;
+    height: 26px;
+    padding: 3px 25px;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+	* html button.simpleLarge span {
+	    margin-top: 0;
+	}
+	
+	/* Green */
+	button.simpleLarge span.green,
+    a.buttonSimpleLarge span.green {
+        background: #87C80A url(/i/images/buttons/simple/green_large.png) repeat-x left top;
+        color: #fff;
+        text-shadow: 0px 1px 1px #78AD12;
+    }
+    button.simpleLarge:hover span.green,
+    a.buttonSimpleLarge:hover span.green {
+        background: #87C80A url(/i/images/buttons/simple/green_large.png) repeat-x left -32px;
+    }
+
+
+/* Dirty IE-only hack */
+button.simple,
+a.buttonSimple,
+button.simpleMedium,
+a.buttonSimpleMedium {
+/*    margin-top: expression(1 + "px");*/
+}
+
+/* Big dark button for Business section */
+
+div.darkBusinessButton {
+    width: 140px;
+    margin-left: 20px;
+}
+
+
+div.darkBusinessButton a {
+    display: block;
+    padding: 10px 10px 10px 5px;
+    background-color: #4B465A;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 1.286em;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px -1px 1px #2F2C38;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.buttonWithText .text {
+	margin-left: 10px;
+}
+
+
+/* Arrows for simple buttons */
+button.simpleMedium span span.arrow,
+a.buttonSimpleMedium span span.arrow {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	padding: 0 28px 0 0 !important;
+	margin: 0;
+}
+	/* Green arrow */
+	button.simpleMedium span.green span.arrow,
+	a.buttonSimpleMedium span.green span.arrow {
+		background: url(/i/images/buttons/simple/green_medium_arrow.png) no-repeat right center;
+	}
+
+
+/* FF specific line-height fix */
+@-moz-document url-prefix() {
+    button.simple {
+        margin: 0;
+    }
+        button.simple span {
+            margin-left: -3px;
+            margin-right: -3px;
+        }
+    button.simpleMedium {
+        margin: 0;
+    }
+        button.simpleMedium span {
+            margin-top: -2px;
+            margin-left: -3px;
+            margin-right: -3px;
+        }
+    button.simpleLarge {
+		margin: 0;
+	}
+		button.simpleLarge span {
+			margin-top: -2px;
+			margin-left: -3px;
+			margin-right: -3px;
+		}
+}
+}

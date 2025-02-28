@@ -1,0 +1,10 @@
+.dontHave {
+    display: none;
+    overflow: hidden;
+}
+
+#dummy {
+    position: absolute;
+    top: -10000px;
+    left: 0;
+}

@@ -1,0 +1,137 @@
+body.guide {
+	background: none !important;
+}
+body.guide div#container {
+	background: transparent url(/i_preairlift/bg/guide_container_bg.png) left top repeat-y !important;
+}
+body.guide div#sidebar-end {
+	display: block;
+	width: 750px;
+	clear: both;
+	margin: 1px 0 -20px 0;
+	padding: 11px 0 0;
+	background: white url(/i_preairlift/bg/guide_container_end.png) left top no-repeat !important;
+	height: 25px;
+}
+div#guide-steps {
+	background: url(/i_preairlift/bg/guide_steps_bg.png) left top no-repeat !important;
+	height: 54px;
+}
+div#guide-steps div {
+	height: 54px;
+	line-height: 54px;
+	font-weight: bold;
+	position: relative;
+	z-index: 100;
+}
+* html div#guide-steps div {
+	padding-top: 13px;
+	height: 41px;
+}
+div#guide-steps div a img {
+	vertical-align: middle;
+	margin: 0 10px;
+}
+div#logo {
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	margin-left: -375px;
+	height: 32px !important;
+	z-index: 101;
+	width: 400px;
+	background-color: white;
+}
+div#logo a {
+	margin-right: 27px;
+	height: 72px;
+	float: left;
+	display: block;
+}
+div#logo a img {
+	float: none;
+}
+div#logo img {
+	float: left;
+}
+body.guide div#container {
+	margin: 50px auto 0 auto;
+}
+body.guide div#logo a {
+	margin-right: -20px !important;
+	height: 32px;
+	float: left;
+	display: block;
+}
+body.guide div#logo h1 {
+	line-height: 32px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	padding-left: 70px;
+}
+
+body.guide #content {
+	margin: 1px;
+	float: none;
+	width: 748px;
+	padding: 0;
+	min-height: 250px;
+}
+body.guide div#guide-path {
+	margin-left: auto;
+	margin-right: auto;
+	width: 748px;
+	text-align: right;
+	margin-bottom: -37px;
+	padding-top: 20px;
+}
+body.guide div#guide-path a {
+	padding-right: 18px;
+	background: url(/i_preairlift/images/guides/patharrow.png) no-repeat right center;
+	margin-right: 7px;
+}
+body.guide div#guide-faq {
+	margin-left: auto;
+	margin-right: auto;
+	width: 748px;
+	text-align: right;
+	margin-bottom: -37px;
+	padding-top: 20px;
+}
+body.guide div#guide-stepnumbers {
+	position: absolute;
+	text-align: center;
+	width: 330px;
+	margin-left: 209px;
+	top: 72px;
+}
+body.guide div#guide-stepnumbers a {
+	display: inline-block;
+	font-weight: bold;
+	color: #afb4b4;
+	text-decoration: none;
+	padding: 5px 7px 5px 7px;
+}
+body.guide div#guide-stepnumbers a.selectedstep {
+	background: url(/i_preairlift/images/guides/activepage.png) no-repeat center center;
+	padding: 5px 7px 5px 7px;
+	color: #5a5a5a;
+}
+h1#pageName {
+	color: #a7a7a7 !important;
+	margin: 15px 0 0 20px;
+	display: inline;
+}
+#guide-faq {
+	position: relative;
+	z-index: 100;
+}
+#guide-path {
+	position: relative;
+	z-index: 100;
+}
+.legal-information {
+	position: relative;
+	z-index: 100;
+}

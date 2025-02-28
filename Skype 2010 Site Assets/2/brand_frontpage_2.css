@@ -1,0 +1,196 @@
+#newbrand-heading {
+	background: white url(/i_preairlift/images/brand/bg-image.jpg) top center no-repeat;
+	height: 314px;
+	margin-bottom: 25px;
+}
+
+#brand-content {
+	float: left;
+	width: 360px;
+	color: #666;
+}
+#brand-content h1 {
+	color: #00aff0;
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+#brand-content h2 {
+	font-size: 1.45em;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+#brand-features {
+	float: right;
+	width: 350px;
+	color: #3f3f3f;
+	font-weight: bold;
+}
+
+#brand-features ul, #brand-features li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#brand-features ul li  a {
+	padding-left: 33px;
+	min-height: 23px;
+	margin-bottom: 7px;
+	padding-top: 3px;
+	text-decoration: none;
+	color: #3f3f3f !important;
+	display: block;
+}
+* html #brand-features ul li a {
+	height: 23px;
+}
+
+#brand-features ul li.morefeat {
+	padding-left: 33px;
+	min-height: 24px;
+	margin-bottom: 7px;
+	padding-top: 2px;
+	text-decoration: none;
+	color: #3f3f3f !important;
+}
+#brand-features ul li.morefeat a {
+	display: inline;
+	padding-left: 0;
+	text-decoration: underline;
+	color: #0083B3 !important;
+}
+
+li.feat1 a {
+	background: white url(/i_preairlift/images/brand/feat1.png) top left no-repeat;
+}
+li.feat2 a {
+	background: white url(/i_preairlift/images/brand/feat2.png) top left no-repeat;
+}
+li.feat3 a {
+	background: white url(/i_preairlift/images/brand/feat3.png) top left no-repeat;
+}
+li.feat4 a {
+	background: white url(/i_preairlift/images/brand/feat4.png) top left no-repeat;
+}
+li.feat5 a {
+	background: white url(/i_preairlift/images/brand/feat5.png) top left no-repeat;
+}
+
+/* */
+
+#head-content {
+	margin: 0 auto;
+	padding: 0;
+	width: 750px;
+	text-align: left;
+}
+
+/* */
+
+#screenshot {
+	float: left;
+	width: 270px;
+	margin-left: -20px;
+	margin-top: 0;
+}
+
+/* Download Button */
+
+#download {
+	float: right;
+	width: 365px;
+	margin-bottom: 20px;
+	margin-top: 240px;
+}
+div#downloadButton {
+	background: url(/i_preairlift/images/brand/ho-dl-grad-green.png) no-repeat 0px 12px;
+	cursor: hand;
+	cursor: pointer;
+}
+div#downloadButton img {
+	margin: 2px 12px 0 13px;
+}
+div#downloadButton small {
+	color: white;
+}
+div#downloadButton h1 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 24px 0 0 0;
+	margin: 0 !important;
+	line-height: 18px;
+	font-size: 1.5em;
+	color: white;
+}
+div#downloadButton h1 a {
+	color: white;
+}
+
+div#downloadButton div.left {
+	width: 310px;
+	float: left;
+}
+
+div#downloadButton a.adware {
+	float: right;
+	width: 45px;
+	height: 55px;
+	margin-top: 13px;
+	text-decoration: none;
+}
+
+/* Footer */
+
+#footer-search {
+	width: 750px;
+}
+
+div#footer div#legal {
+	background: transparent url(/i_preairlift/bg/footer/footer_round.png) 0 0 repeat-x;
+	height: 26px;
+	overflow: hidden;
+	line-height: 26px !important;
+	margin-bottom: 10px !important;
+}
+
+div#footer {
+	padding-bottom: 10px;
+}
+
+/* NAU */
+
+body.nau #newbrand-heading {
+	background: white url(/i_preairlift/images/brand/nau-front.jpg) top center no-repeat;
+	height: 314px;
+	margin-bottom: 25px;
+}
+
+body.nau #brand-content {
+	color: #000;
+	width: 750px;
+}
+body.nau #brand-content h1 {
+	color: #00aff0;
+	font-size: 2em;
+	text-align: center;
+	margin: 0 0 22px 0;
+	padding: 0;
+}
+
+body.nau .unlimitedcalls {
+	float: left;
+	width: 300px;
+	padding-left: 60px;
+	background: white url(/i_preairlift/images/brand/nau_call.png) top left no-repeat;
+	height: 70px;
+}
+
+body.nau .downloadnow {
+	float: right;
+	width: 300px;
+	padding-left: 60px;
+	background: white url(/i_preairlift/images/brand/nau_credit.png) top left no-repeat;
+	height: 70px;
+}

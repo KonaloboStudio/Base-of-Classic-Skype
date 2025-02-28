@@ -1,0 +1,841 @@
+#upgradeProBox {
+	width: 437px !important;
+}
+
+#upgradeProBox.wideBox {
+	width: 680px !important;
+}
+
+#buyCreditBox {
+	width: 230px !important;
+}
+
+#buyCreditBox.wideBox {
+	width: 680px !important;
+}
+
+
+#infoBox {
+	background: url(/i/images/backgrounds/yellow_blue_bottombox_bg.png) -357px 0px repeat-y !important;
+}
+
+#infoBox.fullWide {
+	background: none !important;
+}
+
+div.bannerTitle {
+	background: #00aff0 url(/i/images/illustrations/products_bg.png) no-repeat left top;
+	margin: 1px -1px 0 10px;
+	width: 680px;
+	overflow: hidden;
+	position: relative;
+	z-index: 999;
+	clear: both;
+}
+
+div.bannerTitle.skypeOut {
+	background: #00aff0 url(/i/images/illustrations/products_skypeout.png) no-repeat left top;
+}
+
+div.bannerTitle.skypePro {
+	background: #0089d0 url(/i/images/illustrations/products_skypepro.png) no-repeat left top;
+}
+
+div.bannerTitle.skypeIn {
+	background: #00aff0 url(/i/images/illustrations/products_skypein.png) no-repeat left top;
+}
+
+div.bannerTitle.skypeToGo {
+	background: #00aff0 url(/i/images/illustrations/products_skypetogo.png) no-repeat left top;
+}
+
+div.bannerTitle.callTransfer {
+	background: #00aff0 url(/i/images/illustrations/products_calltransfer.png) no-repeat left top;
+}
+
+div.bannerTitle.callFwd {
+	background: #00aff0 url(/i/images/illustrations/products_callfwd.png) no-repeat left top;
+}
+
+div.bannerTitle.skypePrime {
+	background: #00aff0 url(/i/images/illustrations/products_skypeprime.png) no-repeat left top;
+}
+
+div.bannerTitle.videoCall {
+	background: #00aff0 url(/i/images/illustrations/products_videocall_hq.png) no-repeat left top;
+}
+
+div.bannerTitle.skypePhone {
+	background: #06b1f0 url(/i/images/illustrations/products_3skypephone.png) no-repeat left bottom;
+}
+div.bannerTitle.otherHandsets {
+    background: #11b5f1 url(/i/images/illustrations/products_3skypephone_otherhandsets.png) no-repeat left top;
+    position: relative;
+    z-index: 90;
+}
+div.bannerTitle.skypePhonePrism {
+    background: #11b5f1 url(/i/images/illustrations/products_3skypephone_prism.png) no-repeat left top;
+}
+div.bannerTitle.skypePhoneS2 {
+    background: #11b5f1 url(/i/images/illustrations/products_3skypephone_s2_bg.png) no-repeat left top;
+}
+
+    div.bannerTitle.skypePhoneS2 div.bannerHeader {
+    	margin-top: 40px;
+    	height: 160px;
+    }
+
+    div.bannerTitle.skypePhoneS2 div.thirdsColumnsLeft{
+        width: 170px !important;
+    }
+       
+    div.bannerTitle.skypePhoneS2 div.thirdsColumnsRight {
+        float: left !important;
+    }
+    
+    div.bannerTitle.skypePhoneS2 div.belowHeaderContent {
+        float: left;
+        width: 500px;
+    }
+
+
+div.bannerTitle.winter {
+	background: #00aff0 url(/i/images/illustrations/winter_clouds.png) no-repeat left top;
+}
+
+#content #paddedContent div.videoCall .thirdsColumnsRight {
+	width: 400px;
+	padding-bottom: 80px;
+}
+div.bannerTitle h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.71em;
+	font-weight: normal;
+	color: #fff;
+}
+body.lang-de.callPhones div.bannerTitle h1,
+body.lang-pl.callPhones div.bannerTitle h1,
+body.lang-pt.callPhones div.bannerTitle h1 {
+	font-size: 1.5em;
+}
+body.voicemail.lang-de div.bannerTitle h1,
+body.voicemail.lang-es div.bannerTitle h1,
+body.voicemail.lang-fr div.bannerTitle h1,
+body.voicemail.lang-pl div.bannerTitle h1 {
+	font-size:1.3em;
+}
+div.bannerTitle h2 {
+	color: #283c55;
+	font-size: 1.00em;
+	margin: 0;
+	padding: 0;
+}
+div.bannerTitle ul {
+	color: #00aff0;
+	font-weight: bold;
+}
+div.bannerTitle ol {
+	color: #2c2c2c;
+	font-weight: normal;
+	list-style-type: decimal;
+	font-weight: bold;
+	margin-left: 25px;
+}
+div.bannerTitle ol span {
+	font-weight: normal;
+}
+
+div.cornerPromo {
+	background: url(/i/images/misc/save_w_pro.png) no-repeat top right;
+	padding: 1px 1px 0 0;
+	zoom: 1;
+}
+
+div.bannerTitle.skypePro div.cornerPromo {
+	background: url(/i/images/misc/save_w_pro_dark.png) no-repeat top right;
+	padding: 1px 1px 0 0;
+	zoom: 1;
+}
+
+div.cornerPromo #skypeProLink {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 0px;
+	left: 610px;
+	display: block;
+	z-index: 999999;
+	background: transparent;
+	text-indent: -1000px;
+}
+div.cornerPromo #skypeProLink:hover,
+div.cornerPromo #skypeProLink:visited,
+div.cornerPromo #skypeProLink:active {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	display: block;
+	z-index: 999999;
+	text-decoration: none;
+	background: transparent;
+}
+div.bannerHeader {
+	margin-top: 40px;
+	height: 145px;
+}
+div.bannerTitle.skypePro div.bannerHeader {
+	height: 100px;
+}
+div.bannerTitle.skypePhone div.bannerHeader {
+	text-align: center;
+}
+div.bannerTitle.otherHandsets div.bannerHeader {
+	height: 105px;
+}
+div.bannerTitle.skypePhone h1 {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+#content #paddedContent #infoBox {
+	margin-top: 31px !important;
+	margin-bottom: 14px;
+}
+
+span.lightGray {
+	color: #afb4b4;
+}
+
+div.additionalInformation div#leftBlock {
+	width: 225px;
+	float: left;
+}
+
+div.additionalInformation div#rightBlock {
+	width: 460px;
+	float: right;
+}
+
+div.additionalInformation ul.featureList {
+    margin: 8px 0 0 0;
+}
+
+div.additionalInformation ul li {
+	padding: 0 10px 19px 50px;
+	list-style-type: none;
+}
+
+div.additionalInformation ul li#skypeOutIcon {
+	background: url(/i/images/icons/skypeout_32x32_lightblue.png) top left no-repeat;
+}
+
+div.additionalInformation ul li#skypeInIcon {
+	background: url(/i/images/icons/skypein_32x32_lightblue.png) top left no-repeat;
+}
+
+div.additionalInformation ul li#voicemailIcon {
+	background: url(/i/images/icons/voicemail_32x32_lightblue.png) top left no-repeat;
+}
+
+div.additionalInformation ul li#skypeToGoIcon {
+	background: url(/i/images/icons/skypetogo_32x32_lightblue.png) top left no-repeat;
+}
+
+div.additionalInformation ul li#calltransferIcon {
+	background: url(/i/images/icons/calltransfer_32x32_lightblue.png) top left no-repeat;
+}
+
+div.additionalInformation ul li#hardwareIcon {
+	background: url(/i/images/icons/hardware_32x32_lightblue.png) top left no-repeat;
+}
+div.additionalInformation div#rightBlock ul li#selector {
+	padding: 0 5px 0 40px;
+	font-weight: bold;
+}
+/* Rates display */
+
+#ratesDisplayForm {
+    clear: both;
+    padding: 0 0 0 20px;
+}
+
+#skypeRatesDisplayFlag {
+    width: 50px;
+    float: left;
+}
+#skypeRatesDisplay, #skypeRatesSwitch {
+    width: 370px;
+    float: left;
+}
+
+#skypeRatesDisplayInfo p, #skypeRatesSwitch p {
+    margin: 2px 0 0 0;
+    padding: 0;
+    line-height: 16px;
+}
+#ratesDisplayForm span.gray {
+    color: #AFB4B4;
+}
+table.phoneAvailable td {
+	padding: 0 5px;
+	vertical-align: top;
+}
+td.right {
+	text-align: right;
+}
+#content #paddedContent form#purchaseNow {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+form#purchaseNow select {
+    margin-right: 15px;
+}
+/* Video call */
+#howDoYouHelloLink {
+	float: right;
+	background: url(/i/images/illustrations/howdoyouhello.png) no-repeat top left;
+	text-align: right;
+	margin-left: 20px;
+}
+	#howDoYouHelloLink a {
+		font-weight: bold;
+		background: url(/i/images/icons/link_arrow_5x14.png) no-repeat bottom right;
+		display: block;
+		padding: 90px 10px 0px 150px;
+	}
+#videoCallImage {
+	padding-left: 0 !important;
+}
+div.fakeParagraph {
+	margin-bottom: 1.357em;
+	height: 100%;
+}
+
+/* 3 SkypePhone */
+#skypePhone3Image {
+	margin-top: -50px;
+	margin: -63px 0 0 11px;
+	position: relative;
+	z-index: 999;
+}
+#skypePhone3Logo {
+	margin-top: 10px;
+}
+#skypePhone3Button {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#skypePhone3Camera {
+	margin-top: 13px;
+}
+#skypePhone3Box {
+	margin: 15px -40px 0 -20px;
+}
+.priceBox {
+    float: left;
+    margin: 0 10px 0 0;
+    background: url(/i/images/backgrounds/pricebox_tl.png) no-repeat top left;
+    display: inline;
+    overflow: visible;
+}
+    .priceBox strong,
+    .priceBox span.price {
+        display: block;
+    }
+    .priceBox span.price {
+        color: #00aff0;
+        font-size: 3.43em;
+        font-weight: bold;
+        margin-bottom: -5px;
+        line-height: 100%;
+    }
+    .priceBox strong {
+        color: #666;
+        margin-bottom: 5px;
+    }
+    .priceBox .hasTag {
+        padding-right: 80px !important;
+    }
+.priceBoxTr {
+    background: url(/i/images/backgrounds/pricebox_tr.png) no-repeat top right;
+    float: left;
+    overflow: visible;
+}
+.priceBoxBr {
+    background: url(/i/images/backgrounds/pricebox_br.png) no-repeat bottom right;
+    float: left;
+    overflow: visible;
+}
+.priceBoxBl {
+    background: url(/i/images/backgrounds/pricebox_bl.png) no-repeat bottom left;
+    float: left;
+    padding: 21px;
+    overflow: visible;
+}
+.callForMore {
+    width: 230px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+    .callForMore strong {
+        color: #666;
+        display: block;
+        padding: 8px 32px 6px 8px;
+        background: #e9f8fe url(/i/images/misc/3_logo_call.png) no-repeat 200px 50px;
+        border-top: 1px solid #89dffa;
+        border-bottom: 1px solid #89dffa;
+    }
+.availablePhones {
+    margin-top: -10px;
+}
+div.otherHandsets .callForMore {
+    width: 220px;
+}
+    div.otherHandsets .callForMore strong {
+        padding: 8px 0 6px 35px;
+        background: #e9f8fe url(/i/images/misc/3_logo_call.png) no-repeat 5px center;
+    }
+#twinPackTag {
+    position: absolute;
+    margin: -22px 0 0 154px;
+}
+* html #twinPackTag {
+    margin-left: 152px;
+}
+#productsOtherHandsets {
+    margin: 40px 0 0 5px;
+}
+
+#skypePhoneBoxes {
+    margin: 65px 0 30px 10px;
+}
+
+#skypePhoneS2Header {
+    margin: 30px 0 0 20px;
+}
+
+#reminderError {
+    display: none;
+}
+#openFlash {
+    background: url(/i/images/misc/play_button.png) no-repeat center left;
+    display: block;
+    padding: 5px 0px 5px 30px;
+    font-weight: bold;
+}
+
+div.yellowRounded {
+    -moz-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #FFF5CC !important;
+    padding: 19px 4px;
+    margin: 8px 0 19px;
+}
+
+div.yellowRounded.leftPadding {
+    padding-left: 120px;
+}
+
+    div.yellowRounded img.floatl {
+        padding: 0 15px 0 20px;
+        margin: 0 !important;
+    }
+    
+    div.yellowRounded.leftPadding img.floatl {
+        padding: 0;
+        margin: 0 0 0 -100px !important;
+    }
+    
+    
+    div.yellowRounded p {
+        padding: 5px 0 0 0;
+        margin: 0;
+        color: #2C2C2C;
+    }
+    
+    div.yellowRounded h3 {
+        color: #2C2C2C;        
+    }
+
+#phoneCountrySelector,
+#phoneCountryPlanSelector {
+    margin-right: 10px;
+}
+
+#skypePhoneOthers div.blueRounded {
+    float: left;
+    -moz-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-border-radius: 4px;    
+    background: #e4f5fc url(/i/images/misc/product_3skypephone_bluebg.png) left bottom repeat-x;
+    padding: 20px 20px 20px 20px;
+    width: 650px;    
+}
+
+#skypePhoneInfo div.grayRounded {
+    position: relative;
+    float: left;
+    -moz-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #f5f4f5 url(/i/images/misc/product_3skypephone_graybg.png) left bottom repeat-x;
+    padding: 20px 20px 20px 20px;
+    width: 650px;
+}
+
+    #skypePhoneInfo div.grayRounded h2 {
+        padding: 0 0 35px 0 !important;
+        margin: 0 !important;
+        font: bold 18px/36px Arial, Helvetica, sans-serif;
+    }
+    
+    #skypePhoneInfo div.grayRounded h2 span {
+        float: left;
+        margin-right: 10px;
+    }
+    
+    #skypePhoneInfo div.grayRounded h2 img {
+        float: left;
+    }
+
+    #skypePhoneInfo div.grayRounded.leftGray {
+        width: 440px;
+        padding-bottom: 0px;
+    }
+    #skypePhoneInfo div.grayRounded.leftGray #skypePhonePhotoGrayLeft {
+        margin: 30px -20px 14px 2px;
+    }
+    
+    #skypePhoneInfo div.grayRounded.rightGray {
+        float: right;
+        width: 440px;
+        padding-bottom: 0px;
+    }
+    
+    #skypePhoneInfo div.grayRounded.rightGray #skypePhonePhotoGrayRight {
+        margin: 15px 2px 14px -20px;
+    }
+    
+    #skypePhoneInfo div.grayRounded.rightGray #skypePhoneS2PhotoGrayRight {
+        margin: 10px 2px 6px -20px;
+    }
+
+    #skypePhoneInfo div.grayRounded div.grayRoundedContent, #skypePhoneOthers div.blueRounded div.blueRoundedContent {
+        color: #999999;
+        font: 12px/14px Helvetica, Arial, sans-serif;
+    }
+    
+    #skypePhoneInfo div.grayRounded div.grayRoundedContent.floatl {
+        width: 335px;
+    }
+    
+    #skypePhoneInfo div.grayRounded div.grayRoundedContent.floatr {
+        width: 300px;
+    }    
+    
+        #skypePhoneInfo div.grayRounded.grayLeft div.grayRoundedContent {    
+            padding: 5px 10px 0px 10px;
+        }
+        
+        #skypePhoneInfo div.grayRounded.grayRight div.grayRoundedContent {    
+            padding: 5px 10px 0px 10px;
+        }
+        
+    #skypePhoneInfo div.grayRounded div.grayRoundedContent .skypePhonePhotoBottom {
+        float: right;
+        margin: 0 -10px 0 -25px;
+    }
+    
+    #skypePhoneInfo div.grayRounded div.grayRoundedContent table.thinTable {
+        width: 185px;
+        margin-right: 15px;
+    }
+    
+    #skypePhoneInfo div.grayRounded div.grayRoundedContent table td strong.price {
+        float: left;
+        color: #00aff0;
+        font: bold 20px/22px Arial, Helvetica, sans-serif;
+        padding-right: 10px;
+    }
+    
+    #skypePhoneInfo div.grayRounded div.grayRoundedContent table td, #skypePhoneOthers div.blueRounded div.blueRoundedContent table td {
+        font-weight: bold;
+        border-bottom: 1px solid #dedede;
+        padding: 5px 5px 3px 0;
+    }
+    
+        #skypePhoneInfo div.grayRounded div.grayRoundedContent table td.alignRight {
+            border-bottom: none;
+            text-align: right;
+        }
+
+        #skypePhoneInfo div.grayRounded div.grayRoundedContent table td.strong, #skypePhoneOthers div.blueRounded div.blueRoundedContent table td.strong {
+            color: #666666;
+            border-bottom: none;
+        }
+
+        #skypePhoneInfo div.grayRounded div.grayRoundedContent table td.noBorder, #skypePhoneOthers div.blueRounded div.blueRoundedContent table td.noBorder {
+            border-bottom: none;
+        }
+        
+        #skypePhoneInfo div.grayRounded div.grayRoundedContent table td.noBorder div.spacerBetween, #skypePhoneOthers div.blueRounded div.blueRoundedContent table td.noBorder div.spacerBetween {
+            height: 25px;
+        }
+        
+        #skypePhoneInfo div.grayRounded div.grayRoundedContent table td.noBorder div.positionBottom, #skypePhoneOthers div.blueRounded div.blueRoundedContent table td.noBorder div.positionBottom {
+            position: absolute;
+            bottom: 25px;
+        }
+        
+    
+    #skypePhoneInfo div.grayRounded div.grayRoundedContent #skypePhoneLogoGrayRounded {
+        margin-bottom: 5px;
+    }
+    
+    #skypePhoneInfo div.grayRounded #skypePhoneLogoGrayRoundedRight {
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+    }
+    
+    #skypePhoneInfo div.bluePriceBox {
+        -moz-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        padding: 20px;
+        float: right;
+        background-color: #e3f4fc;
+        width: 160px;
+        margin-bottom: 10px;
+    }
+    
+    div.bluePriceBoxLeftWrapper {
+        float: left;
+        width: 200px;
+    }
+    
+    div.bluePriceBoxLeftWrapper #skypePhoneInfo div.bluePriceBox {
+        float: left;
+    }
+
+        #skypePhoneInfo div.bluePriceBox strong,
+            #skypePhoneInfo div.bluePriceBox span.price {
+                display: block;
+            }
+        #skypePhoneInfo div.bluePriceBox span.price {
+            color: #00aff0;
+            font-size: 34px;
+            font-weight: bold;
+            margin-bottom: 2px;
+            line-height: 100%;
+        }
+        #skypePhoneInfo div.bluePriceBox strong {
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+#animated3skypephones {
+    position: relative;
+    z-index: 100;
+    float: right;
+    margin: -20px 20px 20px 10px;
+}
+
+#otherHandsetsImg {
+    padding: 0 20px 0 0;
+}
+
+#skypePhoneHovered {
+    float: right;
+    position: relative;
+    margin-bottom: -180px;
+    z-index: 1000;
+}
+
+#skypePhoneHoveredS2 {
+    float: right;
+    position: relative;
+    margin-bottom: -215px;
+    margin-right: 20px;
+    z-index: 1000;    
+}
+
+div.littleBlue3Box {
+    float: right;
+    font: bold 14px/20px Helvetica, Arial, sans-serif;
+    color: #666666;
+    width: 180px;
+    padding: 15px 10px 10px 10px;
+    border-top: 1px solid #88def9;
+    border-bottom: 1px solid #88def9;
+    background-color: #e9f8fe;
+    margin: 10px 0 10px 20px;
+}
+    div.littleBlue3Box img {
+        float: right;
+        margin: -10px -5px -5px -5px;
+    }
+
+    div.littleBlue3Box span {
+        color: #00aff0;
+    }
+
+/* Videophone */
+#videoPhoneBanner {
+	background-image: url(/i/images/illustrations/asus-videophone-bannertop.png);
+	padding-top: 250px;
+	padding-left: 7px;
+	height: 132px;
+}
+	div#videoPhoneBanner h1 {
+		color: #FFF;
+		margin: 0;
+		padding: 0;
+	}
+	div#videoPhoneBanner h2 {
+		margin: 0;
+		padding-top: 5px;
+	}
+#videoPhoneSummary {
+	background-image: url(/i/images/illustrations/asus-videophone-bannerbottom.png);
+	overflow: hidden;
+	height: 110px;
+	padding-top: 20px;
+	text-align: center;
+}
+	ul#videoPhoneSummary li {
+		width: 120px;
+		margin: 0 15px 0 15px;
+		float: left;
+		list-style: none;
+	}
+		* html ul#videoPhoneSummary li {
+			margin: 0 12px 0 12px !important;
+		}
+		ul#videoPhoneSummary li a {
+			text-decoration: none;
+			color: #000;
+		}
+#videoPhoneVoice {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+#videoPhoneWebcam {
+	margin-top: 4px;
+	margin-bottom: 9px;
+}
+#videoPhoneTouch {
+	margin-top: 4px;
+	margin-bottom: 10px;
+}
+#videoPhoneEasy {
+	margin-bottom: 4px;
+}
+#buyVideoPhoneSmall {
+    background: #d0f0fc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    padding: 10px 10px 20px 0;
+    overflow: hidden;
+    margin: 0 0 20px 20px;
+}
+    #buyVideoPhoneSmall div.padded {
+        padding-top: 8px;
+    }
+    #buyVideoPhoneSmall span.button a {
+        margin-top: 10px;
+    }
+#buyVideoPhone {
+    background: #d0f0fc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    padding: 10px 10px 20px 0;
+    overflow: hidden;
+}
+    #buyVideoPhone span.button a {
+        margin-left: 10px;
+    }
+    #buyVideoPhone span.button a {
+        margin-top: -8px;
+    }
+#perfectSolution {
+    padding-left: 240px;
+}
+#perfectSolutionIllustration {
+    margin-left: -220px;
+	margin-top: 16px;
+    float: left;
+}
+#featuresOverviewIllustration {
+    float: right;
+    margin: -40px 0 -20px 20px;
+}
+#subscriptionUpsell {
+    padding-left: 90px;
+    clear: both;
+}
+#subscriptionUpsellIllustration {
+    float: left;
+    margin: 0 0 0 -70px
+}
+#videoPhoneFeatures {
+    background: #f3f3f2;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    padding: 20px 10px 20px 0;
+}
+    #videoPhoneFeatures p,
+    #videoPhoneFeatures div.padded {
+        font-size: 0.86em;
+        color: #666;
+    }
+    #videoPhoneFeatures th,
+    #videoPhoneFeatures td {
+        padding-right: 10px;
+        color: #666;
+        font-size: 1.0em;
+    }
+    #videoPhoneFeatures h4 {
+        font-size: 0.86em;
+    }
+    #videoPhoneFeatures #videoPhoneSpecs {
+        overflow: hidden;
+        padding: 0px 0 10px 395px; 
+    }
+    #videoPhoneFeatures #videoPhoneSpecsImage {
+        float: left;
+        margin-left: -397px;
+        margin-top: 0px;
+    }
+    #videoPhoneFeatures #connectivity {
+        padding-left: 135px;
+        clear: both;
+    }
+    #videoPhoneFeatures #connectivityImage {
+        float: left;
+        margin-left: -114px;
+        margin-top: 2px;
+		margin-right: 20px;
+    }
+#callsWithVideophone {
+    float: right;
+    margin: -10px 30px 0 20px;
+}
+
+body.voicemail.lang-pl span.buttonSmall a.yellow span,
+body.voicemail.lang-pt span.buttonSmall a.yellow span {
+	font-size:11px;
+}
+
+body.voicemail.lang-pl span.buttonSmall a.blue span,
+body.voicemail.lang-pt span.buttonSmall a.blue span {
+	font-size:11px;
+}

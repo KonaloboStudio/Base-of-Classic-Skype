@@ -1,0 +1,41 @@
+.jsHidden {
+    display: none;
+}
+
+.jsVisible {
+    display: block !important;
+}
+
+span.jsVisible {
+    display: inline !important;
+}
+
+#suggesticator div.currencyChange {
+	float: right;
+}
+
+#suggesticator div.currencyChange input {
+	display: none;
+}
+
+#suggesticator div.quickfilterWrapper {
+	float: right;
+}
+
+div.upSell {
+	display: none;
+}
+
+.ratesArea .countryRateDetails {
+	position: relative;
+}
+.ratesArea .countryRateDetails .loadingOverlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: white url(/i/images/misc/ajax-loader.gif) no-repeat center center;
+	opacity: 0;
+}
+

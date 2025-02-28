@@ -1,0 +1,191 @@
+#container {
+    margin-top: 0;
+}
+
+#signInForm {
+    width: 650px;
+    background: #E5F6FD;
+    border-bottom: 1px solid #7FD7F7;
+    border-top: 1px solid #7FD7F7;
+    padding: 20px 20px 0 20px;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+}
+    #signInForm div {
+       width: 215px;
+       float: left;
+    }
+    #signInForm ul {
+       width: 305px;
+       float: right;
+       background: transparent url(/i/images/backgrounds/signin_padlock.png) 0 15px no-repeat;
+       padding: 23px 0 20px 80px;
+    }
+        #signInForm ul li {
+            font-size: 1em;
+            list-style: circle inside;
+            color: #2C2C2C;
+        }
+    #signInForm label,
+    #passwordResetForm label {
+        display: block;
+    }
+    #signInForm input {
+        margin-right: 5px;
+    }
+        #signInForm #skypeName {
+            width: 175px;
+        }
+        #signInForm #skypePassword {
+            width: 205px;
+        }
+    #content #signInForm h2 {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #signInForm div.fieldSet {
+        margin-bottom: 15px;
+        float: none !important;
+        width: auto;
+    }
+    #signInForm input.checkbox {
+        width: auto !important;
+        margin: 0 5px 0 0 !important;
+    }
+    #signInForm input.submit {
+        width: auto;
+        margin-bottom: 0;
+    }
+    #signInForm p {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #passwordResetForm p {
+        margin-bottom: 5px;
+    }
+    #passwordResetForm span.req {
+        color: #f00;
+        padding-left: 0.25em;
+    }
+    #passwordResetForm #submitPasswordChange {
+        padding-top: 10px;
+    }
+p#getToken {
+    margin-top: -5px;
+}
+a#forgottenLink {
+    display: block;
+    margin-top: 5px;
+}
+#passwordResetForm input {
+    width: 300px;
+}
+#passwordResetForm input.submit {
+    width: auto;
+}
+#passwordResetForm table {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.helpLayer {
+    width: 323px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+    .helpLayer .helpLayerTop {
+        background: transparent url(/i/images/backgrounds/help_layer_top.png) no-repeat top center;
+        width: 323px;
+        height: 24px;
+        font: 1px/1px monospace;
+    }
+    .helpLayer .helpLayerContentTop {
+        background: transparent url(/i/images/backgrounds/help_layer_back_top.png) no-repeat top center;
+        height: 100%;
+        padding: 0 29px 0 41px;
+        position: relative;
+    }
+    .helpLayer .helpLayerContentBottom {
+        background: transparent url(/i/images/backgrounds/help_layer_back_bottom.png) repeat-y top center;
+        height: 100%;
+        padding: 5px 29px 0 41px;
+        color: #fff;
+        font-size: 0.86em;
+        line-height: 1.3em;
+    }
+        .helpLayer .helpLayerContentBottom a {
+            color: #fff;
+        }
+    .helpLayer .helpLayerBottom {
+        background: transparent url(/i/images/backgrounds/help_layer_bottom.png) no-repeat top center;
+        width: 323px;
+        height: 34px;
+        font: 1px/1px monospace;
+    }
+    .helpLayer .helpLayerClose {
+        background: transparent url(/i/images/backgrounds/help_layer_close.png) no-repeat top right;
+        position: absolute;
+        top: 0;
+        right: 29px;
+        width: 29px;
+        height: 31px;
+        z-index: 9999;
+    }
+    .helpLayer .helpLayerContent {
+        background: #fff;
+        padding: 14px 0 0 0;
+        line-height: 0;
+        height: 100%;
+    }
+    .helpLayer .helpLayerExplication {
+        background: #ffcd00 url(/i/images/backgrounds/help_layer_highlight_bottom.png) no-repeat bottom left;
+        padding: 7px 10px 18px 10px;
+        margin: 0 14px;
+        height: 100%;
+        line-height: 19px;
+    }
+* html .helpLayer {
+    width: 271px;
+}
+    * html .helpLayer .helpLayerTop {
+        width: 271px;
+        height: 9px;
+        background: #525252;
+    }
+    * html .helpLayer .helpLayerContentTop {
+        padding: 0 9px 0 9px !important;
+        background: #525252;
+    }
+    * html .helpLayer .helpLayerContentBottom {
+        padding: 5px 9px 0 9px !important;
+        background: #525252;
+    }
+    * html .helpLayer .helpLayerBottom {
+        width: 271px;
+        height: 9px;
+        background: #525252;
+    }
+    * html .helpLayer .helpLayerClose {
+        right: 8px;
+        width: 25px;
+        height: 27px;
+    }
+.fieldError {
+    border-color: red;
+}
+#sidebar .illustrationBullet {
+    padding-left: 60px;
+}
+#sidebar .callPhones {
+    background: url(/i/images/misc/myspace_sidebar_callphones.png) no-repeat top left;
+}
+#sidebar .onlineNumber {
+    background: url(/i/images/misc/myspace_sidebar_onlinenumber.png) no-repeat top left;
+}
+#sidebar .voicemail {
+    background: url(/i/images/misc/myspace_sidebar_voicemail.png) no-repeat top left;
+}
+#sidebar h2 {
+    margin-bottom: 1em;
+}

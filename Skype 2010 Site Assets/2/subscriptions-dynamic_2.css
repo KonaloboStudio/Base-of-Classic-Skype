@@ -1,0 +1,17 @@
+.jsHidden {
+    display: none;
+}
+
+#content #paddedContent ul.countryList li,
+#content #paddedContent ul.countryListDynamic li {
+    float: none !important;
+}
+
+#content #paddedContent ul.countryList.largeFlags li,
+#content #paddedContent ul.countryListDynamic.largeFlags li {
+    float: left !important;
+}
+
+.jsVisible {
+    display: block !important;
+}

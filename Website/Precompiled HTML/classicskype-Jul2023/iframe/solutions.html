@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
+<link href="skyclassic.css" rel="stylesheet">
+<link href="solutions.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="util.min.js"></script>
+<script src="collapse.min.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#Accordion1 .panel").on('show.bs.collapse', function()
+   {
+      $(this).addClass('active');
+   });
+   $("#Accordion1 .panel").on('hide.bs.collapse', function()
+   {
+      $(this).removeClass('active');
+   });
+   $("a[data-rel='PhotoGallery1']").attr('rel', 'PhotoGallery1');
+   $("a[rel^='PhotoGallery1']").fancybox({});
+   $("a[data-rel='lightbox-fancybox']").attr('rel', 'lightbox-fancybox');
+   $("a[data-rel^='lightbox-fancybox']").fancybox({});
+});
+</script>
+</head>
+<body>
+<div id="wb_Accordion1" style="position:absolute;left:55px;top:131px;width:821px;height:652px;z-index:6;">
+<div id="Accordion1" class="panel-group" role="tablist">
+<div class="panel panel-default active">
+<div class="panel-heading" role="tab"><h4 class="panel-title"><a class="" role="button" data-toggle="collapse" href="#Accordion1-collapse1" aria-controls="Accordion1-collapse1" aria-expanded="true"><span class="panel-icon"></span>Метод 1 - Skype OWA</a></h4></div>
+<div id="Accordion1-collapse1" class="panel-collapse collapse show" data-parent="#Accordion1" role="tabpanel">
+<div class="panel-body">
+<div id="wb_Text2" style="position:absolute;left:15px;top:14px;width:790px;height:401px;z-index:0;">
+<p>Skype в&nbsp;старом Oulook Web Access.</p>
+<p>&nbsp;</p>
+<p>1. Первым делом нам нужен плагин, который заменит наш user agent. Для Chromium браузеров качаем это</p>
+<p style="color:#00568A;">https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg</p>
+<p>&nbsp;</p>
+<p>Для Firefox - качаем это</p>
+<p style="font-style:italic;color:#00568A;">https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/</p>
+<p style="font-style:italic;">&nbsp;</p>
+<p>2. Открываем расширение и выбираем user agent от Safari 7</p>
+<p style="font-weight:bold;">&nbsp;</p>
+<p style="color:#B22222;"><span style="font-weight:bold;">Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A</span></p>
+<p>&nbsp;</p>
+<p>3. Переходим по ссылке: https://outlook.live.com/owa/0/</p>
+<p>4. Откройте Skype, используя значок обмена</p>
+<p>сообщениями в правом углу.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+<div id="wb_Image1" style="position:absolute;left:466px;top:257px;width:321px;height:287px;z-index:1;">
+<a href="images/27eiq85x4q.jpg" data-rel="lightbox-fancybox" target="_self"><img src="images/27eiq85x4q.jpg" id="Image1" alt="" width="321" height="288"></a></div>
+<div id="wb_Text1" style="position:absolute;left:247px;top:532px;width:196px;height:16px;text-align:center;z-index:2;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Click on picture for Full Quality </em></span></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab"><h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" href="#Accordion1-collapse2" aria-controls="Accordion1-collapse2" aria-expanded="false"><span class="panel-icon"></span>Метод 2 - Просматриваем интерфейс при помощи Window в Process Hacker 2</a></h4></div>
+<div id="Accordion1-collapse2" class="panel-collapse collapse" data-parent="#Accordion1" role="tabpanel">
+<div class="panel-body">
+<div id="wb_Text3" style="position:absolute;left:15px;top:18px;width:790px;height:171px;z-index:3;">
+<p>Метод&nbsp;заключается&nbsp;в&nbsp;том, чтобы&nbsp;просто&nbsp;включить&nbsp;нужные&nbsp;нам&nbsp;окна&nbsp;через&nbsp;программу&nbsp;Process Hacker 2</p>
+<p>&nbsp;</p>
+<p>1. Запускаем Skype. Данный трюк можно провернуть с версиями <span style="color:#00568A;">1.</span><span style="color:#00568A;">x / 2.x / 3.x / 5.x / 6.x / 7.x </span></p>
+<p style="color:#B22222;"><span style="font-weight:bold;">4.x </span><span style="font-weight:bold;">НЕ ПОДДЕРЖИВАЕТСЯ!!!</span></p>
+<p>2. На окне логина открываем Process Hacker 2, ищем процесс скайпа</p>
+<p>3. <span style="color:#00568A;">ПКМ</span> по нужному процессу -&gt;&nbsp;<span style="color:#00568A;">miscellaneous -</span><span style="color:#00568A;">&gt; windows</span></p>
+<p>4. В открывшейся менюшке просто эксперементируем, включая разные состояния окна нажатием <span style="color:#00568A;">ПКМ -</span><span style="color:#00568A;">&gt; visible</span></p></div>
+<div id="wb_PhotoGallery1" style="position:absolute;left:15px;top:262px;width:790px;height:210px;z-index:4;">
+<div id="PhotoGallery1">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/clib78xla0.jpg" data-rel="PhotoGallery1" title="Фото 1"><img alt="" src="images/tn_clib78xla0.jpg" loading="lazy" class="image" title="Фото 1" width="257" height="201"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/8jtbd2tpod.jpg" data-rel="PhotoGallery1" title="Фото 2"><img alt="" src="images/tn_8jtbd2tpod.jpg" loading="lazy" class="image" title="Фото 2" width="257" height="204"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/p54uqjeyu6.jpg" data-rel="PhotoGallery1" title="Фото 3"><img alt="" src="images/tn_p54uqjeyu6.jpg" loading="lazy" class="image" title="Фото 3" width="257" height="115"></a>
+      </div>
+      <div class="clearfix visible-col3"></div>
+   </div>
+</div></div>
+<div id="wb_Text5" style="position:absolute;left:18px;top:488px;width:381px;height:16px;text-align:center;z-index:5;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Right click on picture -&gt; Open Image in new tab for Full Quality </em></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Text4" style="position:absolute;left:24px;top:25px;width:492px;height:86px;z-index:7;">
+<span style="color:#007DC5;font-family:Arial;font-size:24px;"><strong>Решения</strong></span><span style="color:#007DC5;font-family:Arial;font-size:17px;"><strong><br><br>Тут опубликовываются возможные решения по возвращению классического Skype</strong></span></div>
+<div id="Layer5" style="position:absolute;text-align:left;left:0px;top:786px;width:931px;height:31px;z-index:8;">
+</div>
+</body>
+</html>

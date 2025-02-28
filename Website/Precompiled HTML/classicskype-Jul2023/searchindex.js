@@ -1,0 +1,104 @@
+// search index for WYSIWYG Web Builder
+var database_length = 0;
+
+function SearchPage(url, title, keywords, description)
+{
+   this.url = url;
+   this.title = title;
+   this.keywords = keywords;
+   this.description = description;
+   return this;
+}
+
+function SearchDatabase()
+{
+   database_length = 0;
+   this[database_length++] = new SearchPage("index.html", "Gogle - Разносторонний сайт!", "Главная  О нас  Блог Обновлений          © Konalobo Studio 2022-2023  Россия  Все о Gogle, Наш чат, баннер и прочее  •  Следите за обновлениями!  Ваш аккаунт                                ВЕРСИЯ ДЛЯ СЛАБОГО СОЕДИНЕНИЯ   ", "");
+   this[database_length++] = new SearchPage("blog.htm", "Блог", "       ", "");
+   this[database_length++] = new SearchPage("mylinks.html", "Untitled Page", "                                   ", "");
+   this[database_length++] = new SearchPage("about_us.htm", "Все о Gogle", "                                             ", "");
+   this[database_length++] = new SearchPage("index_e.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("vegfilesold/vegfiles.html", "VEG FILE COLLECTION", "                     ", "");
+   this[database_length++] = new SearchPage("classicskype/classicskype.html", "Classic Skype", "               ", "");
+   this[database_length++] = new SearchPage("classicskype/page1.html", "WWB Template 10", "                   ", "");
+   this[database_length++] = new SearchPage("konamusic/konamusic-0LD.htm", "Музыка Конаты", "                                                                   ", "");
+   this[database_length++] = new SearchPage("konamusic/index.html", "Моя и не только музыка - Gogle", "     ", "");
+   this[database_length++] = new SearchPage("konamusic/iframe/index.html", "Untitled Page", "         ", "");
+   this[database_length++] = new SearchPage("konamusic/iframe/project.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("konamusic/iframe/other.html", "Untitled Page", "     ", "");
+   this[database_length++] = new SearchPage("konamusic/iframe/music.html", "Untitled Page", "           ", "");
+   this[database_length++] = new SearchPage("youtab13/youtab13.html", "Konalobo Studio - YouTab 2013", "                                                                                                   ", "");
+   this[database_length++] = new SearchPage("youtab13/about_youtab13.html", "About - YouTab 2013", "                       ", "");
+   this[database_length++] = new SearchPage("youtab13/page2.html", "About YouTab 2013", "           ", "");
+   this[database_length++] = new SearchPage("404/404.htm", "404", "   ", "");
+   this[database_length++] = new SearchPage("sosiskatime/index.htm", "Безымянная страница", "                             ", "");
+   this[database_length++] = new SearchPage("sosiskatime/pers/shablon.htm", "Безымянная страница", "                         ", "");
+   this[database_length++] = new SearchPage("sosiskatime/pers/sosiska.htm", "Безымянная страница", "                           ", "");
+   this[database_length++] = new SearchPage("pixelgun3d-the-oldest-version/index.htm", "Pixel Gun Collection (rus)", "                                                                                                 ", "");
+   this[database_length++] = new SearchPage("pixelgun3d-the-oldest-version/underconstruct.htm", "Скоро...", "       ", "");
+   this[database_length++] = new SearchPage("pixelgun3d-the-oldest-version/underconstuct2/index.htm", "UnderConstruction", "       ", "");
+   this[database_length++] = new SearchPage("pixelgun3d-the-oldest-version/index_en.htm", "Pixel Gun Collection (rus)", "                                                                                           ", "");
+   this[database_length++] = new SearchPage("pixelgun3d-the-oldest-version/index_en_undconst/index_en.htm", "Untitled Page", "   ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/index.htm", "Главная - Pixel Gun 3D Collection", "                           ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/downloads.htm", "Загрузки - Pixel Gun 3D Collection", "                                               ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/save.htm", "Сэйв - Pixel Gun 3D Collection", "                   ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/photo.htm", "Фото - Pixel Gun 3D Collection", "                 ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/video.htm", "Видео - Pixel Gun 3D Collection", "                           ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/tutor.htm", "Туториалы - Pixel Gun 3D Collectiion", "                 ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/missing.htm", "Поиск - Pixel Gun 3D Collection", "                         ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/contacts.htm", "Контакты - Pixel Gun 3D Collection", "                     ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/en/index.htm", "Home - Pixel Gun 3D Collection", "                           ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/en/downloads.htm", "Downloads - Pixel Gun 3D Collection", "                                               ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/en/save.htm", "Save - Pixel Gun 3D Collection", "                   ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/en/photo.htm", "Photos - Pixel Gun 3D Collection", "                 ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/en/video.htm", "Videos - Pixel Gun 3D Collection", "                           ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/en/tutor.htm", "Tutorials - Pixel Gun 3D Collectiion", "                 ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/en/missing.htm", "Missing - Pixel Gun 3D Collection", "                         ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/en/contacts.htm", "Contacts - Pixel Gun 3D Collection", "                   ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/extra/why-not-new-website-design.html", "Untitled Page", "         ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/extra/why-not-new-website-design-en.html", "Untitled Page", "         ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/underc/index.html", "2 may 2023", "       ", "");
+   this[database_length++] = new SearchPage("pixelgun3d/underc/redirection.html", "redirect to pg3dcollect", " ", "");
+   this[database_length++] = new SearchPage("underconst_dec2022/index.html", "РЕКОНСТРУКЦИЯ", "             ", "");
+   this[database_length++] = new SearchPage("underconst_dec2022/html-письмо.html", "Untitled Page", "       ", "");
+   this[database_length++] = new SearchPage("minerlands/index.html", "Мои моды и текстурпаки", "     ", "");
+   this[database_length++] = new SearchPage("minerlands/list.html", "Полный список", "   ", "");
+   this[database_length++] = new SearchPage("minerlands/addon/addonlist.html", "Список модов", "     ", "");
+   this[database_length++] = new SearchPage("minerlands/addon/laptop.html", "Мод на Ноутбуки", "             ", "");
+   this[database_length++] = new SearchPage("minerlands/addon/shawerma.html", "Мод на Шаурму", "         ", "");
+   this[database_length++] = new SearchPage("minerlands/addon/nik_hat.html", "Мод на Ноутбуки", "       ", "");
+   this[database_length++] = new SearchPage("minerlands/texturepacks/texturelist.html", "Список текстурпаков", "         ", "");
+   this[database_length++] = new SearchPage("minerlands/texturepacks/fredjpig.html", "Текстурпак - Фредж свинья", "         ", "");
+   this[database_length++] = new SearchPage("minerlands/texturepacks/sosiskablocks.html", "Текстурпак - SosiskaBlocks", "         ", "");
+   this[database_length++] = new SearchPage("minerlands/texturepacks/openglfix.html", "Текстурпак - OpenGL Fix", "         ", "");
+   this[database_length++] = new SearchPage("about_gogle_old/about_gogle.htm", "О Gogle", "                     ", "");
+   this[database_length++] = new SearchPage("good_links/index.html", "Untitled Page", "     ", "");
+   this[database_length++] = new SearchPage("winxp/desktop.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("FOR-SHARARAM-EXTENDED/network-error.html", "Ошибка соединения!", "   ", "");
+   this[database_length++] = new SearchPage("DOWNLOAD-CENTER/ind.html", "Центр загрузок - Gogle", "                                                                                                                                                       ", "");
+   this[database_length++] = new SearchPage("konatube/index.html", "Главная - KonaTube", "В центре событий  Добро пожаловать на KonaTube!  проект на котором вы можете посмотреть все значимые ролики с моего YouTube канала Все ролики лежат на наших серверах с форматом WEBM  пока что  Это может  обеспесчить хорошую скорость, качество и размер файла  Вход в аккаунт нету и не будет, у нас не PHP сервер и все же мы разместили тут кнопки  киря пискастрой добавил видео 13.06.2016  пацаны тута бой кароче  киря пискастрой 301+ просмотров  фредж пиздится с фывом смотреть без регистрации и смс  Главная  Spotlight видео сейчас недоступны  Каталог   Загрузить  ©KonaloboStudio 2023  KonaloboStudio добавил видео 13.02.2014  first konatube test  KonaloboStudio 1337 просмотров  It rendered for 4 hours 17 minutes      Войти  Кнопка 1    Кнопка 2    Кнопка 3    Кнопка 4  кнопка 5   кнопка 6   кнопка 7  Главная   ", "");
+   this[database_length++] = new SearchPage("konatube/watch/video1.html", "first konatube test - KonaTube", "Опубликовано 13.02.2014 от KonaloboStudio  It rendered for 4 hours 17 minutes     Made with Sony Vegas 14, FL Studio 20, Melodyne Studio 5 Thanks  Clusterium for teaching me how to use Automation Clip in FL Studio Audio Source at 0 00-0 10 by  @TBBSBC-IS-BACK     https //www.youtube.com/watch?v=fcRWcIzEwfg   0 11 My Remix    Все комментарии  2   Посмотреть все  Suggest видео сейчас недоступны  Популярные комментарии  Категория Музыка  Лицензия видео Default KonaTube License  sosis123 lol ksu  sosis123 lol ksu  тестим тут чето а по поводу апишек гугла хз еще ksu  Каталог   Загрузить  Войти  ©KonaloboStudio 2023  Кнопка 1    Кнопка 2    Кнопка 3    Кнопка 4  кнопка 5   кнопка 6   кнопка 7   ", "");
+   this[database_length++] = new SearchPage("konatube/watch/video2.html", "пацаны тута бой кароче - KonaTube", "Опубликовано 13.06.2016 от киря пискастрой  фредж пиздится с фывом смотреть без регистрации и смс   но эт не точно    Suggest видео сейчас недоступны  Каталог   Загрузить  Войти  Категория Развлечение  Лицензия видео Default KonaTube License  Популярные комментарии  бомбо  обычный пользователь компа  Все комментарии  1   Посмотреть все  бомбо  обычный пользователь компа  ©KonaloboStudio 2023  Кнопка 1    Кнопка 2    Кнопка 3    Кнопка 4  кнопка 5   кнопка 6   кнопка 7   ", "");
+   this[database_length++] = new SearchPage("konatube/junkland/page3.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("konatube/list.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/main.html", "Главная", "                       ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/downloads.html", "Загрузки", "                               ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/save.html", "Сохранения", "     ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/nostal_corn.html", "Уголок ностальгии", "                 ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/tutors.html", "Туториалы", "       ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/missing.html", "Розыск версий", "                                     ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/about.html", "О нас", "                   ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/pgw.html", "Возвращение ПГВ", "         ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/resources/pgw_register.html", "Возвращение ПГВ", "   ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/index_pg.html", "Pixel Gun 3D Collection", "   ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/resources/main_en.html", "Main", "                       ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/resources/downloads_en.html", "Downloads", "                               ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/resources/save_en.html", "Saves", "     ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/resources/nostal_corn_en.html", "Nostalgia Corner", "                   ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/resources/tutors_en.html", "Tutorials", "       ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/resources/missing_en.html", "Search of Versions", "                                     ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/resources/about_en.html", "About Us", "                   ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/resources/pgw_en.html", "Return of PGW", "             ", "");
+   this[database_length++] = new SearchPage("pg3dcollect/en/index_pg_en.html", "Pixel Gun 3D Collection", "   ", "");
+   return this;
+}
