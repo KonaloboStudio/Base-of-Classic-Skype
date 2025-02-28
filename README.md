@@ -57,7 +57,7 @@ Contains cmd and reg files that were used in mod clients (mainly to disable auto
 Replaced sounds (can be installed by repacking asar file in modern versions)
 
 ## Web Wrappers
-Contains various Web Wrapper clients (based on the old Skype For Lunux, which had an old design).
+Contains various Web Wrapper clients (based on the old Skype For Linux, which had an old design).
 
 Most of these clients are not working as of March 2025
 
