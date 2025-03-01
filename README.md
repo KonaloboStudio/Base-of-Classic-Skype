@@ -4,10 +4,11 @@
  
  The repository was created for historical purposes (as the messenger of the same name will end in May 2025)
  
- Initially plan to just upload here the sources of the now dead site, but later decided to upload everything I had on the old versions (still some of the content I won't be able to upload due to possible future problems with my github, maybe I'll upload them elsewhere)
+ Initially plan to just upload here the sources of the now dead site, but later decided to upload everything I had on the old versions
 
  Do whatever you want with this repository and its contents 
 
+# PART 2 AVAILABLE - https://archive.org/details/base-of-classic-skype_20250228_2145
 
 
 ## Classic Skype Website
